@@ -152,7 +152,7 @@
 
   "Shading:ReiMu": {
     "NAME": "间隙神隐",
-    "DESCRIPTION": "下回合开始时获得 神隐 并跳过回合。 消耗 。"
+    "DESCRIPTION": "下回合开始时进入 神隐 并跳过回合。 消耗 。"
   },
   "ShadowOfCrow:ReiMu": {
     "NAME": "鸦之影",
@@ -200,8 +200,8 @@
   },
   "MountainWay:ReiMu": {
     "NAME": "青山所至",
-    "DESCRIPTION": "获得自身正面状态，与目标负面状态种类之和的 格挡 。",
-    "UPGRADE_DESCRIPTION": "获得自身正面状态，与目标负面状态种类之和的 格挡 。"
+    "DESCRIPTION": "获得自身正面状态，与目标负面状态种类之和的 格挡 。 NL 获得 !M! 层 山之信 。",
+    "UPGRADE_DESCRIPTION": "获得自身正面状态，与目标负面状态种类之和的 格挡 。 NL 获得 !M! 层 山之信 。"
   },
   "SpiritualOutbreak:ReiMu": {
     "NAME": "灵击",

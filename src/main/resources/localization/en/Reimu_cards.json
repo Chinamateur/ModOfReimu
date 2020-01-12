@@ -16,7 +16,7 @@
   },
   "UniversalSpiritual:ReiMu": {
     "NAME": "Universal Spiritual",
-    "DESCRIPTION": "Gain !M! Vigor for the each card you play.",
+    "DESCRIPTION": "Whenever you play a card, gain !M! Vigor .",
     "UPGRADE_DESCRIPTION": " Deal !D! damage. NL Next turn, gain [E] [E]."
   },
   "SpringWay:ReiMu": {
@@ -66,7 +66,7 @@
 
   "FineLineFantasy:ReiMu": {
     "NAME": "Fine Line Fantasy",
-    "DESCRIPTION": "Gain !M! Flame the Faith when card been Exhaust ."
+    "DESCRIPTION": "Whenever you exhaust a card, Gain !M! Flame the Faith."
   },
   "ZunPunch:ReiMu": {
     "NAME": "Fantasy Drunken Fist",
@@ -190,8 +190,8 @@
   },
   "MountainWay:ReiMu": {
     "NAME": "Lays to Rest",
-    "DESCRIPTION": "Gain Block equal to the sum of the kind of your buff and the kind of debuff on enemy.",
-    "UPGRADE_DESCRIPTION": "Gain Block equal to the sum of the kind of your buff and the kind of debuff on enemy."
+    "DESCRIPTION": "Gain Block equal to the sum of the kind of your buff and the kind of debuff on enemy. NL Gain !M! Mountain the Faith.",
+    "UPGRADE_DESCRIPTION": "Gain Block equal to the sum of the kind of your buff and the kind of debuff on enemy. NL Gain !M! Mountain the Faith."
   },
   "SpiritualOutbreak:ReiMu": {
     "NAME": "Spiritual Strike",
@@ -326,8 +326,8 @@
   },
   "BarrageOfMoneybags:ReiMu": {
     "NAME": "Danmaku Millionaire",
-    "DESCRIPTION": "Use [E] [E] [E] [E]. NL Deal !D! damage. NL Lose !M! Gold for each [E] you lack.",
-    "UPGRADE_DESCRIPTION": "Use [E] [E] [E]. NL Deal !D! damage. NL Lose !M! Gold for each [E] you lack.",
+    "DESCRIPTION": "Lose [E] [E] [E] [E]. NL Lose 10 Gold for each insufficient [E]. NL Deal 30 damage.",
+    "UPGRADE_DESCRIPTION": "Lose [E] [E] [E] [E]. NL Lose 10 Gold for each insufficient [E]. NL Deal 30 damage.",
     "EXTENDED_DESCRIPTION": [
       "My gold is not enough."
     ]

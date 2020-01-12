@@ -19,7 +19,8 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
 import com.megacrit.cardcrawl.vfx.combat.BlizzardEffect;
 
-public class BarrageOfMoneybags extends CustomCard {
+public class
+BarrageOfMoneybags extends CustomCard {
     public static final String ID = "BarrageOfMoneybags";
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID+":ReiMu");
     public static final String NAME = cardStrings.NAME;

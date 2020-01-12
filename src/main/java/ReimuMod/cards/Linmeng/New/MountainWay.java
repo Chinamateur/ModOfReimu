@@ -1,5 +1,6 @@
 package ReimuMod.cards.Linmeng.New;
 
+import ReimuMod.action.MINE.setKami;
 import ReimuMod.patches.AbstractCardEnum;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
@@ -33,6 +34,7 @@ public class MountainWay extends CustomCard {
         );
         //this.exhaust = true;
         this.baseBlock = 0;
+        this.magicNumber = this.baseMagicNumber = 2 ;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
@@ -48,6 +50,7 @@ public class MountainWay extends CustomCard {
             }
         }
         AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p,p,this.block+x));
+        new setKami(this.magicNumber,"yue");
     }
 
     public void upgrade() {

@@ -2,15 +2,15 @@
   "MagicPotionPower:ReiMu": {
     "NAME": "Magic Potion",
     "DESCRIPTIONS": [
-      "When you play card, gain #b",
+      "Whenever you play a card, gain #b",
       " #yEnergy , Until [E] greater or equal to turn initial energy."
     ]
   },
   "UniversalSpiritualPower:ReiMu": {
     "NAME": "Universal Spiritual",
     "DESCRIPTIONS": [
-      "Gain #b",
-      " #yVigor for the each card you played."
+      "Whenever you play a card, gain #b",
+      " #yVigor ."
     ]
   },
   "SealPower:ReiMu": {

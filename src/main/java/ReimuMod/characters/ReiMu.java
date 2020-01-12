@@ -196,7 +196,7 @@ if(ReimuMod.MyReimuModbol){
 
   public String getTitle(PlayerClass playerClass) {
     String title;
-    if (Settings.language == GameLanguage.ZHS || Settings.language == GameLanguage.ZHT) {
+    if (Settings.language == GameLanguage.ZHS) {
       title = "乐园的巫女";
     } else if (Settings.language == GameLanguage.JPN) {
       title = "\u6d44\u5854\u826f\u3044\u306e\u5deb\u5973";

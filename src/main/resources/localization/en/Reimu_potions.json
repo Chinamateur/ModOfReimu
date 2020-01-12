@@ -9,7 +9,7 @@
   "MagicPotion:ReiMu": {
     "NAME": "Magic Potion",
     "DESCRIPTIONS": [
-      "When you play card, gain #b",
+      "Whenever you play a card, gain #b",
       " #yEnergy , Until #yEnergy greater or equal to turn initial energy.",
       "My Energy is full."
     ]
