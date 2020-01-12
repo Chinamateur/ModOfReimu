@@ -165,7 +165,7 @@
   "Conquer:ReiMu": {
     "NAME": "Expulsion",
     "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain !M! Flame the Faith.",
-    "UPGRADE_DESCRIPTION":"GainX倍 !M! Flame the Faith.对所有敌人造成X倍 Flame the Faith 层数的伤害."
+    "UPGRADE_DESCRIPTION":""
   },
   "TakeOff:ReiMu": {
     "NAME": "Flying",
@@ -180,7 +180,7 @@
   "SubcavityInstant:ReiMu": {
     "NAME": "Instant Dimensional Rift",
     "DESCRIPTION": "Until the next turn, Deal !M! damage back to the enemy who first attack you. NL Gain 2 Thunderbolt the Faith.",
-    "UPGRADE_DESCRIPTION": "所有敌人在本回合失去 !M! 点 力量 X+一次. Exhaust."
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "SubcavityFantasy:ReiMu": {
@@ -265,7 +265,7 @@
   "BlastKick2:ReiMu": {
     "NAME": "Sky-Conquering Kick",
     "DESCRIPTION": "Deal !D! damage 0 time. NL Increase one time for each time you gain Flight.",
-    "UPGRADE_DESCRIPTION": " Retain  X 张升过级的 升天脚. Exhaust.",
+    "UPGRADE_DESCRIPTION": "",
     "EXTENDED_DESCRIPTION": [
       "Deal !D! damage *",
       " times. NL Increase one time for each time you gain Flight."
@@ -292,7 +292,7 @@
   },
   "Dreaming:ReiMu": {
     "NAME": "Fantasy Heaven",
-    "DESCRIPTION": " 激发 所有的 神. Exhaust.",
+    "DESCRIPTION": "",
     "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL Deal additional damage once for each Kami",
     "EXTENDED_DESCRIPTION": [
       "There is no Kami Coming ."
@@ -381,7 +381,7 @@
   },
 
   "MyTest:ReiMu": {
-    "NAME": "牛疯了的测试用牌",
+    "NAME": "test",
     "DESCRIPTION": "Gain !M! all of Faith."
   },
   "FantasyMoon:ReiMu": {
@@ -413,7 +413,7 @@
       "Gain ",
       "You get nothing！",
       " NL Exhaust.",
-      "对随机敌人施加 ",
+      "Apply",
       " Weak and Vulnerable.",
       " NL When Retained, increase its *Lucky *Level .",
       "FortuneO-mikuji","SafeO-mikuji","CareerO-mikuji","LearningO-mikuji","Romance O-mikuji"
@@ -508,7 +508,7 @@
   "Enchanting:ReiMu": {
     "NAME": "Evil-Sealing Circle",
     "DESCRIPTION": "Apply !M! Weak and Vulnerable.",
-    "UPGRADE_DESCRIPTION": "在你的回合结束时,随机Gain !M! 层未 Advent 的 Faith."
+    "UPGRADE_DESCRIPTION": ""
   },
 
   "AirSuppress:ReiMu": {
