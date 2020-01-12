@@ -1,0 +1,556 @@
+{
+  "PrepareRite:ReiMu": {
+    "NAME": "准备之仪",
+    "DESCRIPTION": "从抽牌或弃牌堆中选1张牌放到抽牌堆顶端。 NL 获得 !M! 层 破之信 。 NL 获得 !M! 层 山之信 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "选择抽牌堆或弃牌堆中的1张牌放到抽牌堆顶端。 NL 获得 !M! 层 破之信 。 NL 获得 !M! 层 山之信 。 NL 消耗 。"
+  },
+  "SpiritualOutbreak2:ReiMu": {
+    "NAME": "灵击",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 不会消耗 活力 。"
+  },
+  "AlertArray:ReiMu": {
+    "NAME": "警醒阵",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 获得 !M! 层 活力 。 NL 获得 2 层 破之信 。",
+    "UPGRADE_DESCRIPTION":  "获得 !B! 点 格挡 。 NL 获得 !M! 层 活力 。 NL 获得 3 层 破之信 。"
+  },
+
+  "NB:ReiMu": {
+    "NAME": "二重结界",
+    "DESCRIPTION": "弹幕结界",
+    "UPGRADE_DESCRIPTION":  "",
+    "EXTENDED_DESCRIPTION": [
+      "获得 !B! 点 格挡 2次。 NL 获得 !M! 层 破之信 。 NL 变化 为 *弹幕结界 。",
+      "获得 !B! 点 格挡 2次。 NL 获得 !M! 层 破之信 。 NL 变化 为 *弹幕结界+ 。",
+      "造成 !D! 点伤害2次。 NL 获得 !M! 层 山之信 。 NL 变化 为 *二重结界 。",
+      "造成 !D! 点伤害2次。 NL 获得 !M! 层 山之信 。 NL 变化 为 *二重结界+ 。"
+    ]
+  },
+  "CeremonyResonance:ReiMu": {
+    "NAME": "神仪复咏",
+    "DESCRIPTION": "再次打出已 消耗 的牌中名字中带有 之仪 的牌。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["之仪","之仪"]
+  },
+  "YinYangSign:ReiMu": {
+    "NAME": "阴阳印",
+    "DESCRIPTION": "造成目标 缠绕 层数的伤害。 NL 目标每有一种负面状态便获得 [E] 。"
+  },
+  "NDamage2:ReiMu": {
+    "NAME": "弹幕结界",
+    "DESCRIPTION": "造成 !D! 点伤害2次。 NL 获得 !M! 层 山之信 。 NL 变化 为 *二重结界 。",
+    "UPGRADE_DESCRIPTION":  "造成 !D! 点伤害2次。 NL 获得 !M! 层 山之信 。 NL 变化 为 *二重结界+ 。"
+  },
+  "NDoubleB:ReiMu": {
+    "NAME": "二重结界",
+    "DESCRIPTION": "获得 !B! 点 格挡 2次。 NL 获得 !M! 层 破之信 。 NL 变化 为 *弹幕结界 。",
+    "UPGRADE_DESCRIPTION":  "获得 !B! 点 格挡 2次。 NL 获得 !M! 层 破之信 。 NL 变化 为 *弹幕结界+ 。"
+  },
+  "UniversalSpiritual:ReiMu": {
+    "NAME": "万有灵力",
+    "DESCRIPTION": "你每打出一张牌，都获得 !M! 层 活力  。"
+  },
+  "RainPray2:ReiMu": {
+    "NAME": "祈雨之仪",
+    "DESCRIPTION": "NL 抽 !M! 张牌 。 NL 在下一回合获得 [E] 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 活力 。 NL 获得 !M! 层 再生 。 NL 消耗 。"
+  },
+  "CollectionFlower2:ReiMu": {
+    "NAME": "萃灵花",
+    "DESCRIPTION": "造成你正面状态种类 !M! 倍的伤害。",
+    "UPGRADE_DESCRIPTION": "你的 活力 变为 !M! 倍。"
+  },
+
+
+  "ShadowOfCrow2:ReiMu": {
+    "NAME": "鸦之影",
+    "DESCRIPTION": "给予所有敌人 !M! 层 缠绕 。 NL 飞行 :额外给予所有敌人1层 虚弱 和 易伤 。"
+  },
+
+  "FineLineFantasy:ReiMu": {
+    "NAME": "幻想一重",
+    "DESCRIPTION": "每当有一张牌被 消耗 时， 获得 !M! 层 炎之信 。"
+  },
+  "ZunPunch:ReiMu": {
+    "NAME": "梦想醉拳",
+    "DESCRIPTION": "随机打出 !M! 张任意颜色的攻击牌。 NL 将一张 *晕眩 放入你的弃牌堆中。",
+    "UPGRADE_DESCRIPTION": "随机打出 !M! 张 升级 过的任意颜色攻击牌。 NL 将一张 *晕眩 放入你的弃牌堆中。",
+    "EXTENDED_DESCRIPTION": ["醉拳"]
+  },
+  "Poor:ReiMu": {
+    "NAME": "贫乏",
+    "DESCRIPTION": " 不能被打出 。 NL 虚无 。 NL 在你的回合结束时，失去 !M! *金币 。",
+    "UPGRADE_DESCRIPTION": "使 天照大神 与 月读命 临时 降临 。 NL !M! 回合后 *减半 你的 阳之信 与 月之信 。"
+  },
+  "KyokaiOfKami:ReiMu": {
+    "NAME": "神明的境界",
+    "DESCRIPTION": "使 天照大神 与 月读命 临时 降临 。 NL !M! 回合后 *去除 你的 阳之信 与 月之信 。",
+    "UPGRADE_DESCRIPTION": "使 天照大神 与 月读命 临时 降临 。 NL !M! 回合后 *减半 你的 阳之信 与 月之信 。"
+  },
+  "Gathering:ReiMu": {
+    "NAME": "结灵",
+    "DESCRIPTION": "你获得的 神签 将被 升级 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 你获得的 神签 将被 升级 。"
+  },
+  "CardOfSanctity:ReiMu": {
+    "NAME": "天降宝札",
+    "DESCRIPTION": "将X张不会是大凶的随机的 神签 加入手牌。 NL 获得X层随机 信 。",
+    "UPGRADE_DESCRIPTION": "将X张不会是大凶的随机 神签 升级 并加入手牌。 NL 获得X层随机 信 。"
+  },
+  "Crusade:ReiMu": {
+    "NAME": "讨伐妖魔",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 层 雷之信 。 NL 若目标意图为攻击，伤害翻倍。"
+  },
+  "FoulBorder2:ReiMu": {
+    "NAME": "犯规结界",
+    "DESCRIPTION": "每当你对敌人造成负面状态，目标额外获得 !M! 层随机负面状态。",
+    "UPGRADE_DESCRIPTION": "在你的回合结束时，对所有敌人造成 !M! 点伤害。其伤害量每回合增加3。"
+  },
+  "FoulBorder:ReiMu": {
+    "NAME": "犯规结界",
+    "DESCRIPTION": "在你的回合结束时，对所有敌人造成 !M! 点伤害。其伤害量每回合增加2。",
+    "UPGRADE_DESCRIPTION": "在你的回合结束时，对所有敌人造成 !M! 点伤害。其伤害量每回合增加3。"
+  },
+  "Mountainwind:ReiMu": {
+    "NAME": "深山颪",
+    "DESCRIPTION": "获得1层 飞行 。 NL 从弃牌堆选择 !M! 张攻击牌加入手牌，它在本回合的耗费变为0。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得1层 飞行 。 NL 从弃牌堆选择 !M! 张攻击牌加入手牌，它在本回合的耗费变为0。"
+  },
+
+
+  "KamiRite:ReiMu": {
+    "NAME": "祈神之仪",
+    "DESCRIPTION": "随机 降临 1个未 降临 的 神 。 NL 消耗 。"
+  },
+  "OctopathBindingBorder2:ReiMu": {
+    "NAME": "八方鬼缚阵",
+    "DESCRIPTION": "在你回合结束时，给予所有敌人 !M! 层 缠绕 。"
+  },
+  "SpreadBorder2:ReiMu": {
+    "NAME": "扩散灵符",
+    "DESCRIPTION": "获得2层 山之信 。 NL 获得 !B! 点 格挡 。 NL 在本场战斗中所有 扩散灵符 的 格挡 增加 !M! 。"
+  },
+
+  "Sakura:ReiMu": {
+    "NAME": "神樱",
+    "DESCRIPTION": "目标流失 !D! 点生命。 NL 获得 !B! 点 格挡 。 消耗 。"
+  },
+  "Dreaming2:ReiMu": {
+    "NAME": "梦想封印",
+    "DESCRIPTION": "随机对敌人造成 !D! 点伤害 !M! 次。 NL 每当你 降临 ， 变化 此牌。 NL 打出时恢复。",
+    "UPGRADE_DESCRIPTION": " 保留 。",
+    "EXTENDED_DESCRIPTION": ["梦想封印 散","梦想封印 集","梦想封印 侘","梦想封印 圆","梦想封印 寂","梦想封印 瞬","梦想封印 神","梦想封印",
+      "发动 炎之信 的效果 !M! 次。",
+      "去除目标所有的 格挡 。 NL 造成 !D! 点伤害。",
+      "给予所有敌人 !M! 层 虚弱 ， NL 并使它们失去 !M! 点 力量 。",
+      " 预见 !M! 。 NL 造成 !D! 点伤害 !M! 次。 NL 下回合额外获得 [E] [E] 。",
+      "随机造成 !D! 点伤害 !M! 次。 NL 获得未被格挡伤害数量的 格挡 。",
+      "使敌人下一次的攻击无效， NL 并造成 !M! 点反伤。",
+      "获得 !M! 再生 。 NL 每回合开始时，将一张 *神樱 加入你的手牌 。",
+      "随机对敌人造成 !D! 点伤害 !M! 次。 NL 每当你 降临 ， 变化 此牌。 NL 打出时恢复。",
+      "获得 !M! 再生 。 NL 每回合开始时，将一张 *神樱+ 加入你的手牌 。"
+    ]
+  },
+
+  "Shading:ReiMu": {
+    "NAME": "间隙神隐",
+    "DESCRIPTION": "下回合开始时获得 神隐 并跳过回合。 消耗 。"
+  },
+  "ShadowOfCrow:ReiMu": {
+    "NAME": "鸦之影",
+    "DESCRIPTION": "在 !M! 回合内，你的 飞行 不会损耗。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 飞行 ，并获得与 飞行 层数等量的 风之信 。"
+  },
+  "FantasyBorder:ReiMu": {
+    "NAME": "幻想裂隙",
+    "DESCRIPTION": " 虚无 。 NL 在 !M! 回合内，将你 消耗 的牌复制，并放入弃牌堆。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "在 !M! 回合内，将你 消耗 的牌复制，并加入弃牌堆。 NL 消耗 。"
+  },
+  "BlasphemyArray:ReiMu": {
+    "NAME": "渎神阵",
+    "DESCRIPTION": "在你的回合结束时，失去其它 信 各最多 !M! 层。 NL 获得一半的 炎之信 。 NL 你无法 降临 其它 神 。"
+  },
+  "GreedyExorcism:ReiMu": {
+    "NAME": "贪婪大币",
+    "DESCRIPTION": "造成 !D! 点伤害。并获得 !M! 金币。可以被多次 升级 。 消耗 。"
+  },
+  "Conquer:ReiMu": {
+    "NAME": "大降服",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 获得 !M! 层 炎之信 。",
+    "UPGRADE_DESCRIPTION":"获得X倍 !M! 层 炎之信 。对所有敌人造成X倍 炎之信 层数的伤害。"
+  },
+  "TakeOff:ReiMu": {
+    "NAME": "飞翔",
+    "DESCRIPTION": "获得X层 飞行 。 NL 获得X层 风之信 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得X层 飞行 。 NL 获得X层 风之信 。"
+  },
+  "Free:ReiMu": {
+    "NAME": "少女绮想",
+    "DESCRIPTION": " 不能被打出 。 NL 被抽到时随机打出一张牌。",
+    "UPGRADE_DESCRIPTION": "不能被打出 。 NL 被抽到时随机打出一张 升级 过的牌。"
+  },
+  "SubcavityInstant:ReiMu": {
+    "NAME": "刹那亚空穴",
+    "DESCRIPTION": "直到下回合开始，第1个攻击你的敌人会受到 !M! 点反伤。 NL 获得2层 雷之信 。",
+    "UPGRADE_DESCRIPTION": "所有敌人在本回合失去 !M! 点 力量 X+一次。 消耗 。"
+  },
+
+  "SubcavityFantasy:ReiMu": {
+    "NAME": "幻想亚空穴",
+    "DESCRIPTION": "你本回合打出的下1张牌将额外打出 !M! 次。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "你本回合打出的下1张牌将额外打出 !M! 次。"
+  },
+  "MountainWay:ReiMu": {
+    "NAME": "青山所至",
+    "DESCRIPTION": "获得自身正面状态，与目标负面状态种类之和的 格挡 。",
+    "UPGRADE_DESCRIPTION": "获得自身正面状态，与目标负面状态种类之和的 格挡 。"
+  },
+  "SpiritualOutbreak:ReiMu": {
+    "NAME": "灵击",
+    "DESCRIPTION": "对目标造成X倍 !D! 点伤害。 NL 给予X层 虚弱 。",
+    "UPGRADE_DESCRIPTION": "所有敌人在本回合失去X+1倍 !M! 点 力量。 消耗 。"
+  },
+
+
+  "HakureiPhantom:ReiMu": {
+    "NAME": "博丽幻影",
+    "DESCRIPTION": "目标回合结束时，额外对其造成期间累计的伤害。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "目标回合结束时，额外对其造成期间累计的伤害。"
+  },
+  "SolemnJudgment:ReiMu": {
+    "NAME": "神之宣告",
+    "DESCRIPTION": " 虚无 。 NL 失去一半生命，消灭目标敌人。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "失去一半生命，消灭目标敌人。 NL 消耗 。"
+  },
+  "SolemnWishes:ReiMu": {
+    "NAME": "神之恩惠",
+    "DESCRIPTION": " 虚无 。 NL 恢复最大生命的一半。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "恢复最大生命的一半。 NL 消耗 。"
+  },
+  "PhosphorusFlame:ReiMu": {
+    "NAME": "鬼神磷火术",
+    "DESCRIPTION": "所有敌人受到的非 攻击 伤害加倍。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 固有 。所有敌人受到的非 攻击 伤害加倍。 NL 消耗 。"
+  },
+  "OctopathSalyBorderN:ReiMu": {
+    "NAME": "八方龙杀阵",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 去除你所有的 信 。"
+  },
+  "BodyOfKami:ReiMu": {
+    "NAME": "御神体",
+    "DESCRIPTION": "据说这就是神的身体。不知为何非常受猫的欢迎。",
+    "UPGRADE_DESCRIPTION": "之信 。 NL 虚无 。",
+    "EXTENDED_DESCRIPTION":[" 不能被打出 。 NL 在你的回合结束时，获得 !M! 层 "]
+  },
+  "CleanRite:ReiMu": {
+    "NAME": "禊祓之仪",
+    "DESCRIPTION": "获得 !M! 层 人工制品 。 NL 将 *神乐之仪 洗入弃牌堆。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 人工制品 。 NL 将 *神乐之仪+ 洗入抽牌堆。 NL 消耗 。"
+  },
+  "KaguraRite:ReiMu": {
+    "NAME": "神乐之仪",
+    "DESCRIPTION": "获得 !M! 层 活力 。 NL 将 *请神之仪 洗入弃牌堆。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 活力 。 NL 将 *请神之仪 洗入抽牌堆。 NL 消耗 。"
+  },
+  "ComingRite:ReiMu": {
+    "NAME": "降神之仪",
+    "DESCRIPTION": "选择并 降临 !M! 种 神 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL 选择并 降临 !M! 种 神 。 NL 消耗 。"
+  },
+  "KamiComing:ReiMu": {
+    "NAME": "神之降临",
+    "DESCRIPTION": "博丽灵梦引导神明的降临。",
+    "UPGRADE_DESCRIPTION": " 抽一张牌。",
+    "EXTENDED_DESCRIPTION": [ "炎之降临","破之降临","雷之降临", "月之降临","山之降临","风之降临","阳之降临",
+      " 迦具土神 立刻 降临 。",
+      " 须佐之男 立刻 降临 。",
+      " 建御雷神 立刻 降临 。",
+      " 月读命 立刻 降临 。",
+      " 大山津见 立刻 降临 。",
+      " 建御名方 立刻 降临 。",
+      " 天照大神 立刻 降临 。",
+      " 消耗 。"
+    ]
+  },
+  "SpringWay:ReiMu": {
+    "NAME": "春色小径",
+    "DESCRIPTION": " 不能被打出 。 NL 抽到时获得 !M! 层未 降临 的 信 中最高的1种，同时获得3层 活力 。",
+    "UPGRADE_DESCRIPTION": " 不能被打出 。 NL 抽到时获得 !M! 层未 降临 的 信 中最高的1种，同时获得4层 活力 。"
+  },
+  "BlastKick2:ReiMu": {
+    "NAME": "天霸风神腿",
+    "DESCRIPTION": "对目标造成 !D! 点伤害0次。 NL 战斗中你每获得一次 飞行 ，伤害次数+1。",
+    "UPGRADE_DESCRIPTION": " 保留  X 张升过级的 升天脚。 消耗 。",
+    "EXTENDED_DESCRIPTION": [
+      "对目标造成 !D! 点伤害",
+      "次。 NL 战斗中你每获得一次 飞行 ,伤害次数+1。"
+      ]
+  },
+  "Authority2:ReiMu": {
+    "NAME": "神御体",
+    "DESCRIPTION": " 不能被打出 。当你抽到这张牌时，获得 !M! 层 月之信 与 炎之信 并抽一张牌。",
+    "UPGRADE_DESCRIPTION": "迦具土神以外的神还未降临。"
+  },
+  "Authority:ReiMu": {
+    "NAME": "神威",
+    "DESCRIPTION": "获得 !M! 层 阳之信 。 NL 若 天照大神 已 降临 : NL 获得1层 缓冲 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "迦具土神以外的神还未降临。"
+  },
+  "KamiSacrifice:ReiMu": {
+    "NAME": "神祭",
+    "DESCRIPTION": "随机去除 迦具土神 以外的1个 神 。 NL 获得 !M! 层 炎之信 。",
+    "UPGRADE_DESCRIPTION": "迦具土神以外的神还未降临。"
+  },
+
+  "PrayRite:ReiMu": {
+    "NAME": "祈愿之仪",
+    "DESCRIPTION": "选择并获得一张大吉 神签 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "从消耗堆选择 !M! 张牌，将其 升级 并加入手牌。 消耗 。"
+  },
+  "NineCharacters:ReiMu": {
+    "NAME": "即妙神域札",
+    "DESCRIPTION": " 在你的回合结束时，每拥有1种 信 便获得 !M! 格挡 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 多层护甲 。"
+  },
+  "Dreaming:ReiMu": {
+    "NAME": "梦想天生",
+    "DESCRIPTION": " 激发 所有的 神 。 消耗 。",
+    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 你每有1种 神 便额外发动一次",
+    "EXTENDED_DESCRIPTION": [
+      "任未有神降临。"
+    ]
+  },
+  "AirManeuver:ReiMu": {
+    "NAME": "空中机动",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 飞行 ： 获得 !M! 层 风之信 。 NL 否则： 获得1层 飞行 。",
+    "UPGRADE_DESCRIPTION": "从消耗堆选择 !M! 张牌，将其 升级 并加入手牌。 消耗 。"
+  },
+  "EmergencyTakeOff:ReiMu": {
+    "NAME": "紧急起飞",
+    "DESCRIPTION": "获得 !M! 层 飞行 。 NL 获得 !M! 层 易伤 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "从消耗堆选择 !M! 张牌，将其升级并加入手牌。 消耗 。"
+  },
+
+
+  "PassingAway:ReiMu": {
+    "NAME": "往生之仪",
+    "DESCRIPTION": "从消耗堆选择 !M! 张牌加入手牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "从消耗堆选择 !M! 张牌， 升级 并加入手牌。 NL 消耗 。"
+  },
+
+  "DoubleButterfly:ReiMu": {
+    "NAME": "二色莲花蝶",
+    "DESCRIPTION": "获得 !B! 点 格挡 !M! 次。 NL 造成 !D! 点伤害 !M! 次。"
+  },
+
+  "CollectionFlower:ReiMu": {
+    "NAME": "萃灵花",
+    "DESCRIPTION": "获得目标负面状态种类数量的 雷之信 和 荆棘 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得目标负面状态种类数量+ !M! 的 雷之信 和 荆棘 。 NL 消耗 。"
+  },
+  "BarrageOfMoneybags:ReiMu": {
+    "NAME": "弹幕富翁",
+    "DESCRIPTION": "耗费 [E] [E] [E] [E] 。 NL 造成 !D! 点伤害。 NL 需要为不足的 [E] 支付 !M! 金币。",
+    "UPGRADE_DESCRIPTION": "耗费 [E] [E] [E] 。 NL 造成 !D! 点伤害。 NL 需要为不足的 [E] 支付 !M! 金币。",
+    "EXTENDED_DESCRIPTION": [
+      "我的金币不足。"
+    ]
+  },
+  "Intuition:ReiMu": {
+    "NAME": "直感",
+    "DESCRIPTION": " 预见 4。 NL 获得 !M! 层 月之信 。",
+    "UPGRADE_DESCRIPTION": " 预见 5。 NL 获得 !M! 层 月之信 。"
+  },
+
+  "Sacrifice:ReiMu": {
+    "NAME": "祭品",
+    "DESCRIPTION": " 消耗 手牌中所有非攻击牌。每消耗一张便获得 !M! 层 炎之信 。 NL 消耗 。"
+  },
+
+  "YinYangSange:ReiMu": {
+    "NAME": "阴阳散华",
+    "DESCRIPTION": "每次获得任意 信 时。 NL 随机获得 !M! 层未 降临 的 信 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 每次获得任意 信 时。 NL 随机获得 !M! 层未 降临 的 信 。"
+  },
+  "InherentArray:ReiMu": {
+    "NAME": "常置阵",
+    "DESCRIPTION": " 固有 。 NL 当你失去 飞行 ，获得 !M! 层 雷之信 。 NL 当你失去生命 ，获得 !M! 层 风之信 。",
+    "UPGRADE_DESCRIPTION":" 固有 。 NL 当你抽牌，获得 !M! 层 月之信 。 NL 当你 消耗 ，获得 !M! 层 炎之信 。"
+  },
+  "ForcedLanding:ReiMu": {
+    "NAME": "迫降",
+    "DESCRIPTION": " 飞行 ： 失去1层 飞行 。对所有敌人造成 !D! 点 伤害 。 NL 获得 !M! 层 雷之信 。",
+    "UPGRADE_DESCRIPTION": "我并不处于飞行。"
+  },
+
+
+  "SubAcupoint:ReiMu": {
+    "NAME": "亚空点穴",
+    "DESCRIPTION": " 飞行 : 造成 !D! 点伤害。 并使目标在本回合失去 !M! 点 力量 。 NL 否则： 获得 飞行 。"
+  },
+
+  "WonderfulDomain:ReiMu": {
+    "NAME": "九字护身法",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 你每有10层 信 ，抽一张牌。"
+  },
+  "Meditation:ReiMu": {
+    "NAME": "静心符",
+    "DESCRIPTION": "手牌中只有技能牌时才能发动。 NL 获得 [E] 。 NL 获得 !M! 层 月之信 。",
+    "UPGRADE_DESCRIPTION": "手牌中只有技能牌时才能发动。 NL 获得 [E] [E] 。 NL 获得 !M! 层 月之信 。",
+    "EXTENDED_DESCRIPTION": ["我手中还有非技能牌。"]
+  },
+
+  "TightArray:ReiMu": {
+    "NAME": "紧缚阵",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 缠绕 。"
+  },
+  "Stagnation:ReiMu": {
+    "NAME": "滞空",
+    "DESCRIPTION": " 飞行 ：抽 !M! 张牌。 NL 否则：获得1层 飞行 。",
+    "UPGRADE_DESCRIPTION": "若你未处于 飞行 ： 获得1层 飞行 。 NL 否则： 抽 !M! 张牌。 保留 。"
+  },
+  "MyTest:ReiMu": {
+    "NAME": "牛疯了的测试用牌",
+    "DESCRIPTION": "获得 !M! 层所有 信 。"
+  },
+  "FantasyMoon:ReiMu": {
+    "NAME": "幻想之月",
+    "DESCRIPTION": "从3张随机牌中选择一张加入手牌。它在本回合耗能变为0 。 NL 获得 !M! 层随机 信 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "从3张 升级 过的牌中选择一张加入手牌。它在本回合耗能变为0。 NL 获得 !M! 层随机 信 。 NL 消耗 。"
+  },
+
+  "SpreadBorder:ReiMu": {
+    "NAME": "扩散灵符",
+  "DESCRIPTION": "获得2层 山之信 。并在回合结束时获得 !M! 点 格挡 ，其值每回合减半 。"
+},
+
+  "MikOfLucky:ReiMu": {
+    "NAME": "强运巫女",
+  "DESCRIPTION": "在你的回合开始时，将 !M! 张不会是大凶的随机 神签 牌加入手牌。",
+  "UPGRADE_DESCRIPTION": " 固有 。在你的回合开始时，将 !M! 张随机 神签 牌加入手牌。"
+},
+  "Determination:ReiMu": {
+    "NAME": "底力",
+    "DESCRIPTION": "造成相当于你已损失生命值的伤害。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "造成相当于你已损失生命值的伤害。"
+  },
+  "Sign:ReiMu": {
+    "NAME": "神签",
+    "DESCRIPTION": "博丽神社的神签。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL ",
+    "EXTENDED_DESCRIPTION": ["大凶","小凶","小吉","大吉",
+      "获得 !M! 金币 。",
+      "获得 !B! 点 格挡 。",
+      "造成 !D! 点伤害。",
+      "抽 ",
+      " 张牌 。",
+      "获得 ",
+      "你什么也没得到！",
+      " NL 消耗 。",
+      "对随机敌人施加 ",
+      " 层 虚弱 与 易伤 。",
+      " NL 每当这张牌被 保留 时，将其 *运势 提高。",
+      "财运签","平安签","事业签","学业签","恋爱签"
+    ]
+  },
+  "LearningPray:ReiMu": {
+    "NAME": "高速祈愿",
+    "DESCRIPTION": "获得 !M! 层 月之信 。 NL 将一张随机的 学业签 加入手牌。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 月之信 。 NL 将一张不会是大凶的随机 学业签 加入手牌。"
+  },
+  "CareerPray:ReiMu": {
+    "NAME": "繁盛祈愿",
+    "DESCRIPTION": "获得 !M! 层 破之信 。 NL 将一张随机的 事业签 加入手牌。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 破之信 。 NL 将一张不会是大凶的随机 事业签 加入手牌。"
+  },
+  "SafetyPray:ReiMu": {
+    "NAME": "平安祈愿",
+    "DESCRIPTION": "获得 !M! 层 山之信 。 NL 将一张随机的 平安签 加入手牌。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 山之信 。 NL 将一张不会是大凶的随机 平安签 加入手牌。"
+  },
+  "AirStrike:ReiMu": {
+    "NAME": "空中打击",
+    "DESCRIPTION": "造成 !D! 点伤害并获得 !M! 层 风之信 。 NL 飞行 : 额外发动一次。"
+  },
+  "PayForSelf:ReiMu": {
+    "NAME": "阴阳鬼神玉",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 目标每有1种负面状态便额外造成一次伤害。"
+  },
+  "Amulet:ReiMu": {
+    "NAME": "博丽护符",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 当你耗尽 飞行 时，将此牌加入手中 。"
+  },
+  "OrbThrow:ReiMu": {
+    "NAME": "明珠暗投",
+    "DESCRIPTION": "随机对敌人造成 !D! 点伤害 !M! 次。 NL 获得2层 破之信 。"
+  },
+
+  "Revelation:ReiMu": {
+    "NAME": "神启",
+    "DESCRIPTION": " 预见 !M! 。 NL 抽一张牌。 NL 获得 !M! 层 阳之信 。"
+  },
+  "UpKicking:ReiMu": {
+    "NAME": "升天脚",
+    "DESCRIPTION": " 造成 !D! 点伤害 。 NL 飞行 : 额外获得 [E] 并抽1张牌。"
+  },
+  "RainPray:ReiMu": {
+    "NAME": "祈雨之仪",
+    "DESCRIPTION": "获得 !M! 层 活力 。 NL 每打出一次，这张牌在本局游戏中的效果永久性增加2。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 活力 。 NL 每打出一次，这张牌在本局游戏中的效果永久性增加3。 NL 消耗 。"
+  },
+
+  "RunawayExorcism:ReiMu": {
+    "NAME": "退魔乱舞",
+    "DESCRIPTION": "打出抽牌堆顶部 !M! 张牌中的 *攻击牌 ，丢弃其他牌。"
+  },
+
+  "ManaGlint:ReiMu": {
+    "NAME": "魔净闪结",
+    "DESCRIPTION": "消耗 !M! 张牌。 NL 获得与其耗能相等的 炎之信 。 NL 对所有敌人造成 炎之信 层数的伤害。",
+    "UPGRADE_DESCRIPTION": "消耗 !M! 张牌。获得耗能2倍的 炎之信 。 NL 对所有敌人造成 炎之信 层数的伤害。"
+  },
+
+  "LovePray:ReiMu": {
+    "NAME": "恋爱祈愿",
+    "DESCRIPTION": "获得 !M! 层 阳之信 。 NL 将一张随机的 恋爱签 加入手牌。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 阳之信 。 NL 将一张不会是大凶的随机 恋爱签 加入手牌。"
+  },
+  "YinYang:ReiMu": {
+    "NAME": "阴阳飞鸟井",
+    "DESCRIPTION": "获得2层 飞行 。 NL 随后对目标造成 飞行 层数 !M! 倍的伤害。",
+    "UPGRADE_DESCRIPTION": "我并不处于飞行。"
+  },
+  "Strike_Lin:ReiMu": {
+    "NAME": "打击",
+    "DESCRIPTION": "造成 !D! 点伤害。"
+  },
+  "Defend_Lin:ReiMu": {
+    "NAME": "防御",
+    "DESCRIPTION": "获得 !B! 点 格挡 。"
+  },
+  "DependentForm:ReiMu": {
+    "NAME": "神依形态",
+    "DESCRIPTION": "在你的回合结束时，随机获得 !M! 层未 降临 的 信 。",
+    "UPGRADE_DESCRIPTION": "在你的回合结束时，随机获得 !M! 层未 降临 的 信 。"
+  },
+
+  "Enchanting:ReiMu": {
+    "NAME": "封魔阵",
+    "DESCRIPTION": "给予 !M! 层 虚弱 。 NL 给予 !M! 层 易伤 。",
+    "UPGRADE_DESCRIPTION": "在你的回合结束时，随机获得 !M! 层未 降临 的 信 。"
+  },
+
+  "Oblation:ReiMu": {
+    "NAME": "鬼神磷火术",
+    "DESCRIPTION": " 献祭  !M! :造成 !D! 点伤害。如果杀死敌人，获得5层 请神 。 消耗  。"
+  },
+
+  "SealNeedle:ReiMu": {
+    "NAME": "封魔针",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。 NL 每次造成伤害便使目标失去1点 力量 。 NL 消耗 。"
+  },
+
+  "AirSuppress:ReiMu": {
+    "NAME": "空中压制",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害两次。获得 !M! 层 风之信 。 NL 飞行 : 给予所有敌人2层 易伤 。",
+    "UPGRADE_DESCRIPTION":  "对所有敌人造成 !D! 点伤害两次。获得 !M! 层 风之信 。 NL 飞行 : 给予所有敌人3层 易伤 。"
+  }
+}

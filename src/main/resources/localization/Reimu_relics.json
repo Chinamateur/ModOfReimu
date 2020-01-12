@@ -1,0 +1,202 @@
+{
+  "RedLine:ReiMu": {
+    "NAME": "红线",
+    "FLAVOR": "据说众神用它来决定凡人的命运。",
+    "DESCRIPTIONS": [
+      "在每场战斗的前 #b",
+      " 个回合开始时，从抽牌堆选择 #b",
+      " 张牌加入手中。"
+    ]
+  },
+  "TentaclePot:ReiMu": {
+    "NAME": "触手壶",
+    "FLAVOR": "永远无法满足的邪恶生物在扭动着。",
+    "DESCRIPTIONS": [
+      "战斗开始时，给予所有敌人 #b",
+      " 层 #y缠绕 。"
+    ]
+  },
+  "FadedRune:ReiMu": {
+    "NAME": "褪色神符",
+    "FLAVOR": "这张不太稳定的神符似乎还能发挥作用。",
+    "DESCRIPTIONS": [
+      "战斗开始时，使随机敌人造成的伤害降低 #b50% ，直到其受到攻击。"
+    ]
+  },
+
+  "ZunR:ReiMu": {
+    "NAME": "御神酒",
+    "FLAVOR": "这酒的后劲非常大...",
+    "DESCRIPTIONS": [
+      "每回合开始时获得 [E] ,并将 #b",
+      " 张 #r晕眩 放入你的弃牌堆中。"
+    ]
+  },
+
+  "PaintedHorse:ReiMu": {
+    "NAME": "绘马",
+    "FLAVOR": "小小的木牌上寄托着美好的期望...",
+    "DESCRIPTIONS": [
+      "战斗开始时， #r移除 #b1 张牌。 NL #b",
+      " 回合后，将其置入手牌。这张牌在当回合耗能变为 #b0 。"
+    ]
+  },
+  "SkyOrb:ReiMu": {
+    "NAME": "空灵珠",
+    "FLAVOR": "这枚小巧的宝珠流溢着天空一般的光泽。",
+    "DESCRIPTIONS": [
+      "每场战斗你第 #b1 次 #r耗尽 #y飞行 时，获得 #b",
+      " 层 #y飞行 。"
+    ]
+  },
+  "YidongShenshe:ReiMu": {
+    "NAME": "迷你神社",
+    "FLAVOR": "人们愿意相信：金钱能换来好运。",
+    "DESCRIPTIONS": [
+      "#y右键 :失去 #b",
+      " #y金币 ，将 #b",
+      " 张随机 #y神签 置入手牌。 NL 本效果每场战斗可使用 #b",
+      " 次。",
+      " NL 本场战斗还可以使用 #b"
+    ]
+  },
+  "PureWhite:ReiMu": {
+    "NAME": "白衣绯",
+    "FLAVOR": "这件衣服非常容易弄脏。",
+    "DESCRIPTIONS": [
+      "每回合多抽 #b",
+      " 张牌。当你受伤时在本场战斗中 #y失效 。",
+      "白衣染上了脏污。"
+    ]
+  },
+  "CrownOfHeavens:ReiMu": {
+    "NAME": "天冠",
+    "FLAVOR": "戴上它你感觉自己能感受到众神的力量。",
+    "DESCRIPTIONS": [
+      "每当 #y降临 ，对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "Salt:ReiMu": {
+    "NAME": "驱魔盐",
+    "FLAVOR": "据说会让妖魔痛苦难耐的神圣物品。",
+    "DESCRIPTIONS": [
+      "每当敌人获得负面状态，使其失去 #b",
+      " 点生命。"
+    ]
+  },
+  "BodyOfKamiR:ReiMu": {
+    "NAME": "御神体",
+    "FLAVOR": "据说这就是神明的身体。不知为何非常受猫的欢迎。",
+    "DESCRIPTIONS": [
+      "捡起该遗物时选择一张 #y御神体 ，每次战斗开始时将其放入手牌。"
+    ]
+  },
+  "KaguraBell:ReiMu": {
+    "NAME": "神乐铃",
+    "FLAVOR": "阵阵铃声祝福着神明的降临。",
+    "DESCRIPTIONS": [
+      "每当有 #r神  #y降临 ，你获得 [E] 并抽 #b",
+      " 张牌。"
+    ]
+  },
+  "Bow_fan:ReiMu": {
+    "NAME": "蝴蝶结",
+    "FLAVOR": "大红色的蝴蝶结深受少女的喜爱。",
+    "DESCRIPTIONS": [
+      "每当你失去 #y飞行 ，对所有敌人造成 #b",
+      " 点伤害。"
+    ]
+  },
+  "RuthlessExorcism:ReiMu": {
+    "NAME": "贪婪大币",
+    "FLAVOR": "这根驱魔棒总是以缓慢的速度成长着。",
+    "DESCRIPTIONS": [
+      "战斗开始时对所有敌人造成 #b",
+      " 点伤害。每次进入精英和BOSS战提高 #b",
+      " 点。"
+    ]
+  },
+  "ShineYinYang:ReiMu": {
+    "NAME": "闪耀的阴阳玉",
+    "FLAVOR": "精心擦拭后的阴阳玉折射着让人愉悦的光芒。",
+    "DESCRIPTIONS": [
+      "替换 #p阴阳玉 。战斗开始时获得 #b",
+      " 层 #y飞行 。"
+    ]
+  },
+  "DonationBox:ReiMu": {
+    "NAME": "塞钱箱",
+    "FLAVOR": "本应献给神的供奉不知所踪...",
+    "DESCRIPTIONS": [
+      " #y降临 阈值提高 #b",
+      " 。在每回合开始时获得 [E] 。"
+    ]
+  },
+  "CheatingSign:ReiMu": {
+    "NAME": "作弊签筒",
+    "FLAVOR": "这个签筒里似乎只有吉。",
+    "DESCRIPTIONS": [
+      "你不会求得 #r凶签 。"
+    ]
+  },
+
+  "Mastiff:ReiMu": {
+    "NAME": "狛犬",
+    "FLAVOR": "这只聪明的小动物自说自话地守护起了你的牌堆。",
+    "DESCRIPTIONS": [
+      " #y消耗 每场战斗你前 #b",
+      " 次抽到的 #y状态牌 ，并再抽一张。",
+      "它还小，它累了。"
+    ]
+  },
+  "TurtleShell:ReiMu": {
+    "NAME": "乌龟",
+    "FLAVOR": "这只巨大的乌龟愿意驮着你攀爬高塔。",
+    "DESCRIPTIONS": [
+      "当你有 #y飞行 状态时，伤害减免从 #b",
+      "% 提升为 #b",
+      "% 。"
+    ]
+  },
+  "Tea:ReiMu": {
+    "NAME": "粗茶",
+    "FLAVOR": "说真的，如果不是实在没钱。又有谁会愿意喝这不知道是第几开的茶呢？",
+    "DESCRIPTIONS": [
+      "如果你的金币少于 #b",
+      " ,进入休息处时就会回复 #b",
+      "% 的生命。"
+    ]
+  },
+  "CrazyTorch:ReiMu": {
+    "NAME": "狂乱火炬",
+    "FLAVOR": "盯着它看，你感觉自己的的灵魂好像要被吸了进去。",
+    "DESCRIPTIONS": [
+      "战斗开始时，将 #b1 张 #g疯狂+ 置入你的手牌。",
+      "战斗开始时随机使一张牌在本场战斗中耗能变为 #b0 。"
+    ]
+  },
+
+  "danmuguizhi:ReiMu": {
+    "NAME": "擦弹之心",
+    "FLAVOR": "亲切的规则使少女只要重要的地方不被击中，就可以战斗下去。",
+    "DESCRIPTIONS": [
+      "回合开始时将你的生命恢复至 10 点， NL 战斗结束时获得敌人最大生命值1/5的 #y点数 。"
+    ]
+  },
+
+  "FlyPower:ReiMu": {
+    "NAME": "阴阳玉",
+    "FLAVOR": "从神社地下室里找出来的驱魔道具。",
+    "DESCRIPTIONS": [
+      "战斗开始时给予你 #b1 层 #y飞行 。"
+    ]
+  },
+  "TEXT:ReiMu": {
+    "NAME": "选吧",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      ""
+    ]
+  }
+}

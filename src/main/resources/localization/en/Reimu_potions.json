@@ -1,0 +1,54 @@
+{
+  "GrandPatriotsElixir:ReiMu": {
+    "NAME": "Grand Patriot's Elixir",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " #yVigor ."
+    ]
+  },
+  "MagicPotion:ReiMu": {
+    "NAME": "Magic Potion",
+    "DESCRIPTIONS": [
+      "When you play card, gain #b",
+      " #yEnergy , Until #yEnergy greater or equal to turn initial energy.",
+      "My Energy is full."
+    ]
+  },
+
+  "ZuzhouPotion:ReiMu": {
+    "NAME": "Curse Potion",
+    "DESCRIPTIONS": [
+      "Add #b",
+      " for all of enemy's #ydebuff."
+    ]
+  },
+  "HakureiPotion:ReiMu": {
+    "NAME": "Hakurei Potion",
+    "DESCRIPTIONS": [
+      "Add #b",
+      " for all of your #ybuff."
+    ]
+  },
+  "BottledKami:ReiMu": {
+    "NAME": "Bottled Kami",
+    "DESCRIPTIONS": [
+      "Let random #b",
+      " kind of #yKami #yAdvent."
+    ]
+  },
+  "LiquidFlight:ReiMu": {
+    "NAME": "Liquid Flight",
+    "DESCRIPTIONS": [
+      "Apply #b",
+      " #yFlight."
+    ]
+  },
+  "PinkPotion:ReiMu": {
+    "NAME": "Pink Potion",
+    "DESCRIPTIONS": [
+      "From #b",
+      " random #pPink cards choose #b",
+      " to add to your hand, it costs #b0 this turn."
+    ]
+  }
+}

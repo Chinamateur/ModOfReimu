@@ -1,0 +1,16 @@
+{
+  "modid": "ReimuMod",
+  "name": "Reimu（博丽灵梦）",
+  "author_list": [
+    "巾凡",
+    "地狱猫燐",
+    "Sam",
+    "其他在群里帮助我们的大家"
+  ],
+  "description": "添加了博麗靈夢作为可选角色。 警告：本MOD仍在测试调整中，有任何问题和建议请联系我。(本MOD一开始由魔理沙MOD魔改而来，同时打开两个MOD有可能会有无法预料的BUG",
+  "dependencies": [
+    "basemod"
+  ],
+  "version": "v1.0",
+  "sts_version": "01-14-2020"
+}

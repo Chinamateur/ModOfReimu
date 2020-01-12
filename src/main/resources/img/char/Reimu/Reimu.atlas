@@ -1,0 +1,244 @@
+
+Reimu.png
+size: 1024,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+rear_hair-BG
+  rotate: false
+  xy: 1, 1087
+  size: 213, 395
+  orig: 213, 395
+  offset: 0, 0
+  index: -1
+bowknot
+  rotate: false
+  xy: 1, 276
+  size: 254, 221
+  orig: 254, 221
+  offset: 0, 0
+  index: -1
+rear_hair_B
+  rotate: false
+  xy: 219, 656
+  size: 190, 444
+  orig: 190, 444
+  offset: 0, 0
+  index: -1
+rear_hair_A
+  rotate: false
+  xy: 552, 656
+  size: 143, 252
+  orig: 143, 252
+  offset: 0, 0
+  index: -1
+Sleeve_L_BG
+  rotate: false
+  xy: 116, 1484
+  size: 45, 243
+  orig: 45, 243
+  offset: 0, 0
+  index: -1
+Left_arm_B
+  rotate: false
+  xy: 880, 941
+  size: 98, 99
+  orig: 98, 99
+  offset: 0, 0
+  index: -1
+Sleeve_L_F
+  rotate: false
+  xy: 318, 1102
+  size: 79, 435
+  orig: 79, 435
+  offset: 0, 0
+  index: -1
+left-hair
+  rotate: false
+  xy: 961, 463
+  size: 55, 186
+  orig: 55, 186
+  offset: 0, 0
+  index: -1
+coat-BG
+  rotate: false
+  xy: 880, 1042
+  size: 132, 73
+  orig: 132, 73
+  offset: 0, 0
+  index: -1
+Inside_clothing_BG
+  rotate: false
+  xy: 257, 484
+  size: 98, 14
+  orig: 98, 14
+  offset: 0, 0
+  index: -1
+Neck
+  rotate: false
+  xy: 552, 1029
+  size: 48, 47
+  orig: 48, 47
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 756, 1089
+  size: 105, 85
+  orig: 105, 85
+  offset: 0, 0
+  index: -1
+crotch
+  rotate: false
+  xy: 863, 1117
+  size: 130, 61
+  orig: 130, 61
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 257, 276
+  size: 191, 206
+  orig: 191, 206
+  offset: 0, 0
+  index: -1
+coat_BG
+  rotate: false
+  xy: 720, 500
+  size: 239, 439
+  orig: 239, 439
+  offset: 0, 0
+  index: -1
+left_leg
+  rotate: false
+  xy: 216, 1102
+  size: 100, 506
+  orig: 100, 506
+  offset: 0, 0
+  index: -1
+Right_leg
+  rotate: false
+  xy: 851, 1
+  size: 101, 482
+  orig: 101, 482
+  offset: 0, 0
+  index: -1
+Skirt_BG
+  rotate: false
+  xy: 1, 656
+  size: 216, 429
+  orig: 216, 429
+  offset: 0, 0
+  index: -1
+Belt_inside
+  rotate: false
+  xy: 807, 941
+  size: 71, 146
+  orig: 71, 146
+  offset: 0, 0
+  index: -1
+Skirt_FR
+  rotate: false
+  xy: 595, 1
+  size: 254, 497
+  orig: 254, 497
+  offset: 0, 0
+  index: -1
+Belt
+  rotate: false
+  xy: 679, 941
+  size: 126, 99
+  orig: 126, 99
+  offset: 0, 0
+  index: -1
+Inside_clothing
+  rotate: false
+  xy: 450, 465
+  size: 103, 27
+  orig: 103, 27
+  offset: 0, 0
+  index: -1
+Coat_FR
+  rotate: false
+  xy: 552, 1102
+  size: 202, 378
+  orig: 202, 378
+  offset: 0, 0
+  index: -1
+Sleeve_R_BG
+  rotate: false
+  xy: 954, 1
+  size: 49, 275
+  orig: 49, 275
+  offset: 0, 0
+  index: -1
+Gohei_BG
+  rotate: false
+  xy: 450, 276
+  size: 78, 170
+  orig: 78, 170
+  offset: 0, 0
+  index: -1
+Right_arm
+  rotate: false
+  xy: 399, 1237
+  size: 109, 266
+  orig: 109, 266
+  offset: 0, 0
+  index: -1
+Sleeve_R_F
+  rotate: false
+  xy: 411, 656
+  size: 139, 579
+  orig: 139, 579
+  offset: 0, 0
+  index: -1
+Right_hair
+  rotate: false
+  xy: 530, 276
+  size: 63, 187
+  orig: 63, 187
+  offset: 0, 0
+  index: -1
+Front_hair_A
+  rotate: false
+  xy: 552, 910
+  size: 125, 117
+  orig: 125, 117
+  offset: 0, 0
+  index: -1
+Front_hair_A_0
+  rotate: false
+  xy: 961, 651
+  size: 61, 104
+  orig: 61, 104
+  offset: 0, 0
+  index: -1
+Left_arm_A
+  rotate: false
+  xy: 954, 278
+  size: 62, 183
+  orig: 62, 183
+  offset: 0, 0
+  index: -1
+Gohei_B
+  rotate: false
+  xy: 1, 500
+  size: 717, 154
+  orig: 717, 154
+  offset: 0, 0
+  index: -1
+Gohei_A
+  rotate: false
+  xy: 1, 1
+  size: 592, 273
+  orig: 592, 273
+  offset: 0, 0
+  index: -1
+Gohei_FR
+  rotate: false
+  xy: 1, 1484
+  size: 113, 267
+  orig: 113, 267
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,180 @@
+{
+  "keywords": [
+    {
+      "NAMES": [
+        "LearningO-mikuji",
+        "learningo-mikuji"
+      ],
+      "DESCRIPTION": " #rGreatLuck :Draw #b4 cards. NL #rGoodLuck :Draw #b3 cards. NL #bBadLuck :Draw #b2 cards. NL #bPoorLuck :Draw #b0 cards."
+    },
+    {
+      "NAMES": [
+        "FortuneO-mikuji",
+        "fortuneo-mikuji"
+      ],
+      "DESCRIPTION": " #rGreatLuck :Gain #b30 gold. NL #rGoodLuck :Gain #b20 gold. NL #bBadLuck :Gain #b10 gold. NL #bPoorLuck :Gain #b0 gold."
+    },
+    {
+      "NAMES": [
+        "EnergyO-mikuji",
+        "energyo-mikuji"
+      ],
+      "DESCRIPTION": " #rGreatLuck :Gain #b3 energy. NL #rGoodLuck :Gain #b2 energy. NL #bBadLuck :Gain #b1 energy. NL #bPoorLuck :Gain #b0 energy."
+    },
+    {
+      "NAMES": [
+        "CareerO-mikuji",
+        "careero-mikuji"
+      ],
+      "DESCRIPTION": " #rGreatLuck :Deals #b21 damage. NL #rGoodLuck :Deals #b14 damage. NL #bBadLuck :Deals #b7 damage. NL #bPoorLuck :Deals #b0 damage."
+    },
+    {
+      "NAMES": [
+        "SafeO-mikuji",
+        "safeo-mikuji"
+      ],
+      "DESCRIPTION": " #rGreat Luck :Gain #b15 格挡。 NL #rGood Luck :Gain #b10 格挡。 NL #bBad Luck :Gain #b5 格挡。 NL #bPoor Luck :Gain #b0 格挡。"
+    },
+    {
+      "NAMES": [
+        "O-mikuji",
+        "o-mikuji"
+      ],
+      "DESCRIPTION": "O-mikuji is the card who has #r消耗 and cost for #b0 ."
+    },
+    
+    {
+      "NAMES": [
+        "Constricted",
+        "constricted"
+      ],
+      "DESCRIPTION": "The enemy who be #yConstricted will be hurt at the end of their turn."
+    },
+    {
+      "NAMES": [
+        "Advent",
+        "advent"
+      ],
+      "DESCRIPTION": "The Advent of #yKami will remove all the debuff of you."
+    },
+    {
+      "NAMES": [
+        "Kami",
+        "kami"
+      ],
+      "DESCRIPTION": "#yFaith that reaches the threshold is also called #yKami."
+    },
+    {
+      "NAMES": [
+        "Faith",
+        "faith"
+      ],
+      "DESCRIPTION": "#yKami will Advent after you get enough Faith."
+    },
+    {
+      "NAMES": [
+        "Sun",
+        "sun"
+      ],
+      "DESCRIPTION": "Let #yAmaterasu Advent."
+    },
+    {
+      "NAMES": [
+        "Amaterasu",
+        "amaterasu"
+      ],
+      "DESCRIPTION": "After #yAdvent, Gain extra [E] at the start of your turn."
+    },
+    {
+      "NAMES": [
+        "Flame",
+        "flame"
+      ],
+      "DESCRIPTION": "Let #yKagutsuchi Advent. #yFlame the #yFaith has no cap."
+    },
+    {
+      "NAMES": [
+        "Kagutsuchi",
+        "kagutsuchi"
+      ],
+      "DESCRIPTION": "After #yAdvent, Deal damage equal to 炎之Faith to ALL enemies at the start of your turn."
+    },
+    {
+      "NAMES": [
+        "Wind",
+        "wind"
+      ],
+      "DESCRIPTION": "Let #yTakeminakata Advent."
+    },
+    {
+      "NAMES": [
+        "Takeminakata",
+        "takeminakata"
+      ],
+      "DESCRIPTION": "After #yAdvent, Apply #yFlyght at the start of your turn."
+    },
+    {
+      "NAMES": [
+        "Thunderbolt",
+        "thunderbolt"
+      ],
+      "DESCRIPTION": "Let #yTakemikazuchi Advent."
+    },
+    {
+      "NAMES": [
+        "Takemikazuchi",
+        "takemikazuchi"
+      ],
+      "DESCRIPTION": "After #yAdvent, Apply Divine Punishment when any enemy attack you."
+    },
+    {
+      "NAMES": [
+        "Break",
+        "break"
+      ],
+      "DESCRIPTION": "Let #ySusanoo Advent."
+    },
+    {
+      "NAMES": [
+        "Susanoo",
+        "susanoo"
+      ],
+      "DESCRIPTION": "After #yAdvent, add additional damage to attacks."
+    },
+    {
+      "NAMES": [
+        "Moon",
+        "moon"
+      ],
+      "DESCRIPTION": "Let #yTsukuyomi Advent."
+    },
+    {
+      "NAMES": [
+        "Tsukuyomi",
+        "tsukuyomi"
+      ],
+      "DESCRIPTION": "fter #yAdvent, Upgraded the top card in your draw pile and gain extra draw at the start of your turn."
+    },
+    {
+      "NAMES": [
+        "Mountain",
+        "mountain"
+      ],
+      "DESCRIPTION": "Let #yOhoyamatsumi Advent."
+    },
+    {
+      "NAMES": [
+        "ohoyamatsumi",
+        "Ohoyamatsumi"
+      ],
+      "DESCRIPTION": "After #yAdvent, improves Block gained from cards."
+    },
+      {
+        "NAMES": [
+          "Flight",
+          "flight"
+        ],
+        "DESCRIPTION": "Flight can reduces the damage from attack."
+      }
+  ]
+}

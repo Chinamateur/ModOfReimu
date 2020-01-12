@@ -1,0 +1,48 @@
+{
+  "ZunEvent": {
+    "NAME": "“Gold” Wine",
+    "DESCRIPTIONS": [
+      "Just before you came across a #rGoblin wearing a quirky #gHat . NL He's selling a bottle of #p“Wine” from unknown sources. NL #g@“This@ #g@is@ #g@definitely@ #g@a@ #g@rare@ #g@product@ #g@for@ #g@a@ #g@thousand@ #g@years!”@ ",
+      " #g~“Thank~ #g~you~ #g~for~ #g~your~ #g~patronage!”~ He said with a smile. And carefully hand #pWine into your hands.",
+      "You don’t plan to use precious #yGold to buy such #b~Inferior~ things.",
+      "As you were about to leave, someone's voice stopped you. NL ~“Cub...”~ NL You look around, it's a ragged old man. NL “If you are willing to give me this #pWine ,Maybe I can teach you some #r~kung~ #r~fu~ ....” ",
+      "After you refused, the old man left suddenly. NL #g~“Huh, Cub now...”~ ",
+      "After being rejected by you, the old man #r@bit@ #r@you@ #r@like@ #r@a@ #r@bite@ , Then #b@fled@ #b@the@ #b@scene@ .",
+      "The old man smiled and drank the wine you passed and #b@took@ #b@a@ #b@big@ #b@gulp@ . NL He #r~Drunk~ soon . NL You noticed that his stride when he was drunk seemed #p~Magical~ .",
+      "As you were about to leave, someone's voice stopped you. NL ~“Girl...”~ NL You look around, it's a ragged old man. NL “I think you are #p@talented@ , If you are willing to give me this #pWine ,Maybe I can teach you some #r~kung~ #r~fu~ ....”"
+    ],
+    "OPTIONS": [
+      "[Locked] Requires: ",
+      " Gold.",
+      "[Buy] #y",
+      "  #yGold： #gObtain #ga #gRelic.",
+      "[Learn] #rHand #rover #rGod #rWine. ",
+      "[Refuse]",
+      "[Refuse] #rTake #r",
+      " #rdamage.",
+      "[Leave]",
+      "God Wine",
+      "Keep God Wine",
+      "Hand rover God Wine"
+    ]
+  },
+  "yidonshenshe": {
+    "NAME": "Mini Shrine",
+    "DESCRIPTIONS": [
+      "En route, you found a small and exquisite #yShrine #yModel . Hold it in your hand, you can see that every detail in it is carved so #b~Perfect~ . You feel hand stick out of your throat.",
+      "You gently shove #yGold into the cash box of the mini shrine. The tiny shrine #b~shone~ with it. NL When the light fades away, you have only a #yEma left in your hand.",
+      "You feel the incredible spiritual power in the #yTiny #yShrine and decide to bring it. NL #g@But@ #g@is@ #g@this@ #g@really@ #g@good?@ ",
+      "You left carefully."
+    ],
+    "OPTIONS": [
+      "[Locked] Requires: ",
+      " Gold.",
+      "[Donate] #y",
+      "  #yGold：  #gObtain #ga #gRelic.",
+      "[Take] #gObtain #ga #pSpecial #gRelic. #rCursed #r- #rPoor.",
+      "[Leave]",
+      "Donate",
+      "Take Tiny Shrine away"
+    ]
+  }
+}
