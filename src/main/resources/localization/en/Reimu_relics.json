@@ -175,7 +175,7 @@
     "FLAVOR": "Staring at it, you feel like your soul is sucking in.",
     "DESCRIPTIONS": [
       "At the start of battle, add #b1 #gMadness+ into your hand.",
-      "战斗开始时随机使一张牌在本场战斗中耗能变为 #b0 ."
+      ""
     ]
   },
   "FlyPower:ReiMu": {
