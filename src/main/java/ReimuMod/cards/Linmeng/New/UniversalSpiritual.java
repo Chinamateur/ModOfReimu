@@ -41,8 +41,8 @@ public class UniversalSpiritual extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            this.upgradeBaseCost(1);
-            //this.upgradeMagicNumber(1);
+            //this.upgradeBaseCost(1);
+            this.upgradeMagicNumber(1);
             initializeDescription();
         }
     }

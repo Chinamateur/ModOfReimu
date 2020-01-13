@@ -107,7 +107,7 @@
   },
 
   "KamiYangPower:ReiMu": {
-    "NAME": "Sun the Faith",
+    "NAME": "Sun Faith",
     "DESCRIPTIONS": [
       " #yAmaterasu will #Advent , after you gain #b",
       " more #yFaith .",
@@ -116,7 +116,7 @@
     ]
   },
   "KamiYanPower:ReiMu": {
-    "NAME": "Flame the Faith",
+    "NAME": "Flame Faith",
     "DESCRIPTIONS": [
       " #yKagutsuchi will #Advent , after you gain #b",
       " more #yFaith .",
@@ -125,7 +125,7 @@
     ]
   },
   "KamiZhiPower:ReiMu": {
-    "NAME": "Moon the Faith",
+    "NAME": "Moon Faith",
     "DESCRIPTIONS": [
       " #yTsukuyomi will #Advent , after you gain #b",
       " more #yFaith .",
@@ -135,7 +135,7 @@
     ]
   },
   "KamiFengPower:ReiMu": {
-    "NAME": "Wind the Faith",
+    "NAME": "Wind Faith",
     "DESCRIPTIONS": [
       " #yTakeminakata will #Advent , after you gain #b",
       " more #yFaith .",
@@ -144,7 +144,7 @@
     ]
   },
   "KamiLeiPower:ReiMu": {
-    "NAME": "Thunderbolt the Faith",
+    "NAME": "Thunderbolt Faith",
     "DESCRIPTIONS": [
       " #yTakemikazuchi will #Advent , after you gain #b",
       " more #yFaith .",
@@ -152,7 +152,7 @@
     ]
   },
   "KamiYuePower:ReiMu": {
-    "NAME": "Mountain the Faith",
+    "NAME": "Mountain Faith",
     "DESCRIPTIONS": [
       " #yOhoyamatsumi will #Advent , after you gain #b",
       " more #yFaith .",
@@ -161,7 +161,7 @@
     ]
   },
   "KamiPoPower:ReiMu": {
-    "NAME": "Break the Faith",
+    "NAME": "Destruction Faith",
     "DESCRIPTIONS": [
       " #ySusanoo will #Advent , after you gain #b",
       " more #yFaithSusanoo .",

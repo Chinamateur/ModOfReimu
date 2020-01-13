@@ -46,7 +46,7 @@
   },
   "YinYangSign:ReiMu": {
     "NAME": "Yin-Yang Sign",
-    "DESCRIPTION": "Deal damage equal to the Constricted of target. NL Gain [E] for every debuff your target has."
+    "DESCRIPTION": "Deal damage equal to the Constricted of target. NL Gain [E] for every DeBuff your target has."
   },
 
   "UniversalSpiritual2:ReiMu": {
@@ -100,7 +100,7 @@
   },
   "FoulBorder2:ReiMu": {
     "NAME": "Rule Violation Barrier",
-    "DESCRIPTION": "Whenever you apply a debuff to an enemy, apply !M! additional random debuffs."
+    "DESCRIPTION": "Whenever you apply a DeBuff to an enemy, apply !M! additional random DeBuff."
   },
   "Mountainwind:ReiMu": {
     "NAME": "Mountain Wind",
@@ -158,7 +158,6 @@
     "DESCRIPTION": "At the end of your turn, lose !M! other Faith. NL Gain half as much Flame Faith. NL Other Kami can't Advent."
   },
 
-
   "GreedyExorcism:ReiMu": {
     "NAME": "Greedy Ohnusa",
     "DESCRIPTION": "Deal !D! damage.并Gain !M! Gold .可以被多次 Upgraded. Exhaust."
@@ -191,8 +190,8 @@
   },
   "MountainWay:ReiMu": {
     "NAME": "Lays to Rest",
-    "DESCRIPTION": "Gain Block equal to the number of Buffs on you and Debuffs on your enemy.",
-    "UPGRADE_DESCRIPTION": "Gain Block equal to the number of Buffs on you and Debuffs on your enemy."
+    "DESCRIPTION": "Gain Block equal to the number of Buffs on you and DeBuffs on your enemy.",
+    "UPGRADE_DESCRIPTION": "Gain Block equal to the number of Buffs on you and DeBuffs on your enemy."
   },
   "SpiritualOutbreak:ReiMu": {
     "NAME": "Spiritual Strike",
@@ -322,8 +321,8 @@
 
   "CollectionFlower:ReiMu": {
     "NAME": "Foregathering Flowers",
-    "DESCRIPTION": "Gain Thunderbolt Faith and Thorns equal to kind of the debuff of the enemy. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain Thunderbolt Faith and Thorns equal to kind of the debuff of the enemy + !M!. NL Exhaust."
+    "DESCRIPTION": "Gain Thunderbolt Faith and Thorns equal to kind of the DeBuff of the enemy. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain Thunderbolt Faith and Thorns equal to kind of the DeBuff of the enemy + !M!. NL Exhaust."
   },
   "BarrageOfMoneybags:ReiMu": {
     "NAME": "Danmaku Millionaire",
@@ -441,7 +440,7 @@
   },
   "PayForSelf:ReiMu": {
     "NAME": "Yin-Yang Orb",
-    "DESCRIPTION": "Deal !D! damage. NL Enemies take additional !D! damage for every debuff they have."
+    "DESCRIPTION": "Deal !D! damage. NL Enemies take additional !D! damage for every DeBuff they have."
   },
   "Amulet:ReiMu": {
     "NAME": "Homing Amulet",

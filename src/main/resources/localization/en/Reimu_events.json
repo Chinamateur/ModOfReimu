@@ -21,9 +21,9 @@
       "[Refuse] #rTake #r",
       " #rdamage.",
       "[Leave]",
-      "God Wine",
-      "Keep God Wine",
-      "Hand rover God Wine"
+      "O-miki",
+      "Keep O-miki",
+      "Hand rover O-miki"
     ]
   },
   "yidonshenshe": {
@@ -39,7 +39,7 @@
       " Gold.",
       "[Donate] #y",
       "  #yGold：  #gObtain #ga #gRelic.",
-      "[Take] #gObtain #ga #pSpecial #gRelic. #rCursed #r- #rPoor.",
+      "[Take] #gObtain #ga #pSpecial #gRelic. #rCursed #r- #rPoverty .",
       "[Leave]",
       "Donate",
       "Take Tiny Shrine away"
