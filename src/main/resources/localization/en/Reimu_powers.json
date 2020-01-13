@@ -2,8 +2,8 @@
   "MagicPotionPower:ReiMu": {
     "NAME": "Magic Potion",
     "DESCRIPTIONS": [
-      "Whenever you play a card, gain #b",
-      " #yEnergy , Until [E] greater or equal to turn initial energy."
+      "Gain #b1 additional energy for your next #b",
+      " turns."
     ]
   },
   "UniversalSpiritualPower:ReiMu": {
@@ -66,7 +66,7 @@
   "FineLineFantasyPower:ReiMu": {
     "NAME": "Fine Line Fantasy",
     "DESCRIPTIONS": [
-      "When card been #yExhausted ,gain #b",
+      "When card been #yExhausted,gain #b",
       " #yFlame the #yFaith."
     ]
   },
@@ -109,7 +109,7 @@
   "KamiYangPower:ReiMu": {
     "NAME": "Sun Faith",
     "DESCRIPTIONS": [
-      " #yAmaterasu will #Advent , after you gain #b",
+      " #yAmaterasu will remove all of your #rDeBuff and #Advent, after you gain #b",
       " more #yFaith .",
       "At the start of your turn, Gain #b",
       " energy."
@@ -118,7 +118,7 @@
   "KamiYanPower:ReiMu": {
     "NAME": "Flame Faith",
     "DESCRIPTIONS": [
-      " #yKagutsuchi will #Advent , after you gain #b",
+      " #yKagutsuchi will remove all of your #rDeBuff and #Advent, after you gain #b",
       " more #yFaith .",
       "At the start of your turn, Deal #b",
       " damage to all enemies."
@@ -127,7 +127,7 @@
   "KamiZhiPower:ReiMu": {
     "NAME": "Moon Faith",
     "DESCRIPTIONS": [
-      " #yTsukuyomi will #Advent , after you gain #b",
+      " #yTsukuyomi will remove all of your #rDeBuff and #Advent, after you gain #b",
       " more #yFaith .",
       "At the start of your turn, Upgraded the top #b",
       " card in your draw pile and gain #b",
@@ -137,7 +137,7 @@
   "KamiFengPower:ReiMu": {
     "NAME": "Wind Faith",
     "DESCRIPTIONS": [
-      " #yTakeminakata will #Advent , after you gain #b",
+      " #yTakeminakata will remove all of your #rDeBuff and #Advent, after you gain #b",
       " more #yFaith .",
       "At the start of your turn, gain #b",
       " #yFlight ."
@@ -146,7 +146,7 @@
   "KamiLeiPower:ReiMu": {
     "NAME": "Thunderbolt Faith",
     "DESCRIPTIONS": [
-      " #yTakemikazuchi will #Advent , after you gain #b",
+      " #yTakemikazuchi will remove all of your #rDeBuff and #Advent, after you gain #b",
       " more #yFaith .",
       "Apply #rDivine #rPunishment when any enemy attack you."
     ]
@@ -154,7 +154,7 @@
   "KamiYuePower:ReiMu": {
     "NAME": "Mountain Faith",
     "DESCRIPTIONS": [
-      " #yOhoyamatsumi will #Advent , after you gain #b",
+      " #yOhoyamatsumi will remove all of your #rDeBuff and #Advent, after you gain #b",
       " more #yFaith .",
       "Improves #b",
       " Block gained from cards."
@@ -163,7 +163,7 @@
   "KamiPoPower:ReiMu": {
     "NAME": "Destruction Faith",
     "DESCRIPTIONS": [
-      " #ySusanoo will #Advent , after you gain #b",
+      " #ySusanoo will remove all of your #rDeBuff and #Advent, after you gain #b",
       " more #yFaithSusanoo .",
       "Add additional #b",
       " damage to attacks."

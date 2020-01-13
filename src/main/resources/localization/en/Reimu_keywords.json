@@ -2,45 +2,52 @@
   "keywords": [
     {
       "NAMES": [
+        "RomanceO-mikuji",
+        "romanceo-mikuji"
+      ],
+      "DESCRIPTION": "#rGreatLuck :Gain #b3 #yenergy. NL #rGoodLuck :Gain #b2 #yenergy. NL #bPoorLuck :Gain #b1 #yenergy. NL #bBadLuck :Gain #b0 #yenergy."
+    },
+    {
+      "NAMES": [
         "LearningO-mikuji",
         "learningo-mikuji"
       ],
-      "DESCRIPTION": " #rGreatLuck :Draw #b4 cards. NL #rGoodLuck :Draw #b3 cards. NL #bPoorLuck :Draw #b2 cards. NL #bBadLuck :Draw #b0 cards."
+      "DESCRIPTION": "#rGreatLuck :Draw #b4 cards. NL #rGoodLuck :Draw #b3 cards. NL #bPoorLuck :Draw #b2 cards. NL #bBadLuck :Draw #b0 cards."
     },
     {
       "NAMES": [
         "FortuneO-mikuji",
         "fortuneo-mikuji"
       ],
-      "DESCRIPTION": " #rGreatLuck :Gain #b30 gold. NL #rGoodLuck :Gain #b20 gold. NL #bPoorLuck :Gain #b10 gold. NL #bBadLuck :Gain #b0 gold."
+      "DESCRIPTION": "#rGreatLuck :Gain #b30 gold. NL #rGoodLuck :Gain #b20 gold. NL #bPoorLuck :Gain #b10 gold. NL #bBadLuck :Gain #b0 gold."
     },
     {
       "NAMES": [
         "EnergyO-mikuji",
         "energyo-mikuji"
       ],
-      "DESCRIPTION": " #rGreatLuck :Gain #b3 energy. NL #rGoodLuck :Gain #b2 energy. NL #bPoorLuck :Gain #b1 energy. NL #bBadLuck :Gain #b0 energy."
+      "DESCRIPTION": "#rGreatLuck :Gain #b3 energy. NL #rGoodLuck :Gain #b2 energy. NL #bPoorLuck :Gain #b1 energy. NL #bBadLuck :Gain #b0 energy."
     },
     {
       "NAMES": [
         "CareerO-mikuji",
         "careero-mikuji"
       ],
-      "DESCRIPTION": " #rGreatLuck :Deals #b21 damage. NL #rGoodLuck :Deals #b14 damage. NL #bPoorLuck :Deals #b7 damage. NL #bBadLuck :Deals #b0 damage."
+      "DESCRIPTION": "#rGreatLuck :Deals #b21 damage. NL #rGoodLuck :Deals #b14 damage. NL #bPoorLuck :Deals #b7 damage. NL #bBadLuck :Deals #b0 damage."
     },
     {
       "NAMES": [
         "SafeO-mikuji",
         "safeo-mikuji"
       ],
-      "DESCRIPTION": " #rGreat Luck :Gain #b15 格挡。 NL #rGood Luck :Gain #b10 格挡。 NL #bBad Luck :Gain #b5 格挡。 NL #bPoor Luck :Gain #b0 格挡。"
+      "DESCRIPTION": "#rGreatLuck :Gain #b15 Block. NL #rGoodLuck :Gain #b10 Block. NL #bBadLuck :Gain #b5 Block. NL #bPoorLuck :Gain #b0 Block."
     },
     {
       "NAMES": [
         "O-mikuji",
         "o-mikuji"
       ],
-      "DESCRIPTION": "O-mikuji is the card who has #r消耗 and cost for #b0 ."
+      "DESCRIPTION": "O-mikuji is the card who has #rExhaust and cost for #b0."
     },
     
     {
@@ -55,7 +62,7 @@
         "Advent",
         "advent"
       ],
-      "DESCRIPTION": "The Advent of #yKami will remove all the debuff of you."
+      "DESCRIPTION": "The Advent of #yKami will remove all the #rDeBuff of you."
     },
     {
       "NAMES": [
@@ -69,7 +76,7 @@
         "Faith",
         "faith"
       ],
-      "DESCRIPTION": "#yKami will Advent after you get enough Faith."
+      "DESCRIPTION": "#yKami will remove all of your #rDeBuff and #yAdvent after you get enough #yFaith."
     },
     {
       "NAMES": [

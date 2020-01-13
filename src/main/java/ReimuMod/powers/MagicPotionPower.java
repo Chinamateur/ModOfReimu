@@ -5,6 +5,7 @@ import ReimuMod.action.MINE.FlyEffect;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
+import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.actions.utility.UseCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -39,14 +40,9 @@ public class MagicPotionPower extends AbstractPower {
     public void updateDescription() {
         this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
     }
-
-    public void onUseCard(AbstractCard card, UseCardAction action) {
+    public void atStartOfTurn() {
         this.flash();
-        AbstractDungeon.actionManager.addToBottom(new GainEnergyAction(this.amount));
-    }
-    public void updateParticles() {
-        if (EnergyPanel.totalCount >= AbstractDungeon.player.energy.energyMaster){
-            AbstractDungeon.actionManager.addToTop(new RemoveSpecificPowerAction(this.owner, this.owner, "MagicPotionPower:ReiMu"));
-        }
+        AbstractDungeon.actionManager.addToBottom(new GainEnergyAction(1));
+        AbstractDungeon.actionManager.addToBottom(new ReducePowerAction(this.owner,this.owner,this,1));
     }
 }

@@ -6,13 +6,13 @@
   },
   "PrepareRite:ReiMu": {
     "NAME": "Preparation Ceremony",
-    "DESCRIPTION": "Put 1 card from your draw pile or discard pile into the top of draw pile. NL Gain !M! Destruction Faith NL Gain !M! Mountain Faith. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Put 1 power card from your draw pile into your hand. NL Gain !M! Destruction Faith and Mountain Faith. NL Innate. Exhaust."
+    "DESCRIPTION": "Put 1 card from your draw pile or discard pile into the top of draw pile. NL Gain !M! Destruction Faith. NL Gain !M! Mountain Faith. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Put 1 power card from your draw pile into your hand. NL Gain !M! Destruction Faith. NL Gain !M! Mountain Faith. NL Innate. Exhaust."
   },
   "AlertArray:ReiMu": {
     "NAME": "Cautionary Border",
-    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Vigor . NL Gain 2 Destruction Faith",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain !M! Vigor . NL Gain 3 Destruction Faith"
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Vigor. NL Gain 2 Destruction Faith.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain !M! Vigor. NL Gain 3 Destruction Faith."
   },
   "UniversalSpiritual:ReiMu": {
     "NAME": "Universal Spiritual",
@@ -21,22 +21,22 @@
   },
   "SpringWay:ReiMu": {
     "NAME": "Colorful Path",
-    "DESCRIPTION": "Unplayable. NL Whenever you draw this card, increase your highest Faith by !M!. Gain 3 Vigor .",
-    "UPGRADE_DESCRIPTION": "Unplayable. NL Whenever you draw this card, increase your highest Faith by !M!. Gain 4 Vigor ."
+    "DESCRIPTION": "Unplayable. NL Whenever you draw this card, increase your highest Faith by !M!. Gain 3 Vigor.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL Whenever you draw this card, increase your highest Faith by !M!. Gain 4 Vigor."
   },
   "SpiritualOutbreak2:ReiMu": {
     "NAME": "Spiritual Outbreak",
-    "DESCRIPTION": "Deal !D! damage. NL Won't make you lose Vigor ."
+    "DESCRIPTION": "Deal !D! damage. NL Won't make you lose Vigor."
   },
   "NB:ReiMu": {
     "NAME": "Duplex Barrier",
     "DESCRIPTION": "Danmaku Barrier",
     "UPGRADE_DESCRIPTION":  "",
     "EXTENDED_DESCRIPTION": [
-      "Gain !B! Block twice. NL Gain !M! Destruction Faith NL Transform to *Danmaku *Barrier .",
-      "Gain !B! Block twice. NL Gain !M! Destruction Faith NL Transform to *Danmaku *Barrier+ .",
-      "Deal !D! damage twice. NL Gain !M! Mountain Faith . NL Transform to *Duplex *Barrier .",
-      "Deal !D! damage twice. NL Gain !M! Mountain Faith . NL Transform to *Duplex *Barrier+ ."
+      "Gain !B! Block twice. NL Gain !M! Destruction Faith. NL Transform to *Danmaku *Barrier.",
+      "Gain !B! Block twice. NL Gain !M! Destruction Faith. NL Transform to *Danmaku *Barrier+.",
+      "Deal !D! damage twice. NL Gain !M! Mountain Faith. NL Transform to *Duplex *Barrier.",
+      "Deal !D! damage twice. NL Gain !M! Mountain Faith. NL Transform to *Duplex *Barrier+."
     ]
   },
   "CeremonyResonance:ReiMu": {
@@ -57,7 +57,7 @@
   "RainPray2:ReiMu": {
     "NAME": "Rain Dance Ceremony",
     "DESCRIPTION": "Draw !M! card(s). NL Gain [E] next turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Vigor. NL Gain !M! Regenerate . NL Exhaust."
+    "UPGRADE_DESCRIPTION": "Gain !M! Vigor. NL Gain !M! Regenerate. NL Exhaust."
   },
 
   "ShadowOfCrow2:ReiMu": {
@@ -67,7 +67,7 @@
 
   "FineLineFantasy:ReiMu": {
     "NAME": "Fine Line Fantasy",
-    "DESCRIPTION": "Gain !M! Flame Faith when card been Exhaust ."
+    "DESCRIPTION": "Gain !M! Flame Faith when card been Exhaust."
   },
   "ZunPunch:ReiMu": {
     "NAME": "Fantasy Drunken Fist",
@@ -77,7 +77,7 @@
   },
   "Poor:ReiMu": {
     "NAME": "Poverty",
-    "DESCRIPTION": "Unplayable. NL Ethereal. NL At the end of your turn, Lose !M! *Gold ."
+    "DESCRIPTION": "Unplayable. NL Ethereal. NL At the end of your turn, Lose !M! *Gold."
   },
   "KyokaiOfKami:ReiMu": {
     "NAME": "Boundary of Divine",
@@ -139,7 +139,7 @@
       "Prevent the next enemy attack, NL Then deal !M! damage back.",
       "Gain !M! Regenerate. NL At the start of your turn, add 1 *Sakura into your hand.",
       "Deal !D! damage to a random enemy !M! times. NL Transform this card whenever a Kami Advents. NL Turn back when be played.",
-      "Gain !M! Regenerate . NL At the start of your turn, add 1 *Sakura+ into your hand."
+      "Gain !M! Regenerate. NL At the start of your turn, add 1 *Sakura+ into your hand."
     ]
   },
 
@@ -160,7 +160,7 @@
 
   "GreedyExorcism:ReiMu": {
     "NAME": "Greedy Ohnusa",
-    "DESCRIPTION": "Deal !D! damage.并Gain !M! Gold .可以被多次 Upgraded. Exhaust."
+    "DESCRIPTION": "Deal !D! damage.并Gain !M! Gold.可以被多次 Upgraded. Exhaust."
   },
   "Conquer:ReiMu": {
     "NAME": "Expulsion",
@@ -257,7 +257,7 @@
       "Let Ohoyamatsumi Advent.",
       "Let Takeminakata Advent.",
       "Let Amaterasu Advent.",
-      " Exhaust ."
+      " Exhaust."
     ]
   },
 
@@ -295,7 +295,7 @@
     "DESCRIPTION": "",
     "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL Deal damage one additiona time for each Kami",
     "EXTENDED_DESCRIPTION": [
-      "There is no Kami Coming ."
+      "There is no Kami Coming."
     ]
   },
   "AirManeuver:ReiMu": {
@@ -326,8 +326,8 @@
   },
   "BarrageOfMoneybags:ReiMu": {
     "NAME": "Danmaku Millionaire",
-    "DESCRIPTION": "Use [E] [E] [E] [E]. NL Deal !D! damage. NL Lose !M! Gold for each [E] you lack.",
-    "UPGRADE_DESCRIPTION": "Use [E] [E] [E]. NL Deal !D! damage. NL Lose !M! Gold for each [E] you lack.",
+    "DESCRIPTION": "Lose [E] [E] [E] [E]. NL Lose 10 Gold for each insufficient [E]. NL Deal 30 damage.",
+    "UPGRADE_DESCRIPTION": "Lose [E] [E] [E]. NL Lose 10 Gold for each insufficient [E]. NL Deal 30 damage.",
     "EXTENDED_DESCRIPTION": [
       "My gold is not enough."
     ]
@@ -386,8 +386,8 @@
   },
   "FantasyMoon:ReiMu": {
     "NAME": "Illusionary Moon",
-    "DESCRIPTION": "Choose 1 of 3 random cards to add into your hand. It costs 0 this turn. NL Gain !M! random Faith . NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Choose 1 of 3 random Upgraded cards to add into your hand. It costs 0 this turn. NL Gain !M! random Faith . NL Exhaust."
+    "DESCRIPTION": "Choose 1 of 3 random cards to add into your hand. It costs 0 this turn. NL Gain !M! random Faith. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose 1 of 3 random Upgraded cards to add into your hand. It costs 0 this turn. NL Gain !M! random Faith. NL Exhaust."
   },
 
   "MikOfLucky:ReiMu": {
@@ -404,9 +404,9 @@
     "NAME": "O-mikuji",
     "DESCRIPTION": "The O-mikuji of Hakurei Shrine.",
     "UPGRADE_DESCRIPTION": " Retain. NL ",
-    "EXTENDED_DESCRIPTION": ["Poor Luck","Bad Luck","Good Luck","Great Luck",
-      "Gain !M! Gold .",
-      "Gain !B! Block .",
+    "EXTENDED_DESCRIPTION": ["Bad Luck","Poor Luck","Good Luck","Great Luck",
+      "Gain !M! Gold.",
+      "Gain !B! Block.",
       "Deal !D! damage.",
       "Draw ",
       " cards.",
@@ -415,24 +415,24 @@
       " NL Exhaust.",
       "Apply",
       " Weak and Vulnerable.",
-      " NL When Retained, increase its *Lucky *Level .",
-      "FortuneO-mikuji","SafeO-mikuji","CareerO-mikuji","LearningO-mikuji","Romance O-mikuji"
+      " NL When Retained, increase its *Lucky *Level.",
+      "Fortune O-mikuji","Safe O-mikuji","Career O-mikuji","Learning O-mikuji","Romance O-mikuji"
     ]
   },
   "LearningPray:ReiMu": {
     "NAME": "High-Speed Prayer",
     "DESCRIPTION": "Gain !M! Moon Faith. NL Add a LearningO-mikuji into your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Moon Faith. NL Add a LearningO-mikuji into your hand. NL (It won't be poor luck.)"
+    "UPGRADE_DESCRIPTION": "Gain !M! Moon Faith. NL Add a LearningO-mikuji into your hand. NL (It won't be bad luck.)"
   },
   "CareerPray:ReiMu": {
     "NAME": "Prosperity Prayer",
-    "DESCRIPTION": "Gain !M! Destruction Faith NL Add a CareerO-mikuji into your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Destruction Faith NL Add a CareerO-mikuji into your hand. NL (It won't be poor luck.)"
+    "DESCRIPTION": "Gain !M! Destruction Faith. NL Add a CareerO-mikuji into your hand.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Destruction Faith. NL Add a CareerO-mikuji into your hand. NL (It won't be bad luck.)"
   },
   "SafetyPray:ReiMu": {
     "NAME": "Safety Prayer",
     "DESCRIPTION": "Gain !M! Mountain Faith. NL Add a SafeO-mikuji into your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Mountain Faith. NL Add a SafeO-mikuji into your hand. NL (It won't be poor luck.)"
+    "UPGRADE_DESCRIPTION": "Gain !M! Mountain Faith. NL Add a SafeO-mikuji into your hand. NL (It won't be bad luck.)"
   },
   "AirStrike:ReiMu": {
     "NAME": "Air Strike",
@@ -448,7 +448,7 @@
   },
   "OrbThrow:ReiMu": {
     "NAME": "Light Orb into Shade",
-    "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Gain 2 Destruction Faith"
+    "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Gain 2 Destruction Faith."
   },
 
   "Revelation:ReiMu": {
@@ -478,12 +478,12 @@
   "WealthPray:ReiMu": {
     "NAME": "Fortune Prayer",
     "DESCRIPTION": "Add a FortuneO-mikuji into your hand. Exhaust.",
-    "UPGRADE_DESCRIPTION": "Add a FortuneO-mikuji into your hand. NL (It won't be poor luck.) NL Exhaust."
+    "UPGRADE_DESCRIPTION": "Add a FortuneO-mikuji into your hand. NL (It won't be bad luck.) NL Exhaust."
   },
   "LovePray:ReiMu": {
     "NAME": "Romance Prayer",
     "DESCRIPTION": "Gain !M! Sun Faith. NL Add a RomanceO-mikuji into your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Sun Faith. NL Add a RomanceO-mikuji into your hand. NL (It won't be poor luck.)"
+    "UPGRADE_DESCRIPTION": "Gain !M! Sun Faith. NL Add a RomanceO-mikuji into your hand. NL (It won't be bad luck.)"
   },
   "YinYang:ReiMu": {
     "NAME": "Yin-Yang Asuka'i",
@@ -500,14 +500,13 @@
   },
   "DependentForm:ReiMu": {
     "NAME": "Spirit Medium Form",
-    "DESCRIPTION": "At the end of your turn, gain !M! random Faiths.",
-    "UPGRADE_DESCRIPTION": "At the end of your turn, gain !M! random Faiths."
+    "DESCRIPTION": "At the end of your turn, gain !M! random Faith.",
+    "UPGRADE_DESCRIPTION": "At the end of your turn, gain !M! random Faith."
   },
-
 
   "Enchanting:ReiMu": {
     "NAME": "Evil-Sealing Circle",
-    "DESCRIPTION": "Apply !M! Weak and Vulnerable.",
+    "DESCRIPTION": "Apply !M! Weak. NL Apply !M! Vulnerable.",
     "UPGRADE_DESCRIPTION": ""
   },
 

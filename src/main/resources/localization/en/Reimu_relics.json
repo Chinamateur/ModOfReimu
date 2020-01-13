@@ -31,7 +31,7 @@
       "Add #b",
       " #rDazed into your discard pile and gain [E] at the start of your turn.",
       "At the start of the battle, Let the #b",
-      " random cards in your deck #yTransform to #rDazed . Gain [E] at the start of your turn."
+      " random cards in your deck #yTransform to #rDazed. Gain [E] at the start of your turn."
     ]
   },
 
@@ -48,7 +48,7 @@
     "FLAVOR": "This tiny orb oozes the sheen of the sky.",
     "DESCRIPTIONS": [
       "When you first time loss all your #yFlight in the battle, gain #b",
-      " #yFlight ."
+      " #yFlight."
     ]
   },
   "YidongShenshe:ReiMu": {
@@ -56,7 +56,7 @@
     "FLAVOR": "People are willing to believe that money can bring good luck.",
     "DESCRIPTIONS": [
       "#yRight #yClick : Pay #b",
-      " #yGold , Add #b",
+      " #yGold, Add #b",
       " random #yO-mikuji into you hand. NL This effect can be used #b",
       " times per battle.",
       " NL It can use #b"
@@ -91,7 +91,7 @@
     "NAME": "Shintai",
     "FLAVOR": "It is said that this is the body of the deity. Somehow it is very popular with cats.",
     "DESCRIPTIONS": [
-      "Upon pickup, chose one kind of #yShintai , Add it into your hand at the start of each battle."
+      "Upon pickup, chose one kind of #yShintai, Add it into your hand at the start of each battle."
     ]
   },
   "KaguraBell:ReiMu": {
@@ -123,7 +123,7 @@
     "NAME": "Shine Orb",
     "FLAVOR": "The Yin-Yang Orb after careful wiping reflects the pleasant light.",
     "DESCRIPTIONS": [
-      "Replaces #pYin-Yang #pOrb . Gain #b",
+      "Replaces #pYin-Yang #pOrb. Gain #b",
       " #yFlight at the start of the battle."
     ]
   },
@@ -132,14 +132,14 @@
     "FLAVOR": "The offerings that should have been dedicated to God are missing...",
     "DESCRIPTIONS": [
       " #yAdvent Threshold increased by #b",
-      " . Gain [E] at the start of your turn."
+      ". Gain [E] at the start of your turn."
     ]
   },
   "CheatingSign:ReiMu": {
     "NAME": "Cheating Picker",
     "FLAVOR": "There seems to be only Great Luck in this Picker.",
     "DESCRIPTIONS": [
-      "Your #yO-mikuji won't be bad luck or poor luck ."
+      "Your #yO-mikuji won't be bad luck or poor luck."
     ]
   },
 
@@ -156,9 +156,9 @@
     "NAME": "Turtle",
     "FLAVOR": "This giant turtle is willing to carry you to climb the spire.",
     "DESCRIPTIONS": [
-      "When #yFlight , the damage reduction increased from #b",
+      "When #yFlight, the damage reduction increased from #b",
       "% to #b",
-      "% ."
+      "%."
     ]
   },
   "Tea:ReiMu": {
@@ -166,7 +166,7 @@
     "FLAVOR": "No one wants to drink tea for a long time.",
     "DESCRIPTIONS": [
       "If your gold less than #b",
-      " , heal #b",
+      ", heal #b",
       "% HP whenever you enter a Rest Site."
     ]
   },

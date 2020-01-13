@@ -36,18 +36,14 @@ public class MagicPotion extends AbstractPotion {
 
     public void use(AbstractCreature target) {
         AbstractPlayer p = AbstractDungeon.player;
+        int x = p.energy.energyMaster - EnergyPanel.totalCount;
+        if (x>0){
+            AbstractDungeon.actionManager.addToBottom(new GainEnergyAction(x));
+        }
+
         AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p,new MagicPotionPower(p,this.getPotency()),this.getPotency()));
     }
-    @Override
-    public boolean canUse() {
-        boolean x = super.canUse();
-        if (!x) return x;
-        AbstractPlayer p = AbstractDungeon.player;
-        if (EnergyPanel.totalCount>=p.energy.energyMaster){
-            return false;
-        }
-        return x;
-    }
+
     public int getPotency(int ascensionLevel) {
         return 3;
     }

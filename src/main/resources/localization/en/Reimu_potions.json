@@ -3,14 +3,14 @@
     "NAME": "Grand Patriot's Elixir",
     "DESCRIPTIONS": [
       "Gain #b",
-      " #yVigor ."
+      " #yVigor."
     ]
   },
   "MagicPotion:ReiMu": {
     "NAME": "Magic Potion",
     "DESCRIPTIONS": [
-      "Whenever you play a card, gain #b",
-      " #yEnergy , Until #yEnergy greater or equal to turn initial energy.",
+      "Restore #yEnergy to turn initial energy. NL Gain #b1 additional energy for your next #b",
+      " turns.",
       "My Energy is full."
     ]
   },

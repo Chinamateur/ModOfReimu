@@ -60,18 +60,6 @@ public class YinYang extends CustomCard {
         }
         AbstractDungeon.actionManager.addToBottom(new WaitAction(0.8F));
         AbstractDungeon.actionManager.addToBottom(new DamageAction(m, new DamageInfo(p,x, this.damageTypeForTurn), AbstractGameAction.AttackEffect.NONE));
-        //AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(p,DamageInfo.createDamageMatrix(x, false),this.damageTypeForTurn,AbstractGameAction.AttackEffect.BLUNT_HEAVY));
-        /*
-        if (p.hasPower("Flyfan")){
-            x = p.getPower("Flyfan").amount * 2 * this.magicNumber;
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p,new Flyfan(p,p.getPower("Flyfan").amount),p.getPower("Flyfan").amount));
-        } else {
-            AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p,new Flyfan(p,2)));
-            x = 2 * this.magicNumber;
-        }
-         */
-
-
     }
 
     public void upgrade() {

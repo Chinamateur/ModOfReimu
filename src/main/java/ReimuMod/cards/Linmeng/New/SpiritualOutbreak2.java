@@ -1,15 +1,11 @@
 package ReimuMod.cards.Linmeng.New;
 
 import ReimuMod.action.MINE.OutbreakEffect;
-import ReimuMod.action.MINE.X.SpiritualOutbreakAction;
-import ReimuMod.action.MINE.setKami;
 import ReimuMod.patches.AbstractCardEnum;
 import basemod.abstracts.CustomCard;
 import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
-import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.DamageAction;
 import com.megacrit.cardcrawl.actions.common.DamageAllEnemiesAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
