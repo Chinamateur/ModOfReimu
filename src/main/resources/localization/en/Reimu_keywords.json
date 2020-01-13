@@ -5,28 +5,28 @@
         "LearningO-mikuji",
         "learningo-mikuji"
       ],
-      "DESCRIPTION": " #rGreatLuck :Draw #b4 cards. NL #rGoodLuck :Draw #b3 cards. NL #bBadLuck :Draw #b2 cards. NL #bPoorLuck :Draw #b0 cards."
+      "DESCRIPTION": " #rGreatLuck :Draw #b4 cards. NL #rGoodLuck :Draw #b3 cards. NL #bBadLuck :Draw #b2 cards. NL #bBadLuck :Draw #b0 cards."
     },
     {
       "NAMES": [
         "FortuneO-mikuji",
         "fortuneo-mikuji"
       ],
-      "DESCRIPTION": " #rGreatLuck :Gain #b30 gold. NL #rGoodLuck :Gain #b20 gold. NL #bBadLuck :Gain #b10 gold. NL #bPoorLuck :Gain #b0 gold."
+      "DESCRIPTION": " #rGreatLuck :Gain #b30 gold. NL #rGoodLuck :Gain #b20 gold. NL #bBadLuck :Gain #b10 gold. NL #bBadLuck :Gain #b0 gold."
     },
     {
       "NAMES": [
         "EnergyO-mikuji",
         "energyo-mikuji"
       ],
-      "DESCRIPTION": " #rGreatLuck :Gain #b3 energy. NL #rGoodLuck :Gain #b2 energy. NL #bBadLuck :Gain #b1 energy. NL #bPoorLuck :Gain #b0 energy."
+      "DESCRIPTION": " #rGreatLuck :Gain #b3 energy. NL #rGoodLuck :Gain #b2 energy. NL #bBadLuck :Gain #b1 energy. NL #bBadLuck :Gain #b0 energy."
     },
     {
       "NAMES": [
         "CareerO-mikuji",
         "careero-mikuji"
       ],
-      "DESCRIPTION": " #rGreatLuck :Deals #b21 damage. NL #rGoodLuck :Deals #b14 damage. NL #bBadLuck :Deals #b7 damage. NL #bPoorLuck :Deals #b0 damage."
+      "DESCRIPTION": " #rGreatLuck :Deals #b21 damage. NL #rGoodLuck :Deals #b14 damage. NL #bBadLuck :Deals #b7 damage. NL #bBadLuck :Deals #b0 damage."
     },
     {
       "NAMES": [
