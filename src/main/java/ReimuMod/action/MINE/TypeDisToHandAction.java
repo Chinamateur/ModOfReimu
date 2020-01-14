@@ -38,7 +38,7 @@ public class TypeDisToHandAction extends AbstractGameAction {
             this.isDone = true;
         } else if (this.S.size() == 1) {
             ReimuMod.logger.info("深山行动：只有唯一的可选目标。");
-            AbstractCard card = (AbstractCard)this.S.group.get(0);
+            AbstractCard card = this.S.group.get(0);
             if (this.free){
                 card.costForTurn = 0 ;
             }
@@ -76,6 +76,7 @@ public class TypeDisToHandAction extends AbstractGameAction {
                     c = (AbstractCard)var1.next();
                     c.unhover();
                     c.target_x = (float) CardGroup.DISCARD_PILE_X;
+                    c.triggerOnGlowCheck();
                 }
                 this.isDone = true;
             }

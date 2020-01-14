@@ -29,9 +29,6 @@ public class MoneyEffect3 extends AbstractGameEffect {
 
         for(int i = 0; i < this.frostCount; ++i) {
             AbstractDungeon.effectsQueue.add(new MoneyEffect4(this.frostCount, this.flipped));
-            if (MathUtils.randomBoolean()) {
-                AbstractDungeon.effectsQueue.add(new MoneyEffect4(this.frostCount, this.flipped));
-            }
         }
         this.isDone = true;
     }

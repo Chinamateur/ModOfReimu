@@ -226,8 +226,8 @@ public class ReimuMod implements PostExhaustSubscriber,
       BaseMod.addRelicToCustomPool(new Salt(), REIMU_COLOR);
       BaseMod.addRelicToCustomPool(new CrownOfHeavens(), REIMU_COLOR);
       BaseMod.addRelicToCustomPool(new SkyOrb(), REIMU_COLOR);
-      BaseMod.addRelicToCustomPool(new TentaclePot(), REIMU_COLOR);
 
+      RelicLibrary.add(new TentaclePot());
       RelicLibrary.add(new RedLine());
       RelicLibrary.add(new ZunR());
       RelicLibrary.add(new Tea());
