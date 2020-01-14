@@ -17,8 +17,8 @@ public class FadedRune extends CustomRelic {
     public FadedRune() {
         super(
                 "FadedRune:ReiMu",
-                ImageMaster.loadImage("img/relics/FadedRune.png"),
-                ImageMaster.loadImage("img/relics/outline/FadedRune.png"),
+                ImageMaster.loadImage("img/Reimurelics/FadedRune.png"),
+                ImageMaster.loadImage("img/Reimurelics/outline/FadedRune.png"),
                 RelicTier.UNCOMMON,
                 LandingSound.FLAT
         );

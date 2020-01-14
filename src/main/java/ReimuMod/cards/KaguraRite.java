@@ -25,7 +25,7 @@ public class KaguraRite extends CustomCard {
         super(
                 ID+":ReiMu",
                 NAME,
-                "img/cards/"+ID+".png",
+                "img/Reimucards/"+ID+".png",
                 COST,
                 DESCRIPTION,
                 CardType.SKILL,

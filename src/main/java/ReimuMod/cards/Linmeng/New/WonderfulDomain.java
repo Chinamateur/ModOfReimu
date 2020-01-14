@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.actions.common.GainBlockAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -22,7 +23,7 @@ public class WonderfulDomain extends CustomCard {
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String DESCRIPTION_UPG = cardStrings.UPGRADE_DESCRIPTION;
-    public static final String IMG_PATH = "img/cards/"+ID+".png";
+    public static final String IMG_PATH = "img/Reimucards/"+ID+".png";
     private static final int COST = 1;
     public WonderfulDomain() {
         super(
@@ -58,10 +59,15 @@ public class WonderfulDomain extends CustomCard {
             }
         }
         AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, p, this.block));
-        setKami.getKami2 x = new setKami.getKami2();
-        int y = x.getKami2("all")/10;
+        int y = setKami.getKami2.getKami2("all")/10;
         if (y>0){
             AbstractDungeon.actionManager.addToBottom(new DrawCardAction(p, y ));
+        }
+    }
+    public void triggerOnGlowCheck() {
+        int y = setKami.getKami2.getKami2("all")/10;
+        if (y>0){
+            this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
         }
     }
 

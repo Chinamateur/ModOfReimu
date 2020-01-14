@@ -12,12 +12,12 @@ import com.megacrit.cardcrawl.rooms.AbstractRoom;
 public class RedLine extends CustomRelic {
     public static final String NAME = "RedLine";
     public static final int s1 = 3;
-    public static final int s2 = 1;
+    private static final int s2 = 1;
     public RedLine() {
         super(
                 NAME+":ReiMu",
-                ImageMaster.loadImage("img/relics/"+NAME+".png"),
-                ImageMaster.loadImage("img/relics/outline/"+NAME+".png"),
+                ImageMaster.loadImage("img/Reimurelics/"+NAME+".png"),
+                ImageMaster.loadImage("img/Reimurelics/outline/"+NAME+".png"),
                 RelicTier.BOSS,
                 LandingSound.MAGICAL
         );

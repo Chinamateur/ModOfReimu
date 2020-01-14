@@ -12,7 +12,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 public class MyTest extends CustomCard {
 
     public static final String ID = "MyTest";
-    public static final String IMG_PATH = "img/cards/MyTest.png";
+    public static final String IMG_PATH = "img/Reimucards/MyTest.png";
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID+":ReiMu");
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;

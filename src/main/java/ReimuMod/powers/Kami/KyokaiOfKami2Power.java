@@ -14,7 +14,6 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 import java.util.Collections;
 
 public class KyokaiOfKami2Power extends AbstractPower {
-    private static final setKami.getKami2 j = new setKami.getKami2();
     public static final String NAME = "KyokaiOfKami2Power";
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(NAME+":ReiMu");
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
@@ -25,9 +24,9 @@ public class KyokaiOfKami2Power extends AbstractPower {
         this.amount = amount;
         this.updateDescription();
         this.type = PowerType.BUFF;
-        //this.img = new Texture("img/powers/KyokaiOfKamiPower.png");
-        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/KyokaiOfKamiPower_48.png"),0,0,48,48);
-        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/KyokaiOfKamiPower_128.png"),0,0,128,128);
+        //this.img = new Texture("img/Reimupowers/KyokaiOfKamiPower.png");
+        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/KyokaiOfKamiPower_48.png"),0,0,48,48);
+        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/KyokaiOfKamiPower_128.png"),0,0,128,128);
     }
 
     //描述文本
@@ -45,8 +44,8 @@ public class KyokaiOfKami2Power extends AbstractPower {
                 //AbstractDungeon.actionManager.addToTop(new ReducePowerAction(this.owner, this.owner, this.ID, 1));
             } else {
                 this.flash();
-                new setKami(-j.getKami2("zhi")/2,"zhi");
-                new setKami(-j.getKami2("yang")/2,"yang");
+                new setKami(-setKami.getKami2.getKami2("zhi")/2,"zhi");
+                new setKami(-setKami.getKami2.getKami2("yang")/2,"yang");
                 AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(this.owner, this.owner,this.ID));
             }
         }

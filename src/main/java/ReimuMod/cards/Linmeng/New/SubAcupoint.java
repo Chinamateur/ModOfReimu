@@ -27,7 +27,7 @@ public class SubAcupoint extends CustomCard {
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String DESCRIPTION_UPG = cardStrings.UPGRADE_DESCRIPTION;
-    public static final String IMG_PATH = "img/cards/"+ID+".png";
+    public static final String IMG_PATH = "img/Reimucards/"+ID+".png";
     private static final int COST = 1;
     public SubAcupoint() {
         super(
@@ -58,7 +58,7 @@ public class SubAcupoint extends CustomCard {
             this.addToBot(new VFXAction(new AnimatedSlashEffect(m.hb.cX, m.hb.cY - 30.0F * Settings.scale, 500.0F, -200.0F, 250.0F, 3.0F, Color.PINK, Color.PINK)));
             AbstractDungeon.actionManager.addToBottom(new DamageAction(m,new DamageInfo(p,this.damage,this.damageTypeForTurn), AbstractGameAction.AttackEffect.BLUNT_LIGHT));
             AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, p, new StrengthPower(m, -this.magicNumber), -this.magicNumber));
-            if (m != null && !m.hasPower("Artifact")) {
+            if (!m.hasPower("Artifact")) {
                 AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, p, new GainStrengthPower(m, this.magicNumber), this.magicNumber));
             }
         }else{

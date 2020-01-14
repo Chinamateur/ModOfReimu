@@ -22,8 +22,8 @@ public class SealPower extends AbstractPower {
         this.owner = owner;
         this.amount = -1;
         this.updateDescription();
-        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/SealPower_48.png"),0,0,48,48);
-        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/SealPower_128.png"),0,0,128,128);
+        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/SealPower_48.png"),0,0,48,48);
+        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/SealPower_128.png"),0,0,128,128);
         this.type = PowerType.DEBUFF;
 
     }

@@ -139,8 +139,8 @@ if(ReimuMod.MyReimuModbol){
     return retVal;
   }
 
-  private static final int STARTING_HP = 60;
-  private static final int MAX_HP = 60;
+  private static final int STARTING_HP = 65;
+  private static final int MAX_HP = 65;
   private static final int STARTING_GOLD = 99;
   private static final int HAND_SIZE = 5;
   private static final int ASCENSION_MAX_HP_LOSS = 5;

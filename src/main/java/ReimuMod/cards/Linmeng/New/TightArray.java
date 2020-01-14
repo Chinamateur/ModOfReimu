@@ -19,7 +19,7 @@ public class TightArray extends CustomCard {
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String DESCRIPTION_UPG = cardStrings.UPGRADE_DESCRIPTION;
-    public static final String IMG_PATH = "img/cards/"+ID+".png";
+    public static final String IMG_PATH = "img/Reimucards/"+ID+".png";
     private static final int COST = 1;
     public TightArray() {
         super(
@@ -35,7 +35,7 @@ public class TightArray extends CustomCard {
         );
         this.baseDamage =4;
         //this.baseDamage= 9 ;
-        //this.exhaust =true ;
+        //this.exhaust =true ;+++
         this.baseMagicNumber = this.magicNumber =4;
         //this.isMultiDamage = true;
     }

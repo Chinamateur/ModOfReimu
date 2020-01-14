@@ -27,9 +27,9 @@ public class FantasyPower extends AbstractPower {
         this.amount = amount;
         this.updateDescription();
         this.type = AbstractPower.PowerType.BUFF;
-        //this.img = new Texture("img/powers/FantasyPower.png");
-        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/FantasyPower_48.png"),0,0,48,48);
-        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/FantasyPower_128.png"),0,0,128,128);
+        //this.img = new Texture("img/Reimupowers/FantasyPower.png");
+        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/FantasyPower_48.png"),0,0,48,48);
+        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/FantasyPower_128.png"),0,0,128,128);
     }
 
     //描述文本

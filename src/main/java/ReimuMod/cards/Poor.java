@@ -14,7 +14,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 public class Poor extends CustomCard {
     public static final String[] kami = setKami.kami;
     public static final String ID = "Poor";
-   //public static final String IMG_PATH = "img/cards/BodyOfKami.png";
+   //public static final String IMG_PATH = "img/Reimucards/BodyOfKami.png";
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID+":ReiMu");
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
@@ -26,7 +26,7 @@ public class Poor extends CustomCard {
         super(
                 ID+":ReiMu",
                 NAME,
-                "img/cards/"+ID+".png",
+                "img/Reimucards/"+ID+".png",
                 COST,
                 DESCRIPTION,
                 CardType.CURSE,

@@ -7,6 +7,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.megacrit.cardcrawl.actions.AbstractGameAction;
 import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.DamageAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -16,13 +17,15 @@ import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.vfx.combat.ViolentAttackEffect;
 
+import java.util.Iterator;
+
 public class Crusade extends CustomCard {
     public static final String ID = "Crusade";
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID+":ReiMu");
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String DESCRIPTION_UPG = cardStrings.UPGRADE_DESCRIPTION;
-    public static final String IMG_PATH = "img/cards/"+ID+".png";
+    public static final String IMG_PATH = "img/Reimucards/"+ID+".png";
     private static final int COST = 2;
     private static final int D = 13;
     public Crusade() {
@@ -42,7 +45,19 @@ public class Crusade extends CustomCard {
         //this.isEthereal = true;
         //this.isMultiDamage = true;
     }
+    public void triggerOnGlowCheck() {
+        this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();
+        Iterator var1 = AbstractDungeon.getCurrRoom().monsters.monsters.iterator();
 
+        while(var1.hasNext()) {
+            AbstractMonster m = (AbstractMonster)var1.next();
+            if (!m.isDeadOrEscaped() && m.getIntentBaseDmg() >= 0) {
+                this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
+                break;
+            }
+        }
+
+    }
     public void use(AbstractPlayer p, AbstractMonster m) {
         int x = this.damage;
         m.createIntent();

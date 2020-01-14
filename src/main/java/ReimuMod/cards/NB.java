@@ -32,7 +32,7 @@ public class NB extends CustomCard {
         super(
                 ID+":ReiMu",
                 x>0?DESCRIPTION:NAME,
-                "img/cards/NDoubleB"+x+".png",
+                "img/Reimucards/NDoubleB"+x+".png",
                 COST,
                 x>0?EX[2]:EX[0],
                 x>0? CardType.ATTACK:CardType.SKILL,
@@ -51,7 +51,7 @@ public class NB extends CustomCard {
         super(
                 ID+":ReiMu",
                 x?DESCRIPTION:NAME,
-                "img/cards/NDoubleB"+(x?1:0)+".png",
+                "img/Reimucards/NDoubleB"+(x?1:0)+".png",
                 COST,
                 x?EX[2]:EX[0],
                 x? CardType.ATTACK:CardType.SKILL,
@@ -85,7 +85,7 @@ public class NB extends CustomCard {
                 if(this.upgraded ){
                     this.cardsToPreview.upgrade();
                 }
-                this.loadCardImage("img/cards/NDoubleB"+this.baseHeal+".png");
+                this.loadCardImage("img/Reimucards/NDoubleB"+this.baseHeal+".png");
             }
             super.applyPowers();
             initializeDescription();

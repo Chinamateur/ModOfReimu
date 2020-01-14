@@ -24,7 +24,7 @@ public class SpiritualOutbreak2 extends CustomCard {
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
    // public static final String DESCRIPTION_UPG = cardStrings.UPGRADE_DESCRIPTION;
-    public static final String IMG_PATH = "img/cards/SpiritualOutbreak.png";
+    public static final String IMG_PATH = "img/Reimucards/SpiritualOutbreak.png";
     private static final int COST = 1;
     private static final String A = VigorPower.POWER_ID ;
     public SpiritualOutbreak2() {

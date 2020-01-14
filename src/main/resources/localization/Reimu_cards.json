@@ -27,7 +27,7 @@
   },
   "CeremonyResonance:ReiMu": {
     "NAME": "神仪复咏",
-    "DESCRIPTION": "再次打出已 消耗 的牌中名字中带有 之仪 的牌。 NL 消耗 。",
+    "DESCRIPTION": "再次打出已 消耗 的牌中名字中带有 *之仪 的牌。 NL 消耗 。",
     "EXTENDED_DESCRIPTION": ["之仪","之仪"]
   },
   "YinYangSign:ReiMu": {
@@ -436,7 +436,7 @@
     "NAME": "神签",
     "DESCRIPTION": "博丽神社的神签。",
     "UPGRADE_DESCRIPTION": " 保留 。 NL ",
-    "EXTENDED_DESCRIPTION": ["大凶","小凶","小吉","大吉",
+  "EXTENDED_DESCRIPTION": ["大凶","小凶","小吉","大吉",
       "获得 !M! 金币 。",
       "获得 !B! 点 格挡 。",
       "造成 !D! 点伤害。",

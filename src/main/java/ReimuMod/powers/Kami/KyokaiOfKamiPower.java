@@ -25,9 +25,9 @@ public class KyokaiOfKamiPower extends AbstractPower {
         this.amount = amount;
         this.updateDescription();
         this.type = AbstractPower.PowerType.BUFF;
-        //this.img = new Texture("img/powers/KyokaiOfKamiPower.png");
-        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/KyokaiOfKamiPower_48.png"),0,0,48,48);
-        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/KyokaiOfKamiPower_128.png"),0,0,128,128);
+        //this.img = new Texture("img/Reimupowers/KyokaiOfKamiPower.png");
+        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/KyokaiOfKamiPower_48.png"),0,0,48,48);
+        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/KyokaiOfKamiPower_128.png"),0,0,128,128);
     }
 
     //描述文本

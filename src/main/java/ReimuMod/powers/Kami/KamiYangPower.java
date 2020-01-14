@@ -48,9 +48,9 @@ public class KamiYangPower extends AbstractPower {
         }
         this.updateDescription();
         this.type = AbstractPower.PowerType.BUFF;
-        //this.img = new Texture("img/powers/" + NAME + ".png");
-        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/" + NAME + "_48.png"),0,0,48,48);
-        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/" + NAME + "_128.png"),0,0,128,128);
+        //this.img = new Texture("img/Reimupowers/" + NAME + ".png");
+        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/" + NAME + "_48.png"),0,0,48,48);
+        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/" + NAME + "_128.png"),0,0,128,128);
         if (!wwe&&!this.owner.hasPower(this.ID)&&this.amount>=setKami.max()&&!this.owner.hasPower("BlasphemyArrayPower:ReiMu")){
             this.on10();
             wwe = true;

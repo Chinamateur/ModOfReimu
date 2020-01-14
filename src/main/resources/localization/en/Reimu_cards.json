@@ -26,7 +26,7 @@
   },
   "SpiritualOutbreak2:ReiMu": {
     "NAME": "Spiritual Outbreak",
-    "DESCRIPTION": "Deal !D! damage. NL Won't make you lose Vigor."
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL Won't make you lose Vigor."
   },
   "NB:ReiMu": {
     "NAME": "Duplex Barrier",
@@ -131,7 +131,7 @@
     "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Transform this card whenever a Kami Advents. NL Turn back when be played.",
     "UPGRADE_DESCRIPTION": " Retain.",
     "EXTENDED_DESCRIPTION": ["Fantasy Seal -Spread-","Fantasy Seal -Concentrate-","Fantasy Seal -Worn-","Fantasy Seal -Circle-","Fantasy Seal -Marred-","Fantasy Seal -Blink-","Fantasy Cherry Blossom Seal","Fantasy Seal",
-      "Trigger the passive ability !M! times.",
+      "Trigger the passive ability of Flame Faith !M! times.",
       "Remove ALL Block from the enemy. NL Deal !D! damage.",
       "ALL enemies lose !M! Strength. NL Apply !M! Weak to ALL enemies.",
       "Scry !M!. NL Deal !D! damage !M! times. NL Next turn, gain [E] [E].",

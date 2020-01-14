@@ -21,9 +21,9 @@ public class EnegyL extends AbstractPower {
         this.amount = amount;
         this.updateDescription();
         this.type = AbstractPower.PowerType.BUFF;
-        //this.img = new Texture("img/powers/energyNext.png");
-        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/energyNext_48.png"),0,0,48,48);
-        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/energyNext_128.png"),0,0,128,128);
+        //this.img = new Texture("img/Reimupowers/energyNext.png");
+        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/energyNext_48.png"),0,0,48,48);
+        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/energyNext_128.png"),0,0,128,128);
     }
 
     //描述文本

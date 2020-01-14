@@ -14,10 +14,10 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 public class BodyOfKami extends CustomCard {
     public static final String[] kami = {"炎","破","雷","月","山","风","阳"};
-    public static final String[] kami2 = {"Flame","Break","Thunderbolt","Moon","Mountain","Wind","Sun"};
-    public static final String[] kami3 = {"yan","po","lei","zhi","yue","feng","yang"};
+    private static final String[] kami2 = {"Flame","Break","Thunderbolt","Moon","Mountain","Wind","Sun"};
+    private static final String[] kami3 = {"yan","po","lei","zhi","yue","feng","yang"};
     public static final String ID = "BodyOfKami";
-   //public static final String IMG_PATH = "img/cards/BodyOfKami.png";
+   //public static final String IMG_PATH = "img/Reimucards/BodyOfKami.png";
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID+":ReiMu");
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
@@ -29,7 +29,7 @@ public class BodyOfKami extends CustomCard {
         super(
                 ID+":ReiMu",
                 NAME,
-                use>=0 && use<=6 ? "img/cards/"+ID+use+".png":"img/cards/"+ID+".png",
+                use>=0 && use<=6 ? "img/Reimucards/"+ID+use+".png":"img/Reimucards/"+ID+".png",
                 COST,
                 DESCRIPTION,
                 AbstractCard.CardType.SKILL,
@@ -64,7 +64,6 @@ public class BodyOfKami extends CustomCard {
         ReimuMod.logger.info("御神体选择:"+this.baseHeal);
         if(AbstractDungeon.player.hasRelic("BodyOfKamiR:ReiMu")){
             AbstractDungeon.player.getRelic("BodyOfKamiR:ReiMu").setCounter(this.baseHeal);
-        }else {
         }
     }
     @Override

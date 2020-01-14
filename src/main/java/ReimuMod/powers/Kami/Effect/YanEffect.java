@@ -12,14 +12,6 @@ import com.megacrit.cardcrawl.vfx.AbstractGameEffect;
 public class YanEffect extends AbstractGameEffect {
     private float x;
     private float y;
-    private float vX;
-    private float vY;
-    private float dur_div2;
-    private float dvy;
-    private float dvx;
-    private float vfxIntervalMin = 0.1F;
-    private float vfxIntervalMax = 0.4F;
-    private float vfxTimer = 1.0F;
     private Texture img ;
     private String ka ;
     public  YanEffect(float x,float y,int id) {
@@ -29,7 +21,7 @@ public class YanEffect extends AbstractGameEffect {
         this.x = x;
         this.y = y;
         this.ka = setKami.kami[id];
-        this.img = ImageMaster.loadImage("img/relics/kamiorb"+id+".png");
+        this.img = ImageMaster.loadImage("img/Reimurelics/kamiorb"+id+".png");
     }
 
     public void update() {

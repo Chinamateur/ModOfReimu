@@ -14,8 +14,8 @@ public class SkyOrb extends CustomRelic {
     public SkyOrb() {
         super(
                 NAME+":ReiMu",
-                ImageMaster.loadImage("img/relics/SkyOrb.png"),
-                ImageMaster.loadImage("img/relics/outline/SkyOrb.png"),
+                ImageMaster.loadImage("img/Reimurelics/SkyOrb.png"),
+                ImageMaster.loadImage("img/Reimurelics/outline/SkyOrb.png"),
                 RelicTier.COMMON,
                 LandingSound.MAGICAL
         );

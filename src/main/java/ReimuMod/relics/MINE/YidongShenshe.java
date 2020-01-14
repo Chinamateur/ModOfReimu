@@ -29,8 +29,8 @@ public class YidongShenshe extends CustomRelic {
     public YidongShenshe() {
         super(
                 NAME+":ReiMu",
-                ImageMaster.loadImage("img/relics/YidongShenshe.png"),
-                ImageMaster.loadImage("img/relics/outline/YidongShenshe.png"),
+                ImageMaster.loadImage("img/Reimurelics/YidongShenshe.png"),
+                ImageMaster.loadImage("img/Reimurelics/outline/YidongShenshe.png"),
                 RelicTier.SPECIAL,
                 LandingSound.SOLID
         );

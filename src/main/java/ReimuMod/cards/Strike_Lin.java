@@ -19,7 +19,7 @@ public class Strike_Lin extends CustomCard {
   private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID+":ReiMu");
   public static final String NAME = cardStrings.NAME;
   public static final String DESCRIPTION = cardStrings.DESCRIPTION;
-  public static final String IMG_PATH = "img/cards/Strike_Lin.png";
+  public static final String IMG_PATH = "img/Reimucards/Strike_Lin.png";
   private static final int COST = 1;
   private static final int ATTACK_DMG = 6;
   private static final int UPGRADE_PLUS_DMG = 3;

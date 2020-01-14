@@ -40,7 +40,7 @@ public class Dreaming2 extends CustomCard {
         super(
                 ID+":ReiMu",
                 NAME,
-                "img/cards/Dreaming27.png",
+                "img/Reimucards/Dreaming27.png",
                 COST,
                 DESCRIPTION,
                 CardType.ATTACK,
@@ -165,6 +165,11 @@ public class Dreaming2 extends CustomCard {
         change();
         super.applyPowers();
     }
+    public void triggerOnGlowCheck() {
+        if(this.baseHeal!=7){
+            this.glowColor = setKami.Kami10.KamiColoer(this.baseHeal).cpy();
+        }
+    }
     private void change(){
         switch (this.baseHeal){
             case 0: {// 炎   发动2(3)次           // 所有敌人流失 炎之信层数2倍的生命
@@ -262,7 +267,7 @@ public class Dreaming2 extends CustomCard {
                 break;
             }
         }
-        this.loadCardImage("img/cards/"+ID+this.baseHeal+".png");
+        this.loadCardImage("img/Reimucards/"+ID+this.baseHeal+".png");
         this.name = EXDESCRIPTION[this.baseHeal];
         this.rawDescription = EXDESCRIPTION[this.baseHeal+8];
         if (this.heal == 6 && this.upgraded){

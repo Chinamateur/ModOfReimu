@@ -21,7 +21,7 @@ public class OrbThrow extends CustomCard {
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String DESCRIPTION_UPG = cardStrings.UPGRADE_DESCRIPTION;
-    public static final String IMG_PATH = "img/cards/"+ID+".png";
+    public static final String IMG_PATH = "img/Reimucards/"+ID+".png";
     private static final int COST = 1;
     public OrbThrow() {
         super(
@@ -46,7 +46,7 @@ public class OrbThrow extends CustomCard {
     }
     public void use(AbstractPlayer p, AbstractMonster m) {
         Color  aa = new Color(0.5F,0.2F,0.5F,1F);
-        AbstractMonster randomMonster = AbstractDungeon.getMonsters().getRandomMonster((AbstractMonster)null, true, AbstractDungeon.cardRandomRng);
+        AbstractMonster randomMonster = AbstractDungeon.getMonsters().getRandomMonster(null, true, AbstractDungeon.cardRandomRng);
         if (randomMonster != null) {
             AbstractDungeon.actionManager.addToBottom(new VFXAction(new MyOrbEffect( randomMonster.hb.cX,randomMonster.hb.cY, p.hb.cX ,p.hb.cY,aa), 0F));
             AbstractDungeon.actionManager.addToBottom(new WaitAction(1F));

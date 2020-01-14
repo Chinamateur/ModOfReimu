@@ -24,9 +24,9 @@ public class FineLineFantasyPower extends AbstractPower {
         this.amount = amount;
         this.updateDescription();
         this.type = AbstractPower.PowerType.BUFF;
-        //this.img = new Texture("img/powers/" + NAME + ".png");
-        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/FineLineFantasyPower_48.png"),0,0,48,48);
-        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/FineLineFantasyPower_128.png"),0,0,128,128);
+        //this.img = new Texture("img/Reimupowers/" + NAME + ".png");
+        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/FineLineFantasyPower_48.png"),0,0,48,48);
+        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/FineLineFantasyPower_128.png"),0,0,128,128);
     }
     @Override
     public void onExhaust(AbstractCard card) {

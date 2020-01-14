@@ -14,7 +14,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 public class Sakura extends CustomCard {
 
     public static final String ID = "Sakura";
-    public static final String IMG_PATH = "img/cards/Sakura.png";
+    public static final String IMG_PATH = "img/Reimucards/Sakura.png";
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID+":ReiMu");
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;

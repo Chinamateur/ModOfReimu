@@ -25,8 +25,8 @@ public class KamiComing extends CustomCard {
         super(
                 ID+":ReiMu",
                 (use == -1)? NAME : EXDESCRIPTION[use],
-                (use == -1)? ("img/cards/KamiComing.png") : ("img/cards/"+ID+use+".png"),
-                //"img/cards/KamiComing.png",
+                (use == -1)? ("img/Reimucards/KamiComing.png") : ("img/Reimucards/"+ID+use+".png"),
+                //"img/Reimucards/KamiComing.png",
                 COST,
                 (use == -1)? DESCRIPTION : EXDESCRIPTION[use+7],
                 CardType.POWER,
@@ -38,9 +38,9 @@ public class KamiComing extends CustomCard {
         this.USE = use;
         if (this.USE!=-1){
             this.name = EXDESCRIPTION[this.USE];
-            this.loadCardImage("img/cards/"+ID+this.USE+".png");
+            this.loadCardImage("img/Reimucards/"+ID+this.USE+".png");
             this.rawDescription = EXDESCRIPTION[this.USE+7];
-            ReimuMod.logger.info("降神"+this.USE+"："+this.name+"图像:"+"img/cards/"+ID+this.USE+".png");
+            ReimuMod.logger.info("降神"+this.USE+"："+this.name+"图像:"+"img/Reimucards/"+ID+this.USE+".png");
             initializeDescription();
         }
     }

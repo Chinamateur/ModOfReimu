@@ -15,7 +15,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 public class Free extends CustomCard {
 
     public static final String ID = "Free";
-    public static final String IMG_PATH = "img/cards/Free.png";
+    public static final String IMG_PATH = "img/Reimucards/Free.png";
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID+":ReiMu");
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION_UPG = cardStrings.UPGRADE_DESCRIPTION;

@@ -48,9 +48,9 @@ public class Flyfan extends AbstractPower {
         this.updateDescription() ;
         this.type = AbstractPower.PowerType.BUFF;
         this.priority = 99;
-        //this.img = new Texture("img/powers/flightmod.png");
-        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/Flyfan_48.png"),0,0,48,48);
-        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/Flyfan_128.png"),0,0,128,128);
+        //this.img = new Texture("img/Reimupowers/flightmod.png");
+        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/Flyfan_48.png"),0,0,48,48);
+        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/Flyfan_128.png"),0,0,128,128);
         this.particleTimer = 0.0F;
         //this.particleTimer2 = 0.0F;
         ReimuMod.FlyCounter += 1;

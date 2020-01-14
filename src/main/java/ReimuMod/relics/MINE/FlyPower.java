@@ -12,8 +12,8 @@ public class FlyPower extends CustomRelic {
     public FlyPower() {
         super(
                 "FlyPower:ReiMu",
-                ImageMaster.loadImage("img/relics/yinyangyu.png"),
-                ImageMaster.loadImage("img/relics/outline/yinyangyu.png"),
+                ImageMaster.loadImage("img/Reimurelics/yinyangyu.png"),
+                ImageMaster.loadImage("img/Reimurelics/outline/yinyangyu.png"),
                 RelicTier.STARTER,
                 LandingSound.FLAT
         );

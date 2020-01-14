@@ -19,7 +19,7 @@ public class Authority extends CustomCard {
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID+":ReiMu");
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
-    public static final String IMG_PATH = "img/cards/"+ID+".png";
+    public static final String IMG_PATH = "img/Reimucards/"+ID+".png";
     private static final int COST =1;
     private static final  setKami.getKami2 j = new setKami.getKami2();
     public Authority() {
@@ -40,8 +40,8 @@ public class Authority extends CustomCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        this.addToBot(new VFXAction(new RainbowCardEffect()));
         if (j.getKami2("yang")>= setKami.max()){
+            this.addToBot(new VFXAction(new RainbowCardEffect()));
             AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p,new BufferPower(p,1),1));
         }
         new setKami(this.magicNumber,"yang");

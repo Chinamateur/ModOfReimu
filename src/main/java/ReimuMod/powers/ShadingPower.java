@@ -34,9 +34,9 @@ public class ShadingPower extends AbstractPower {
         this.updateDescription();
         this.type = AbstractPower.PowerType.BUFF;
         this.priority = 100;
-        //this.img = new Texture("img/powers/"+POWER_ID+".png");
-        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/ShadingPower_48.png"),0,0,48,48);
-        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/ShadingPower_128.png"),0,0,128,128);
+        //this.img = new Texture("img/Reimupowers/"+POWER_ID+".png");
+        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/ShadingPower_48.png"),0,0,48,48);
+        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/ShadingPower_128.png"),0,0,128,128);
     }
     public void updateParticles() {
         if (!Settings.DISABLE_EFFECTS) {

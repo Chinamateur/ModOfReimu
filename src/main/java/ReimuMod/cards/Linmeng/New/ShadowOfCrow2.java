@@ -6,6 +6,7 @@ import ReimuMod.powers.Flyfan;
 import ReimuMod.powers.ShadowOfCrowPower;
 import basemod.abstracts.CustomCard;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -21,7 +22,7 @@ public class ShadowOfCrow2 extends CustomCard {
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String DESCRIPTION_UPG = cardStrings.UPGRADE_DESCRIPTION;
-    public static final String IMG_PATH = "img/cards/ShadowOfCrow.png";
+    public static final String IMG_PATH = "img/Reimucards/ShadowOfCrow.png";
     private static final int COST = 1;
 
     public ShadowOfCrow2() {
@@ -50,7 +51,12 @@ public class ShadowOfCrow2 extends CustomCard {
             }
         }
     }
-
+    public void triggerOnGlowCheck() {
+        this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();
+        if (AbstractDungeon.player.hasPower("Flyfan:ReiMu")) {
+            this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
+        }
+    }
     public void upgrade() {
         if (!this.upgraded) {
             //this.exhaust=false;

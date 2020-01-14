@@ -21,7 +21,7 @@ public class SafetyPray extends CustomCard {
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String DESCRIPTION_UPG = cardStrings.UPGRADE_DESCRIPTION;
     private static final int COST = 1;
-    public static final String IMG_PATH = "img/cards/"+ID+".png";
+    public static final String IMG_PATH = "img/Reimucards/"+ID+".png";
     public SafetyPray() {
         super(
                 ID+":ReiMu",

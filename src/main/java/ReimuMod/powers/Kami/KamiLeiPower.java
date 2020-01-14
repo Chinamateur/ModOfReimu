@@ -4,13 +4,11 @@ import ReimuMod.ReimuMod;
 import ReimuMod.action.MINE.LightningEffect;
 import ReimuMod.action.MINE.MyOrbEffect;
 import ReimuMod.action.MINE.setKami;
-import ReimuMod.powers.Kami.Effect.MylightEffect;
 import ReimuMod.powers.Kami.Effect.YanEffect;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.MathUtils;
-import com.megacrit.cardcrawl.actions.animations.VFXAction;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;;
 import com.megacrit.cardcrawl.cards.DamageInfo;
@@ -25,7 +23,7 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 
 public class KamiLeiPower extends AbstractPower {
     public static boolean wwe ;
-    public static final int KamiID = 2 ;
+    private static final int KamiID = 2 ;
     private static final String[] DESC2 = CardCrawlGame.languagePack.getPowerStrings("KamiYanOrb").DESCRIPTIONS;
     public static final int number = 15;
     public static final String NAME = "KamiLeiPower";
@@ -49,9 +47,9 @@ public class KamiLeiPower extends AbstractPower {
         }
         this.updateDescription();
         this.type = AbstractPower.PowerType.BUFF;
-        //this.img = new Texture("img/powers/" + NAME + ".png");
-        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/" + NAME + "_48.png"),0,0,48,48);
-        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/" + NAME + "_128.png"),0,0,128,128);
+        //this.img = new Texture("img/Reimupowers/" + NAME + ".png");
+        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/" + NAME + "_48.png"),0,0,48,48);
+        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/" + NAME + "_128.png"),0,0,128,128);
         if (!wwe &&!this.owner.hasPower(this.ID)&&this.amount>=setKami.max()&&!this.owner.hasPower("BlasphemyArrayPower:ReiMu")){
             this.on10();
             wwe = true;
@@ -105,7 +103,7 @@ public class KamiLeiPower extends AbstractPower {
         updateDescription();
     }
     //集齐10点
-    public  void on10(){
+    private void on10(){
         this.flash();
         //AbstractDungeon.actionManager.addToBottom(new IncreaseMaxOrbAction(1));
         new setKami.Kami10(KamiID);

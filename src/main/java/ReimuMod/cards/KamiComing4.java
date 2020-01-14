@@ -27,7 +27,7 @@ public class KamiComing4 extends CustomCard {
         super(
                 ID+":ReiMu",
                 EXDESCRIPTION[n],
-                "img/cards/"+ID+".png",
+                "img/Reimucards/"+ID+".png",
                 COST,
                 EXDESCRIPTION[n+7],
                 CardType.POWER,

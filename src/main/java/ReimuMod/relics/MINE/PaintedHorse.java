@@ -22,8 +22,8 @@ public class PaintedHorse extends CustomRelic {
     public PaintedHorse() {
         super(
                 NAME+":ReiMu",
-                ImageMaster.loadImage("img/relics/PaintedHorse.png"),
-                ImageMaster.loadImage("img/relics/outline/PaintedHorse.png"),
+                ImageMaster.loadImage("img/Reimurelics/PaintedHorse.png"),
+                ImageMaster.loadImage("img/Reimurelics/outline/PaintedHorse.png"),
                 RelicTier.SPECIAL,
                 LandingSound.SOLID
         );

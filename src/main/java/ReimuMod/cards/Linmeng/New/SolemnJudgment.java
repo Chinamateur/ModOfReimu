@@ -27,7 +27,7 @@ public class SolemnJudgment extends CustomCard {
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String DESCRIPTION_UPG = cardStrings.UPGRADE_DESCRIPTION;
-    public static final String IMG_PATH = "img/cards/"+ID+".png";
+    public static final String IMG_PATH = "img/Reimucards/"+ID+".png";
     private static final int COST = 0;
 
     public SolemnJudgment() {
@@ -60,7 +60,7 @@ public class SolemnJudgment extends CustomCard {
                 this.addToBot(new VFXAction(new GiantTextEffect(m.hb.cX, m.hb.cY)));
                 this.addToTop(new InstantKillAction(m));
             } else {
-                AbstractDungeon.actionManager.addToBottom(new LoseHPAction(m, (AbstractCreature) null, m.maxHealth));
+                AbstractDungeon.actionManager.addToBottom(new LoseHPAction(m,null, m.maxHealth));
             }
         }
     }

@@ -19,8 +19,8 @@ public class RuthlessExorcism extends CustomRelic {
     public RuthlessExorcism() {
         super(
                 NAME+":ReiMu",
-                ImageMaster.loadImage("img/relics/"+NAME+".png"),
-                ImageMaster.loadImage("img/relics/outline/"+NAME+".png"),
+                ImageMaster.loadImage("img/Reimurelics/"+NAME+".png"),
+                ImageMaster.loadImage("img/Reimurelics/outline/"+NAME+".png"),
                 RelicTier.COMMON,
                 LandingSound.SOLID
         );

@@ -19,7 +19,7 @@ public class OctopathSalyBorderN extends CustomCard {
     public static final String NAME = cardStrings.NAME;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String DESCRIPTION_UPG = cardStrings.UPGRADE_DESCRIPTION;
-    public static final String IMG_PATH = "img/cards/OctopathSalyBorder.png";
+    public static final String IMG_PATH = "img/Reimucards/OctopathSalyBorder.png";
     private static final int COST = 2;
     public OctopathSalyBorderN() {
         super(

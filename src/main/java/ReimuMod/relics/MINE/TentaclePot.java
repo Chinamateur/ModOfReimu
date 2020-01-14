@@ -14,8 +14,8 @@ public class TentaclePot extends CustomRelic {
     public TentaclePot() {
         super(
                 "TentaclePot:ReiMu",
-                ImageMaster.loadImage("img/relics/TentaclePot.png"),
-                ImageMaster.loadImage("img/relics/outline/TentaclePot.png"),
+                ImageMaster.loadImage("img/Reimurelics/TentaclePot.png"),
+                ImageMaster.loadImage("img/Reimurelics/outline/TentaclePot.png"),
                 RelicTier.SHOP,
                 LandingSound.SOLID
         );

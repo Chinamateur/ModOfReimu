@@ -31,7 +31,7 @@ public class Sign extends CustomCard {
         super(
                 ID+":ReiMu",
                 (use == -1 )? NAME : EXDESCRIPTION[level],
-                "img/cards/"+ID+level+".png",
+                "img/Reimucards/"+ID+level+".png",
                 COST,
                 DESCRIPTION,
                 CardType.SKILL,
@@ -51,7 +51,7 @@ public class Sign extends CustomCard {
                 ReimuMod.logger.info("遗物:作弊签筒生效; 原本:"+level+"变为:"+x);
                 this.LEVEL = x;
                 AbstractDungeon.player.getRelic("CheatingSign:ReiMu").flash();
-                this.loadCardImage("img/cards/"+ID+this.LEVEL+".png");
+                this.loadCardImage("img/Reimucards/"+ID+this.LEVEL+".png");
             }
             chushi();
         }
@@ -60,7 +60,7 @@ public class Sign extends CustomCard {
         if(this.upgraded && this.LEVEL <3){
             ReimuMod.logger.info(this+"神签升级！ 原本:"+this.LEVEL);
             this.LEVEL ++ ;
-            this.loadCardImage("img/cards/"+ID+this.LEVEL+".png");
+            this.loadCardImage("img/Reimucards/"+ID+this.LEVEL+".png");
             chushi();
             this.flash();
         }
@@ -78,7 +78,7 @@ public class Sign extends CustomCard {
         if( this.USE == 2 ){
             this.type = CardType.ATTACK ;
             this.target = CardTarget.ENEMY;
-            this.loadCardImage("img/cards/Signa"+this.LEVEL+".png");
+            this.loadCardImage("img/Reimucards/Signa"+this.LEVEL+".png");
         }
         if (this.USE == 3 ){
             this.rawDescription += (this.LEVEL == 0 ? 0 : (this.LEVEL + 1) );

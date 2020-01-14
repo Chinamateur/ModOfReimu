@@ -14,7 +14,7 @@ import ReimuMod.patches.AbstractCardEnum;
 public class Defend_Lin extends CustomCard {
 
   public static final String ID = "Defend_Lin";
-  public static final String IMG_PATH = "img/cards/Defend_Lin.png";
+  public static final String IMG_PATH = "img/Reimucards/Defend_Lin.png";
   private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID+":ReiMu");
   public static final String NAME = cardStrings.NAME;
   public static final String DESCRIPTION = cardStrings.DESCRIPTION;

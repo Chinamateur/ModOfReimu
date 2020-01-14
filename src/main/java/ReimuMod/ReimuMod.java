@@ -88,12 +88,12 @@ public class ReimuMod implements PostExhaustSubscriber,
   private static final String ATTACK_CC = "img/512/bg_attack_Lin.png";
   private static final String SKILL_CC = "img/512/bg_skill_Lin.png";
   private static final String POWER_CC = "img/512/bg_power_Lin.png";
-  private static final String ENERGY_ORB_CC = "img/512/cardOrb.png";
+  private static final String ENERGY_ORB_CC = "img/512/ReimucardOrb.png";
 
   private static final String ATTACK_CC_PORTRAIT = "img/1024/bg_attack_Lin.png";
   private static final String SKILL_CC_PORTRAIT = "img/1024/bg_skill_Lin.png";
   private static final String POWER_CC_PORTRAIT = "img/1024/bg_power_Lin.png";
-  private static final String ENERGY_ORB_CC_PORTRAIT = "img/1024/cardOrb.png";
+  private static final String ENERGY_ORB_CC_PORTRAIT = "img/1024/ReimucardOrb.png";
   public static final Color ReimuLIGHT = new Color(0.9F, 0.4F, 0.5F,0.9F).cpy();
   public static final String CARD_ENERGY_ORB = "img/ReimuUI/energyOrb.png";
 

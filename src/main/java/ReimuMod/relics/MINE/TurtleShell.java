@@ -9,12 +9,12 @@ import com.megacrit.cardcrawl.relics.AbstractRelic;
 public class TurtleShell extends CustomRelic {
     public static final String NAME = "TurtleShell";
     public static final int s1 = 75;
-    public static final int s2 = Flyfan.s1;
+    private static final int s2 = Flyfan.s1;
     public TurtleShell() {
         super(
                 NAME+":ReiMu",
-                ImageMaster.loadImage("img/relics/"+NAME+".png"),
-                ImageMaster.loadImage("img/relics/outline/"+NAME+".png"),
+                ImageMaster.loadImage("img/Reimurelics/"+NAME+".png"),
+                ImageMaster.loadImage("img/Reimurelics/outline/"+NAME+".png"),
                 RelicTier.RARE,
                 LandingSound.SOLID
         );

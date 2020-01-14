@@ -30,9 +30,9 @@ public class OutlierPower extends AbstractPower {
         this.amount = -1;
         this.updateDescription();
         this.type = PowerType.DEBUFF;
-        //this.img = new Texture("img/powers/" + NAME + ".png");
-        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/" + NAME + "_48.png"),0,0,48,48);
-        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/powers/" + NAME + "_128.png"),0,0,128,128);
+        //this.img = new Texture("img/Reimupowers/" + NAME + ".png");
+        this.region48 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/" + NAME + "_48.png"),0,0,48,48);
+        this.region128 = new TextureAtlas.AtlasRegion(ImageMaster.loadImage("img/Reimupowers/" + NAME + "_128.png"),0,0,128,128);
     }
     /*
     @Override

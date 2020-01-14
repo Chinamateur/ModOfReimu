@@ -19,7 +19,7 @@ public class KamiRite extends CustomCard {
     private static final setKami.getKami2 j = new setKami.getKami2();
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String DESCRIPTION_UPG = cardStrings.UPGRADE_DESCRIPTION;
-    public static final String IMG_PATH = "img/cards/KamiRite.png";
+    public static final String IMG_PATH = "img/Reimucards/KamiRite.png";
     private static final int COST = 2;
     public KamiRite() {
         super(

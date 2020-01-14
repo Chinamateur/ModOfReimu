@@ -11,12 +11,12 @@ import com.megacrit.cardcrawl.rooms.RestRoom;
 public class Tea extends CustomRelic {
     public static final String NAME = "Tea";
     public static final int s1 = 50;
-    public static final int s2 = 30;
+    private static final int s2 = 30;
     public Tea() {
         super(
                 NAME+":ReiMu",
-                ImageMaster.loadImage("img/relics/"+NAME+".png"),
-                ImageMaster.loadImage("img/relics/outline/"+NAME+".png"),
+                ImageMaster.loadImage("img/Reimurelics/"+NAME+".png"),
+                ImageMaster.loadImage("img/Reimurelics/outline/"+NAME+".png"),
                 RelicTier.UNCOMMON,
                 LandingSound.CLINK
         );
