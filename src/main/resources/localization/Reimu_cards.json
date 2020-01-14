@@ -407,10 +407,6 @@
     "DESCRIPTION": " 飞行 ：抽 !M! 张牌。 NL 否则：获得1层 飞行 。",
     "UPGRADE_DESCRIPTION": "若你未处于 飞行 ： 获得1层 飞行 。 NL 否则： 抽 !M! 张牌。 保留 。"
   },
-  "MyTest:ReiMu": {
-    "NAME": "牛疯了的测试用牌",
-    "DESCRIPTION": "获得 !M! 层所有 信 。"
-  },
   "FantasyMoon:ReiMu": {
     "NAME": "幻想之月",
     "DESCRIPTION": "从3张随机牌中选择一张加入手牌。它在本回合耗能变为0 。 NL 获得 !M! 层随机 信 。 NL 消耗 。",
