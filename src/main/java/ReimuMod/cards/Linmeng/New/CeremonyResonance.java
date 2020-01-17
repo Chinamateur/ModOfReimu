@@ -19,7 +19,7 @@ public class CeremonyResonance extends CustomCard {
     public static final String ID = "CeremonyResonance";
     private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID+":ReiMu");
     public static final String NAME = cardStrings.NAME;
-    public static final String EX[] = cardStrings.EXTENDED_DESCRIPTION;
+    private static final String[] EX = cardStrings.EXTENDED_DESCRIPTION;
     public static final String DESCRIPTION = cardStrings.DESCRIPTION;
     public static final String IMG_PATH = "img/Reimucards/"+ID+".png";
     private static final int COST =3;
@@ -56,7 +56,7 @@ public class CeremonyResonance extends CustomCard {
         }
     }
     public void triggerOnGlowCheck() {
-        super.triggerOnGlowCheck();
+        this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();
         for (AbstractCard c:
                 AbstractDungeon.player.exhaustPile.group
                 //AbstractDungeon.actionManager.cardsPlayedThisCombat

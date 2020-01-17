@@ -68,6 +68,8 @@ public class WonderfulDomain extends CustomCard {
         int y = setKami.getKami2.getKami2("all")/10;
         if (y>0){
             this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
+        }else{
+            this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();
         }
     }
 

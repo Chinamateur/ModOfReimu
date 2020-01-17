@@ -41,8 +41,8 @@ public class SubAcupoint extends CustomCard {
                 CardRarity.COMMON,
                 CardTarget.ENEMY
         );
-        this.baseDamage = 6;
-        this.baseMagicNumber= this.magicNumber = 5 ;
+        this.baseDamage = 3;
+        this.baseMagicNumber= this.magicNumber = 8 ;
         //this.baseDamage= 9 ;
         //this.exhaust =true ;
         //this.isMultiDamage = true;
@@ -54,9 +54,9 @@ public class SubAcupoint extends CustomCard {
         }
     }
     public void use(AbstractPlayer p, AbstractMonster m) {
+        this.addToBot(new VFXAction(new AnimatedSlashEffect(m.hb.cX, m.hb.cY - 30.0F * Settings.scale, 500.0F, -200.0F, 250.0F, 3.0F, Color.PINK, Color.PINK)));
+        AbstractDungeon.actionManager.addToBottom(new DamageAction(m,new DamageInfo(p,this.damage,this.damageTypeForTurn), AbstractGameAction.AttackEffect.BLUNT_LIGHT));
         if (p.hasPower("Flyfan:ReiMu")){
-            this.addToBot(new VFXAction(new AnimatedSlashEffect(m.hb.cX, m.hb.cY - 30.0F * Settings.scale, 500.0F, -200.0F, 250.0F, 3.0F, Color.PINK, Color.PINK)));
-            AbstractDungeon.actionManager.addToBottom(new DamageAction(m,new DamageInfo(p,this.damage,this.damageTypeForTurn), AbstractGameAction.AttackEffect.BLUNT_LIGHT));
             AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, p, new StrengthPower(m, -this.magicNumber), -this.magicNumber));
             if (!m.hasPower("Artifact")) {
                 AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, p, new GainStrengthPower(m, this.magicNumber), this.magicNumber));
@@ -70,8 +70,8 @@ public class SubAcupoint extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             upgradeName();
-            this.upgradeDamage(3);
-            this.upgradeMagicNumber(2);
+            this.upgradeDamage(2);
+            this.upgradeMagicNumber(3);
             //this.baseDamage = 14;
             //this.upgradeBaseCost(1);
             //this.isInnate =true;

@@ -384,7 +384,7 @@
 
   "SubAcupoint:ReiMu": {
     "NAME": "亚空点穴",
-    "DESCRIPTION": " 飞行 : 造成 !D! 点伤害。 并使目标在本回合失去 !M! 点 力量 。 NL 否则： 获得 飞行 。"
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 飞行 : 目标在本回合失去 !M! 点 力量 。 NL 否则： 获得1层 飞行 。"
   },
 
   "WonderfulDomain:ReiMu": {

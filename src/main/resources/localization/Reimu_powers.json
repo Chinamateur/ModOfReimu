@@ -1,6 +1,6 @@
 {
   "MagicPotionPower:ReiMu": {
-    "NAME": "魔法药水",
+    "NAME": "灵力回复",
     "DESCRIPTIONS": [
       "在你的下 #b",
       " 个回合开始时。额外获得 #b1 点 #y能量 。"
@@ -251,7 +251,7 @@
   },
 
   "EnegyL:ReiMu": {
-    "NAME": "能量返还",
+    "NAME": "灵力充沛",
     "DESCRIPTIONS": [
       "你将在下回合获得 #b",
       " 点 #y能量 。",

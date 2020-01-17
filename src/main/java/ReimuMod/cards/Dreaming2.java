@@ -60,7 +60,7 @@ public class Dreaming2 extends CustomCard {
             case 0: {// 炎 伤害所有敌人
                 if (p.hasPower(KamiYanPower.NAME+":ReiMu")&&p.getPower(KamiYanPower.NAME+":ReiMu").amount>=setKami.max()){
                     for (int i = this.magicNumber; i > 0; i--) {
-                        p.getPower(KamiYanPower.NAME).atStartOfTurn();
+                        p.getPower(KamiYanPower.NAME+":ReiMu").atStartOfTurn();
                         AbstractDungeon.actionManager.addToBottom(new WaitAction(1F));
                         //AbstractDungeon.actionManager.addToBottom(new DamageAllEnemiesAction(p, this.multiDamage, DamageInfo.DamageType.NORMAL, AbstractGameAction.AttackEffect.FIRE, true));
                     }
@@ -83,24 +83,19 @@ public class Dreaming2 extends CustomCard {
                         AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(mo,p,new OutlierPower(mo)));
                     }
                 }
- */             Iterator var3 = AbstractDungeon.getMonsters().monsters.iterator();
-                while(var3.hasNext()) {
-                    AbstractMonster m3 = (AbstractMonster)var3.next();
+ */
+                for (AbstractMonster m3 : AbstractDungeon.getMonsters().monsters) {
                     if (!m3.isDeadOrEscaped() && !m3.halfDead) {
-                        AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(m3,p,new WeakPower(m3,this.magicNumber,false),this.magicNumber));
+                        AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(m3, p, new WeakPower(m3, this.magicNumber, false), this.magicNumber));
                     }
                 }
-                Iterator var4 = AbstractDungeon.getMonsters().monsters.iterator();
-                while(var4.hasNext()) {
-                    AbstractMonster m3 = (AbstractMonster)var4.next();
+                for (AbstractMonster m3 : AbstractDungeon.getMonsters().monsters) {
                     if (!m3.isDeadOrEscaped() && !m3.halfDead) {
                         this.addToBot(new ApplyPowerAction(m3, p, new StrengthPower(m3, -this.magicNumber), -this.magicNumber, true, AbstractGameAction.AttackEffect.NONE));
                     }
                 }
 
-                Iterator var5 = AbstractDungeon.getMonsters().monsters.iterator();
-                while(var5.hasNext()) {
-                    AbstractMonster m3 = (AbstractMonster)var5.next();
+                for (AbstractMonster m3 : AbstractDungeon.getMonsters().monsters) {
                     if (!m3.isDeadOrEscaped() && !m3.halfDead) {
                         AbstractDungeon.actionManager.addToTop(new VFXAction(new LightningEffect(m3.drawX, m3.drawY), 0.1F));
                     }
@@ -127,7 +122,7 @@ public class Dreaming2 extends CustomCard {
             }
             case 4: {//山)
                 for (int i = this.magicNumber;i>0;i--){
-                    AbstractMonster mo = AbstractDungeon.getMonsters().getRandomMonster((AbstractMonster) null, true, AbstractDungeon.cardRandomRng);
+                    AbstractMonster mo = AbstractDungeon.getMonsters().getRandomMonster(null, true, AbstractDungeon.cardRandomRng);
                     ReimuMod.logger.info("梦想封印 山 随机目标"+mo);
                     if (mo!=null&&!mo.isDead&&!mo.isDying&&!mo.halfDead){
                         ReimuMod.logger.info("梦想封印 山 触发");
@@ -168,6 +163,8 @@ public class Dreaming2 extends CustomCard {
     public void triggerOnGlowCheck() {
         if(this.baseHeal!=7){
             this.glowColor = setKami.Kami10.KamiColoer(this.baseHeal).cpy();
+        }else {
+            this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();
         }
     }
     private void change(){

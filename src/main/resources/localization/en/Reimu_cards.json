@@ -40,7 +40,7 @@
     ]
   },
   "CeremonyResonance:ReiMu": {
-    "NAME": "Ceremony Resonance",
+    "NAME": "Ceremonies Resonance",
     "DESCRIPTION": "Play all *Ceremony cards from your exhaust pile. NL Exhaust.",
     "EXTENDED_DESCRIPTION": ["Ceremony","ceremony"]
   },
@@ -353,10 +353,9 @@
     "UPGRADE_DESCRIPTION": "I am not Flying."
   },
 
-
   "SubAcupoint:ReiMu": {
     "NAME": "Dimensional Point Rift",
-    "DESCRIPTION": "Flight: Deal !D! damage. And enemy loses !M! Strength this turn. NL Otherwise: Gain Flight."
+    "DESCRIPTION": "Deal !D! damage. NL Flight: enemy loses !M! Strength this turn. NL Otherwise: Gain 1 Flight."
   },
 
   "WonderfulDomain:ReiMu": {
