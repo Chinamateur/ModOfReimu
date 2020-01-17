@@ -168,8 +168,8 @@ if(ReimuMod.MyReimuModbol){
     }
      */
     else {
-      title = "The Best Miko";
-      flavor = "The \"ordinary\" magician lives in the Forest of Magic. NL Specializes in light and heat magic.";
+      title = "The Shrine Maiden";
+      flavor = "A freewheeling and haphazard shrine maiden. NL Calls upon the powers of myriads of gods.";
     }
     return new CharSelectInfo(
         title,
@@ -207,7 +207,7 @@ if(ReimuMod.MyReimuModbol){
     }
      */
      else {
-      title = "The Best Miko";
+      title = "The Shrine Maiden";
     }
     return title;
   }
