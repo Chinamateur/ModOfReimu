@@ -36,6 +36,7 @@ public class TypeDisToHandAction extends AbstractGameAction {
         if (this.p.hand.size() >= 10) {
             ReimuMod.logger.info("深山行动：手牌满了，跳出。");
             this.isDone = true;
+            this.tickDuration();
         } else if (this.S.size() == 1) {
             ReimuMod.logger.info("深山行动：只有唯一的可选目标。");
             AbstractCard card = this.S.group.get(0);
@@ -50,6 +51,7 @@ public class TypeDisToHandAction extends AbstractGameAction {
             card.lighten(false);
             this.p.hand.refreshHandLayout();
             this.isDone = true;
+            this.tickDuration();
         } else if (AbstractDungeon.gridSelectScreen.selectedCards.isEmpty()) {
             ReimuMod.logger.info("深山行动：多个目标 开启选择。");
             AbstractDungeon.gridSelectScreen.open(this.S, this.amount, TEXT[0], false);

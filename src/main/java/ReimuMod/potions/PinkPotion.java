@@ -28,6 +28,7 @@ public class PinkPotion extends AbstractPotion {
         this.potency = this.getPotency();
         this.description = potionStrings.DESCRIPTIONS[0]+3*this.potency+potionStrings.DESCRIPTIONS[1]+this.potency+potionStrings.DESCRIPTIONS[2];
         this.isThrown = false;
+        this.labOutlineColor = ReimuMod.ReimuLIGHT;
         this.tips.add(new PowerTip(this.name, this.description));
     }
 

@@ -68,7 +68,7 @@ public class BodyOfKamiR extends CustomRelic {
     */
     public void atBattleStart() {
         this.flash();
-        AbstractDungeon.actionManager.addToBottom(new MakeTempCardInHandAction(new BodyOfKami(this.counter)));
+        AbstractDungeon.actionManager.addToBottom(new MakeTempCardInHandAction(new BodyOfKami(-this.counter)));
         //AbstractDungeon.actionManager.addToBottom(new RelicAboveCreatureAction(AbstractDungeon.player, this));
         //AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new BodyOfKami(this.counter), 1, true, true));
     }

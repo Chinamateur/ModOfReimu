@@ -1,5 +1,6 @@
 package ReimuMod.potions;
 
+import ReimuMod.ReimuMod;
 import ReimuMod.powers.Flyfan;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -23,6 +24,7 @@ public class LiquidFlight extends AbstractPotion {
         this.potency = this.getPotency();
         this.description = potionStrings.DESCRIPTIONS[0]+this.potency+potionStrings.DESCRIPTIONS[1];
         this.isThrown = false;
+        this.labOutlineColor = ReimuMod.ReimuLIGHT;
         this.tips.add(new PowerTip(this.name, this.description));
     }
 

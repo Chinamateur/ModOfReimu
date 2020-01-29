@@ -35,8 +35,6 @@ import org.apache.logging.log4j.Logger;
 public class ReiMu extends CustomPlayer {
 
   private static final int ENERGY_PER_TURN = 3; // how much energy you get every turn
-  private static final String REIMU_SHOULDER_2 = "img/char/Reimu/shoulder2.png"; // shoulder2 / shoulder_1
-  private static final String REIMU_SHOULDER_1 = "img/char/Reimu/shoulder1.png"; // shoulder1 / shoulder_2
   //private static final String REIMU_CORPSE = "img/char/Reimu/fallen.png"; // dead corpse
 
   public String ENDSCENE1 = "img/scenes/reimu1.png";
@@ -78,9 +76,9 @@ public class ReiMu extends CustomPlayer {
 
     initializeClass(
             null,
-            REIMU_SHOULDER_2, // reqUIred call to load textures and setup energy/loadout
-            REIMU_SHOULDER_1,
-            ReimuMod.MyReimuModbol?"img/char/Reimu/fallen.png":"img/char/Reimu/fallen2.png",
+            ReimuMod.MyReimuModbol?"img/char/Reimu/shoulder2.png":"img/char/Reimu/shoulder4.png",
+            ReimuMod.MyReimuModbol?"img/char/Reimu/shoulder1.png":"img/char/Reimu/shoulder3.png",
+            ReimuMod.MyReimuModbol?(MathUtils.randomBoolean()?"img/char/Reimu/fallen.png":"img/char/Reimu/fallen1.png"):"img/char/Reimu/fallen2.png",
         getLoadout(),
         0F, -10.0F, 200.0F, 350.0F,
         new EnergyManager(ENERGY_PER_TURN)

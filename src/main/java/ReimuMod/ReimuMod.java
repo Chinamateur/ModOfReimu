@@ -534,7 +534,8 @@ public class ReimuMod implements PostExhaustSubscriber,
               Color.PINK.cpy(),
               ReimuLIGHT,
               null,
-              "PinkPotion:ReiMu"
+              "PinkPotion:ReiMu",
+              REIMU
       );
   }
 

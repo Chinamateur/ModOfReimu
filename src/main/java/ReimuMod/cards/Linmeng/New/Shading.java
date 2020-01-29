@@ -33,12 +33,13 @@ public class Shading extends CustomCard {
         );
         this.baseMagicNumber= this.magicNumber = 1 ;
         this.exhaust = true ;
+        this.selfRetain = true ;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction
                 (
-                        p, p, new ShadingPower(AbstractDungeon.player, this.magicNumber), this.magicNumber
+                        p, p, new ShadingPower(AbstractDungeon.player,1), 1
                 )
         );
     }

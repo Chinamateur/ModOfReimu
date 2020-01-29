@@ -104,8 +104,8 @@
   },
   "Mountainwind:ReiMu": {
     "NAME": "Mountain Wind",
-    "DESCRIPTION": "Gain 1 Flight. NL Put a Attack from your discard pile into your hand, NL It costs 0 this turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain 1 Flight. NL Put a Attack from your discard pile into your hand, NL It costs 0 this turn."
+    "DESCRIPTION": "Gain !M! Flight. NL Put a Attack from your discard pile into your hand, NL It costs 0 this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Flight. NL Put a Attack from your discard pile into your hand, NL It costs 0 this turn."
   },
 
 
@@ -145,7 +145,7 @@
 
   "Shading:ReiMu": {
     "NAME": "Mysterious Disappearance",
-    "DESCRIPTION": "You don't take damage next round. NL Skip your next turn. NL Exhaust."
+    "DESCRIPTION": "Retain. NL You don't take damage next round. NL Skip your next turn. NL Exhaust."
   },
 
   "FantasyBorder:ReiMu": {
@@ -157,7 +157,6 @@
     "NAME": "Blasphemy Array",
     "DESCRIPTION": "At the end of your turn, lose !M! other Faith. NL Gain half as much Flame Faith. NL Other Kami can't Advent."
   },
-
   "GreedyExorcism:ReiMu": {
     "NAME": "Greedy Ohnusa",
     "DESCRIPTION": "Deal !D! damage.并Gain !M! Gold.可以被多次 Upgraded. Exhaust."

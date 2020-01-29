@@ -111,8 +111,8 @@
   },
   "Mountainwind:ReiMu": {
     "NAME": "深山颪",
-    "DESCRIPTION": "获得1层 飞行 。 NL 从弃牌堆选择 !M! 张攻击牌加入手牌，它在本回合的耗费变为0。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "获得1层 飞行 。 NL 从弃牌堆选择 !M! 张攻击牌加入手牌，它在本回合的耗费变为0。"
+    "DESCRIPTION": "获得 !M! 层 飞行 。 NL 从弃牌堆选择1张攻击牌加入手牌，它在本回合的耗费变为0。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 !M! 层 飞行 。 NL 从弃牌堆选择1张攻击牌加入手牌，它在本回合的耗费变为0。"
   },
 
 
@@ -152,7 +152,7 @@
 
   "Shading:ReiMu": {
     "NAME": "间隙神隐",
-    "DESCRIPTION": "下回合开始时进入 神隐 并跳过回合。 消耗 。"
+    "DESCRIPTION": " 保留 。 NL 使你的下一个回合免疫伤害并被跳过。 消耗 。"
   },
   "ShadowOfCrow:ReiMu": {
     "NAME": "鸦之影",

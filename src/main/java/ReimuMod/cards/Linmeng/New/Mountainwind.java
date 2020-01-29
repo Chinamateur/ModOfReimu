@@ -43,7 +43,7 @@ public class Mountainwind extends CustomCard {
 
     public void use(AbstractPlayer p, AbstractMonster m) {
         CardGroup stanceChoices = new CardGroup(CardGroup.CardGroupType.UNSPECIFIED);
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p,new Flyfan(p,1),1));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p,new Flyfan(p,this.magicNumber),this.magicNumber));
         for (AbstractCard c : p.discardPile.group ){
             if (c.type == CardType.ATTACK ){
                 ReimuMod.logger.info("深山行动："+c+"加入列表");
@@ -51,7 +51,7 @@ public class Mountainwind extends CustomCard {
             }
         }
         if (!stanceChoices.isEmpty()) {
-            AbstractDungeon.actionManager.addToTurnStart(new TypeDisToHandAction(this.magicNumber,stanceChoices,true));
+            AbstractDungeon.actionManager.addToTurnStart(new TypeDisToHandAction(1,stanceChoices,true));
         }
 
         /*

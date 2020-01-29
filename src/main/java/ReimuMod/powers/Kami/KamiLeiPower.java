@@ -89,7 +89,7 @@ public class KamiLeiPower extends AbstractPower {
  */
     @Override
     public int onAttacked(DamageInfo info, int damageAmount) {
-        if (!info.owner.hasPower(OutlierPower.NAME)&&info.owner != null && this.amount>=setKami.max() && info.type == DamageInfo.DamageType.NORMAL && info.owner != this.owner&&!this.owner.hasPower("BlasphemyArrayPower:ReiMu")) {
+        if (!info.owner.hasPower(OutlierPower.NAME+":ReiMu")&&info.owner != null && this.amount>=setKami.max() && info.type == DamageInfo.DamageType.NORMAL && info.owner != this.owner&&!this.owner.hasPower("BlasphemyArrayPower:ReiMu")) {
             this.flash();
             AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(info.owner,this.owner,new OutlierPower(info.owner)));
         }

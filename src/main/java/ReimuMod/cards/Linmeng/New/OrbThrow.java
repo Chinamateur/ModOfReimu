@@ -49,7 +49,7 @@ public class OrbThrow extends CustomCard {
         AbstractMonster randomMonster = AbstractDungeon.getMonsters().getRandomMonster(null, true, AbstractDungeon.cardRandomRng);
         if (randomMonster != null) {
             AbstractDungeon.actionManager.addToBottom(new VFXAction(new MyOrbEffect( randomMonster.hb.cX,randomMonster.hb.cY, p.hb.cX ,p.hb.cY,aa), 0F));
-            AbstractDungeon.actionManager.addToBottom(new WaitAction(1F));
+            AbstractDungeon.actionManager.addToBottom(new WaitAction(0.5F));
             AbstractDungeon.actionManager.addToBottom(new OrbThrowaction(randomMonster,this.damage,this.magicNumber,aa));
         }
         new setKami(2,"po");

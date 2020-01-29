@@ -14,7 +14,6 @@ import java.util.ArrayList;
 
 public class BottledKami extends AbstractPotion {
     public static final String ID = "BottledKami:ReiMu";
-    private  static final Color a = new Color(0,0,0,0.2F).cpy();
     private static final PotionStrings potionStrings = CardCrawlGame.languagePack.getPotionString(ID);
     public BottledKami() {
         super(
@@ -28,20 +27,20 @@ public class BottledKami extends AbstractPotion {
         this.potency = this.getPotency();
         this.description = potionStrings.DESCRIPTIONS[0]+this.potency+potionStrings.DESCRIPTIONS[1];
         this.isThrown = false;
+        this.labOutlineColor = ReimuMod.ReimuLIGHT;
         this.tips.add(new PowerTip(this.name, this.description));
     }
 
     public void use(AbstractCreature target) {
-        setKami.getKami2 j = new setKami.getKami2();
         ArrayList<String> list1 = new ArrayList<>();
         for (String n : setKami.kami) {
-            if (j.getKami2(n) < setKami.max()) { list1.add(n); }
+            if (setKami.getKami2.getKami2(n) < setKami.max()) { list1.add(n); }
         }
         int x = Math.min(list1.size(),this.getPotency());
         for (int i = x ;i>0;i--){
             int o = AbstractDungeon.potionRng.random(list1.size()-1);
             String k = list1.get (o);
-            int a = setKami.max() - j.getKami2(k);
+            int a = setKami.max() - setKami.getKami2.getKami2(k);
             if (a > 0) {
                 ReimuMod.logger.info("瓶装神明:决定降临" + k + "; 预计获取层数:" + a);
                 new setKami(a, k);

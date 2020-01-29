@@ -23,6 +23,7 @@ public class HakureiPotion extends AbstractPotion {
         this.potency = this.getPotency();
         this.description = potionStrings.DESCRIPTIONS[0] + this.getPotency() + potionStrings.DESCRIPTIONS[1];
         this.isThrown = false;
+        this.labOutlineColor = ReimuMod.ReimuLIGHT;
         this.tips.add(new PowerTip(this.name, this.description));
     }
 

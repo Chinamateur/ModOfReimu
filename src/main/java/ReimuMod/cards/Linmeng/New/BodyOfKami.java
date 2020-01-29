@@ -63,7 +63,7 @@ public class BodyOfKami extends CustomCard {
     public void onChoseThisOption() {
         ReimuMod.logger.info("御神体选择:"+this.baseHeal);
         if(AbstractDungeon.player.hasRelic("BodyOfKamiR:ReiMu")){
-            AbstractDungeon.player.getRelic("BodyOfKamiR:ReiMu").setCounter(this.baseHeal);
+            AbstractDungeon.player.getRelic("BodyOfKamiR:ReiMu").setCounter(-this.baseHeal);
         }
     }
     @Override

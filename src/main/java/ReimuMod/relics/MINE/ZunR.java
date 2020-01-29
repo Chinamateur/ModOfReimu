@@ -26,20 +26,6 @@ public class ZunR extends CustomRelic {
     public void atTurnStart() {
         AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDiscardAction(new Dazed(), s1));
     }
-    /*
-    public void atBattleStart() {
-        int x = Math.min(s1,AbstractDungeon.player.drawPile.size());
-        if (x>0){
-            for (int p =x;p>0;p--){
-                AbstractCard c = AbstractDungeon.player.drawPile.getRandomCard(AbstractDungeon.relicRng);
-                AbstractDungeon.player.drawPile.removeCard(c);
-            }
-            AbstractDungeon.actionManager.addToTop(new MakeTempCardInDrawPileAction(new Dazed(), x, true, true));
-        }
-
-    }
-
-     */
     public void onEquip() {
         ++AbstractDungeon.player.energy.energyMaster;
     }
