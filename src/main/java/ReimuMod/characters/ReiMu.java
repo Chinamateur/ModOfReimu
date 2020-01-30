@@ -156,18 +156,9 @@ if(ReimuMod.MyReimuModbol){
       title = "\u666e\u901a\u7684\u9b54\u6cd5\u4f7f";
       flavor = "\u4f4f\u5728\u9b54\u6cd5\u68ee\u6797\u7684\u9b54\u6cd5\u4f7f\u3002 NL \u5584\u9577\u65bc\u5149\u548c\u71b1\u7684\u9b54\u6cd5\u3002";
     }
-    /*
-    else if (Settings.language == Settings.GameLanguage.KOR) {
-      title = "\ud3c9\ubc94\ud55c \ub9c8\ubc95\uc0ac";
-      flavor = "\ub9c8\ubc95\uc758 \uc232\uc5d0 \uc0ac\ub294 \"\ud3c9\ubc94\ud55c\" \ub9c8\ubc95\uc0ac \uc785\ub2c8\ub2e4. NL \ube5b\uacfc \uc5f4 \ub9c8\ubc95\uc774 \ud2b9\uae30\uc785\ub2c8\ub2e4.";
-    } else if(Settings.language == Settings.GameLanguage.FRA) {
-      title = "La magicienne ordinaire";
-      flavor = "La magicienne \"ordinaire\" vie dans la for\u00eat magique.  NL Sp\u00e9cialis\u00e9es dans la magie de la lumi\u00e8re et de la chaleur.";
-    }
-     */
     else {
-      title = "The Best Miko";
-      flavor = "The \"ordinary\" magician lives in the Forest of Magic. NL Specializes in light and heat magic.";
+      title = "The Shrine Maiden";
+      flavor = "A freewheeling and haphazard shrine maiden. NL Calls upon the powers of myriads of gods.";
     }
     return new CharSelectInfo(
         title,
@@ -205,7 +196,7 @@ if(ReimuMod.MyReimuModbol){
     }
      */
      else {
-      title = "The Best Miko";
+      title = "The Shrine Maiden";
     }
     return title;
   }
