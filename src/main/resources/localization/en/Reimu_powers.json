@@ -154,7 +154,7 @@
   "KamiYuePower:ReiMu": {
     "NAME": "Mountain Faith",
     "DESCRIPTIONS": [
-      "#yOhoyamatsumi will #Advent after you gain #b",
+      "#yOhoyamatsumi will #yAdvent after you gain #b",
       " more #yFaith.",
       "Whenever you gain Block by playing a card, gain #b",
       " additional Block."
@@ -163,8 +163,8 @@
   "KamiPoPower:ReiMu": {
     "NAME": "Destruction Faith",
     "DESCRIPTIONS": [
-      "#ySusanoo will #Advent after you gain #b",
-      " more #yFaithSusanoo .",
+      "#ySusano-o will #yAdvent after you gain #b",
+      " more #yFaith.",
       "Whenever you deal damage by playing a card, deal #b",
       " additional damage."
     ]

@@ -5,35 +5,35 @@
         "Romance",
         "romance"
       ],
-      "DESCRIPTION": "#rGreatLuck :Gain #b3 #yenergy. NL #rGoodLuck :Gain #b2 #yenergy. NL #bPoorLuck :Gain #b1 #yenergy. NL #bBadLuck :Gain #b0 #yenergy."
+      "DESCRIPTION": "#rGreatLuck :Gain #b3 #yenergy. NL #rGoodLuck :Gain #b2 #yenergy. NL #bPoorLuck :Gain #b1 #yenergy. NL #bWorstLuck :Gain #b0 #yenergy."
     },
     {
       "NAMES": [
         "Learning",
         "learning"
       ],
-      "DESCRIPTION": "#rGreatLuck :Draw #b4 cards. NL #rGoodLuck :Draw #b3 cards. NL #bPoorLuck :Draw #b2 cards. NL #bBadLuck :Draw #b0 cards."
+      "DESCRIPTION": "#rGreatLuck :Draw #b4 cards. NL #rGoodLuck :Draw #b3 cards. NL #bPoorLuck :Draw #b2 cards. NL #bWorstLuck :Draw #b0 cards."
     },
     {
       "NAMES": [
         "Fortune",
         "fortune"
       ],
-      "DESCRIPTION": "#rGreatLuck :Gain #b30 gold. NL #rGoodLuck :Gain #b20 gold. NL #bPoorLuck :Gain #b10 gold. NL #bBadLuck :Gain #b0 gold."
+      "DESCRIPTION": "#rGreatLuck :Gain #b30 gold. NL #rGoodLuck :Gain #b20 gold. NL #bPoorLuck :Gain #b10 gold. NL #bWorstLuck :Gain #b0 gold."
     },
     {
       "NAMES": [
         "Career",
         "career"
       ],
-      "DESCRIPTION": "#rGreatLuck :Deals #b21 damage. NL #rGoodLuck :Deals #b14 damage. NL #bPoorLuck :Deals #b7 damage. NL #bBadLuck :Deals #b0 damage."
+      "DESCRIPTION": "#rGreatLuck :Deals #b21 damage. NL #rGoodLuck :Deals #b14 damage. NL #bPoorLuck :Deals #b7 damage. NL #bWorstLuck :Deals #b0 damage."
     },
     {
       "NAMES": [
         "Safe",
         "safe"
       ],
-      "DESCRIPTION": "#rGreatLuck :Gain #b15 Block. NL #rGoodLuck :Gain #b10 Block. NL #bBadLuck :Gain #b5 Block. NL #bPoorLuck :Gain #b0 Block."
+      "DESCRIPTION": "#rGreatLuck :Gain #b15 Block. NL #rGoodLuck :Gain #b10 Block. NL #bPoorLuck :Gain #b5 Block. NL #bWorstLuck :Gain #b0 Block."
     },
     {
       "NAMES": [
@@ -71,7 +71,7 @@
         "Faith",
         "faith"
       ],
-      "DESCRIPTION": "Represents devotion towards a #yKami. Gain enough points to trigger an #yAdvent and activate a #yKami for the rest of combat."
+      "DESCRIPTION": "Represents devotion towards a #yKami. Gain enough amount to trigger #yAdvent of #yKami in combat."
     },
     {
       "NAMES": [

@@ -91,8 +91,8 @@
   },
   "CardOfSanctity:ReiMu": {
     "NAME": "Card Of Sanctity",
-    "DESCRIPTION": "Add X random Upgraded O-mikuji into your hand. NL Gain X random Faith. NL (It least be Good Luck)",
-    "UPGRADE_DESCRIPTION": "Add X random Upgraded O-mikuji into your hand. NL Gain X random Faith. NL (It least be Good Luck)"
+    "DESCRIPTION": "Add X random Upgraded O-mikuji into your hand. NL Gain X random Faith. NL (It won't be Worst Luck)",
+    "UPGRADE_DESCRIPTION": "Add X random Upgraded O-mikuji into your hand. NL Gain X random Faith. NL (It won't be Worst Luck)"
   },
   "Crusade:ReiMu": {
     "NAME": "Campaign",
@@ -250,10 +250,10 @@
     "UPGRADE_DESCRIPTION": " draw 1 card.",
     "EXTENDED_DESCRIPTION": [ "Flame Advent","Break Advent","Thunderbolt Advent","Moon Advent", "Mountain Advent","Wind Advent","Sun Advent",
       "Let Kagutsuchi Advent.",
-      "Let Susanoo Advent.",
+      "Let Susano-o Advent.",
       "Let Takemikazuchi Advent.",
       "Let Tsukuyomi Advent.",
-      "Let Ohoyamatsumi Advent.",
+      "Let Ohoyama-tsumi Advent.",
       "Let Takeminakata Advent.",
       "Let Amaterasu Advent.",
       " Exhaust."
@@ -390,8 +390,8 @@
 
   "MikOfLucky:ReiMu": {
     "NAME": "Miko Of Lucky",
-    "DESCRIPTION": "At the start of your turn, add !M! random O-mikuji into your hand. NL (It least be Good Luck)",
-    "UPGRADE_DESCRIPTION": "Innate. At the start of your turn, add !M! random O-mikuji into your hand. NL (It least be Good Luck)"
+    "DESCRIPTION": "At the start of your turn, add !M! random O-mikuji into your hand. NL (It won't be Worst Luck)",
+    "UPGRADE_DESCRIPTION": "Innate. At the start of your turn, add !M! random O-mikuji into your hand. NL (It won't be Worst Luck)"
   },
   "Determination:ReiMu": {
     "NAME": "Determination",
@@ -402,7 +402,7 @@
     "NAME": "O-mikuji",
     "DESCRIPTION": "The O-mikuji of Hakurei Shrine.",
     "UPGRADE_DESCRIPTION": " Retain. NL ",
-    "EXTENDED_DESCRIPTION": ["Bad Luck","Poor Luck","Good Luck","Great Luck",
+    "EXTENDED_DESCRIPTION": ["Worst Luck","Poor Luck","Good Luck","Great Luck",
       "Gain !M! Gold.",
       "Gain !B! Block.",
       "Deal !D! damage.",
@@ -420,17 +420,17 @@
   "LearningPray:ReiMu": {
     "NAME": "High-Speed Prayer",
     "DESCRIPTION": "Gain !M! Moon Faith. NL Add a Learning O-mikuji into your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Moon Faith. NL Add a Learning O-mikuji into your hand. NL (It least be Good Luck.)"
+    "UPGRADE_DESCRIPTION": "Gain !M! Moon Faith. NL Add a Learning O-mikuji into your hand. NL (It won't be Worst Luck)"
   },
   "CareerPray:ReiMu": {
     "NAME": "Prosperity Prayer",
     "DESCRIPTION": "Gain !M! Destruction Faith. NL Add a Career O-mikuji into your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Destruction Faith. NL Add a Career O-mikuji into your hand. NL (It least be Good Luck.)"
+    "UPGRADE_DESCRIPTION": "Gain !M! Destruction Faith. NL Add a Career O-mikuji into your hand. NL (It won't be Worst Luck)"
   },
   "SafetyPray:ReiMu": {
     "NAME": "Safety Prayer",
     "DESCRIPTION": "Gain !M! Mountain Faith. NL Add a Safe O-mikuji into your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Mountain Faith. NL Add a Safe O-mikuji into your hand. NL (It least be Good Luck.)"
+    "UPGRADE_DESCRIPTION": "Gain !M! Mountain Faith. NL Add a Safe O-mikuji into your hand. NL (It won't be Worst Luck)"
   },
   "AirStrike:ReiMu": {
     "NAME": "Air Strike",
@@ -476,12 +476,12 @@
   "WealthPray:ReiMu": {
     "NAME": "Fortune Prayer",
     "DESCRIPTION": "Add a Fortune O-mikuji into your hand. Exhaust.",
-    "UPGRADE_DESCRIPTION": "Add a Fortune O-mikuji into your hand. NL (It least be Good Luck.) NL Exhaust."
+    "UPGRADE_DESCRIPTION": "Add a Fortune O-mikuji into your hand. NL (It won't be Worst Luck) NL Exhaust."
   },
   "LovePray:ReiMu": {
     "NAME": "Love Prayer",
     "DESCRIPTION": "Gain !M! Sun Faith. NL Add a Romance O-mikuji into your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Sun Faith. NL Add a Romance O-mikuji into your hand. NL (It least be Good Luck.)"
+    "UPGRADE_DESCRIPTION": "Gain !M! Sun Faith. NL Add a Romance O-mikuji into your hand. NL (It won't be Worst Luck)"
   },
   "YinYang:ReiMu": {
     "NAME": "Yin-Yang Asuka'i",

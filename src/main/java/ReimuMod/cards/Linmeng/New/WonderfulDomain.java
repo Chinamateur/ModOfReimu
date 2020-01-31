@@ -45,7 +45,7 @@ public class WonderfulDomain extends CustomCard {
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        if (p != null) {
+        if (this.magicNumber!=0) {
             ArrayList <Integer> l = new ArrayList<>();
             if(setKami.getKami2.getKami2("shen")>0){
                 for(int s = 0 ;s<7;s++){
@@ -57,19 +57,21 @@ public class WonderfulDomain extends CustomCard {
             if(l.size()>0){
                 this.addToBot(new VFXAction(new FastingEffect(p.hb.cX, p.hb.cY,setKami.Kami10.KamiColoer(l.get((int)(Math.random()*l.size()-1))))));
             }
+            int y = setKami.getKami2.getKami2("all")/this.magicNumber;
+            if (y>0){
+                AbstractDungeon.actionManager.addToBottom(new DrawCardAction(p, y ));
+            }
         }
         AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, p, this.block));
-        int y = setKami.getKami2.getKami2("all")/this.magicNumber;
-        if (y>0){
-            AbstractDungeon.actionManager.addToBottom(new DrawCardAction(p, y ));
-        }
     }
     public void triggerOnGlowCheck() {
-        int y = setKami.getKami2.getKami2("all")/this.magicNumber;
-        if (y>0){
-            this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
-        }else{
-            this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();
+        if (this.magicNumber!=0){
+            int y = setKami.getKami2.getKami2("all")/this.magicNumber;
+            if (y>0){
+                this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
+            }else{
+                this.glowColor = AbstractCard.BLUE_BORDER_GLOW_COLOR.cpy();
+            }
         }
     }
 
