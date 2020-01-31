@@ -40,7 +40,7 @@ public class WonderfulDomain extends CustomCard {
         //this.baseDamage = 8;
         this.baseBlock = 7 ;
         //this.exhaust = true ;
-        //this.baseMagicNumber = this.magicNumber = 2;
+        this.baseMagicNumber = this.magicNumber = 10;
         //this.isMultiDamage = true;
     }
 
@@ -59,13 +59,13 @@ public class WonderfulDomain extends CustomCard {
             }
         }
         AbstractDungeon.actionManager.addToBottom(new GainBlockAction(p, p, this.block));
-        int y = setKami.getKami2.getKami2("all")/10;
+        int y = setKami.getKami2.getKami2("all")/this.magicNumber;
         if (y>0){
             AbstractDungeon.actionManager.addToBottom(new DrawCardAction(p, y ));
         }
     }
     public void triggerOnGlowCheck() {
-        int y = setKami.getKami2.getKami2("all")/10;
+        int y = setKami.getKami2.getKami2("all")/this.magicNumber;
         if (y>0){
             this.glowColor = AbstractCard.GOLD_BORDER_GLOW_COLOR.cpy();
         }else{

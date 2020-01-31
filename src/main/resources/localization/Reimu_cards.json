@@ -302,7 +302,7 @@
 
   "PrayRite:ReiMu": {
     "NAME": "祈愿之仪",
-    "DESCRIPTION": "选择并获得一张大吉 神签 。 NL 消耗 。",
+    "DESCRIPTION": "选择并获得 !M! 张大吉 神签 。 NL 消耗 。",
     "UPGRADE_DESCRIPTION": "从消耗堆选择 !M! 张牌，将其 升级 并加入手牌。 消耗 。"
   },
   "NineCharacters:ReiMu": {
@@ -389,7 +389,7 @@
 
   "WonderfulDomain:ReiMu": {
     "NAME": "九字护身法",
-    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 你每有10层 信 ，抽一张牌。"
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 你每有 !M! 层 信 ，抽一张牌。"
   },
   "Meditation:ReiMu": {
     "NAME": "静心符",

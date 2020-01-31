@@ -34,15 +34,18 @@ public class PrayRite extends CustomCard {
                 AbstractCard.CardTarget.SELF
         );
         this.exhaust = true;
+        this.baseMagicNumber = this.magicNumber = 1;
         //this.baseBlock = 4;
     }
 
     public void use(AbstractPlayer p, AbstractMonster m) {
-        CardGroup stanceChoices = new CardGroup(CardGroup.CardGroupType.UNSPECIFIED);
-        for (int i = 1;i<5;i++){
-            stanceChoices.addToBottom(new Sign(i,3));
+        for (int x = this.magicNumber;x>0;x--){
+            CardGroup stanceChoices = new CardGroup(CardGroup.CardGroupType.UNSPECIFIED);
+            for (int i = 1;i<5;i++){
+                stanceChoices.addToBottom(new Sign(i,3));
+            }
+            AbstractDungeon.actionManager.addToBottom(new MyChoseAction(1,stanceChoices,false,false));
         }
-        AbstractDungeon.actionManager.addToBottom(new MyChoseAction(1,stanceChoices,false,false));
     }
 
     public void upgrade() {

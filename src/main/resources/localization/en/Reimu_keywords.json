@@ -2,43 +2,36 @@
   "keywords": [
     {
       "NAMES": [
-        "RomanceO-mikuji",
-        "romanceo-mikuji"
+        "Romance",
+        "romance"
       ],
       "DESCRIPTION": "#rGreatLuck :Gain #b3 #yenergy. NL #rGoodLuck :Gain #b2 #yenergy. NL #bPoorLuck :Gain #b1 #yenergy. NL #bBadLuck :Gain #b0 #yenergy."
     },
     {
       "NAMES": [
-        "LearningO-mikuji",
-        "learningo-mikuji"
+        "Learning",
+        "learning"
       ],
       "DESCRIPTION": "#rGreatLuck :Draw #b4 cards. NL #rGoodLuck :Draw #b3 cards. NL #bPoorLuck :Draw #b2 cards. NL #bBadLuck :Draw #b0 cards."
     },
     {
       "NAMES": [
-        "FortuneO-mikuji",
-        "fortuneo-mikuji"
+        "Fortune",
+        "fortune"
       ],
       "DESCRIPTION": "#rGreatLuck :Gain #b30 gold. NL #rGoodLuck :Gain #b20 gold. NL #bPoorLuck :Gain #b10 gold. NL #bBadLuck :Gain #b0 gold."
     },
     {
       "NAMES": [
-        "EnergyO-mikuji",
-        "energyo-mikuji"
-      ],
-      "DESCRIPTION": "#rGreatLuck :Gain #b3 energy. NL #rGoodLuck :Gain #b2 energy. NL #bPoorLuck :Gain #b1 energy. NL #bBadLuck :Gain #b0 energy."
-    },
-    {
-      "NAMES": [
-        "CareerO-mikuji",
-        "careero-mikuji"
+        "Career",
+        "career"
       ],
       "DESCRIPTION": "#rGreatLuck :Deals #b21 damage. NL #rGoodLuck :Deals #b14 damage. NL #bPoorLuck :Deals #b7 damage. NL #bBadLuck :Deals #b0 damage."
     },
     {
       "NAMES": [
-        "SafeO-mikuji",
-        "safeo-mikuji"
+        "Safe",
+        "safe"
       ],
       "DESCRIPTION": "#rGreatLuck :Gain #b15 Block. NL #rGoodLuck :Gain #b10 Block. NL #bBadLuck :Gain #b5 Block. NL #bPoorLuck :Gain #b0 Block."
     },
@@ -47,7 +40,7 @@
         "O-mikuji",
         "o-mikuji"
       ],
-      "DESCRIPTION": "O-mikuji is the card who has #rExhaust and cost for #b0."
+      "DESCRIPTION": "0-cost card that #yExhaust when played and vary in effect depending on its type and Luck level."
     },
     
     {
@@ -55,133 +48,135 @@
         "Constricted",
         "constricted"
       ],
-      "DESCRIPTION": "The enemy who be #yConstricted will be hurt at the end of their turn."
+      "DESCRIPTION": "At the end of their turn, take damage equal to the amount of Constricted stacks."
     },
     {
       "NAMES": [
         "Advent",
-        "advent"
+        "advent",
+        "Advents",
+        "advents"
       ],
-      "DESCRIPTION": "The Advent of #yKami will remove all the #rDeBuff of you."
+      "DESCRIPTION": "Whenever a Faith reaches a certain amount (default 10), it Advents into a Kami. When this happens, remove all debuffs on you."
     },
     {
       "NAMES": [
         "Kami",
         "kami"
       ],
-      "DESCRIPTION": "#yFaith that reaches the threshold is also called #yKami."
+      "DESCRIPTION": "Unique buff that lasts for the entire combat, but only activates when they #yAdvent."
     },
     {
       "NAMES": [
         "Faith",
         "faith"
       ],
-      "DESCRIPTION": "#yKami will remove all of your #rDeBuff and #yAdvent after you get enough #yFaith."
+      "DESCRIPTION": "Represents devotion towards a #yKami. Gain enough points to trigger an #yAdvent and activate a #yKami for the rest of combat."
     },
     {
       "NAMES": [
         "Sun",
         "sun"
       ],
-      "DESCRIPTION": "Let #yAmaterasu Advent."
+      "DESCRIPTION": "Faith towards the sun goddess, #yAmaterasu."
     },
     {
       "NAMES": [
         "Amaterasu",
         "amaterasu"
       ],
-      "DESCRIPTION": "After #yAdvent, Gain extra [E] at the start of your turn."
+      "DESCRIPTION": "Goddess of the sun. If in #yAdvent, gain [E] at the start of your turn."
     },
     {
       "NAMES": [
         "Flame",
         "flame"
       ],
-      "DESCRIPTION": "Let #yKagutsuchi Advent. #yFlame the #yFaith has no cap."
+      "DESCRIPTION": "Faith towards the fire god, #yKagutsuchi. Unlike other #yFaith counters, does not have an upper limit."
     },
     {
       "NAMES": [
         "Kagutsuchi",
         "kagutsuchi"
       ],
-      "DESCRIPTION": "After #yAdvent, Deal damage equal to 炎之Faith to ALL enemies at the start of your turn."
+      "DESCRIPTION": "God of fire. If in #yAdvent, deal damage equal to your #yFlame #yFaith to ALL enemies at the start of your turn."
     },
     {
       "NAMES": [
         "Wind",
         "wind"
       ],
-      "DESCRIPTION": "Let #yTakeminakata Advent."
+      "DESCRIPTION": "Faith towards the wind god, #yTakeminakata."
     },
     {
       "NAMES": [
         "Takeminakata",
         "takeminakata"
       ],
-      "DESCRIPTION": "After #yAdvent, Apply #yFlyght at the start of your turn."
+      "DESCRIPTION": "God of the winds. If in #yAdvent, gain #yFlight at the start of your turn."
     },
     {
       "NAMES": [
         "Thunderbolt",
         "thunderbolt"
       ],
-      "DESCRIPTION": "Let #yTakemikazuchi Advent."
+      "DESCRIPTION": "Faith towards the thunder god, #yTakemikazuchi."
     },
     {
       "NAMES": [
         "Takemikazuchi",
         "takemikazuchi"
       ],
-      "DESCRIPTION": "After #yAdvent, Apply Divine Punishment when any enemy attack you."
+      "DESCRIPTION": "God of thunder. If in Advent, inflict Divine Punishment on any enemy that hits you. Divine Punishment deals damage at the end of the turn."
     },
     {
       "NAMES": [
         "Destruction",
         "destruction"
       ],
-      "DESCRIPTION": "Let #ySusanoo Advent."
+      "DESCRIPTION": "Faith towards the storm god, #ySusano-o."
     },
     {
       "NAMES": [
-        "Susanoo",
-        "susanoo"
+        "Susano-o",
+        "susano-o"
       ],
-      "DESCRIPTION": "After #yAdvent, add additional damage to attacks."
+      "DESCRIPTION": "God of storms. If in #yAdvent, your attack deal increased damage."
     },
     {
       "NAMES": [
         "Moon",
         "moon"
       ],
-      "DESCRIPTION": "Let #yTsukuyomi Advent."
+      "DESCRIPTION": "Faith towards the moon god, #yTsukuyomi."
     },
     {
       "NAMES": [
         "Tsukuyomi",
         "tsukuyomi"
       ],
-      "DESCRIPTION": "fter #yAdvent, Upgraded the top card in your draw pile and gain extra draw at the start of your turn."
+      "DESCRIPTION": "God of the moon. If in #yAdvent, Upgrade the top card in your draw pile and draw additional cards at the start of your turn."
     },
     {
       "NAMES": [
         "Mountain",
         "mountain"
       ],
-      "DESCRIPTION": "Let #yOhoyamatsumi Advent."
+      "DESCRIPTION": "Faith towards the mountain god, #yOhoyama-tsumi."
     },
     {
       "NAMES": [
-        "ohoyamatsumi",
-        "Ohoyamatsumi"
+        "Ohoyama-tsumi",
+        "ohoyama-tsumi"
       ],
-      "DESCRIPTION": "After #yAdvent, improves Block gained from cards."
+      "DESCRIPTION": "God of mountains. If in #yAdvent, gain increased #yBlock from playing cards."
     },
       {
         "NAMES": [
           "Flight",
           "flight"
         ],
-        "DESCRIPTION": "Flight can reduces the damage from attack."
+        "DESCRIPTION": "Reduces damage taken from attacks. One stack is removed for each hit received when Flight is present."
       }
   ]
 }

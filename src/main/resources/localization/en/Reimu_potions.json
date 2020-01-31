@@ -9,35 +9,35 @@
   "MagicPotion:ReiMu": {
     "NAME": "Magic Potion",
     "DESCRIPTIONS": [
-      "Restore #yEnergy to turn initial energy. NL Gain #b1 additional energy for your next #b",
+      "Set your [E] to the amount it was at the start of this turn. NL Gain #b1 energy at the start of your next #b",
       " turns.",
       "My Energy is full."
     ]
   },
 
   "ZuzhouPotion:ReiMu": {
-    "NAME": "Curse Potion",
+    "NAME": "Bottled Condemnations",
     "DESCRIPTIONS": [
       "Add #b",
-      " for all of enemy's #yDebuff."
+      " to all stackable debuffs (e.g. Weak, Vulnerable) on the target."
     ]
   },
   "HakureiPotion:ReiMu": {
     "NAME": "Hakurei Potion",
     "DESCRIPTIONS": [
       "Add #b",
-      " for all of your #ybuff."
+      " to all stackable buffs (e.g. Strength, Dexterity) on you."
     ]
   },
   "BottledKami:ReiMu": {
     "NAME": "Bottled Kami",
     "DESCRIPTIONS": [
-      "Let random #b",
-      " kind of #yKami #yAdvent."
+      "#yAdvent random #b",
+      " #yKami."
     ]
   },
   "LiquidFlight:ReiMu": {
-    "NAME": "Liquid Flight",
+    "NAME": "Liquid Sky",
     "DESCRIPTIONS": [
       "Gain #b",
       " #yFlight."
@@ -47,7 +47,7 @@
     "NAME": "Pink Potion",
     "DESCRIPTIONS": [
       "From #b",
-      " random #pPink cards choose #b",
+      " random #pPink (Reimu) cards choose #b",
       " to add to your hand, it costs #b0 this turn."
     ]
   }

@@ -51,9 +51,7 @@ public class Poor extends CustomCard {
     public boolean canUpgrade(){
         return false;
     }
-    public boolean canUse(AbstractPlayer p, AbstractMonster m) {
-        return false;
-    }
+
 /*
     public void triggerOnExhaust() {
         AbstractPlayer p = AbstractDungeon.player;
@@ -63,7 +61,7 @@ public class Poor extends CustomCard {
     }
  */
     public void triggerOnEndOfTurnForPlayingCard() {
-        
+
         this.dontTriggerOnUseCard = true;
         int x = Math.min(AbstractDungeon.player.gold,this.magicNumber);
         AbstractDungeon.player.loseGold(x);
