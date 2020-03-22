@@ -129,57 +129,57 @@
     "NAME": "賽銭箱",
     "FLAVOR": "世の中には、誰かが「文々。新聞」を真剣に読むといった、起こりそうに無いことが多いが、それでもこの賽銭箱に誰かがお賽銭をすることよりは起こりそうだ。",
     "DESCRIPTIONS": [
-      "Increases the #yAdvent threshold for all Faiths by #b",
-      ". Gain [E] at the start of your turn."
+      " #y降臨 に必要な信仰を #b",
+      "上昇させる。 ターン開始時、 [E] を得る。"
     ]
   },
   "CheatingSign:ReiMu": {
-    "NAME": "Cheater's Sign",
-    "FLAVOR": "A fortune picker that only has the best of predictions written on it. Mystical problems require mundane solutions.",
+    "NAME": "チートおみくじ",
+    "FLAVOR": "良いことしか書いていないおみくじ。 神秘的問題には一般的な解決が必要だ。",
     "DESCRIPTIONS": [
-      "Whenever an #yO-mikuji is created during combat, it will always be at least Good Luck."
+      "戦闘中 #yおみくじ が作られると、最低でも中吉が出る。"
     ]
   },
   "Mastiff:ReiMu": {
-    "NAME": "Komainu",
-    "FLAVOR": "A lion-like creature that serves as a guardian. This one is drawn on a card, so...",
+    "NAME": "狛犬",
+    "FLAVOR": "獅子や犬に似た獣で守り神とされる。",
     "DESCRIPTIONS": [
-      " #yExhaust the first #b",
-      " #yStatus cards you draw in battle. When you do so, draw an additional card.",
-      "Still young and tired."
+      " #y廃棄 戦闘中 #b",
+      " 枚の #y状態異常 カードを引くと、追加でカードを引く。",
+      "若すぎてつまらない。"
     ]
   },
   "TurtleShell:ReiMu": {
-    "NAME": "Genbu's Shell",
-    "FLAVOR": "The shell of a mythical turtle spirit. Maybe the spirit inside can help you climb by allowing you to ride on its back?",
+    "NAME": "玄武の殻",
+    "FLAVOR": "神話の亀の魂の殻。 もしかしたら、中の精霊が背中に乗ることを許してくれるかも？",
     "DESCRIPTIONS": [
-      "Increases damage reduction given by #yFlight from #b",
-      "% to #b",
-      "%."
+      "#y飛行 によるダメージ軽減を #b",
+      "% から #b",
+      "% へ上昇する。"
     ]
   },
   "Tea:ReiMu": {
-    "NAME": "Tea",
-    "FLAVOR": "The water always comes AFTER the leaf.",
+    "NAME": "お茶",
+    "FLAVOR": "お茶淹れる時って必ずお茶っ葉が先に出てくるよね。",
     "DESCRIPTIONS": [
-      "If you have less than #b",
-      " Gold, heal #b",
-      "% HP whenever you enter a Rest Site."
+      "所持ゴールドが #b",
+      " より少なかったら、休憩場所に入るときにHPを #b",
+      "% 回復させる。"
     ]
   },
   "CrazyTorch:ReiMu": {
     "NAME": "Torch of Delirium",
-    "FLAVOR": "Staring at it, you feel like your soul is being sucked in.",
+    "FLAVOR": "眺めていると魂が引き込まれる感覚に陥る。",
     "DESCRIPTIONS": [
-      "At the start of each combat, add #b1 #gMadness+ into your hand.",
+      "戦闘開始時、#b1 枚の #g狂気+ を手札に加える。",
       ""
     ]
   },
   "FlyPower:ReiMu": {
     "NAME": "陰陽玉",
-    "FLAVOR": "An orb containing spiritual energy found in the basement of a shrine.",
+    "FLAVOR": "神秘的な力を秘めたオーブ。神社の下から見つかった。",
     "DESCRIPTIONS": [
-      "Gain #b1 #yFlight at the start of each combat."
+      "戦闘開始時、 #b1 の #y飛行 を得る。"
     ]
   },
   "TEXT:ReiMu": {
