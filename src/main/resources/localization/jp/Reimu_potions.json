@@ -1,0 +1,54 @@
+{
+  "GrandPatriotsElixir:ReiMu": {
+    "NAME": "Grand Patriot's Elixir",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " #yVigor."
+    ]
+  },
+  "MagicPotion:ReiMu": {
+    "NAME": "Magic Potion",
+    "DESCRIPTIONS": [
+      "Set your [E] to the amount it was at the start of this turn. NL Gain #b1 energy at the start of your next #b",
+      " turns.",
+      "My Energy is full."
+    ]
+  },
+
+  "ZuzhouPotion:ReiMu": {
+    "NAME": "Bottled Condemnations",
+    "DESCRIPTIONS": [
+      "Add #b",
+      " to all stackable debuffs (e.g. Weak, Vulnerable) on the target."
+    ]
+  },
+  "HakureiPotion:ReiMu": {
+    "NAME": "Hakurei Potion",
+    "DESCRIPTIONS": [
+      "Add #b",
+      " to all stackable buffs (e.g. Strength, Dexterity) on you."
+    ]
+  },
+  "BottledKami:ReiMu": {
+    "NAME": "Bottled Kami",
+    "DESCRIPTIONS": [
+      "#yAdvent random #b",
+      " #yKami."
+    ]
+  },
+  "LiquidFlight:ReiMu": {
+    "NAME": "Liquid Sky",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " #yFlight."
+    ]
+  },
+  "PinkPotion:ReiMu": {
+    "NAME": "Pink Potion",
+    "DESCRIPTIONS": [
+      "From #b",
+      " random #pPink (Reimu) cards choose #b",
+      " to add to your hand, it costs #b0 this turn."
+    ]
+  }
+}

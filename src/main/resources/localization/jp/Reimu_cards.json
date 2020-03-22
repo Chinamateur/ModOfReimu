@@ -1,0 +1,520 @@
+{
+  "CollectionFlower2:ReiMu": {
+    "NAME": "Foregathering Flowers",
+    "DESCRIPTION": "Increase Vigor by !M! times.",
+    "UPGRADE_DESCRIPTION": "Increase Vigor by !M! times."
+  },
+  "PrepareRite:ReiMu": {
+    "NAME": "Preparation Ceremony",
+    "DESCRIPTION": "Put 1 card from your draw or discard pile into the top of your draw pile. NL Gain !M! Destruction Faith. NL Gain !M! Mountain Faith. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Put 1 Power card from your draw pile into your hand. NL Gain !M! Destruction Faith. NL Gain !M! Mountain Faith. NL Innate. Exhaust."
+  },
+  "AlertArray:ReiMu": {
+    "NAME": "Cautionary Border",
+    "DESCRIPTION": "Gain !B! Block. NL Gain !M! Vigor. NL Gain 2 Destruction Faith.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Gain !M! Vigor. NL Gain 3 Destruction Faith."
+  },
+  "UniversalSpiritual:ReiMu": {
+    "NAME": "Universal Spirituality",
+    "DESCRIPTION": "Gain !M! Vigor whenever you play a card.",
+    "UPGRADE_DESCRIPTION": " Deal !D! damage. NL Next turn, gain [E] [E]."
+  },
+  "SpringWay:ReiMu": {
+    "NAME": "Colorful Path",
+    "DESCRIPTION": "Unplayable. NL Whenever you draw this card, increase your highest Faith by !M! and gain 3 Vigor.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL Whenever you draw this card, increase your highest Faith by !M! and gain 4 Vigor."
+  },
+  "SpiritualOutbreak2:ReiMu": {
+    "NAME": "Spiritual Outbreak",
+    "DESCRIPTION": "Deal !D! damage to all enemies. NL This attack does not spend Vigor."
+  },
+  "NB:ReiMu": {
+    "NAME": "Duplex Barrier",
+    "DESCRIPTION": "Danmaku Barrier",
+    "UPGRADE_DESCRIPTION":  "",
+    "EXTENDED_DESCRIPTION": [
+      "Gain !B! Block twice. NL Gain !M! Destruction Faith. NL After being played, Transform into *Danmaku *Barrier.",
+      "Gain !B! Block twice. NL Gain !M! Destruction Faith. NL After being played, Transform into *Danmaku *Barrier+.",
+      "Deal !D! damage twice. NL Gain !M! Mountain Faith. NL After being played, Transform into *Duplex *Barrier.",
+      "Deal !D! damage twice. NL Gain !M! Mountain Faith. NL After being played, Transform into *Duplex *Barrier+."
+    ]
+  },
+  "CeremonyResonance:ReiMu": {
+    "NAME": "Ceremonies Resonance",
+    "DESCRIPTION": "Play all *Ceremony cards from your exhaust pile. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": ["Ceremony","ceremony"]
+  },
+  "YinYangSign:ReiMu": {
+    "NAME": "Yin-Yang Sign",
+    "DESCRIPTION": "Deal damage equal to the amount of Constricted on the target. NL Gain [E] for each kind of DeBuff your target has."
+  },
+
+  "UniversalSpiritual2:ReiMu": {
+    "NAME": "Universal Spiritual",
+    "DESCRIPTION": "Gain Vigor equal to number of cards in your hand."
+  },
+
+  "RainPray2:ReiMu": {
+    "NAME": "Rain Dance Ceremony",
+    "DESCRIPTION": "Draw !M! card(s). NL Gain [E] next turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Vigor. NL Gain !M! Regenerate. NL Exhaust."
+  },
+
+  "ShadowOfCrow2:ReiMu": {
+    "NAME": "Darkness of the Crow",
+    "DESCRIPTION": "Apply !M! Constricted to all enemies. NL Flight: Apply 1 Weak and Vulnerable to all enemies."
+  },
+
+  "FineLineFantasy:ReiMu": {
+    "NAME": "Fine Line Fantasy",
+    "DESCRIPTION": "Whenever a card is exhausted, gain !M! Flame Faith."
+  },
+  "ZunPunch:ReiMu": {
+    "NAME": "Fantasy Drunken Fist",
+    "DESCRIPTION": "Play !M! random Attacks of any color. NL Add a *Dazed into your discard pile.",
+    "UPGRADE_DESCRIPTION": "Play !M! random upgraded Attacks of any color. NL Add a *Dazed into your discard pile.",
+    "EXTENDED_DESCRIPTION": ["Drunken Fist"]
+  },
+  "Poor:ReiMu": {
+    "NAME": "Poverty",
+    "DESCRIPTION": "Unplayable. NL Ethereal. NL At the end of your turn, lose !M! *Gold."
+  },
+  "KyokaiOfKami:ReiMu": {
+    "NAME": "Boundary of Divine",
+    "DESCRIPTION": "Let Amaterasu and Tsukuyomi Advent. NL !M! turn late, *remove your Sun Faith and Moon Faith.",
+    "UPGRADE_DESCRIPTION": "Let Amaterasu and Tsukuyomi Advent. NL !M! turn late, *halve your Sun Faith and Moon Faith."
+  },
+  "Gathering:ReiMu": {
+    "NAME": "Bind",
+    "DESCRIPTION": "Whenever an O-mikuji is created during combat, Upgrade it.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever an O-mikuji is created during combat, Upgrade it."
+  },
+  "CardOfSanctity:ReiMu": {
+    "NAME": "Card Of Sanctity",
+    "DESCRIPTION": "Add X random Upgraded O-mikuji into your hand. NL Gain X random Faith. NL (It won't be Worst Luck)",
+    "UPGRADE_DESCRIPTION": "Add X random Upgraded O-mikuji into your hand. NL Gain X random Faith. NL (It won't be Worst Luck)"
+  },
+  "Crusade:ReiMu": {
+    "NAME": "Campaign",
+    "DESCRIPTION": "Deal !D! damage. Gain !M! Thunderbolt Faith. NL If the enemy intends to attack, deal double damage."
+  },
+  "FoulBorder2:ReiMu": {
+    "NAME": "Rule Violation Barrier",
+    "DESCRIPTION": "Whenever you apply a debuff to an enemy, apply !M! stacks of an additional random debuff."
+  },
+  "Mountainwind:ReiMu": {
+    "NAME": "Mountain Wind",
+    "DESCRIPTION": "Gain !M! Flight. NL Put a Attack from your discard pile into your hand, NL It costs 0 this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Flight. NL Put a Attack from your discard pile into your hand, NL It costs 0 this turn."
+  },
+
+
+  "KamiRite:ReiMu": {
+    "NAME": "Kami Ceremony",
+    "DESCRIPTION": "Let 1 random Kami Advent. NL Exhaust."
+  },
+  "OctopathBindingBorder2:ReiMu": {
+    "NAME": "Oni-Binding Circle",
+    "DESCRIPTION": "At the end of your turn, apply !M! Constricted to ALL enemies."
+  },
+  "SpreadBorder2:ReiMu": {
+    "NAME": "Expanding Barrier",
+    "DESCRIPTION": "Gain 2 Mountain Faith. NL Gain !B! Block. NL All *Expanding *Barrier grant !M! additional Block this combat."
+  },
+
+  "Sakura:ReiMu": {
+    "NAME": "Sakura",
+    "DESCRIPTION": "Enemy loses !D! HP. NL Gain !B! Block. NL Exhaust."
+  },
+  "Dreaming2:ReiMu": {
+    "NAME": "Fantasy Seal",
+    "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Transform if this card is in your hand when a Kami Advents. NL Turn back when be played.",
+    "UPGRADE_DESCRIPTION": " Retain.",
+    "EXTENDED_DESCRIPTION": ["Fantasy Seal -Spread-","Fantasy Seal -Concentrate-","Fantasy Seal -Worn-","Fantasy Seal -Circle-","Fantasy Seal -Marred-","Fantasy Seal -Blink-","Fantasy Cherry Blossom Seal","Fantasy Seal",
+      "Trigger the passive ability of Flame Faith !M! times.",
+      "Remove ALL Block from the enemy. NL Deal !D! damage.",
+      "ALL enemies lose !M! Strength. NL Apply !M! Weak to ALL enemies.",
+      "Scry !M!. NL Deal !D! damage !M! times. NL Next turn, gain [E] [E].",
+      "Deal !D! damage to a random enemy !M! times. NL Gain Block equal to unblocked damage dealt.",
+      "Prevent damage the next enemy attack, NL then deal !M! damage back to the attacker.",
+      "Gain !M! Regenerate. NL At the start of your turn, add 1 *Sakura into your hand.",
+      "Deal !D! damage to a random enemy !M! times. NL Transform if this card is in your hand when a Kami Advents. NL Turn back when be played.",
+      "Gain !M! Regenerate. NL At the start of your turn, add 1 *Sakura+ into your hand."
+    ]
+  },
+
+  "Shading:ReiMu": {
+    "NAME": "Mysterious Disappearance",
+    "DESCRIPTION": "Retain. NL You don't take damage next round. NL Skip your next turn. NL Exhaust."
+  },
+
+  "FantasyBorder:ReiMu": {
+    "NAME": "Fantasy Rift",
+    "DESCRIPTION": "Ethereal. NL This turn, whenever a card Exhausts, add a copy of it into your discard pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "This turn, whenever a card Exhausts, add a copy of it into your discard pile. NL Exhaust."
+  },
+  "BlasphemyArray:ReiMu": {
+    "NAME": "Blasphemy Array",
+    "DESCRIPTION": "At the end of your turn, lose !M! other Faith. NL Gain half as much Flame Faith. NL Other Kami can't Advent."
+  },
+  "GreedyExorcism:ReiMu": {
+    "NAME": "Greedy Ohnusa",
+    "DESCRIPTION": "Deal !D! damage.!M! Gold.Upgraded. Exhaust."
+  },
+  "Conquer:ReiMu": {
+    "NAME": "Expulsion",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain !M! Flame Faith.",
+    "UPGRADE_DESCRIPTION":""
+  },
+  "TakeOff:ReiMu": {
+    "NAME": "Flying",
+    "DESCRIPTION": "Gain X Flight and Wind Faith. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain X Flight and Wind Faith."
+  },
+  "Free:ReiMu": {
+    "NAME": "Dream Battle",
+    "DESCRIPTION": "Unplayable. NL Play a random card when this card is drawn.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL Play a random Upgraded card when this card is drawn."
+  },
+  "SubcavityInstant:ReiMu": {
+    "NAME": "Instant Dimensional Rift",
+    "DESCRIPTION": "Until the next turn, deal !M! damage back to the enemy who first attacked you. NL Gain 2 Thunderbolt Faith.",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "SubcavityFantasy:ReiMu": {
+    "NAME": "Fantasy Rift",
+    "DESCRIPTION": "This turn, your next card is played twice. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "This turn, your next card is played twice."
+  },
+  "MountainWay:ReiMu": {
+    "NAME": "Lay to Rest",
+    "DESCRIPTION": "Gain Block equal to the number of unique buffs on you and unique debuffs on the target.",
+    "UPGRADE_DESCRIPTION": "Gain Block equal to the number of unique buffs on you and unique debuffs on the target."
+  },
+  "SpiritualOutbreak:ReiMu": {
+    "NAME": "Spiritual Strike",
+    "DESCRIPTION": "Deals X times !D! damage to enemy. NL Apply X Weak.",
+    "UPGRADE_DESCRIPTION": "Deals X times !D! damage to enemy. NL Apply X Weak. NL Exhaust."
+  },
+
+
+  "HakureiPhantom:ReiMu": {
+    "NAME": "Hakurei Illusion",
+    "DESCRIPTION": "At the end of target's turn, deals the damage equal to the amount of damage you dealt to it this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "At the end of target's turn, deal the damage equal to the amount of damage you dealt to it this turn."
+  },
+  "SolemnJudgment:ReiMu": {
+    "NAME": "Solemn Judgment",
+    "DESCRIPTION": "Ethereal. NL Lose half of your HP, Enemy loss as much life as its MAX HP. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Lose half of your HP, Enemy loss as much life as its MAX HP. NL Exhaust."
+  },
+  "SolemnWishes:ReiMu": {
+    "NAME": "Solemn Wishes",
+    "DESCRIPTION": " Ethereal. NL Heal for half of your Max HP. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Heal for half of your Max HP. NL Exhaust."
+  },
+  "PhosphorusFlame:ReiMu": {
+    "NAME": "Kishin's Flame",
+    "DESCRIPTION": "Non-attack damage taken by ALL enemies are doubled. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. Non-attack damage taken by ALL enemies are doubled. NL Exhaust."
+  },
+  "OctopathSalyBorderN:ReiMu": {
+    "NAME": "Dragon-Slaying Circle",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Remove all of your Faith."
+  },
+  "BodyOfKami:ReiMu": {
+    "NAME": "Shintai",
+    "DESCRIPTION": "It is said that this is the god's body. Somehow it is very popular with cats.",
+    "UPGRADE_DESCRIPTION": "at the end of your turn. NL Ethereal.",
+    "EXTENDED_DESCRIPTION":["Unplayable. NL Apply !M! "]
+  },
+  "CleanRite:ReiMu": {
+    "NAME": "Clean Ceremony",
+    "DESCRIPTION": "Gain !M! Artifact. NL Add a *Kagura *Ceremony into discard pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Artifact. NL Add a *Kagura *Ceremony+ draw pile. NL Exhaust."
+  },
+  "KaguraRite:ReiMu": {
+    "NAME": "Kagura Ceremony",
+    "DESCRIPTION": "Gain !M! Vigor. NL Add a *Advent *Ceremony into discard pile. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Vigor. NL Add a *Advent *Ceremony into draw pile. NL Exhaust."
+  },
+  "ComingRite:ReiMu": {
+    "NAME": "Advent Ceremony",
+    "DESCRIPTION": "Chose !M! kind of Kami to Advent. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Chose !M! kind of Kami to Advent. NL Exhaust."
+  },
+  "KamiComing:ReiMu": {
+    "NAME": "Kami Advent",
+    "DESCRIPTION": "Let Kami Advent.",
+    "UPGRADE_DESCRIPTION": " draw 1 card.",
+    "EXTENDED_DESCRIPTION": [ "Flame Advent","Break Advent","Thunderbolt Advent","Moon Advent", "Mountain Advent","Wind Advent","Sun Advent",
+      "Let Kagutsuchi Advent.",
+      "Let Susano-o Advent.",
+      "Let Takemikazuchi Advent.",
+      "Let Tsukuyomi Advent.",
+      "Let Ohoyama-tsumi Advent.",
+      "Let Takeminakata Advent.",
+      "Let Amaterasu Advent.",
+      " Exhaust."
+    ]
+  },
+
+
+  "BlastKick2:ReiMu": {
+    "NAME": "Sky-Conquering Kick",
+    "DESCRIPTION": "Deal !D! damage 0 time. NL Increase the number of hits every time you gain Flight this combat.",
+    "UPGRADE_DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      "Deal !D! damage *",
+      " times. NL Increase the number of hits every time you gain Flight this combat."
+    ]
+  },
+
+  "Authority:ReiMu": {
+    "NAME": "Authority",
+    "DESCRIPTION": "Gain !M! Sun Faith. NL If Amaterasu is in Advent, NL gain 1 Buffer. NL Exhaust."
+  },
+  "KamiSacrifice:ReiMu": {
+    "NAME": "Sacrifice Kami",
+    "DESCRIPTION": "Remove a random non-Kagutsuchi Kami that is in Advent. NL Gain !M! Flame Faith.",
+    "UPGRADE_DESCRIPTION": "I have no Kami other than Kagutsuchi that is in Advent."
+  },
+
+  "PrayRite:ReiMu": {
+    "NAME": "Prayer Ceremony",
+    "DESCRIPTION": "Choose and add !M! Great Luck O-mikuji to your hand. NL Exhaust."
+  },
+  "NineCharacters:ReiMu": {
+    "NAME": "Quick-Witted Consecration",
+    "DESCRIPTION": "At the end of your turn, NL Gain !M! Block for each kind of Faith."
+  },
+  "Dreaming:ReiMu": {
+    "NAME": "Fantasy Heaven",
+    "DESCRIPTION": "",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL For each Kami in Advent, repeat this effect.",
+    "EXTENDED_DESCRIPTION": [
+      "There is no Kami Coming."
+    ]
+  },
+  "AirManeuver:ReiMu": {
+    "NAME": "Air Maneuver",
+    "DESCRIPTION": "Gain !B! Block. NL Flight: Gain !M! Wind Faith. NL Otherwise: Gain 1 Flight."
+  },
+  "EmergencyTakeOff:ReiMu": {
+    "NAME": "Emergency Take-off",
+    "DESCRIPTION": "Gain !M! Flight. NL Gain !M! Vulnerable. NL Exhaust."
+  },
+
+
+  "PassingAway:ReiMu": {
+    "NAME": "Recycle Ceremony",
+    "DESCRIPTION": "Return a card from your exhaust pile to your hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Return a card from your exhaust pile to your hand and Upgrade it. NL Exhaust."
+  },
+
+  "DoubleButterfly:ReiMu": {
+    "NAME": "Dichromatic Lotus Butterfly",
+    "DESCRIPTION": "Gain !B! Block twice. NL Deal !D! damage twice."
+  },
+
+  "CollectionFlower:ReiMu": {
+    "NAME": "Foregathering Flowers",
+    "DESCRIPTION": "Gain Thunderbolt Faith and Thorns equal to kind of the DeBuff of the enemy. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain Thunderbolt Faith and Thorns equal to kind of the DeBuff of the enemy + !M!. NL Exhaust."
+  },
+  "BarrageOfMoneybags:ReiMu": {
+    "NAME": "Danmaku Millionaire",
+    "DESCRIPTION": "Lose [E] [E] [E] [E]. NL Lose 10 Gold for each insufficient [E]. NL Deal 30 damage.",
+    "UPGRADE_DESCRIPTION": "Lose [E] [E] [E]. NL Lose 10 Gold for each insufficient [E]. NL Deal 30 damage.",
+    "EXTENDED_DESCRIPTION": [
+      "I don't have enough Gold."
+    ]
+  },
+  "Intuition:ReiMu": {
+    "NAME": "Intuition",
+    "DESCRIPTION": "Scry 4. NL Gain !M! Moon Faith.",
+    "UPGRADE_DESCRIPTION": "Scry 5. NL Gain !M! Moon Faith."
+  },
+
+  "YinYangSange:ReiMu": {
+    "NAME": "Yin-Yang Scattering",
+    "DESCRIPTION": "Whenever you gain Faith, gain !M! of a random Faith that is not in Advent.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you gain Faith, gain !M! of a random Faith that is not in Advent."
+  },
+  "InherentArray:ReiMu": {
+    "NAME": "Permanent Border",
+    "DESCRIPTION": "Innate. NL Gain !M! Thunderbolt Faith whenever you lose Flight. NL Gain !M! Wind Faith whenever you lose HP."
+  },
+  "ForcedLanding:ReiMu": {
+    "NAME": "Forced Landing",
+    "DESCRIPTION": " Flight: Lose 1 Flight and deal !D! damage to ALL enemies. NL Gain !M! Thunderbolt Faith.",
+    "UPGRADE_DESCRIPTION": "I am not Flying."
+  },
+
+  "SubAcupoint:ReiMu": {
+    "NAME": "Dimensional Point Rift",
+    "DESCRIPTION": "Deal !D! damage. NL Flight: enemy loses !M! Strength this turn. NL Otherwise: Gain 1 Flight."
+  },
+
+  "WonderfulDomain:ReiMu": {
+    "NAME": "Nine-Syllable",
+    "DESCRIPTION": "Gain !B! Block. NL Draw 1 card for every !M! Faith."
+  },
+  "Meditation:ReiMu": {
+    "NAME": "Meditation",
+    "DESCRIPTION": "Can only be played if every card in your hand is a Skill. NL Gain [E] and !M! Moon Faith.",
+    "UPGRADE_DESCRIPTION": "Can only be played if every card in your hand is a Skill. NL Gain [E] [E] and !M! Moon Faith.",
+    "EXTENDED_DESCRIPTION": ["I have non-Skill cards in my hand."]
+  },
+
+  "TightArray:ReiMu": {
+    "NAME": "Binding Border",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Constricted."
+  },
+  "Stagnation:ReiMu": {
+    "NAME": "Floating",
+    "DESCRIPTION": " Flight: Draw !M! card. NL Otherwise: Gain 1 Flight.",
+    "UPGRADE_DESCRIPTION": "Flight: Gain 1 Flight. NL Otherwise: Draw !M! card. Retain."
+  },
+
+  "MyTest:ReiMu": {
+    "NAME": "test",
+    "DESCRIPTION": "Gain !M! all of Faith."
+  },
+  "FantasyMoon:ReiMu": {
+    "NAME": "Illusionary Moon",
+    "DESCRIPTION": "Choose 1 of 3 random cards to add into your hand. It costs 0 this turn. NL Gain !M! random Faith. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Choose 1 of 3 random Upgraded cards to add into your hand. It costs 0 this turn. NL Gain !M! random Faith. NL Exhaust."
+  },
+
+  "MikOfLucky:ReiMu": {
+    "NAME": "Miko Of Lucky",
+    "DESCRIPTION": "At the start of your turn, add !M! random O-mikuji into your hand. NL (It won't be Worst Luck)",
+    "UPGRADE_DESCRIPTION": "Innate. At the start of your turn, add !M! random O-mikuji into your hand. NL (It won't be Worst Luck)"
+  },
+  "Determination:ReiMu": {
+    "NAME": "Determination",
+    "DESCRIPTION": "Deal damage equal to your lost HP. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal damage equal to your lost HP."
+  },
+  "Sign:ReiMu": {
+    "NAME": "O-mikuji",
+    "DESCRIPTION": "The O-mikuji of Hakurei Shrine.",
+    "UPGRADE_DESCRIPTION": " Retain. NL ",
+    "EXTENDED_DESCRIPTION": ["Worst Luck","Poor Luck","Good Luck","Great Luck",
+      "Gain !M! Gold.",
+      "Gain !B! Block.",
+      "Deal !D! damage.",
+      "Draw ",
+      " cards.",
+      "Gain ",
+      "You get nothing!",
+      " NL Exhaust.",
+      "Apply",
+      " Weak and Vulnerable.",
+      " NL When Retained, Transform into a higher *Luck *Level.",
+      "Fortune O-mikuji","Safe O-mikuji","Career O-mikuji","Learning O-mikuji","Romance O-mikuji"
+    ]
+  },
+  "LearningPray:ReiMu": {
+    "NAME": "High-Speed Prayer",
+    "DESCRIPTION": "Gain !M! Moon Faith. NL Add a Learning O-mikuji into your hand.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Moon Faith. NL Add a Learning O-mikuji into your hand. NL (It won't be Worst Luck)"
+  },
+  "CareerPray:ReiMu": {
+    "NAME": "Prosperity Prayer",
+    "DESCRIPTION": "Gain !M! Destruction Faith. NL Add a Career O-mikuji into your hand.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Destruction Faith. NL Add a Career O-mikuji into your hand. NL (It won't be Worst Luck)"
+  },
+  "SafetyPray:ReiMu": {
+    "NAME": "Safety Prayer",
+    "DESCRIPTION": "Gain !M! Mountain Faith. NL Add a Safe O-mikuji into your hand.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Mountain Faith. NL Add a Safe O-mikuji into your hand. NL (It won't be Worst Luck)"
+  },
+  "AirStrike:ReiMu": {
+    "NAME": "Air Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Wind Faith. NL Flight: Activate twice."
+  },
+  "PayForSelf:ReiMu": {
+    "NAME": "Yin-Yang Orb",
+    "DESCRIPTION": "Deal !D! damage. NL Damage dealt is increased by !D! for every unique debuff on the target."
+  },
+  "Amulet:ReiMu": {
+    "NAME": "Homing Amulet",
+    "DESCRIPTION": "Gain !B! Block. NL When you lose ALL Flight, return this card to your hand."
+  },
+  "OrbThrow:ReiMu": {
+    "NAME": "Light Orb into Shade",
+    "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Gain 2 Destruction Faith."
+  },
+
+  "Revelation:ReiMu": {
+    "NAME": "Revelation",
+    "DESCRIPTION": "Scry !M!. NL Draw 1 card. NL Gain !M! Sun Faith."
+  },
+  "UpKicking:ReiMu": {
+    "NAME": "Ascension Kick",
+    "DESCRIPTION": "Deal !D! damage. NL Flight: Gain [E] and NL draw 1 card."
+  },
+  "RainPray:ReiMu": {
+    "NAME": "Rain Dance Ceremony",
+    "DESCRIPTION": "Gain !M! Vigor. NL Whenever you play this card, permanently increase it's effect by 2. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Vigor. NL Whenever you play this card, permanently increase it's effect by 3. NL Exhaust."
+  },
+
+  "RunawayExorcism:ReiMu": {
+    "NAME": "Wild Exorcism Dance",
+    "DESCRIPTION": "From within the top !M! cards of your draw pile, play all Attack cards and discard all non-Attack cards."
+  },
+
+  "ManaGlint:ReiMu": {
+    "NAME": "Exorcising Border",
+    "DESCRIPTION": "Exhaust a card. NL Gain Flame Faith equal to it's cost. NL Deal damage equal to Flame Faith to ALL enemies.",
+    "UPGRADE_DESCRIPTION": "Exhaust a card. NL Gain Flame Faith equal to double it's cost. Deal damage equal to Flame Faith to ALL enemies."
+  },
+  "WealthPray:ReiMu": {
+    "NAME": "Fortune Prayer",
+    "DESCRIPTION": "Add a Fortune O-mikuji into your hand. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add a Fortune O-mikuji into your hand. NL (It won't be Worst Luck) NL Exhaust."
+  },
+  "LovePray:ReiMu": {
+    "NAME": "Love Prayer",
+    "DESCRIPTION": "Gain !M! Sun Faith. NL Add a Romance O-mikuji into your hand.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Sun Faith. NL Add a Romance O-mikuji into your hand. NL (It won't be Worst Luck)"
+  },
+  "YinYang:ReiMu": {
+    "NAME": "Yin-Yang Asuka'i",
+    "DESCRIPTION": "Gain 2 Flight. NL Deal damage equal to !M! times your Flight.",
+    "UPGRADE_DESCRIPTION": "I'm not Flying."
+  },
+  "Strike_Lin:ReiMu": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "Defend_Lin:ReiMu": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "DependentForm:ReiMu": {
+    "NAME": "Spirit Medium Form",
+    "DESCRIPTION": "At the end of your turn, gain !M! random Faith.",
+    "UPGRADE_DESCRIPTION": "At the end of your turn, gain !M! random Faith."
+  },
+
+  "Enchanting:ReiMu": {
+    "NAME": "Evil-Sealing Circle",
+    "DESCRIPTION": "Apply !M! Weak. NL Apply !M! Vulnerable.",
+    "UPGRADE_DESCRIPTION": ""
+  },
+
+  "AirSuppress:ReiMu": {
+    "NAME": "Air Suppress",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies twice. Gain !M! Wind Faith. NL Flight: Apply 2 Vulnerable to ALL enemies.",
+    "UPGRADE_DESCRIPTION":  "Deal !M! damage to ALL enemies twice. Gain !M! Wind Faith. NL Flight: Apply 3 Vulnerable to ALL enemies."
+  },
+  "SealNeedle:ReiMu": {
+    "NAME": "Sealing Needle",
+    "DESCRIPTION": "Deal !D! damage. If it deals unblocked damage, the enemy loses !M! Strength. NL Repeat !M! times. Exhaust."
+  }
+}

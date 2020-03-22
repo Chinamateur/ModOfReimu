@@ -1,0 +1,192 @@
+{
+  "RedLine:ReiMu": {
+    "NAME": "運命の赤い糸",
+    "FLAVOR": "神が運命を決めるのに使うと言われている。",
+    "DESCRIPTIONS": [
+      "戦闘のはじめの #b",
+      " ターン、 #b",
+      " 枚のカードを山札から手札に置く。"
+    ]
+  },
+  "TentaclePot:ReiMu": {
+    "NAME": "Tentacle Pot",
+    "FLAVOR": "絶えず空腹な不気味な生き物が入った壺。開けるな。",
+    "DESCRIPTIONS": [
+      "戦闘開始時に、 #b",
+      "の #y締め付け を敵全体に与える。"
+    ]
+  },
+  "FadedRune:ReiMu": {
+    "NAME": "色あせたルーン",
+    "FLAVOR": "年老いた魔法のルーン。 しかし、時間が立っても効果は鈍らない。",
+    "DESCRIPTIONS": [
+      "戦闘開始時に、ランダムな的からの攻撃を1回だけ #b50% 減らす。"
+    ]
+  },
+  "ZunR:ReiMu": {
+    "NAME": "御神酒",
+    "FLAVOR": "神に捧げる酒。ちょっとの量で人間は酔う。",
+    "DESCRIPTIONS": [
+      " #b 枚の",
+      " #rめまい カードを捨札に置く。 [E] をターン開始時に得る。",
+      "戦闘開始時に、 #b",
+      " 枚のランダムな手札を #rめまい に #y変化 させる。 [E] をターン開始時に得る。"
+    ]
+  },
+  "PaintedHorse:ReiMu": {
+    "NAME": "絵馬",
+    "FLAVOR": "神に願いを伝える道具。",
+    "DESCRIPTIONS": [
+      "戦闘開始時に、 #b1 枚のカードをデッキから削除する。 NL #b",
+      " ターンの間、 そのカードが手札に入り、コストは #b0 下がる。"
+    ]
+  },
+  "SkyOrb:ReiMu": {
+    "NAME": "Sky Orb",
+    "FLAVOR": "An orb infused with the essence of the boundless skies.",
+    "DESCRIPTIONS": [
+      "The first time you lose all #yFlight each combat, gain #b",
+      " #yFlight."
+    ]
+  },
+  "YidongShenshe:ReiMu": {
+    "NAME": "Tiny Shrine",
+    "FLAVOR": "People believe that money can bring good luck. They're not exactly wrong..",
+    "DESCRIPTIONS": [
+      "#yRight #yClick : Lose #b",
+      " #yGold and add #b",
+      " random #yO-mikuji into your hand. NL This effect can be used #b",
+      " times per combat.",
+      " NL It can use #b"
+    ]
+  },
+  "PureWhite:ReiMu": {
+    "NAME": "Pure White",
+    "FLAVOR": "This dress is very easy to soil.",
+    "DESCRIPTIONS": [
+      "Until you take HP damage each combat, at the start of your turn, draw #b",
+      " additional card.",
+      "It's stained."
+    ]
+  },
+  "CrownOfHeavens:ReiMu": {
+    "NAME": "Crown of the Heavens",
+    "FLAVOR": "Wearing it, you feel the power of the gods surging through you.",
+    "DESCRIPTIONS": [
+      "Whenever a #yKami #yAdvents, deal #b",
+      " damage to ALL enemies."
+    ]
+  },
+  "Salt:ReiMu": {
+    "NAME": "Exorcist's Salt",
+    "FLAVOR": "Blessed salt used to ward off evil spirits",
+    "DESCRIPTIONS": [
+      "Whenever you apply a #rdebuff to an enemy, they lose #b",
+      " HP."
+    ]
+  },
+  "BodyOfKamiR:ReiMu": {
+    "NAME": "Shintai",
+    "FLAVOR": "Worshipped as the physical repository of a god. Cats love it, for some reason.",
+    "DESCRIPTIONS": [
+      "Upon pickup, choose a #yShintai. At the start of each combat, add that #yShintai to your hand."
+    ]
+  },
+  "KaguraBell:ReiMu": {
+    "NAME": "Kagura Bell",
+    "FLAVOR": "It is said that each ring from this bell herald the coming of the gods.",
+    "DESCRIPTIONS": [
+      "Whenever a #yKami #yAdvents, gain [E] and draw #b",
+      " card."
+    ]
+  },
+  "Bow_fan:ReiMu": {
+    "NAME": "Bow",
+    "FLAVOR": "The Hakureis isn't exactly known for their sharp fashion sense.",
+    "DESCRIPTIONS": [
+      "Whenever you lose #yFlight, deal #b",
+      " damage to all enemies."
+    ]
+  },
+  "RuthlessExorcism:ReiMu": {
+    "NAME": "Insatiable Onusa",
+    "FLAVOR": "A wooden wand used in exorcism rituals. This one in particular seems to slowly, yet constantly, grow in size.",
+    "DESCRIPTIONS": [
+      "Deal #b",
+      " damage to all enemies at the start of each combat. Each time you defeat an elite or boss, increase the damage dealt by #b",
+      " point."
+    ]
+  },
+  "ShineYinYang:ReiMu": {
+    "NAME": "Shining Orb",
+    "FLAVOR": "The Yin-Yang orb, after careful polishing. Gazing at the light it reflects soothes one's soul.",
+    "DESCRIPTIONS": [
+      "Replaces #pYin-Yang #pOrb. Gain #b",
+      " #yFlight at the start of each combat."
+    ]
+  },
+  "DonationBox:ReiMu": {
+    "NAME": "Donation Box",
+    "FLAVOR": "There are many improbable events, such as someone actually reading the Bunbunmaru, and yet they're all still more plausible than someone putting money in this box.",
+    "DESCRIPTIONS": [
+      "Increases the #yAdvent threshold for all Faiths by #b",
+      ". Gain [E] at the start of your turn."
+    ]
+  },
+  "CheatingSign:ReiMu": {
+    "NAME": "Cheater's Sign",
+    "FLAVOR": "A fortune picker that only has the best of predictions written on it. Mystical problems require mundane solutions.",
+    "DESCRIPTIONS": [
+      "Whenever an #yO-mikuji is created during combat, it will always be at least Good Luck."
+    ]
+  },
+  "Mastiff:ReiMu": {
+    "NAME": "Komainu",
+    "FLAVOR": "A lion-like creature that serves as a guardian. This one is drawn on a card, so...",
+    "DESCRIPTIONS": [
+      " #yExhaust the first #b",
+      " #yStatus cards you draw in battle. When you do so, draw an additional card.",
+      "Still young and tired."
+    ]
+  },
+  "TurtleShell:ReiMu": {
+    "NAME": "Genbu's Shell",
+    "FLAVOR": "The shell of a mythical turtle spirit. Maybe the spirit inside can help you climb by allowing you to ride on its back?",
+    "DESCRIPTIONS": [
+      "Increases damage reduction given by #yFlight from #b",
+      "% to #b",
+      "%."
+    ]
+  },
+  "Tea:ReiMu": {
+    "NAME": "Tea",
+    "FLAVOR": "The water always comes AFTER the leaf.",
+    "DESCRIPTIONS": [
+      "If you have less than #b",
+      " Gold, heal #b",
+      "% HP whenever you enter a Rest Site."
+    ]
+  },
+  "CrazyTorch:ReiMu": {
+    "NAME": "Torch of Delirium",
+    "FLAVOR": "Staring at it, you feel like your soul is being sucked in.",
+    "DESCRIPTIONS": [
+      "At the start of each combat, add #b1 #gMadness+ into your hand.",
+      ""
+    ]
+  },
+  "FlyPower:ReiMu": {
+    "NAME": "Yin-Yang Orb",
+    "FLAVOR": "An orb containing spiritual energy found in the basement of a shrine.",
+    "DESCRIPTIONS": [
+      "Gain #b1 #yFlight at the start of each combat."
+    ]
+  },
+  "TEXT:ReiMu": {
+    "NAME": "Choose any you like.",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      ""
+    ]
+  }
+}

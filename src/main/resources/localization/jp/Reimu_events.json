@@ -1,0 +1,48 @@
+{
+  "ZunEvent": {
+    "NAME": "Divine Wine",
+    "DESCRIPTIONS": [
+      "While traveling through a part of the spire, you encounter a seemingly harmless goblin wearing an odd hat and glasses. NL Light glinted off his eyewear as he takes out a bottle of wine and shows it to you with a mischievous smile on his face. NL 'I have here a rare product, hee hee..for a little gold, you can taste the nectar of the gods. What do you say?'",
+      "'Thank you for your patronage!' he said, as he quickly takes the gold you offer him and hands over the wine bottle into your hands.",
+      "You refuse. You don't plan on using precious gold to buy from what might've been a grifter.",
+      "As you were about to leave, you hear a voice calling out to you. NL ~NL You stop to look around, and in the distance you see a ragged old man walking towards you. NL 'I...want that wine. I know kung-fu, and I'm willing to teach you for the price of that wine.'",
+      "You decline the offer. The old man leaves, looking lostlorn. NL 'Oh, come now..'",
+      "After being rejected by you, the old man #r@bit@ #r@you@ #r@like@ #r@a@ #r@bite@, Then #b@fled@ #b@the@ #b@scene@.",
+      "You nod, but before you can say a word the old man swiftly snatched the wine bottle from your hands faster than you can react. NL Seemingly downing the entire bottle in one gulp, you watch slack-jawed as the old man starts 'fighting' an imaginary enemy in drunken stupor. NL However, as you observe his antics, you do notice some techniques that you might be able to use in future battles.",
+      "As you were about to leave, someone's voice stopped you. NL ~“Girl...”~ NL You look around, it's a ragged old man. NL “I think you are #p@talented@, If you are willing to give me this #pWine,Maybe I can teach you some #r~kung~ #r~fu~....”"
+    ],
+    "OPTIONS": [
+      "[Locked] Requires: ",
+      " Gold.",
+      "[Buy] #y",
+      " #yGold . #gObtain #ga #gRelic.",
+      "[Learn] #rLose #rO-miki. #gObtain #ga #gspecial #gAttack.",
+      "[Refuse]",
+      "[Refuse] #rTake #r",
+      " #rdamage.",
+      "[Leave]",
+      "O-miki",
+      "Keep O-miki",
+      "Hand rover O-miki"
+    ]
+  },
+  "yidonshenshe": {
+    "NAME": "The Little Shrine",
+    "DESCRIPTIONS": [
+      "You come across a small shrine model lying roadside. As you pick it up and inspect it, you feel strangely awed in its presence - more than just the quality of its construction, you feel as if you are empowered by an unknown energy. NL You then notice a slot that seems to be for inserting money. You ponder what to do with this mystical shrine model...",
+      "You gently place gold into the donation slot. A small plink is heard as it touches the bottom of the shrine, and afterwards the shrine glows with a bright light that engulfs it. NL When the light fades away, you notice the shrine model is no more, being replaced with a mysterious trinket.",
+      "Convinced of the incredible spiritual power within the tiny shrine, you decide to bring it along on your travels. NL Soon, however, you feel your wallet getting lighter and lighter...",
+      "You decide to simply leave the shrine model where it was."
+    ],
+    "OPTIONS": [
+      "[Locked] Requires: ",
+      " Gold.",
+      "[Donate] #y",
+      "  #yGold #gObtain #ga #gRelic.",
+      "[Take] #gObtain #ga #pSpecial #gRelic. #rBecome #rCursed #r- #rPoverty.",
+      "[Leave]",
+      "Donate",
+      "Take Tiny Shrine away"
+    ]
+  }
+}

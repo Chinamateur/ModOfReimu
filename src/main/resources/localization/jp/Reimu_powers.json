@@ -1,0 +1,313 @@
+{
+  "MagicPotionPower:ReiMu": {
+    "NAME": "Magic Potion",
+    "DESCRIPTIONS": [
+      "Gain #b1 energy at the start of your next #b",
+      " turns."
+    ]
+  },
+  "UniversalSpiritualPower:ReiMu": {
+    "NAME": "Universal Spirituality",
+    "DESCRIPTIONS": [
+      "Whenever you play a card, gain #b",
+      " #yVigor ."
+    ]
+  },
+  "SealPower:ReiMu": {
+    "NAME": "Sealed",
+    "DESCRIPTIONS": [
+      "Deals #b50% less damage until attacked."
+    ]
+  },
+
+  "KyokaiOfKami2Power:ReiMu": {
+    "NAME": "Temporary Advent",
+    "DESCRIPTIONS": [
+      "After #b",
+      " turn, halve your #ySun and #yMoon #yFaith."
+    ]
+  },
+  "KyokaiOfKamiPower:ReiMu": {
+    "NAME": "Temporary Advent",
+    "DESCRIPTIONS": [
+      "After #b",
+      " turn, remove all your #ySun and #yMoon #yFaith."
+    ]
+  },
+
+  "GatheringPower:ReiMu": {
+    "NAME": "Bind",
+    "DESCRIPTIONS": [
+      "All #yO-mikuji created this combat will be #yUpgraded."
+    ]
+  },
+
+  "OctopathBindingBorderPower:ReiMu": {
+    "NAME": "Oni-Binding Circle",
+    "DESCRIPTIONS": [
+      "At the end of your turn, apply #b",
+      " Constricted to ALL enemies."
+    ]
+  },
+  "DreamingYangPower:ReiMu": {
+    "NAME": "Cherry Blossoms",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b",
+      " #rSakura into your hand."
+    ]
+  },
+  "DreamingFengPower:ReiMu": {
+    "NAME": "Blink",
+    "DESCRIPTIONS": [
+      "Prevent incoming damage from the next attack to hit you. When this triggers, deal #b",
+      " damage back to the attacker."
+    ]
+  },
+  "FineLineFantasyPower:ReiMu": {
+    "NAME": "Fine Line Fantasy",
+    "DESCRIPTIONS": [
+      "Whenever a card is exhausted, gain",
+      " #yFlame #yFaith."
+    ]
+  },
+
+  "TEXT:ReiMu": {
+    "NAME": "Choose a card.",
+    "DESCRIPTIONS": [
+      "You prepare your strongest danmaku..."
+    ]
+  },
+  "SaltPower:ReiMu": {
+    "NAME": "Exorcist's Salt",
+    "DESCRIPTIONS": [
+      "Whenever you apply a #rdebuff to an enemy, they lose #b",
+      " HP."
+    ]
+  },
+  "ShadowOfCrowPower:ReiMu": {
+    "NAME": "Darkness of the Crow",
+    "DESCRIPTIONS": [
+      "For #b",
+      " turns, you won't lose #yFlight."
+    ]
+  },
+  "FantasyPower:ReiMu": {
+    "NAME": "Fantasy Rift",
+    "DESCRIPTIONS": [
+      "For #b",
+      " turn, whenever a card Exhausts, a copy of it is added into your discard pile."
+    ]
+  },
+  "BlasphemyArrayPower:ReiMu": {
+    "NAME": "Blasphemy Array",
+    "DESCRIPTIONS": [
+      "No Kami besides Kagutusuchi may Advent. Lose #b",
+      " of all non-Flame #yFaiths. Gain 1 #yFlame #yFaith for each #yFaith removed this way."
+    ]
+  },
+
+  "KamiYangPower:ReiMu": {
+    "NAME": "Sun Faith",
+    "DESCRIPTIONS": [
+      "#yAmaterasu will #yAdvent after you gain #b",
+      " more #yFaith.",
+      "At the start of your turn, gain #b",
+      " energy."
+    ]
+  },
+  "KamiYanPower:ReiMu": {
+    "NAME": "Flame Faith",
+    "DESCRIPTIONS": [
+      "#yKagutsuchi will #yAdvent after you gain #b",
+      " more #yFaith.",
+      "At the start of your turn, deal #b",
+      " damage to all enemies."
+    ]
+  },
+  "KamiZhiPower:ReiMu": {
+    "NAME": "Moon Faith",
+    "DESCRIPTIONS": [
+      "#yTsukuyomi will #yAdvent after you gain #b",
+      " more #yFaith.",
+      "At the start of your turn, Upgrade the top #b",
+      " cards in your draw pile and draw #b",
+      " additional cards."
+    ]
+  },
+  "KamiFengPower:ReiMu": {
+    "NAME": "Wind Faith",
+    "DESCRIPTIONS": [
+      "#yTakeminakata will  #yAdvent, after you gain #b",
+      " more #yFaith.",
+      "At the start of your turn, gain #b",
+      " #yFlight ."
+    ]
+  },
+  "KamiLeiPower:ReiMu": {
+    "NAME": "Thunderbolt Faith",
+    "DESCRIPTIONS": [
+      "#yTakemikazuchi will #yAdvent after you gain #b",
+      " more #yFaith.",
+      "Whenever you are hit by an enemy, apply #rDivine #rPunishment to that enemy."
+    ]
+  },
+  "KamiYuePower:ReiMu": {
+    "NAME": "Mountain Faith",
+    "DESCRIPTIONS": [
+      "#yOhoyamatsumi will #yAdvent after you gain #b",
+      " more #yFaith.",
+      "Whenever you gain Block by playing a card, gain #b",
+      " additional Block."
+    ]
+  },
+  "KamiPoPower:ReiMu": {
+    "NAME": "Destruction Faith",
+    "DESCRIPTIONS": [
+      "#ySusano-o will #yAdvent after you gain #b",
+      " more #yFaith.",
+      "Whenever you deal damage by playing a card, deal #b",
+      " additional damage."
+    ]
+  },
+  "ShadingPower:ReiMu": {
+    "NAME": "Mysterious Disappearance",
+    "DESCRIPTIONS": [
+      "Until the start of the next round, you are immune to attack damage.",
+      "After #b",
+      " turn, skip your turn and prevent all damage taken during that skipped turn."
+    ]
+  },
+  "SubcavityInstantPower:ReiMu": {
+    "NAME": "Instant Dimensional Rift",
+    "DESCRIPTIONS": [
+      "Until the next turn, deal #b",
+      " damage back to any enemy who attacks you.",
+      " damage back to any enemy who attacks you."
+    ]
+  },
+  "HakureiPhantomPower:ReiMu": {
+    "NAME": "Hakurei Illusion",
+    "DESCRIPTIONS": [
+      "At the end of their turn, take damage equal to the amount of damage you dealt to it this turn.",
+      "At the end of turn, take #b",
+      " damage."
+    ]
+  },
+  "PhosphorusFlamePower:ReiMu": {
+    "NAME": "Kishin's Will-o'-Wisp",
+    "DESCRIPTIONS": [
+      "All non-attack damage taken (e.g. from Poison, Constricted) will be doubled.",
+      "All non-attack damage taken (e.g. from Poison, Constricted) will be doubled."
+    ]
+  },
+  "NineCharactersPower:ReiMu": {
+    "NAME": "Quick-Witted Consecration",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #b",
+      " Block for each kind of #Faith ."
+    ]
+  },
+  "OutlierPower:ReiMu": {
+    "NAME": "Divine Punishment",
+    "DESCRIPTIONS": [
+      "This enemy will take #b",
+      " damage",
+      " and gain #b1 #yWeak and #yVulnerable."
+    ]
+  },
+  "YinYangSangePower:ReiMu": {
+    "NAME": "Yin-Yang Scattering",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " random #yFaith that is not in Advent whenever you gain #yFaith."
+    ]
+  },
+  "InherentArrayPower:ReiMu": {
+    "NAME": "Permanent Border",
+    "DESCRIPTIONS": [
+      "Whenever you lose #yFlight, gain #b",
+      " #yWind Faith. Whenever you lose HP, gain #b",
+      " #yThunderbolt Faith ."
+    ]
+  },
+  "AlertArrayPower:ReiMu": {
+    "NAME": "Cautionary Border",
+    "DESCRIPTIONS": [
+      "Until your next turn, the next #b",
+      " attack will gain you #yMoon the #Faith ."
+    ]
+  },
+
+  "FoulBorderAPower:ReiMu": {
+    "NAME": "Rule Violation Barrier",
+    "DESCRIPTIONS": [
+      "Whenever you apply debuff to an enemy, they also gain #b",
+      " stacks of a random debuff."
+    ]
+  },
+  "FoulBorderBPower:ReiMu": {
+    "NAME": "Rule Violation Barrier",
+    "DESCRIPTIONS": [
+      "At the end of your turn, deal #b",
+      " damage to all enemies."
+    ]
+  },
+  "GreedyExorcismPower:ReiMu": {
+    "NAME": "Merciless Purification Rod",
+    "DESCRIPTIONS": [
+      "At the end of it's turn, take #b",
+      " damage."
+    ]
+  },
+
+  "DependentFormPower:ReiMu": {
+    "NAME": "Spirit Medium Form",
+    "DESCRIPTIONS": [
+      "At the end of your turn, gain #b",
+      " random #yFaith."
+    ]
+  },
+
+  "MikOfLuckyPower:ReiMu": {
+    "NAME": "Miko Of Luck",
+    "DESCRIPTIONS": [
+      "At the start of your turn, add #b",
+      " random #yO-mikuji into your hand."
+    ]
+  },
+
+  "SpreadBorderPower:ReiMu": {
+    "NAME": "Expanding Barrier",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " #yBlock at the end of your turn.",
+      " #yBlock at the end of your turn."
+    ]
+  },
+  "DoublePower:ReiMu": {
+    "NAME": "Fantasy Rift",
+    "DESCRIPTIONS": [
+      "This turn, your next card will be played an additional #b",
+      " 2 times.",
+      "???"
+    ]
+  },
+
+  "EnegyL:ReiMu": {
+    "NAME": "Energized",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " additional [E] next turn.",
+      " additional [E] next turn."
+    ]
+  },
+
+  "Flyfan:ReiMu": {
+    "NAME": "Flight",
+    "DESCRIPTIONS": [
+      "Reduce the damage of the next #b",
+      " attacks you take by #b",
+      "%."
+    ]
+  }
+}
