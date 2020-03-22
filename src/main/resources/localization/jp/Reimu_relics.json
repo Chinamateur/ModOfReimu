@@ -168,11 +168,18 @@
     ]
   },
   "CrazyTorch:ReiMu": {
-    "NAME": "Torch of Delirium",
+    "NAME": "デリリウムトーチ",
     "FLAVOR": "眺めていると魂が引き込まれる感覚に陥る。",
     "DESCRIPTIONS": [
       "戦闘開始時、#b1 枚の #g狂気+ を手札に加える。",
       ""
+    ]
+  },
+  "danmuguizhi:ReiMu": {
+    "NAME": "精神をすり減らす",
+    "FLAVOR": "優しいルールでは当たり判定が小さいです。",
+    "DESCRIPTIONS": [
+      "戦闘開始時、HPを 10 回復する。 NL 戦闘終了時、敵の最大HPの1/5を得る。"
     ]
   },
   "FlyPower:ReiMu": {
