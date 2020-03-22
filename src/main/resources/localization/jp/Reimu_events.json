@@ -1,48 +1,48 @@
 {
   "ZunEvent": {
-    "NAME": "Divine Wine",
+    "NAME": "“神”の酒",
     "DESCRIPTIONS": [
-      "While traveling through a part of the spire, you encounter a seemingly harmless goblin wearing an odd hat and glasses. NL Light glinted off his eyewear as he takes out a bottle of wine and shows it to you with a mischievous smile on his face. NL 'I have here a rare product, hee hee..for a little gold, you can taste the nectar of the gods. What do you say?'",
-      "'Thank you for your patronage!' he said, as he quickly takes the gold you offer him and hands over the wine bottle into your hands.",
-      "You refuse. You don't plan on using precious gold to buy from what might've been a grifter.",
-      "As you were about to leave, you hear a voice calling out to you. NL ~NL You stop to look around, and in the distance you see a ragged old man walking towards you. NL 'I...want that wine. I know kung-fu, and I'm willing to teach you for the price of that wine.'",
-      "You decline the offer. The old man leaves, looking lostlorn. NL 'Oh, come now..'",
-      "After being rejected by you, the old man #r@bit@ #r@you@ #r@like@ #r@a@ #r@bite@, Then #b@fled@ #b@the@ #b@scene@.",
-      "You nod, but before you can say a word the old man swiftly snatched the wine bottle from your hands faster than you can react. NL Seemingly downing the entire bottle in one gulp, you watch slack-jawed as the old man starts 'fighting' an imaginary enemy in drunken stupor. NL However, as you observe his antics, you do notice some techniques that you might be able to use in future battles.",
-      "As you were about to leave, someone's voice stopped you. NL ~“Girl...”~ NL You look around, it's a ragged old man. NL “I think you are #p@talented@, If you are willing to give me this #pWine,Maybe I can teach you some #r~kung~ #r~fu~....”"
+      "スパイアーの世界を旅していると、無害そうな奇妙な #g帽子 をかぶりサングラスをした #rゴブリン に出会った。 NL 彼はいたずらな笑顔とともに、#p酒の瓶 を取り出しこっちに見せてきた。 NL #g@「俺はレアなものを持ってるよ イヒヒ・・・ すこしゴールドをくれれば、君に神の酒を味見させてあげるよ。どうする？」@",
+      " #g~「まいどあり～」~ 彼は素早くゴールドを受け取ると、#p酒の瓶 を渡してきた。",
+      "断った。 #p偽物 かもしれないものを買うのに貴重な #yゴールド は使えない。",
+      "立ち去ろうとした時、呼び止める声が聞こえた。 NL ~「若者よ・・・」~ NL 立ち止まってあたりを見回すと、 ぼろぼろの老人が向かってくるのが見えた。 NL 「その酒が・・・ほしい。 私はカンフーを習っていた。もし #p酒の瓶 をくれるなら、喜んでカンフーを教えよう。」",
+      "頼みを断った。 老人は急に消えた。 NL #g~「まったくもう・・・」~",
+      "断られた老人は、 あなたに #r@噛み付いて@ 逃げました。",
+      "老人に酒を渡した。老人は微笑んであなたが渡した #p酒の瓶 を飲み干した。 NL 一見するとただ酔っ払っているだけのように見えたが、老人の動きはこれからの戦闘で役に立ちそうなことに気がついた。",
+      "立ち去ろうとした時、呼び止める声が聞こえた。 NL #p~“小娘よ・・・”~ NL 周りを見渡すと、#bボロボロの老人 がいた。 NL 「君には #p@才能@ がある。 #p酒の瓶 をくれるなら、カンフーを教えよう・・・”"
     ],
     "OPTIONS": [
-      "[Locked] Requires: ",
-      " Gold.",
-      "[Buy] #y",
-      " #yGold . #gObtain #ga #gRelic.",
-      "[Learn] #rLose #rO-miki. #gObtain #ga #gspecial #gAttack.",
-      "[Refuse]",
-      "[Refuse] #rTake #r",
-      " #rdamage.",
-      "[Leave]",
-      "O-miki",
-      "Keep O-miki",
-      "Hand rover O-miki"
+      "[ロック] ゴールドが ",
+      " 必要。",
+      "[買う] #y",
+      " #yゴールド #gレリックを入手。",
+      "[習う] #r御神酒を失った。 #gスペシャルアタックを入手。",
+      "[断る]",
+      "[断る] #r",
+      " #rダメージ を #r受ける。",
+      "[立ち去る]",
+      "御神酒",
+      "御神酒を得る",
+      "御神酒を渡す"
     ]
   },
   "yidonshenshe": {
-    "NAME": "The Little Shrine",
+    "NAME": "小さな神社",
     "DESCRIPTIONS": [
-      "You come across a small shrine model lying roadside. As you pick it up and inspect it, you feel strangely awed in its presence - more than just the quality of its construction, you feel as if you are empowered by an unknown energy. NL You then notice a slot that seems to be for inserting money. You ponder what to do with this mystical shrine model...",
-      "You gently place gold into the donation slot. A small plink is heard as it touches the bottom of the shrine, and afterwards the shrine glows with a bright light that engulfs it. NL When the light fades away, you notice the shrine model is no more, being replaced with a mysterious trinket.",
-      "Convinced of the incredible spiritual power within the tiny shrine, you decide to bring it along on your travels. NL Soon, however, you feel your wallet getting lighter and lighter...",
-      "You decide to simply leave the shrine model where it was."
+      "小さいな #y神社の模型 を見つけた。 手にとってみたら、とても #b~精巧~ に作られている。持ち帰りたいと思った。",
+      "賽銭箱に #yゴールド を収めると、神社から #b~まばゆい光が溢れ出した~ 。 NL 光が収まると、神社は消えて手には神具が残っていた。",
+      " #y神社の模型 からはとてつもないエネルギーを感じます。 NL #g@本当にこれで良いのか？@",
+      " #y神社の模型 を置いて行くことにした。"
     ],
     "OPTIONS": [
-      "[Locked] Requires: ",
-      " Gold.",
-      "[Donate] #y",
-      "  #yGold #gObtain #ga #gRelic.",
-      "[Take] #gObtain #ga #pSpecial #gRelic. #rBecome #rCursed #r- #rPoverty.",
-      "[Leave]",
-      "Donate",
-      "Take Tiny Shrine away"
+      "[ロック] ゴールドが ",
+      " 必要。",
+      "[お賽銭] #y",
+      "  #yゴールド #gレリックを入手。",
+      "[取る] #g特別なレリックを入手。 #r貧乏の呪いを得た。",
+      "[立ち去る]",
+      "お賽銭",
+      "神社の模型を持っていく。"
     ]
   }
 }
