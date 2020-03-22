@@ -12,7 +12,7 @@
     "NAME": "Tentacle Pot",
     "FLAVOR": "絶えず空腹な不気味な生き物が入った壺。開けるな。",
     "DESCRIPTIONS": [
-      "戦闘開始時に、 #b",
+      "戦闘開始時、 #b",
       "の #y締め付け を敵全体に与える。"
     ]
   },
@@ -20,7 +20,7 @@
     "NAME": "色あせたルーン",
     "FLAVOR": "年老いた魔法のルーン。 しかし、時間が立っても効果は鈍らない。",
     "DESCRIPTIONS": [
-      "戦闘開始時に、ランダムな的からの攻撃を1回だけ #b50% 減らす。"
+      "戦闘開始時、ランダムな的からの攻撃を1回だけ #b50% 減らす。"
     ]
   },
   "ZunR:ReiMu": {
@@ -29,7 +29,7 @@
     "DESCRIPTIONS": [
       " #b 枚の",
       " #rめまい カードを捨札に置く。 [E] をターン開始時に得る。",
-      "戦闘開始時に、 #b",
+      "戦闘開始時、 #b",
       " 枚のランダムな手札を #rめまい に #y変化 させる。 [E] をターン開始時に得る。"
     ]
   },
@@ -37,97 +37,97 @@
     "NAME": "絵馬",
     "FLAVOR": "神に願いを伝える道具。",
     "DESCRIPTIONS": [
-      "戦闘開始時に、 #b1 枚のカードをデッキから削除する。 NL #b",
+      "戦闘開始時、 #b1 枚のカードをデッキから削除する。 NL #b",
       " ターンの間、 そのカードが手札に入り、コストは #b0 下がる。"
     ]
   },
   "SkyOrb:ReiMu": {
-    "NAME": "Sky Orb",
-    "FLAVOR": "An orb infused with the essence of the boundless skies.",
+    "NAME": "スカイオーブ",
+    "FLAVOR": "限りない空のエッセンスを注入したオーブ。",
     "DESCRIPTIONS": [
-      "The first time you lose all #yFlight each combat, gain #b",
-      " #yFlight."
+      "戦闘で初めて、全ての #y飛行 を失った時、 #b",
+      " の #y飛行 を得る。"
     ]
   },
   "YidongShenshe:ReiMu": {
-    "NAME": "Tiny Shrine",
-    "FLAVOR": "People believe that money can bring good luck. They're not exactly wrong..",
+    "NAME": "小さな神社",
+    "FLAVOR": "人間はお賽銭で運気が得られると思ってる。 間違ってはいないけど・・・",
     "DESCRIPTIONS": [
-      "#yRight #yClick : Lose #b",
-      " #yGold and add #b",
-      " random #yO-mikuji into your hand. NL This effect can be used #b",
-      " times per combat.",
-      " NL It can use #b"
+      "#y右クリック : #b ",
+      " #yゴールド を失い、 #b",
+      " 枚のランダムな #yおみくじ を手札に加える。 NL この効果は戦闘中 #b",
+      " 回使える。",
+      " NL あと #b 回使える。"
     ]
   },
   "PureWhite:ReiMu": {
-    "NAME": "Pure White",
-    "FLAVOR": "This dress is very easy to soil.",
+    "NAME": "白装束",
+    "FLAVOR": "とても汚れやすい。",
     "DESCRIPTIONS": [
-      "Until you take HP damage each combat, at the start of your turn, draw #b",
-      " additional card.",
-      "It's stained."
+      "戦闘中、 HP ダメージを受けるるまで、ターン開始時に #b",
+      " 枚のカードを引く。",
+      "汚れてしまった。"
     ]
   },
   "CrownOfHeavens:ReiMu": {
-    "NAME": "Crown of the Heavens",
-    "FLAVOR": "Wearing it, you feel the power of the gods surging through you.",
+    "NAME": "天冠",
+    "FLAVOR": "身につけると、神々の力が沸き立つのを感じられる。",
     "DESCRIPTIONS": [
-      "Whenever a #yKami #yAdvents, deal #b",
-      " damage to ALL enemies."
+      " #y神降臨 のたび、 #b",
+      " ダメージを敵全体に与える。"
     ]
   },
   "Salt:ReiMu": {
-    "NAME": "Exorcist's Salt",
-    "FLAVOR": "Blessed salt used to ward off evil spirits",
+    "NAME": "清め塩",
+    "FLAVOR": "清め塩は悪霊を追い払うために使われる。",
     "DESCRIPTIONS": [
-      "Whenever you apply a #rdebuff to an enemy, they lose #b",
-      " HP."
+      "#rデバフ を的に与えるたび、 敵は #b",
+      " HPを失う。"
     ]
   },
   "BodyOfKamiR:ReiMu": {
-    "NAME": "Shintai",
-    "FLAVOR": "Worshipped as the physical repository of a god. Cats love it, for some reason.",
+    "NAME": "神体",
+    "FLAVOR": "神が宿るとされている物体で礼拝の対象。 猫はなぜだかこれが好き。",
     "DESCRIPTIONS": [
-      "Upon pickup, choose a #yShintai. At the start of each combat, add that #yShintai to your hand."
+      "獲得時、 #y神体 を選ぶ。戦闘開始時、 #y神体 を手札に加える。"
     ]
   },
   "KaguraBell:ReiMu": {
-    "NAME": "Kagura Bell",
-    "FLAVOR": "It is said that each ring from this bell herald the coming of the gods.",
+    "NAME": "神楽鈴",
+    "FLAVOR": "神を呼び寄せる効果があると言われている。",
     "DESCRIPTIONS": [
-      "Whenever a #yKami #yAdvents, gain [E] and draw #b",
-      " card."
+      "#y神降臨 のたび、 [E] を得て、 #b",
+      " 枚カードを引く。"
     ]
   },
   "Bow_fan:ReiMu": {
-    "NAME": "Bow",
-    "FLAVOR": "The Hakureis isn't exactly known for their sharp fashion sense.",
+    "NAME": "リボン",
+    "FLAVOR": "霊夢は自分のファッションセンスが尖っていることに気がついていない。",
     "DESCRIPTIONS": [
-      "Whenever you lose #yFlight, deal #b",
-      " damage to all enemies."
+      " #y飛行 を失う時、 #b",
+      " ダメージを敵全体に与える。"
     ]
   },
   "RuthlessExorcism:ReiMu": {
-    "NAME": "Insatiable Onusa",
-    "FLAVOR": "A wooden wand used in exorcism rituals. This one in particular seems to slowly, yet constantly, grow in size.",
+    "NAME": "強欲な大幣",
+    "FLAVOR": "お祓いに使う道具。 特にこれはゆっくり大きくなっている。",
     "DESCRIPTIONS": [
-      "Deal #b",
-      " damage to all enemies at the start of each combat. Each time you defeat an elite or boss, increase the damage dealt by #b",
-      " point."
+      " 戦闘開始時、 #b",
+      " ダメージを敵全体に与える。 エリートやボスを倒すたび、ダメージが #b",
+      " 増加する。"
     ]
   },
   "ShineYinYang:ReiMu": {
-    "NAME": "Shining Orb",
-    "FLAVOR": "The Yin-Yang orb, after careful polishing. Gazing at the light it reflects soothes one's soul.",
+    "NAME": "輝く陰陽玉",
+    "FLAVOR": "丁寧に磨かれた陰陽玉。 輝いているのを見ると心が落ち着く。",
     "DESCRIPTIONS": [
-      "Replaces #pYin-Yang #pOrb. Gain #b",
-      " #yFlight at the start of each combat."
+      " #陰陽玉 と置き換える。 戦闘開始時、 #b",
+      " の #y飛行 を得る。"
     ]
   },
   "DonationBox:ReiMu": {
-    "NAME": "Donation Box",
-    "FLAVOR": "There are many improbable events, such as someone actually reading the Bunbunmaru, and yet they're all still more plausible than someone putting money in this box.",
+    "NAME": "賽銭箱",
+    "FLAVOR": "世の中には、誰かが「文々。新聞」を真剣に読むといった、起こりそうに無いことが多いが、それでもこの賽銭箱に誰かがお賽銭をすることよりは起こりそうだ。",
     "DESCRIPTIONS": [
       "Increases the #yAdvent threshold for all Faiths by #b",
       ". Gain [E] at the start of your turn."
@@ -176,7 +176,7 @@
     ]
   },
   "FlyPower:ReiMu": {
-    "NAME": "Yin-Yang Orb",
+    "NAME": "陰陽玉",
     "FLAVOR": "An orb containing spiritual energy found in the basement of a shrine.",
     "DESCRIPTIONS": [
       "Gain #b1 #yFlight at the start of each combat."

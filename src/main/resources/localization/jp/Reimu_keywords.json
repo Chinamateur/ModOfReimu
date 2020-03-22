@@ -2,181 +2,153 @@
   "keywords": [
     {
       "NAMES": [
-        "Romance",
-        "romance"
+        "恋愛"
       ],
-      "DESCRIPTION": "#rGreatLuck :Gain #b3 #yenergy. NL #rGoodLuck :Gain #b2 #yenergy. NL #bPoorLuck :Gain #b1 #yenergy. NL #bWorstLuck :Gain #b0 #yenergy."
+      "DESCRIPTION": "#r大吉 : #b3 #エナジー を得る。 NL #r中吉 : #b2 #yエナジー を得る。 NL #b吉 : #b1 #yエナジー を得る。 NL #b凶 : #b0 #yエナジー を得る"
     },
     {
       "NAMES": [
-        "Learning",
-        "learning"
+        "学業"
       ],
-      "DESCRIPTION": "#rGreatLuck :Draw #b4 cards. NL #rGoodLuck :Draw #b3 cards. NL #bPoorLuck :Draw #b2 cards. NL #bWorstLuck :Draw #b0 cards."
+      "DESCRIPTION": "#r大吉 : #b4 枚カードを引く。 NL #r中吉 : #b3 枚カードを引く。 NL #b吉 : #b2 枚カードを引く。 NL #b凶 : #b0 枚カードを引く。"
     },
     {
       "NAMES": [
-        "Fortune",
-        "fortune"
+        "金運"
       ],
-      "DESCRIPTION": "#rGreatLuck :Gain #b30 gold. NL #rGoodLuck :Gain #b20 gold. NL #bPoorLuck :Gain #b10 gold. NL #bWorstLuck :Gain #b0 gold."
+      "DESCRIPTION": "#r大吉 : #b30 ゴールドを得る。 NL #r中吉 : #b20 ゴールドを得る。 NL #b吉 : #b10 ゴールドを得る。 NL #b凶 : #b0 ゴールドを得る。"
     },
     {
       "NAMES": [
-        "Career",
-        "career"
+        "争事"
       ],
-      "DESCRIPTION": "#rGreatLuck :Deals #b21 damage. NL #rGoodLuck :Deals #b14 damage. NL #bPoorLuck :Deals #b7 damage. NL #bWorstLuck :Deals #b0 damage."
+      "DESCRIPTION": "#r大吉 : #b21 ダメージを与える。 NL #r中吉 : #b14 ダメージを与える。 NL #b吉 : #b7 ダメージを与える。 NL #b凶 : #b0 ダメージを与える。"
     },
     {
       "NAMES": [
-        "Safe",
-        "safe"
+        "安全"
       ],
-      "DESCRIPTION": "#rGreatLuck :Gain #b15 Block. NL #rGoodLuck :Gain #b10 Block. NL #bPoorLuck :Gain #b5 Block. NL #bWorstLuck :Gain #b0 Block."
+      "DESCRIPTION": "#r大吉 : #b15 ブロックを得る。 NL #r中吉 : #b10 ブロックを得る。 NL #b吉 : #b5 ブロックを得る。 NL #b凶 : #b0 ブロックを得る。"
     },
     {
       "NAMES": [
-        "O-mikuji",
-        "o-mikuji"
+        "おみくじ"
       ],
-      "DESCRIPTION": "0-cost card that #yExhaust when played and vary in effect depending on its type and Luck level."
-    },
-    
-    {
-      "NAMES": [
-        "Constricted",
-        "constricted"
-      ],
-      "DESCRIPTION": "At the end of their turn, take damage equal to the amount of Constricted stacks."
+      "DESCRIPTION": "コスト0のカード。プレイすると #y廃棄 され、運勢によって様々な効果が得られる。"
     },
     {
       "NAMES": [
-        "Advent",
-        "advent",
-        "Advents",
-        "advents"
+        "締め付け"
       ],
-      "DESCRIPTION": "Whenever a Faith reaches a certain amount (default 10), it Advents into a Kami. When this happens, remove all debuffs on you."
+      "DESCRIPTION": "敵のターン終了時、敵は締め付けのダメージを受ける。"
     },
     {
       "NAMES": [
-        "Kami",
-        "kami"
+        "降臨"
       ],
-      "DESCRIPTION": "Unique buff that lasts for the entire combat, but only activates when they #yAdvent."
+      "DESCRIPTION": "信仰が規定値(デフォルトは10)まで達すると、この降臨は神になる。 その際、自分のすべてのデバフを取り除く。"
     },
     {
       "NAMES": [
-        "Faith",
-        "faith"
+        "神"
       ],
-      "DESCRIPTION": "Represents devotion towards a #yKami. Gain enough amount to trigger #yAdvent of #yKami in combat."
+      "DESCRIPTION": "この戦闘中、ユニークなバフを得る。 #y降臨 した時のみ効果がある。"
     },
     {
       "NAMES": [
-        "Sun",
-        "sun"
+        "信仰"
       ],
-      "DESCRIPTION": "Faith towards the sun goddess, #yAmaterasu."
+      "DESCRIPTION": " #y神 への信仰心を表す。 貯まると戦闘中に #y神の降臨 が起きる。"
     },
     {
       "NAMES": [
-        "Amaterasu",
-        "amaterasu"
+        "太陽"
       ],
-      "DESCRIPTION": "Goddess of the sun. If in #yAdvent, gain [E] at the start of your turn."
+      "DESCRIPTION": "太陽の神、 #y天照大神 への信仰。"
     },
     {
       "NAMES": [
-        "Flame",
-        "flame"
+        "天照大神"
       ],
-      "DESCRIPTION": "Faith towards the fire god, #yKagutsuchi. Unlike other #yFaith counters, does not have an upper limit."
+      "DESCRIPTION": "太陽の神 アマテラス。 #y降臨　すると、ターン開始時 [E] を得る。"
     },
     {
       "NAMES": [
-        "Kagutsuchi",
-        "kagutsuchi"
+        "炎"
       ],
-      "DESCRIPTION": "God of fire. If in #yAdvent, deal damage equal to your #yFlame #yFaith to ALL enemies at the start of your turn."
+      "DESCRIPTION": "火の神 #y軻遇突智 への信仰。 他の #y信仰 と違い上限がない。"
     },
     {
       "NAMES": [
-        "Wind",
-        "wind"
+        "軻遇突智"
       ],
-      "DESCRIPTION": "Faith towards the wind god, #yTakeminakata."
+      "DESCRIPTION": "火の神 カグツチ。 #y降臨 すると、ターン開始時、 #y炎 と同じダメージを敵全体に与える。"
     },
     {
       "NAMES": [
-        "Takeminakata",
-        "takeminakata"
+        "風"
       ],
-      "DESCRIPTION": "God of the winds. If in #yAdvent, gain #yFlight at the start of your turn."
+      "DESCRIPTION": "風の神、 #y建御名方 への信仰。"
     },
     {
       "NAMES": [
-        "Thunderbolt",
-        "thunderbolt"
+        "建御名方"
       ],
-      "DESCRIPTION": "Faith towards the thunder god, #yTakemikazuchi."
+      "DESCRIPTION": "風の神 タケミナカタ. #y降臨 すると、ターン開始時、 #y飛行 を得る。"
     },
     {
       "NAMES": [
-        "Takemikazuchi",
-        "takemikazuchi"
+        "稲妻"
       ],
-      "DESCRIPTION": "God of thunder. If in Advent, inflict Divine Punishment on any enemy that hits you. Divine Punishment deals damage at the end of the turn."
+      "DESCRIPTION": "雷の神、 #y建御雷神 への信仰。"
     },
     {
       "NAMES": [
-        "Destruction",
-        "destruction"
+        "建御雷神"
       ],
-      "DESCRIPTION": "Faith towards the storm god, #ySusano-o."
+      "DESCRIPTION": "雷の神 タケミカヅチ。 #y降臨 すると、 ダメージを与えてきた敵に天罰を与える。 ターン終了時に天罰のダメージを与える。"
     },
     {
       "NAMES": [
-        "Susano-o",
-        "susano-o"
+        "破壊"
       ],
-      "DESCRIPTION": "God of storms. If in #yAdvent, your attack deal increased damage."
+      "DESCRIPTION": "嵐の神、 #y須佐之男 への信仰。"
     },
     {
       "NAMES": [
-        "Moon",
-        "moon"
+        "須佐之男"
       ],
-      "DESCRIPTION": "Faith towards the moon god, #yTsukuyomi."
+      "DESCRIPTION": "嵐の神 スサノヲ。 #y降臨 すると、攻撃力が上昇する。"
     },
     {
       "NAMES": [
-        "Tsukuyomi",
-        "tsukuyomi"
+        "月"
       ],
-      "DESCRIPTION": "God of the moon. If in #yAdvent, Upgrade the top card in your draw pile and draw additional cards at the start of your turn."
+      "DESCRIPTION": "月の神、 #y月読 への信仰。"
     },
     {
       "NAMES": [
-        "Mountain",
-        "mountain"
+        "月読"
       ],
-      "DESCRIPTION": "Faith towards the mountain god, #yOhoyama-tsumi."
+      "DESCRIPTION": "月の神 ツクヨミ。 #y降臨 すると、山札の一番上のカードをアップグレードし、ターン開始時カードを追加で引く。 "
     },
     {
       "NAMES": [
-        "Ohoyama-tsumi",
-        "ohoyama-tsumi"
+        "山"
       ],
-      "DESCRIPTION": "God of mountains. If in #yAdvent, gain increased #yBlock from playing cards."
+      "DESCRIPTION": "山の神、 #y大山祇 への信仰。"
     },
-      {
-        "NAMES": [
-          "Flight",
-          "flight"
-        ],
-        "DESCRIPTION": "Reduces damage taken from attacks. One stack is removed for each hit received when Flight is present."
-      }
+    {
+      "NAMES": [
+        "大山祇"
+      ],
+      "DESCRIPTION": "山の神 オオヤマツミ。 #y降臨 すると、 #yブロック の効果を上昇する。"
+    },
+    {
+      "NAMES": [
+        "飛行"
+      ],
+      "DESCRIPTION": "アタックダメージを減らす。 飛行状態の時、ダメージを受けるごとに飛行が 1 低下する。"
+    }
   ]
 }
