@@ -1,54 +1,53 @@
 {
   "GrandPatriotsElixir:ReiMu": {
-    "NAME": "Grand Patriot's Elixir",
+    "NAME": "国士無双の薬",
     "DESCRIPTIONS": [
-      "Gain #b",
-      " #yVigor."
+      "#y気力 #b",
+      " を得る。"
     ]
   },
   "MagicPotion:ReiMu": {
-    "NAME": "Magic Potion",
+    "NAME": "マジックポーション",
     "DESCRIPTIONS": [
-      "Set your [E] to the amount it was at the start of this turn. NL Gain #b1 energy at the start of your next #b",
-      " turns.",
-      "My Energy is full."
+      " [E] をターン開始時の状態にする。 NL #b1 エナジーを次の #b",
+      " ターンの間得る。",
+      "エナジーがいっぱいだ。"
     ]
   },
-
   "ZuzhouPotion:ReiMu": {
-    "NAME": "Bottled Condemnations",
+    "NAME": "ボトル入りの有罪",
     "DESCRIPTIONS": [
-      "Add #b",
-      " to all stackable debuffs (e.g. Weak, Vulnerable) on the target."
+      "敵の全てのデバにフ #b",
+      " 追加する。"
     ]
   },
   "HakureiPotion:ReiMu": {
-    "NAME": "Hakurei Potion",
+    "NAME": "博麗ポーション",
     "DESCRIPTIONS": [
-      "Add #b",
-      " to all stackable buffs (e.g. Strength, Dexterity) on you."
+      "自分の全てのバフに #b",
+      " 追加する。"
     ]
   },
   "BottledKami:ReiMu": {
-    "NAME": "Bottled Kami",
+    "NAME": "ボトル入りの神",
     "DESCRIPTIONS": [
-      "#yAdvent random #b",
-      " #yKami."
+      "ランダムな #b",
+      " #y神 を #y降臨 する。"
     ]
   },
   "LiquidFlight:ReiMu": {
-    "NAME": "Liquid Sky",
+    "NAME": "空の液体",
     "DESCRIPTIONS": [
-      "Gain #b",
-      " #yFlight."
+      "#y飛行 #b",
+      " を得る。"
     ]
   },
   "PinkPotion:ReiMu": {
-    "NAME": "Pink Potion",
+    "NAME": "ピンクポーション",
     "DESCRIPTIONS": [
-      "From #b",
-      " random #pPink (Reimu) cards choose #b",
-      " to add to your hand, it costs #b0 this turn."
+      " #b 枚の",
+      " ランダムな #pピンク (霊夢) カードから #b",
+      " 枚を手札に加える。 このターン、そのコストは #b0 。"
     ]
   }
 }
