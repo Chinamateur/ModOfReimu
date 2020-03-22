@@ -1,313 +1,259 @@
 {
   "MagicPotionPower:ReiMu": {
-    "NAME": "Magic Potion",
+    "NAME": "マジックポーション",
     "DESCRIPTIONS": [
-      "Gain #b1 energy at the start of your next #b",
-      " turns."
+      "つぎの #b",
+      " ターンの間 #b1 #yエナジー を得る。"
     ]
   },
   "UniversalSpiritualPower:ReiMu": {
-    "NAME": "Universal Spirituality",
+    "NAME": "ユニバーサルスピリチュアル",
     "DESCRIPTIONS": [
-      "Whenever you play a card, gain #b",
-      " #yVigor ."
+      "カードをプレイするたび、#y気力 を #b",
+      " 得る。"
     ]
   },
   "SealPower:ReiMu": {
-    "NAME": "Sealed",
+    "NAME": "封印",
     "DESCRIPTIONS": [
-      "Deals #b50% less damage until attacked."
-    ]
-  },
-
-  "KyokaiOfKami2Power:ReiMu": {
-    "NAME": "Temporary Advent",
-    "DESCRIPTIONS": [
-      "After #b",
-      " turn, halve your #ySun and #yMoon #yFaith."
-    ]
-  },
-  "KyokaiOfKamiPower:ReiMu": {
-    "NAME": "Temporary Advent",
-    "DESCRIPTIONS": [
-      "After #b",
-      " turn, remove all your #ySun and #yMoon #yFaith."
-    ]
-  },
-
-  "GatheringPower:ReiMu": {
-    "NAME": "Bind",
-    "DESCRIPTIONS": [
-      "All #yO-mikuji created this combat will be #yUpgraded."
-    ]
-  },
-
-  "OctopathBindingBorderPower:ReiMu": {
-    "NAME": "Oni-Binding Circle",
-    "DESCRIPTIONS": [
-      "At the end of your turn, apply #b",
-      " Constricted to ALL enemies."
-    ]
-  },
-  "DreamingYangPower:ReiMu": {
-    "NAME": "Cherry Blossoms",
-    "DESCRIPTIONS": [
-      "At the start of your turn, add #b",
-      " #rSakura into your hand."
-    ]
-  },
-  "DreamingFengPower:ReiMu": {
-    "NAME": "Blink",
-    "DESCRIPTIONS": [
-      "Prevent incoming damage from the next attack to hit you. When this triggers, deal #b",
-      " damage back to the attacker."
+      "攻撃されるまで #b50% ダメージを減らす。"
     ]
   },
   "FineLineFantasyPower:ReiMu": {
-    "NAME": "Fine Line Fantasy",
+    "NAME": "幻想一重",
     "DESCRIPTIONS": [
-      "Whenever a card is exhausted, gain",
-      " #yFlame #yFaith."
+      "カードが #y廃棄 されるたび、 #y炎 の #y信仰 を ",
+      " 得る。"
     ]
   },
-
-  "TEXT:ReiMu": {
-    "NAME": "Choose a card.",
+  "KyokaiOfKami2Power:ReiMu": {
+    "NAME": "一時的な降臨",
     "DESCRIPTIONS": [
-      "You prepare your strongest danmaku..."
+      " #b",
+      " ターン後、 #y太陽 と #y月 の #y信仰 を半分にする。"
+    ]
+  },
+  "KyokaiOfKamiPower:ReiMu": {
+    "NAME": "一時的な降臨",
+    "DESCRIPTIONS": [
+      " #b",
+      " ターン後、全ての #y太陽 と #y月 の #y信仰を失う。"
+    ]
+  },
+  "GatheringPower:ReiMu": {
+    "NAME": "結びつける",
+    "DESCRIPTIONS": [
+      "この戦闘中作られる #yおみくじ は#アップグレード される。"
+    ]
+  },
+  "OctopathBindingBorderPower:ReiMu": {
+    "NAME": "八方鬼縛陣",
+    "DESCRIPTIONS": [
+      "自分のターン終了後、 #b",
+      " の締付けを敵全体に与える。"
+    ]
+  },
+  "DreamingYangPower:ReiMu": {
+    "NAME": "夢想封印 桜",
+    "DESCRIPTIONS": [
+      "ターン開始時、 #b",
+      " 枚の #r桜 を手札に加える。"
+    ]
+  },
+  "DreamingFengPower:ReiMu": {
+    "NAME": "夢想封印　瞬",
+    "DESCRIPTIONS": [
+      "次の敵のHPを減らす攻撃を無効化する。 発動した時、 #b",
+      " ダメージを攻撃者に与える。"
+    ]
+  },
+  "TEXT:ReiMu": {
+    "NAME": "好きなカードを選ぶ",
+    "DESCRIPTIONS": [
+      "強い弾幕を用意します・・・"
     ]
   },
   "SaltPower:ReiMu": {
-    "NAME": "Exorcist's Salt",
+    "NAME": "清め塩",
     "DESCRIPTIONS": [
-      "Whenever you apply a #rdebuff to an enemy, they lose #b",
-      " HP."
-    ]
-  },
-  "ShadowOfCrowPower:ReiMu": {
-    "NAME": "Darkness of the Crow",
-    "DESCRIPTIONS": [
-      "For #b",
-      " turns, you won't lose #yFlight."
+      "敵に #rデバフ を与える時、 #b",
+      " のダメージを敵に与える。"
     ]
   },
   "FantasyPower:ReiMu": {
-    "NAME": "Fantasy Rift",
+    "NAME": "幻想裂隙",
     "DESCRIPTIONS": [
-      "For #b",
-      " turn, whenever a card Exhausts, a copy of it is added into your discard pile."
+      " #b",
+      " ターンの間、カードが #y廃棄 されるたび、捨札にコピーが追加される。"
+    ]
+  },
+  "ShadingPower:ReiMu": {
+    "NAME": "神隠し",
+    "DESCRIPTIONS": [
+      "次のラウンドが始まるまで、ダメージを受けない。",
+      "次の #b",
+      " ターン、自分のターンをスキップしてダメージを受けない。"
+    ]
+  },
+  "SubcavityInstantPower:ReiMu": {
+    "NAME": "刹那亜空穴",
+    "DESCRIPTIONS": [
+      "次のターンまで、 #b",
+      " ダーメージを攻撃した敵に与える。",
+      " ダーメージを攻撃した敵に与える。"
+    ]
+  },
+  "HakureiPhantomPower:ReiMu": {
+    "NAME": "博麗幻影",
+    "DESCRIPTIONS": [
+      "敵のターン終了時、このターンの間に敵に与えたダメージを、敵に与える。",
+      "ターン終了時、 #b",
+      " ダメージを受ける。"
+    ]
+  },
+  "PhosphorusFlamePower:ReiMu": {
+    "NAME": "鬼神燐火術",
+    "DESCRIPTIONS": [
+      "敵が受ける全ての攻撃以外のダメージは倍になる。",
+      " ブロックを得る。"
+    ]
+  },
+  "NineCharactersPower:ReiMu": {
+    "NAME": "即妙神域札",
+    "DESCRIPTIONS": [
+      "ターン終了時、 #b",
+      " ブロックを #y信仰 から得る。"
+    ]
+  },
+  "OutlierPower:ReiMu": {
+    "NAME": "天罰",
+    "DESCRIPTIONS": [
+      "ターン終了時 #b",
+      " のダメージを的に与える。",
+      " #脱力 #b1 と #y弱体 を得る。"
+    ]
+  },
+  "YinYangSangePower:ReiMu": {
+    "NAME": "陰陽散華",
+    "DESCRIPTIONS": [
+      "#y信仰 を得るたび、降臨していないランダムな #b",
+      " の #y信仰 を得る。"
+    ]
+  },
+  "InherentArrayPower:ReiMu": {
+    "NAME": "永久境界",
+    "DESCRIPTIONS": [
+      " #y飛行 を失うたび、#b",
+      " の #y風信仰 を得る。HPを失うたび、 #b",
+      " の #y稲妻信仰 を得る。"
+    ]
+  },
+  "KamiYangPower:ReiMu": {
+    "NAME": "太陽信仰",
+    "DESCRIPTIONS": [
+      "あと #b",
+      " #y信仰 を集めると、 #y天照大神 が #y降臨 する。",
+      "ターン開始時、 #b",
+      " の #yエナジー を得る。"
+    ]
+  },
+  "KamiYanPower:ReiMu": {
+    "NAME": "炎信仰",
+    "DESCRIPTIONS": [
+      "あと  #b",
+      " #y信仰を集めると、#y軻遇突智 が #y降臨 する。",
+      "ターン開始時、 #b",
+      " ダメージを敵全体に与える。"
+    ]
+  },
+  "KamiZhiPower:ReiMu": {
+    "NAME": "月信仰",
+    "DESCRIPTIONS": [
+      "あと #b",
+      " #y信仰を集めると、# y月読 が #y降臨 する。",
+      "ターン開始時、山札の上から #b",
+      " カードをアップグレードし、 #b",
+      " 枚のカードを追加で引く。"
+    ]
+  },
+  "KamiFengPower:ReiMu": {
+    "NAME": "風信仰",
+    "DESCRIPTIONS": [
+      "あと #b",
+      " #y信仰 を集めると、#y建御名方 が #y降臨 する。",
+      "ターン開始時、 #y飛行 を #b",
+      " 得る。"
+    ]
+  },
+  "KamiLeiPower:ReiMu": {
+    "NAME": "稲妻信仰",
+    "DESCRIPTIONS": [
+      "あと #b",
+      " #y信仰 を集めると、 #y建御雷神 が #y降臨 する。",
+      "敵を攻撃するたび、 #r天罰 を敵に与える。"
+    ]
+  },
+  "KamiYuePower:ReiMu": {
+    "NAME": "山信仰",
+    "DESCRIPTIONS": [
+      "あと #b",
+      " #y信仰 を集めると、 #y大山祇 が #y降臨 する。",
+      "カードからブロックを得るたび、追加で #b",
+      " のブロックを得る。"
+    ]
+  },
+  "KamiPoPower:ReiMu": {
+    "NAME": "破壊信仰",
+    "DESCRIPTIONS": [
+      "あと #b",
+      " #y信仰 を集めると、 #y須佐之男 が #y降臨 する。",
+      "カードでダメージを与えるたび、追加で #b",
+      " ダメージを与える。"
     ]
   },
   "BlasphemyArrayPower:ReiMu": {
-    "NAME": "Blasphemy Array",
+    "NAME": "秩序の冒涜",
     "DESCRIPTIONS": [
       "No Kami besides Kagutusuchi may Advent. Lose #b",
       " of all non-Flame #yFaiths. Gain 1 #yFlame #yFaith for each #yFaith removed this way."
     ]
   },
-
-  "KamiYangPower:ReiMu": {
-    "NAME": "Sun Faith",
-    "DESCRIPTIONS": [
-      "#yAmaterasu will #yAdvent after you gain #b",
-      " more #yFaith.",
-      "At the start of your turn, gain #b",
-      " energy."
-    ]
-  },
-  "KamiYanPower:ReiMu": {
-    "NAME": "Flame Faith",
-    "DESCRIPTIONS": [
-      "#yKagutsuchi will #yAdvent after you gain #b",
-      " more #yFaith.",
-      "At the start of your turn, deal #b",
-      " damage to all enemies."
-    ]
-  },
-  "KamiZhiPower:ReiMu": {
-    "NAME": "Moon Faith",
-    "DESCRIPTIONS": [
-      "#yTsukuyomi will #yAdvent after you gain #b",
-      " more #yFaith.",
-      "At the start of your turn, Upgrade the top #b",
-      " cards in your draw pile and draw #b",
-      " additional cards."
-    ]
-  },
-  "KamiFengPower:ReiMu": {
-    "NAME": "Wind Faith",
-    "DESCRIPTIONS": [
-      "#yTakeminakata will  #yAdvent, after you gain #b",
-      " more #yFaith.",
-      "At the start of your turn, gain #b",
-      " #yFlight ."
-    ]
-  },
-  "KamiLeiPower:ReiMu": {
-    "NAME": "Thunderbolt Faith",
-    "DESCRIPTIONS": [
-      "#yTakemikazuchi will #yAdvent after you gain #b",
-      " more #yFaith.",
-      "Whenever you are hit by an enemy, apply #rDivine #rPunishment to that enemy."
-    ]
-  },
-  "KamiYuePower:ReiMu": {
-    "NAME": "Mountain Faith",
-    "DESCRIPTIONS": [
-      "#yOhoyamatsumi will #yAdvent after you gain #b",
-      " more #yFaith.",
-      "Whenever you gain Block by playing a card, gain #b",
-      " additional Block."
-    ]
-  },
-  "KamiPoPower:ReiMu": {
-    "NAME": "Destruction Faith",
-    "DESCRIPTIONS": [
-      "#ySusano-o will #yAdvent after you gain #b",
-      " more #yFaith.",
-      "Whenever you deal damage by playing a card, deal #b",
-      " additional damage."
-    ]
-  },
-  "ShadingPower:ReiMu": {
-    "NAME": "Mysterious Disappearance",
-    "DESCRIPTIONS": [
-      "Until the start of the next round, you are immune to attack damage.",
-      "After #b",
-      " turn, skip your turn and prevent all damage taken during that skipped turn."
-    ]
-  },
-  "SubcavityInstantPower:ReiMu": {
-    "NAME": "Instant Dimensional Rift",
-    "DESCRIPTIONS": [
-      "Until the next turn, deal #b",
-      " damage back to any enemy who attacks you.",
-      " damage back to any enemy who attacks you."
-    ]
-  },
-  "HakureiPhantomPower:ReiMu": {
-    "NAME": "Hakurei Illusion",
-    "DESCRIPTIONS": [
-      "At the end of their turn, take damage equal to the amount of damage you dealt to it this turn.",
-      "At the end of turn, take #b",
-      " damage."
-    ]
-  },
-  "PhosphorusFlamePower:ReiMu": {
-    "NAME": "Kishin's Will-o'-Wisp",
-    "DESCRIPTIONS": [
-      "All non-attack damage taken (e.g. from Poison, Constricted) will be doubled.",
-      "All non-attack damage taken (e.g. from Poison, Constricted) will be doubled."
-    ]
-  },
-  "NineCharactersPower:ReiMu": {
-    "NAME": "Quick-Witted Consecration",
-    "DESCRIPTIONS": [
-      "At the end of your turn, gain #b",
-      " Block for each kind of #Faith ."
-    ]
-  },
-  "OutlierPower:ReiMu": {
-    "NAME": "Divine Punishment",
-    "DESCRIPTIONS": [
-      "This enemy will take #b",
-      " damage",
-      " and gain #b1 #yWeak and #yVulnerable."
-    ]
-  },
-  "YinYangSangePower:ReiMu": {
-    "NAME": "Yin-Yang Scattering",
-    "DESCRIPTIONS": [
-      "Gain #b",
-      " random #yFaith that is not in Advent whenever you gain #yFaith."
-    ]
-  },
-  "InherentArrayPower:ReiMu": {
-    "NAME": "Permanent Border",
-    "DESCRIPTIONS": [
-      "Whenever you lose #yFlight, gain #b",
-      " #yWind Faith. Whenever you lose HP, gain #b",
-      " #yThunderbolt Faith ."
-    ]
-  },
-  "AlertArrayPower:ReiMu": {
-    "NAME": "Cautionary Border",
-    "DESCRIPTIONS": [
-      "Until your next turn, the next #b",
-      " attack will gain you #yMoon the #Faith ."
-    ]
-  },
-
-  "FoulBorderAPower:ReiMu": {
-    "NAME": "Rule Violation Barrier",
-    "DESCRIPTIONS": [
-      "Whenever you apply debuff to an enemy, they also gain #b",
-      " stacks of a random debuff."
-    ]
-  },
-  "FoulBorderBPower:ReiMu": {
-    "NAME": "Rule Violation Barrier",
-    "DESCRIPTIONS": [
-      "At the end of your turn, deal #b",
-      " damage to all enemies."
-    ]
-  },
-  "GreedyExorcismPower:ReiMu": {
-    "NAME": "Merciless Purification Rod",
-    "DESCRIPTIONS": [
-      "At the end of it's turn, take #b",
-      " damage."
-    ]
-  },
-
   "DependentFormPower:ReiMu": {
-    "NAME": "Spirit Medium Form",
+    "NAME": "神の形",
     "DESCRIPTIONS": [
-      "At the end of your turn, gain #b",
-      " random #yFaith."
+      "ターン終了時、 #b",
+      " のランダムな #y信仰 を得る。"
     ]
   },
-
   "MikOfLuckyPower:ReiMu": {
-    "NAME": "Miko Of Luck",
+    "NAME": "幸運な巫女",
     "DESCRIPTIONS": [
-      "At the start of your turn, add #b",
-      " random #yO-mikuji into your hand."
-    ]
-  },
-
-  "SpreadBorderPower:ReiMu": {
-    "NAME": "Expanding Barrier",
-    "DESCRIPTIONS": [
-      "Gain #b",
-      " #yBlock at the end of your turn.",
-      " #yBlock at the end of your turn."
+      "ターン開始時、追加で #b",
+      " 枚の #yおみくじ カードを手札に加える。"
     ]
   },
   "DoublePower:ReiMu": {
-    "NAME": "Fantasy Rift",
+    "NAME": "幻想空想穴",
     "DESCRIPTIONS": [
-      "This turn, your next card will be played an additional #b",
-      " 2 times.",
-      "???"
+      "このターンの間、次プレイするカードは、追加で #b",
+      " 回プレイされる。",
+      "プレイするカードは追加でプレイされません。"
     ]
   },
-
   "EnegyL:ReiMu": {
     "NAME": "Energized",
     "DESCRIPTIONS": [
-      "Gain #b",
-      " additional [E] next turn.",
-      " additional [E] next turn."
+      "次のターン追加で、 #b",
+      " [E] を得る。",
+      " [E] を得る。"
     ]
   },
-
   "Flyfan:ReiMu": {
-    "NAME": "Flight",
+    "NAME": "飛行",
     "DESCRIPTIONS": [
-      "Reduce the damage of the next #b",
-      " attacks you take by #b",
-      "%."
+      "次の #b",
+      " ターン、ダメージが #b",
+      "% 減少する。"
     ]
   }
 }
