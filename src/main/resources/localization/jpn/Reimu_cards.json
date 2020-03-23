@@ -70,8 +70,8 @@
   },
   "ZunPunch:ReiMu": {
     "NAME": "幻想酔拳",
-    "DESCRIPTION": "任意の色の !M! 枚のランダムなアタックカードをプレイする。 NL *めまい を捨札に加える。",
-    "UPGRADE_DESCRIPTION": "任意の色の !M! 枚のランダムなアップグレードされたアタックカードをプレイする。 NL *めまい を捨札に加える。",
+    "DESCRIPTION": "任意の色の !M! 枚のランダムな「アタック」をプレイする。 NL *めまい を捨札に加える。",
+    "UPGRADE_DESCRIPTION": "任意の色の !M! 枚のランダムなアップグレードされた「アタック」をプレイする。 NL *めまい を捨札に加える。",
     "EXTENDED_DESCRIPTION": [
       "酔拳"
     ]
@@ -101,38 +101,38 @@
     "DESCRIPTION": " !D! ダメージを与える。 NL 稲妻信仰 を !M! 得る。 NL 対象が攻撃を予定している場合は、ダメージが2倍になる。"
   },
   "FoulBorder2:ReiMu": {
-    "NAME": "Rule Violation Barrier",
-    "DESCRIPTION": "Whenever you apply a debuff to an enemy, apply !M! stacks of an additional random debuff.",
-    "UPGRADE_DESCRIPTION": "在你的回合结束时，对所有敌人造成 !M! 点伤害。其伤害量每回合增加3。"
+    "NAME": "反則結界",
+    "DESCRIPTION": " デバフ を敵に与えるたび、ランダムな デバフ を !M! 与える。",
+    "UPGRADE_DESCRIPTION": "ターン終了時、敵全体に !M! ダメージを与える。ダメージは毎ターン 3 増加する。"
   },
   "FoulBorder:ReiMu": {
-    "NAME": "犯规结界",
-    "DESCRIPTION": "在你的回合结束时，对所有敌人造成 !M! 点伤害。其伤害量每回合增加2。",
-    "UPGRADE_DESCRIPTION": "在你的回合结束时，对所有敌人造成 !M! 点伤害。其伤害量每回合增加3。"
+    "NAME": "反則結界",
+    "DESCRIPTION": "ターン終了時、敵全体に !M! ダメージを与える。ダメージは毎ターン 2 増加する。",
+    "UPGRADE_DESCRIPTION": "ターン終了時、敵全体に !M! ダメージを与える。ダメージは毎ターン 3 増加する。"
   },
   "Mountainwind:ReiMu": {
-    "NAME": "Mountain Wind",
-    "DESCRIPTION": "Gain !M! Flight. NL Put a Attack from your discard pile into your hand, NL It costs 0 this turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Flight. NL Put a Attack from your discard pile into your hand, NL It costs 0 this turn."
+    "NAME": "山谷風",
+    "DESCRIPTION": " 飛行 !M! を得る。 NL 捨札から「アタック」を1枚選び手札に加える。 NL このターン、そのコストは0。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "飛行 !M! を得る。 NL 捨札から「アタック」を1枚選び手札に加える。 NL このターン、そのコストは0。"
   },
   "KamiRite:ReiMu": {
-    "NAME": "Kami Ceremony",
-    "DESCRIPTION": "Let 1 random Kami Advent. NL Exhaust."
+    "NAME": "神への儀式",
+    "DESCRIPTION": "ランダムな 神 を 1柱 降臨 する。 NL 廃棄 。"
   },
   "OctopathBindingBorder2:ReiMu": {
-    "NAME": "Oni-Binding Circle",
-    "DESCRIPTION": "At the end of your turn, apply !M! Constricted to ALL enemies."
+    "NAME": "八方鬼縛陣",
+    "DESCRIPTION": "ターン終了時、敵全体に 締め付け !M! を与える。"
   },
   "SpreadBorder2:ReiMu": {
-    "NAME": "Expanding Barrier",
-    "DESCRIPTION": "Gain 2 Mountain Faith. NL Gain !B! Block. NL All *Expanding *Barrier grant !M! additional Block this combat."
+    "NAME": "拡散結界",
+    "DESCRIPTION": " 山信仰 を 2 得る。 NL !B! ブロックを得る。 NL この戦闘中、全ての *拡散結界 の ブロック 値を !M! 増加する。"
   },
   "Sakura:ReiMu": {
-    "NAME": "Sakura",
-    "DESCRIPTION": "Enemy loses !D! HP. NL Gain !B! Block. NL Exhaust."
+    "NAME": "神桜",
+    "DESCRIPTION": "敵はHPを !D! 失う。 NL !B! ブロックを得る。 NL 廃棄 。"
   },
   "Dreaming2:ReiMu": {
-    "NAME": "Fantasy Seal",
+    "NAME": "夢想封印",
     "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Transform if this card is in your hand when a Kami Advents. NL Turn back when be played.",
     "UPGRADE_DESCRIPTION": " Retain.",
     "EXTENDED_DESCRIPTION": [
