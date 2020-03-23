@@ -133,8 +133,8 @@
   },
   "Dreaming2:ReiMu": {
     "NAME": "夢想封印",
-    "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Transform if this card is in your hand when a Kami Advents. NL Turn back when be played.",
-    "UPGRADE_DESCRIPTION": " Retain.",
+    "DESCRIPTION": "ランダムな敵に、 !D! ダメージを !M! 回与える。 NL 神 が 降臨 するたび、このカードを 変化 させる。 NL プレイすると元に戻る。",
+    "UPGRADE_DESCRIPTION": " 保留 。",
     "EXTENDED_DESCRIPTION": [
       "夢想封印　散",
       "夢想封印　集",
@@ -144,53 +144,53 @@
       "夢想封印　瞬",
       "夢想桜花封印",
       "夢想封印",
-      "Trigger the passive ability of Flame Faith !M! times.",
-      "Remove ALL Block from the enemy. NL Deal !D! damage.",
-      "ALL enemies lose !M! Strength. NL Apply !M! 脱力 to ALL enemies.",
-      "Scry !M!. NL Deal !D! damage !M! times. NL Next turn, gain [E] [E].",
-      "Deal !D! damage to a random enemy !M! times. NL Gain Block equal to unblocked damage dealt.",
-      "Prevent damage the next enemy attack, NL then deal !M! damage back to the attacker.",
-      "Gain !M! Regenerate. NL At the start of your turn, add 1 *Sakura into your hand.",
-      "Deal !D! damage to a random enemy !M! times. NL Transform if this card is in your hand when a Kami Advents. NL Turn back when be played.",
-      "Gain !M! Regenerate. NL At the start of your turn, add 1 *Sakura+ into your hand."
+      " 炎信仰 の効果を !M! 回発動する。",
+      "敵の ブロック を全て取り除く。 NL !D! ダメージを与える。",
+      "敵全体に、 脱力 !M! を与える。 NL 敵は 筋力 !M! を失う。",
+      " 占術 !M! NL !D! ダメージ !M! 回与える。 NL 次のターン、 [E] [E] を獲得。",
+      "ランダムに !D! ダメージを !M! 回与える。 NL ブロックされずに敵に与えたダメージと等しい ブロック を得る。",
+      "敵の攻撃を無効化し、反撃して NL !M! ダメージを与える。",
+      " 再生 !M! を得る。 NL ターン開始時、 *神桜 を手札に加える。",
+      "ランダムな敵に、 !D! ダメージを !M! 回与える。 NL 神 が 降臨 するたび、このカードを 変化 させる。 NL プレイすると元に戻る。",
+      " 再生 !M! を得る。 NL ターン開始時、 *神桜+ を手札に加える。"
     ]
   },
   "Shading:ReiMu": {
-    "NAME": "Mysterious Disappearance",
-    "DESCRIPTION": "Retain. NL You don't take damage next round. NL Skip your next turn. NL Exhaust."
+    "NAME": "神隠し",
+    "DESCRIPTION": "保留 。 NL 次のターンダメージを受けず、自分のターンをスキップする。 NL 廃棄 。"
   },
   "ShadowOfCrow:ReiMu": {
-    "NAME": "鸦之影",
-    "DESCRIPTION": "在 !M! 回合内，你的 飞行 不会损耗。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "获得 !M! 层 飞行 ，并获得与 飞行 层数等量的 风之信 。"
+    "NAME": "カラスの影",
+    "DESCRIPTION": " !M! ターンの間、 飛行 は失われない。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " 飛行 !M! を得て、 飛行 に等しい 風信仰 を得る。"
   },
   "FantasyBorder:ReiMu": {
-    "NAME": "Fantasy Rift",
-    "DESCRIPTION": "Ethereal. NL This turn, whenever a card Exhausts, add a copy of it into your discard pile. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "This turn, whenever a card Exhausts, add a copy of it into your discard pile. NL Exhaust."
+    "NAME": "幻想空想穴",
+    "DESCRIPTION": " エセリアル 。 NL !M! ターンの間、 廃棄 されたカードのコピーを捨札に加える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " !M! ターンの間、 廃棄 されたカードのコピーを捨札に加える。 NL 廃棄 。"
   },
   "BlasphemyArray:ReiMu": {
-    "NAME": "Blasphemy Array",
-    "DESCRIPTION": "At the end of your turn, lose !M! other Faith. NL Gain half as much Flame Faith. NL Other Kami can't Advent."
+    "NAME": "冒涜",
+    "DESCRIPTION": "ターン終了時、他の信仰を !M! 失う。 NL 炎信仰 の半分の 炎信仰 を得る。 NL 他の 神 は 降臨 できない。"
   },
   "GreedyExorcism:ReiMu": {
-    "NAME": "Greedy Ohnusa",
-    "DESCRIPTION": "Deal !D! damage.!M! Gold.Upgraded. Exhaust."
+    "NAME": "強欲な大幣",
+    "DESCRIPTION": " !D! ダメージを与える。 !M! ゴールドを得る。何度でも アップグレード できる。 廃棄 。"
   },
   "Conquer:ReiMu": {
-    "NAME": "Expulsion",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain !M! Flame Faith.",
-    "UPGRADE_DESCRIPTION": ""
+    "NAME": "圧倒",
+    "DESCRIPTION": "敵全体に、 !D! ダメージを与える。 NL 炎信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": "炎信仰 を !M! をX回得る。敵全体に、 炎信仰 のX倍のダメージを与える。"
   },
   "TakeOff:ReiMu": {
-    "NAME": "Flying",
-    "DESCRIPTION": "Gain X Flight and Wind Faith. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain X Flight and Wind Faith."
+    "NAME": "飛行",
+    "DESCRIPTION": " 飛行 Xを得る。 NL 風信仰 をx得る。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " 飛行 Xを得る。 NL 風信仰 をx得る。"
   },
   "Free:ReiMu": {
-    "NAME": "Dream Battle",
-    "DESCRIPTION": "Unplayable. NL Play a random card when this card is drawn.",
-    "UPGRADE_DESCRIPTION": "Unplayable. NL Play a random Upgraded card when this card is drawn."
+    "NAME": "少女綺想",
+    "DESCRIPTION": "　使用不可 。 NL このカードを引いた時、ランダムなカードをプレイする。",
+    "UPGRADE_DESCRIPTION": "使用不可 。 NL このカードを引いた時、ランダムなアップグレードされたカードをプレイする。"
   },
   "SubcavityInstant:ReiMu": {
     "NAME": "Instant Dimensional Rift",
