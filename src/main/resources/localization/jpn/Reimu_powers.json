@@ -37,7 +37,7 @@
     "NAME": "一時的な降臨",
     "DESCRIPTIONS": [
       " #b",
-      " ターン後、全ての #y太陽 と #y月 の #y信仰を失う。"
+      " ターン後、全ての #y太陽 と #y月 の #y信仰 を失う。"
     ]
   },
   "GatheringPower:ReiMu": {
@@ -136,7 +136,7 @@
   "YinYangSangePower:ReiMu": {
     "NAME": "陰陽散華",
     "DESCRIPTIONS": [
-      "#y信仰 を得るたび、降臨していないランダムな #b",
+      " #y信仰 を得るたび、降臨していないランダムな #b",
       " の #y信仰 を得る。"
     ]
   },
@@ -161,7 +161,7 @@
     "NAME": "炎信仰",
     "DESCRIPTIONS": [
       "あと  #b",
-      " #y信仰を集めると、#y軻遇突智 が #y降臨 する。",
+      " #y信仰 を集めると、#y軻遇突智 が #y降臨 する。",
       "ターン開始時、 #b",
       " ダメージを敵全体に与える。"
     ]
@@ -170,7 +170,7 @@
     "NAME": "月信仰",
     "DESCRIPTIONS": [
       "あと #b",
-      " #y信仰を集めると、# y月読 が #y降臨 する。",
+      " #y信仰 を集めると、# y月読 が #y降臨 する。",
       "ターン開始時、山札の上から #b",
       " カードをアップグレードし、 #b",
       " 枚のカードを追加で引く。"
@@ -211,11 +211,11 @@
       " ダメージを与える。"
     ]
   },
-  "BlasphemyArrayPower:ReiMu": {
-    "NAME": "秩序の冒涜",
+  "FoulBorderAPower:ReiMu": {
+    "NAME": "犯规结界",
     "DESCRIPTIONS": [
-      "No Kami besides Kagutusuchi may Advent. Lose #b",
-      " of all non-Flame #yFaiths. Gain 1 #yFlame #yFaith for each #yFaith removed this way."
+      "敵に #rデバフ を与えるたび、追加でランダムな #b",
+      " の #rデバフ を与える。"
     ]
   },
   "DependentFormPower:ReiMu": {
