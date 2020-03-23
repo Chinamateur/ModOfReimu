@@ -212,7 +212,7 @@
     ]
   },
   "FoulBorderAPower:ReiMu": {
-    "NAME": "犯规结界",
+    "NAME": "反則结界",
     "DESCRIPTIONS": [
       "敵に #rデバフ を与えるたび、追加でランダムな #b",
       " の #rデバフ を与える。"
