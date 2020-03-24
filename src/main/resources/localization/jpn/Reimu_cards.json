@@ -345,19 +345,19 @@
   },
   "DoubleButterfly:ReiMu": {
     "NAME": "二色蓮花蝶",
-    "DESCRIPTION": "获得 !B! 点 格挡 !M! 次。 NL 造成 !D! 点伤害 !M! 次。"
+    "DESCRIPTION": " !B! ブロック を !M! 回得る。 NL !D! ダメージを !M! 回与える。"
   },
   "CollectionFlower:ReiMu": {
-    "NAME": "Foregathering Flowers",
-    "DESCRIPTION": "Gain Thunderbolt Faith and Thorns equal to kind of the DeBuff of the enemy. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain Thunderbolt Faith and Thorns equal to kind of the DeBuff of the enemy + !M!. NL Exhaust."
+    "NAME": "萃霊花",
+    "DESCRIPTION": "敵のデバフと等しい 稲妻信仰 と トゲ を得る。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "敵のデバフ+ !M! に等しい 稲妻信仰 と トゲ を得る。 NL 廃棄 。"
   },
   "BarrageOfMoneybags:ReiMu": {
-    "NAME": "Danmaku Millionaire",
-    "DESCRIPTION": "Lose [E] [E] [E] [E]. NL Lose 10 Gold for each insufficient [E]. NL Deal 30 damage.",
-    "UPGRADE_DESCRIPTION": "Lose [E] [E] [E]. NL Lose 10 Gold for each insufficient [E]. NL Deal 30 damage.",
+    "NAME": "だんまく長者",
+    "DESCRIPTION": " [E] [E] [E] [E] を失う。 NL !D! ダメージを与える。 NL 足りない [E] 1つにつき、 !M! ゴールドを失う。",
+    "UPGRADE_DESCRIPTION": " [E] [E] [E] を失う。 NL !D! ダメージを与える。 NL 足りない [E] 1つにつき、 !M! ゴールドを失う。",
     "EXTENDED_DESCRIPTION": [
-      "I don't have enough Gold."
+      "ゴールドが足りない。"
     ]
   },
   "Intuition:ReiMu": {
