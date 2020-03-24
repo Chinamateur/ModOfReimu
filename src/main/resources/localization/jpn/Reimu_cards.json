@@ -6,7 +6,7 @@
   },
   "SpiritualOutbreak2:ReiMu": {
     "NAME": "スピリチュアルアタック",
-    "DESCRIPTION": "敵全体に、 !D! ダメージを与える。 NL この攻撃は 活力 を消費しない。"
+    "DESCRIPTION": "敵全体に !D! ダメージを与える。 NL この攻撃は 活力 を消費しない。"
   },
   "AlertArray:ReiMu": {
     "NAME": "警醒陣",
@@ -25,7 +25,7 @@
     ]
   },
   "CeremonyResonance:ReiMu": {
-    "NAME": "儀式共鳴",
+    "NAME": "儀式詠唱",
     "DESCRIPTION": " 廃棄 された全ての　*儀式 カードをプレイする。 NL 廃棄 。",
     "EXTENDED_DESCRIPTION": [
       "儀式",
@@ -51,7 +51,7 @@
     "DESCRIPTION": "カードをプレイするたび、活力 !M! を得る。"
   },
   "RainPray2:ReiMu": {
-    "NAME": "雨乞いの儀式",
+    "NAME": "儀式：雨乞い",
     "DESCRIPTION": " !M! 枚のカードを引く。 NL 次のターン [E] を獲得する。 NL 廃棄 。",
     "UPGRADE_DESCRIPTION": "活力 !M! を得る。 NL 再生 !M! を得る。 NL 廃棄 。"
   },
@@ -62,7 +62,7 @@
   },
   "ShadowOfCrow2:ReiMu": {
     "NAME": "カラスの影",
-    "DESCRIPTION": "敵全体に、 締め付け !M! を与える。 NL 飛行 : 敵全体に、 脱力 と 弱体 を与える。"
+    "DESCRIPTION": "敵全体に 締め付け !M! を与える。 NL 飛行 : 敵全体に 脱力 と 弱体 を与える。"
   },
   "FineLineFantasy:ReiMu": {
     "NAME": "幻想一重",
@@ -116,7 +116,7 @@
     "UPGRADE_DESCRIPTION": "飛行 !M! を得る。 NL 捨札から「アタック」を1枚選び手札に加える。 NL このターン、そのコストは0。"
   },
   "KamiRite:ReiMu": {
-    "NAME": "神への儀式",
+    "NAME": "儀式：祈祷",
     "DESCRIPTION": "ランダムな 神 を 1柱 降臨 する。 NL 廃棄 。"
   },
   "OctopathBindingBorder2:ReiMu": {
@@ -146,7 +146,7 @@
       "夢想封印",
       " 炎信仰 の効果を !M! 回発動する。",
       "敵の ブロック を全て取り除く。 NL !D! ダメージを与える。",
-      "敵全体に、 脱力 !M! を与える。 NL 敵は 筋力 !M! を失う。",
+      "敵全体に 脱力 !M! を与える。 NL 敵は 筋力 !M! を失う。",
       " 占術 !M! NL !D! ダメージ !M! 回与える。 NL 次のターン、 [E] [E] を獲得。",
       "ランダムに !D! ダメージを !M! 回与える。 NL ブロックされずに敵に与えたダメージと等しい ブロック を得る。",
       "敵の攻撃を無効化し、反撃して NL !M! ダメージを与える。",
@@ -157,7 +157,7 @@
   },
   "Shading:ReiMu": {
     "NAME": "神隠し",
-    "DESCRIPTION": "保留 。 NL 次のターンダメージを受けず、自分のターンをスキップする。 NL 廃棄 。"
+    "DESCRIPTION": " 保留 。 NL 次のターンダメージを受けず、自分のターンをスキップする。 NL 廃棄 。"
   },
   "ShadowOfCrow:ReiMu": {
     "NAME": "カラスの影",
@@ -179,8 +179,8 @@
   },
   "Conquer:ReiMu": {
     "NAME": "圧倒",
-    "DESCRIPTION": "敵全体に、 !D! ダメージを与える。 NL 炎信仰 を !M! 得る。",
-    "UPGRADE_DESCRIPTION": "炎信仰 を !M! をX回得る。敵全体に、 炎信仰 のX倍のダメージを与える。"
+    "DESCRIPTION": "敵全体に !D! ダメージを与える。 NL 炎信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": "炎信仰 を !M! をX回得る。敵全体に 炎信仰 のX倍のダメージを与える。"
   },
   "TakeOff:ReiMu": {
     "NAME": "飛行",
@@ -193,76 +193,76 @@
     "UPGRADE_DESCRIPTION": "使用不可 。 NL このカードを引いた時、ランダムなアップグレードされたカードをプレイする。"
   },
   "SubcavityInstant:ReiMu": {
-    "NAME": "Instant Dimensional Rift",
-    "DESCRIPTION": "Until the next turn, deal !M! damage back to the enemy who first attacked you. NL Gain 2 Thunderbolt Faith.",
-    "UPGRADE_DESCRIPTION": ""
+    "NAME": "刹那亜空穴",
+    "DESCRIPTION": "次のターンまで、攻撃してきた敵に !M! ダメージを与える。 NL 雷信仰 を2得る。",
+    "UPGRADE_DESCRIPTION": "敵全体が、 筋力 !M! を X+ 回失う。 廃棄 。"
   },
   "SubcavityFantasy:ReiMu": {
-    "NAME": "Fantasy Rift",
-    "DESCRIPTION": "This turn, your next card is played twice. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "This turn, your next card is played twice."
+    "NAME": "幻想空想穴",
+    "DESCRIPTION": "このターン、次にプレイするカードは !M! 回プレイされる。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "このターン、次にプレイするカードは !M! 回プレイされる。"
   },
   "MountainWay:ReiMu": {
-    "NAME": "Lay to Rest",
-    "DESCRIPTION": "Gain Block equal to the number of unique buffs on you and unique debuffs on the target.",
-    "UPGRADE_DESCRIPTION": "Gain Block equal to the number of unique buffs on you and unique debuffs on the target."
+    "NAME": "山道",
+    "DESCRIPTION": "自分のバフとターゲットのデバフの合計に等しい ブロック を得る。 NL 山信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": "自分のバフとターゲットのデバフの合計に等しい ブロック を得る。 NL 山信仰 を !M! 得る。"
   },
   "SpiritualOutbreak:ReiMu": {
-    "NAME": "Spiritual Strike",
-    "DESCRIPTION": "Deals X times !D! damage to enemy. NL Apply X 脱力.",
-    "UPGRADE_DESCRIPTION": "Deals X times !D! damage to enemy. NL Apply X 脱力. NL Exhaust."
+    "NAME": "スピリチュアルアタック",
+    "DESCRIPTION": "敵にX回 !D! ダメージを与える。 NL 脱力 X を与える。",
+    "UPGRADE_DESCRIPTION": "敵全体にX+1回 !D! ダメージを与える。 NL 廃棄 。"
   },
   "HakureiPhantom:ReiMu": {
-    "NAME": "Hakurei Illusion",
-    "DESCRIPTION": "At the end of target's turn, deals the damage equal to the amount of damage you dealt to it this turn. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "At the end of target's turn, deal the damage equal to the amount of damage you dealt to it this turn."
+    "NAME": "博麗幻影",
+    "DESCRIPTION": "対象のターン終了時、このターンで与えたダメージに等しいダメージを与える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "対象のターン終了時、このターンで与えたダメージに等しいダメージを与える。"
   },
   "SolemnJudgment:ReiMu": {
-    "NAME": "Solemn Judgment",
-    "DESCRIPTION": "Ethereal. NL Lose half of your HP, Enemy loss as much life as its MAX HP. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Lose half of your HP, Enemy loss as much life as its MAX HP. NL Exhaust."
+    "NAME": "神の宣告",
+    "DESCRIPTION": " エセリアル 。 NL HPを半分失い、敵を破壊する。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "HPを半分失い、敵を破壊する。 NL 廃棄 。"
   },
   "SolemnWishes:ReiMu": {
-    "NAME": "Solemn Wishes",
-    "DESCRIPTION": " Ethereal. NL Heal for half of your Max HP. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Heal for half of your Max HP. NL Exhaust."
+    "NAME": "神の恵み",
+    "DESCRIPTION": " エセリアル 。 NL 最大HPの半分を回復。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "最大HPの半分を回復。 NL 廃棄 。"
   },
   "PhosphorusFlame:ReiMu": {
-    "NAME": "Kishin's Flame",
-    "DESCRIPTION": "Non-attack damage taken by ALL enemies are doubled. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Innate. Non-attack damage taken by ALL enemies are doubled. NL Exhaust."
+    "NAME": "鬼神燐火",
+    "DESCRIPTION": "敵が、攻撃以外で受けるダメージが2倍になる。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " 天賦 。敵が、攻撃以外で受けるダメージが2倍になる。 NL 廃棄 。"
   },
   "OctopathSalyBorderN:ReiMu": {
-    "NAME": "Dragon-Slaying Circle",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Remove all of your Faith."
+    "NAME": "八方龍殺陣",
+    "DESCRIPTION": "敵全体に !D! ダメージを与える。 NL 全ての 信仰 を取り除く。"
   },
   "BodyOfKami:ReiMu": {
-    "NAME": "Shintai",
-    "DESCRIPTION": "It is said that this is the god's body. Somehow it is very popular with cats.",
-    "UPGRADE_DESCRIPTION": "at the end of your turn. NL Ethereal.",
+    "NAME": "神体",
+    "DESCRIPTION": "神が宿るとされている物体で礼拝の対象。 なぜか猫は好き。",
+    "UPGRADE_DESCRIPTION": " 信仰 を得る。 NL エセリアル 。",
     "EXTENDED_DESCRIPTION": [
-      "Unplayable. NL Apply !M! "
+      " 使用不可 。 NL ターン終了時、 !M! の"
     ]
   },
   "CleanRite:ReiMu": {
-    "NAME": "Clean Ceremony",
-    "DESCRIPTION": "Gain !M! Artifact. NL Add a *Kagura *Ceremony into discard pile. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Artifact. NL Add a *Kagura *Ceremony+ draw pile. NL Exhaust."
+    "NAME": "儀式：禊祓",
+    "DESCRIPTION": " アーティファクト を !M! 得る。 NL *儀式：神楽 を捨札に加える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " アーティファクト を !M! 得る。 NL *儀式：神楽+ を捨札に加える。 NL 廃棄 。"
   },
   "KaguraRite:ReiMu": {
-    "NAME": "Kagura Ceremony",
-    "DESCRIPTION": "Gain !M! Vigor. NL Add a *Advent *Ceremony into discard pile. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Vigor. NL Add a *Advent *Ceremony into draw pile. NL Exhaust."
+    "NAME": "儀式：神楽",
+    "DESCRIPTION": " 活力 !M! を得る。 NL *儀式：降臨 を捨札に加える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "活力 !M! を得る。 NL *儀式：降臨 を捨札に加える。 NL 廃棄 。"
   },
   "ComingRite:ReiMu": {
-    "NAME": "Advent Ceremony",
-    "DESCRIPTION": "Chose !M! kind of Kami to Advent. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Chose !M! kind of Kami to Advent. NL Exhaust."
+    "NAME": "儀式：降臨",
+    "DESCRIPTION": " !M! 柱の 神 を 降臨 させる。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL !M! 柱の 神 を 降臨 させる。 NL 廃棄 。"
   },
   "KamiComing:ReiMu": {
-    "NAME": "Kami Advent",
-    "DESCRIPTION": "Let Kami Advent.",
-    "UPGRADE_DESCRIPTION": " draw 1 card.",
+    "NAME": "神の降臨",
+    "DESCRIPTION": "博麗霊夢は神を降臨させる。",
+    "UPGRADE_DESCRIPTION": " カードを1枚引く。",
     "EXTENDED_DESCRIPTION": [
       "炎降臨",
       "破壊降臨",
@@ -271,80 +271,80 @@
       "山降臨",
       "風降臨",
       "太陽降臨",
-      "Let Kagutsuchi Advent.",
-      "Let Susano-o Advent.",
-      "Let Takemikazuchi Advent.",
-      "Let Tsukuyomi Advent.",
-      "Let Ohoyama-tsumi Advent.",
-      "Let Takeminakata Advent.",
-      "Let Amaterasu Advent.",
-      " 廃棄。"
+      " 軻遇突智 が 降臨 する。",
+      " 須佐之男 が 降臨 する。",
+      " 建御雷神 が 降臨 する。",
+      " 月読 が 降臨 する。",
+      " 大山祇 が 降臨 する。",
+      " 建御名方 が 降臨 する。",
+      " 天照大神 が 降臨 する。",
+      " 廃棄 。"
     ]
   },
   "SpringWay:ReiMu": {
     "NAME": "Colorful Path",
-    "DESCRIPTION": "Unplayable. NL Whenever you draw this card, increase your highest Faith by !M! and gain 3 Vigor.",
-    "UPGRADE_DESCRIPTION": "Unplayable. NL Whenever you draw this card, increase your highest Faith by !M! and gain 4 Vigor."
+    "DESCRIPTION": " 使用不可 。 NL このカードを引いた時、 一番高い 信仰 を !M! 上昇し、 活力 3 を得る。",
+    "UPGRADE_DESCRIPTION": " 使用不可 。 NL このカードを引いた時、 一番高い 信仰 を !M! 上昇し、 活力 4 を得る。"
   },
   "BlastKick2:ReiMu": {
-    "NAME": "Sky-Conquering Kick",
-    "DESCRIPTION": "Deal !D! damage 0 time. NL Increase the number of hits every time you gain Flight this combat.",
-    "UPGRADE_DESCRIPTION": "",
+    "NAME": "天覇風神脚",
+    "DESCRIPTION": "対象に !D! ダメージを 0回与える。 NL この戦闘中、 飛行 を獲得するたび、攻撃回数が1増える。",
+    "UPGRADE_DESCRIPTION": " X の挙げた足を 保留 する。 廃棄 。",
     "EXTENDED_DESCRIPTION": [
-      "Deal !D! damage *",
-      " times. NL Increase the number of hits every time you gain Flight this combat."
+      "対象に !D! ダメージを",
+      "回与える。 NL この戦闘中、 飛行 を獲得するたび、攻撃回数が1増える。"
     ]
   },
   "Authority2:ReiMu": {
     "NAME": "神御体",
-    "DESCRIPTION": " 不能被打出 。当你抽到这张牌时，获得 !M! 层 月之信 与 炎之信 并抽一张牌。",
-    "UPGRADE_DESCRIPTION": "迦具土神以外的神还未降临。"
+    "DESCRIPTION": " 使用不可 。このカードを引いた時、月信仰 と 炎信仰 を !M! ずつ得て、カードを1枚引く。",
+    "UPGRADE_DESCRIPTION": "軻遇突智以外の神は降臨していない。"
   },
   "Authority:ReiMu": {
-    "NAME": "Authority",
-    "DESCRIPTION": "Gain !M! Sun Faith. NL If Amaterasu is in Advent, NL gain 1 Buffer. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "迦具土神以外的神还未降临。"
+    "NAME": "神の威光",
+    "DESCRIPTION": " 太陽信仰 を !M! 得る。 NL 天照大神 が 降臨 していると、NL バッファー 1を得る。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "軻遇突智以外の神は降臨していない。"
   },
   "KamiSacrifice:ReiMu": {
-    "NAME": "Sacrifice Kami",
-    "DESCRIPTION": "Remove a random non-Kagutsuchi Kami that is in Advent. NL Gain !M! Flame Faith.",
-    "UPGRADE_DESCRIPTION": "I have no Kami other than Kagutsuchi that is in Advent."
+    "NAME": "神祭",
+    "DESCRIPTION": " 軻遇突智 以外のランダムな神を消す。 NL 炎信仰を !M! 得る。",
+    "UPGRADE_DESCRIPTION": "軻遇突智以外の神は降臨していない。"
   },
   "PrayRite:ReiMu": {
-    "NAME": "Prayer Ceremony",
-    "DESCRIPTION": "Choose and add !M! Great Luck O-mikuji to your hand. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "从消耗堆选择 !M! 张牌，将其 升级 并加入手牌。 消耗 。"
+    "NAME": "儀式：神頼み",
+    "DESCRIPTION": " !M! 枚の大吉の おみくじ を手札に加える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " !M! 枚の廃棄されたカードを アップグレード して手札に加える。 廃棄 。"
   },
   "NineCharacters:ReiMu": {
-    "NAME": "Quick-Witted Consecration",
-    "DESCRIPTION": "At the end of your turn, NL Gain !M! Block for each kind of Faith.",
-    "UPGRADE_DESCRIPTION": "获得 !M! 层 多层护甲 。"
+    "NAME": "即妙神域札",
+    "DESCRIPTION": "ターン終了時、信仰 1つに付き !M! ブロック を得る。",
+    "UPGRADE_DESCRIPTION": " プレートアーマー !M! を得る。"
   },
   "Dreaming:ReiMu": {
-    "NAME": "Fantasy Heaven",
-    "DESCRIPTION": "",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL For each Kami in Advent, repeat this effect.",
+    "NAME": "夢想天生",
+    "DESCRIPTION": "全ての 神 を 覚醒 させる。 廃棄 。",
+    "UPGRADE_DESCRIPTION": "敵全体に !D! ダメージを与える。 NL 降臨 している 神 の数だけ繰り返される。",
     "EXTENDED_DESCRIPTION": [
-      "There is no Kami Coming."
+      "神は降臨していない。"
     ]
   },
   "AirManeuver:ReiMu": {
-    "NAME": "Air Maneuver",
-    "DESCRIPTION": "Gain !B! Block. NL Flight: Gain !M! Wind Faith. NL Otherwise: Gain 1 Flight.",
-    "UPGRADE_DESCRIPTION": "从消耗堆选择 !M! 张牌，将其 升级 并加入手牌。 消耗 。"
+    "NAME": "空中作戦",
+    "DESCRIPTION": " !B! ブロック を得る。 NL 飛行 : 風信仰 を !M! 得る。 NL それ以外: 飛行 1を得る。",
+    "UPGRADE_DESCRIPTION": " !M! 枚の廃棄されたカードを アップグレード して手札に加える。 廃棄 。"
   },
   "EmergencyTakeOff:ReiMu": {
-    "NAME": "Emergency Take-off",
-    "DESCRIPTION": "Gain !M! Flight. NL Gain !M! 弱体. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "从消耗堆选择 !M! 张牌，将其升级并加入手牌。 消耗 。"
+    "NAME": "緊急離陸",
+    "DESCRIPTION": " 飛行 !M! を得る。 NL 弱体 !M! を得る。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " !M! 枚の廃棄されたカードを アップグレード して手札に加える。 廃棄 。"
   },
   "PassingAway:ReiMu": {
-    "NAME": "Recycle Ceremony",
-    "DESCRIPTION": "Return a card from your exhaust pile to your hand. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Return a card from your exhaust pile to your hand and Upgrade it. NL Exhaust."
+    "NAME": "儀式：輪廻",
+    "DESCRIPTION": "廃棄されたカードを !M! 枚手札に加える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "廃棄されたカードを !M! 枚 アップグレード して手札に加える。 NL 廃棄 。"
   },
   "DoubleButterfly:ReiMu": {
-    "NAME": "Dichromatic Lotus Butterfly",
+    "NAME": "二色蓮花蝶",
     "DESCRIPTION": "获得 !B! 点 格挡 !M! 次。 NL 造成 !D! 点伤害 !M! 次。"
   },
   "CollectionFlower:ReiMu": {
