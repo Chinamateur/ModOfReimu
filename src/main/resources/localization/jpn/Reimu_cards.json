@@ -210,7 +210,7 @@
   "SpiritualOutbreak:ReiMu": {
     "NAME": "スピリチュアルアタック",
     "DESCRIPTION": "敵にX回 !D! ダメージを与える。 NL 脱力 X を与える。",
-    "UPGRADE_DESCRIPTION": "敵全体にX+1回 !D! ダメージを与える。 NL 廃棄 。"
+    "UPGRADE_DESCRIPTION": "すべての敵はX+1回 筋力 !D! を失う。 NL 廃棄 。"
   },
   "HakureiPhantom:ReiMu": {
     "NAME": "博麗幻影",
@@ -361,32 +361,32 @@
     ]
   },
   "Intuition:ReiMu": {
-    "NAME": "Intuition",
-    "DESCRIPTION": "Scry 4. NL Gain !M! Moon Faith.",
-    "UPGRADE_DESCRIPTION": "Scry 5. NL Gain !M! Moon Faith."
+    "NAME": "直感",
+    "DESCRIPTION": " 占術 4。 NL 月信仰 !M! を得る。",
+    "UPGRADE_DESCRIPTION": " 占術 5。 NL 月信仰 !M! を得る。"
   },
   "Sacrifice:ReiMu": {
-    "NAME": "祭品",
-    "DESCRIPTION": " 消耗 手牌中所有非攻击牌。每消耗一张便获得 !M! 层 炎之信 。 NL 消耗 。"
+    "NAME": "お供え",
+    "DESCRIPTION": "「アタック」以外のカードを 廃棄 する。 廃棄 するごとに、 炎信仰 を !M! 得る。 NL 廃棄 。"
   },
   "YinYangSange:ReiMu": {
-    "NAME": "Yin-Yang Scattering",
-    "DESCRIPTION": "Whenever you gain Faith, gain !M! of a random Faith that is not in Advent.",
-    "UPGRADE_DESCRIPTION": "Innate. NL Whenever you gain Faith, gain !M! of a random Faith that is not in Advent."
+    "NAME": "陰陽散華",
+    "DESCRIPTION": " 信仰 を得るたび、 NL !M! のランダムな 信仰 を得る。",
+    "UPGRADE_DESCRIPTION": " 天賦 。 NL W 信仰 を得るたび、 NL !M! のランダムな 信仰 を得る。"
   },
   "InherentArray:ReiMu": {
-    "NAME": "Permanent Border",
-    "DESCRIPTION": "Innate. NL Gain !M! Thunderbolt Faith whenever you lose Flight. NL Gain !M! Wind Faith whenever you lose HP.",
-    "UPGRADE_DESCRIPTION": " 固有 。 NL 当你抽牌，获得 !M! 层 月之信 。 NL 当你 消耗 ，获得 !M! 层 炎之信 。"
+    "NAME": "永久結界",
+    "DESCRIPTION": " 天賦 。 NL 飛行 を失うたび、 稲妻信仰 を !M! 得る。 NL HPを失うたび、 風信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": " 天賦 。 NL カードを引くたび、 月信仰 を !M! 得る。 NL 廃棄 するたび、 炎信仰 を !M! 得る。"
   },
   "ForcedLanding:ReiMu": {
-    "NAME": "Forced Landing",
-    "DESCRIPTION": " Flight: Lose 1 Flight and deal !D! damage to ALL enemies. NL Gain !M! Thunderbolt Faith.",
-    "UPGRADE_DESCRIPTION": "I am not Flying."
+    "NAME": "不時着",
+    "DESCRIPTION": " 飛行 : 飛行 を1失い敵全体に !D! ダメージを与える。 NL 雷信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": "飛行中でない。"
   },
   "SubAcupoint:ReiMu": {
-    "NAME": "Dimensional Point Rift",
-    "DESCRIPTION": "Deal !D! damage. NL Flight: enemy loses !M! Strength this turn. NL Otherwise: Gain 1 Flight."
+    "NAME": "亜空点穴 ",
+    "DESCRIPTION": " !D! ダメージを与える。 NL 飛行 : このターン対象は 筋力 !M! を失う。 NL それ以外: 飛行 1 を得る。"
   },
   "WonderfulDomain:ReiMu": {
     "NAME": "Nine-Syllable",
