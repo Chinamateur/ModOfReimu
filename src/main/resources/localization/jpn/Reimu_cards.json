@@ -6,12 +6,12 @@
   },
   "SpiritualOutbreak2:ReiMu": {
     "NAME": "スピリチュアルアタック",
-    "DESCRIPTION": "敵全体に !D! ダメージを与える。 NL この攻撃は 活力 を消費しない。"
+    "DESCRIPTION": "敵全体に !D! ダメージを与える。 NL この攻撃は 気力 を消費しない。"
   },
   "AlertArray:ReiMu": {
     "NAME": "警醒陣",
-    "DESCRIPTION": " !B! ブロック を得る。 NL 活力 !M! を得る。 NL 破壊信仰 を 2 得る。",
-    "UPGRADE_DESCRIPTION": " !B! ブロック を得る。 NL 活力 !M! を得る。 NL 破壊信仰 を 3 得る。"
+    "DESCRIPTION": " !B! ブロック を得る。 NL 気力 !M! を得る。 NL 破壊信仰 を 2 得る。",
+    "UPGRADE_DESCRIPTION": " !B! ブロック を得る。 NL 気力 !M! を得る。 NL 破壊信仰 を 3 得る。"
   },
   "NB:ReiMu": {
     "NAME": "二重結界",
@@ -48,17 +48,17 @@
   },
   "UniversalSpiritual:ReiMu": {
     "NAME": "宇宙の力",
-    "DESCRIPTION": "カードをプレイするたび、活力 !M! を得る。"
+    "DESCRIPTION": "カードをプレイするたび、気力 !M! を得る。"
   },
   "RainPray2:ReiMu": {
     "NAME": "儀式：雨乞い",
     "DESCRIPTION": " !M! 枚のカードを引く。 NL 次のターン [E] を獲得する。 NL 廃棄 。",
-    "UPGRADE_DESCRIPTION": "活力 !M! を得る。 NL 再生 !M! を得る。 NL 廃棄 。"
+    "UPGRADE_DESCRIPTION": "気力 !M! を得る。 NL 再生 !M! を得る。 NL 廃棄 。"
   },
   "CollectionFlower2:ReiMu": {
     "NAME": "萃霊花",
     "DESCRIPTION": "自分についているバフの !M! 倍のダメージを与える。",
-    "UPGRADE_DESCRIPTION": " 活力 が !M! 倍になる。"
+    "UPGRADE_DESCRIPTION": " 気力 が !M! 倍になる。"
   },
   "ShadowOfCrow2:ReiMu": {
     "NAME": "カラスの影",
@@ -251,8 +251,8 @@
   },
   "KaguraRite:ReiMu": {
     "NAME": "儀式：神楽",
-    "DESCRIPTION": " 活力 !M! を得る。 NL *儀式：神を招く を捨札に加える。 NL 廃棄 。",
-    "UPGRADE_DESCRIPTION": "活力 !M! を得る。 NL *儀式：神を招く を捨札に加える。 NL 廃棄 。"
+    "DESCRIPTION": " 気力 !M! を得る。 NL *儀式：神を招く を捨札に加える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "気力 !M! を得る。 NL *儀式：神を招く を捨札に加える。 NL 廃棄 。"
   },
   "ComingRite:ReiMu": {
     "NAME": "儀式：降臨",
@@ -283,8 +283,8 @@
   },
   "SpringWay:ReiMu": {
     "NAME": "Colorful Path",
-    "DESCRIPTION": " 使用不可 。 NL このカードを引いた時、 一番高い 信仰 を !M! 上昇し、 活力 3 を得る。",
-    "UPGRADE_DESCRIPTION": " 使用不可 。 NL このカードを引いた時、 一番高い 信仰 を !M! 上昇し、 活力 4 を得る。"
+    "DESCRIPTION": " 使用不可 。 NL このカードを引いた時、 一番高い 信仰 を !M! 上昇し、 気力 3 を得る。",
+    "UPGRADE_DESCRIPTION": " 使用不可 。 NL このカードを引いた時、 一番高い 信仰 を !M! 上昇し、 気力 4 を得る。"
   },
   "BlastKick2:ReiMu": {
     "NAME": "天覇風神脚",
@@ -496,8 +496,8 @@
   },
   "RainPray:ReiMu": {
     "NAME": "儀式：雨乞い",
-    "DESCRIPTION": " 活力 !M! を得る。 NL プレイするたび、効果が2増加する。 NL 廃棄 。",
-    "UPGRADE_DESCRIPTION": " 活力 !M! を得る。 NL プレイするたび、効果が3増加する。 NL 廃棄 。"
+    "DESCRIPTION": " 気力 !M! を得る。 NL プレイするたび、効果が2増加する。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " 気力 !M! を得る。 NL プレイするたび、効果が3増加する。 NL 廃棄 。"
   },
   "RunawayExorcism:ReiMu": {
     "NAME": "退魔符乱舞",

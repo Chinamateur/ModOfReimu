@@ -7,10 +7,10 @@
     ]
   },
   "UniversalSpiritualPower:ReiMu": {
-    "NAME": "ユニバーサルスピリチュアル",
+    "NAME": "宇宙の神秘",
     "DESCRIPTIONS": [
-      "カードをプレイするたび、#y気力 を #b",
-      " 得る。"
+      "カードをプレイするたび、 #y気力 #b",
+      " を得る。"
     ]
   },
   "SealPower:ReiMu": {
