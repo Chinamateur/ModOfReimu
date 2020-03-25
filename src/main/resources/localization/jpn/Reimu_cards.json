@@ -124,8 +124,8 @@
     "DESCRIPTION": "ターン終了時、敵全体に 締め付け !M! を与える。"
   },
   "SpreadBorder2:ReiMu": {
-    "NAME": "拡散結界",
-    "DESCRIPTION": " 山信仰 を 2 得る。 NL !B! ブロックを得る。 NL この戦闘中、全ての *拡散結界 の ブロック 値を !M! 増加する。"
+    "NAME": "拡散アミュレット",
+    "DESCRIPTION": " 山信仰 を 2 得る。 NL !B! ブロックを得る。 NL この戦闘中、全ての *拡散アミュレット の ブロック 値を !M! 増加する。"
   },
   "Sakura:ReiMu": {
     "NAME": "神桜",
@@ -251,8 +251,8 @@
   },
   "KaguraRite:ReiMu": {
     "NAME": "儀式：神楽",
-    "DESCRIPTION": " 活力 !M! を得る。 NL *儀式：降臨 を捨札に加える。 NL 廃棄 。",
-    "UPGRADE_DESCRIPTION": "活力 !M! を得る。 NL *儀式：降臨 を捨札に加える。 NL 廃棄 。"
+    "DESCRIPTION": " 活力 !M! を得る。 NL *儀式：神を招く を捨札に加える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "活力 !M! を得る。 NL *儀式：神を招く を捨札に加える。 NL 廃棄 。"
   },
   "ComingRite:ReiMu": {
     "NAME": "儀式：降臨",
@@ -289,7 +289,7 @@
   "BlastKick2:ReiMu": {
     "NAME": "天覇風神脚",
     "DESCRIPTION": "対象に !D! ダメージを 0回与える。 NL この戦闘中、 飛行 を獲得するたび、攻撃回数が1増える。",
-    "UPGRADE_DESCRIPTION": " X の挙げた足を 保留 する。 廃棄 。",
+    "UPGRADE_DESCRIPTION": " X の 昇天脚 保留 する。 廃棄 。",
     "EXTENDED_DESCRIPTION": [
       "対象に !D! ダメージを",
       "回与える。 NL この戦闘中、 飛行 を獲得するたび、攻撃回数が1増える。"
@@ -389,69 +389,65 @@
     "DESCRIPTION": " !D! ダメージを与える。 NL 飛行 : このターン対象は 筋力 !M! を失う。 NL それ以外: 飛行 1 を得る。"
   },
   "WonderfulDomain:ReiMu": {
-    "NAME": "Nine-Syllable",
-    "DESCRIPTION": "Gain !B! Block. NL Draw 1 card for every !M! Faith."
+    "NAME": "九字護身法",
+    "DESCRIPTION": " !B! ブロックを得る。 NL 信仰の1つにつき !M! 枚のカードを引く。"
   },
   "Meditation:ReiMu": {
-    "NAME": "Meditation",
-    "DESCRIPTION": "Can only be played if every card in your hand is a Skill. NL Gain [E] and !M! Moon Faith.",
-    "UPGRADE_DESCRIPTION": "Can only be played if every card in your hand is a Skill. NL Gain [E] [E] and !M! Moon Faith.",
+    "NAME": "瞑想",
+    "DESCRIPTION": "手札に「スキル」がある時に使用可能。 NL [E] を得る。 NL 月信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": "手札に「スキル」がある時に使用可能。 NL [E] [E] を得る。 NL 月信仰 を !M! 得る。",
     "EXTENDED_DESCRIPTION": [
-      "I have non-Skill cards in my hand."
+      "「スキル」が手札にない。"
     ]
   },
   "TightArray:ReiMu": {
-    "NAME": "Binding Border",
-    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Constricted."
+    "NAME": "繋縛陣",
+    "DESCRIPTION": " !D! ダメージを与える。 NL 締め付け !M! を与える。"
   },
   "Stagnation:ReiMu": {
-    "NAME": "Floating",
-    "DESCRIPTION": " Flight: Draw !M! card. NL Otherwise: Gain 1 Flight.",
-    "UPGRADE_DESCRIPTION": "Flight: Gain 1 Flight. NL Otherwise: Draw !M! card. Retain."
-  },
-  "MyTest:ReiMu": {
-    "NAME": "test",
-    "DESCRIPTION": "Gain !M! all of Faith."
+    "NAME": "浮遊",
+    "DESCRIPTION": " 飛行 : !M! 枚カードを引く。 NL それ以外: 飛行 1 を得る。",
+    "UPGRADE_DESCRIPTION": " 飛行 状態でない: 飛行 1 を得る。 NL それ以外: !M! 枚カードを引く。 保留 。"
   },
   "FantasyMoon:ReiMu": {
-    "NAME": "Illusionary Moon",
-    "DESCRIPTION": "Choose 1 of 3 random cards to add into your hand. It costs 0 this turn. NL Gain !M! random Faith. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Choose 1 of 3 random Upgraded cards to add into your hand. It costs 0 this turn. NL Gain !M! random Faith. NL Exhaust."
+    "NAME": "幻想的な月",
+    "DESCRIPTION": "3枚のランダムなカードから1つを手札に加える。このターン中、そのコストは0。 NL ランダムな 信仰 を !M! 得る。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "3枚のランダムな アップグレード されたカードから1つを手札に加える。このターン中、そのコストは0。 NL ランダムな 信仰 を !M! 得る。 NL 廃棄 。"
   },
   "SpreadBorder:ReiMu": {
-    "NAME": "扩散灵符",
-    "DESCRIPTION": "获得2层 山之信 。并在回合结束时获得 !M! 点 格挡 ，其值每回合减半 。"
+    "NAME": "拡散アミュレット",
+    "DESCRIPTION": " 山信仰 を 2 得る。ターン終了時、 ！M! ブロックを得る。その値は毎ターン半分になる。"
   },
   "MikOfLucky:ReiMu": {
-    "NAME": "Miko Of Lucky",
-    "DESCRIPTION": "At the start of your turn, add !M! random O-mikuji into your hand. NL (It won't be Worst Luck)",
-    "UPGRADE_DESCRIPTION": "Innate. At the start of your turn, add !M! random O-mikuji into your hand. NL (It won't be Worst Luck)"
+    "NAME": "幸運な巫女",
+    "DESCRIPTION": "ターン開始時、 !M! 枚の大凶でない おみくじ を手札に加える。",
+    "UPGRADE_DESCRIPTION": " 天賦 。ターン開始時、 !M! 枚のランダムな おみくじ を手札に加える。"
   },
   "Determination:ReiMu": {
-    "NAME": "Determination",
-    "DESCRIPTION": "Deal damage equal to your lost HP. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Deal damage equal to your lost HP."
+    "NAME": "底力",
+    "DESCRIPTION": "失ったHPに等しいダメージを与える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "失ったHPに等しいダメージを与える。"
   },
   "Sign:ReiMu": {
-    "NAME": "O-mikuji",
-    "DESCRIPTION": "The O-mikuji of Hakurei Shrine.",
-    "UPGRADE_DESCRIPTION": " Retain. NL ",
+    "NAME": "おみくじ",
+    "DESCRIPTION": "博麗神社のおみくじ。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL ",
     "EXTENDED_DESCRIPTION": [
       "凶",
       "吉",
       "中吉",
       "大吉",
-      "Gain !M! Gold.",
-      "Gain !B! Block.",
-      "Deal !D! damage.",
-      "Draw ",
-      " cards.",
-      "Gain ",
-      "You get nothing!",
-      " NL Exhaust.",
-      "Apply",
-      " 脱力 and 弱体.",
-      " NL When Retained, Transform into a higher *Luck *Level.",
+      " !M! ゴールドを得る。",
+      " !B! ブロックを得る。",
+      " !D! ダメージを与える。",
+      " ",
+      " 枚のカードを引く。",
+      "獲得： ",
+      "何も手に入らなかった。",
+      " NL 廃棄 。",
+      "ランダムな敵に、",
+      " 脱力 と 弱体 を与える。",
+      " NL 保留 すると、 *運勢 が上昇する。",
       "金運みくじ",
       "安全みくじ",
       "争事みくじ",
@@ -460,97 +456,97 @@
     ]
   },
   "LearningPray:ReiMu": {
-    "NAME": "High-Speed Prayer",
-    "DESCRIPTION": "Gain !M! Moon Faith. NL Add a Learning O-mikuji into your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Moon Faith. NL Add a Learning O-mikuji into your hand. NL (It won't be Worst Luck)"
+    "NAME": "高速祈願",
+    "DESCRIPTION": " 月信仰 を !M! 得る。 NL 学業みくじ を手札に加える。",
+    "UPGRADE_DESCRIPTION": " 月信仰 を !M! 得る。 NL 凶以外の 学業みくじ を手札に加える。"
   },
   "CareerPray:ReiMu": {
-    "NAME": "Prosperity Prayer",
-    "DESCRIPTION": "Gain !M! Destruction Faith. NL Add a Career O-mikuji into your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Destruction Faith. NL Add a Career O-mikuji into your hand. NL (It won't be Worst Luck)"
+    "NAME": "繁盛祈願",
+    "DESCRIPTION": " 破壊信仰 を !M! 得る。 NL 争事みくじ を手札に加える。",
+    "UPGRADE_DESCRIPTION": " 破壊信仰 を !M! 得る。 NL 凶以外の 争事みくじ を手札に加える。"
   },
   "SafetyPray:ReiMu": {
-    "NAME": "Safety Prayer",
-    "DESCRIPTION": "Gain !M! Mountain Faith. NL Add a Safe O-mikuji into your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Mountain Faith. NL Add a Safe O-mikuji into your hand. NL (It won't be Worst Luck)"
+    "NAME": "安全祈願",
+    "DESCRIPTION": " 山信仰 を !M! 得る。 NL 安全みくじ を手札に加える。",
+    "UPGRADE_DESCRIPTION": " 山信仰 を !M! 得る。 NL 凶以外の 安全みくじ を手札に加える。"
   },
   "AirStrike:ReiMu": {
-    "NAME": "Air Strike",
-    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Wind Faith. NL Flight: Activate twice."
+    "NAME": "空爆",
+    "DESCRIPTION": " !D! ダメージを与える。 NL 風信仰 を !M! 得る。 NL 飛行 :効果が2回起きる。"
   },
   "PayForSelf:ReiMu": {
-    "NAME": "Yin-Yang Orb",
-    "DESCRIPTION": "Deal !D! damage. NL Damage dealt is increased by !D! for every unique debuff on the target."
+    "NAME": "陰陽鬼神玉",
+    "DESCRIPTION": " !D! ダメージを与える。 NL 対象にデバフがあると追加ダメージ。"
   },
   "Amulet:ReiMu": {
-    "NAME": "Homing Amulet",
-    "DESCRIPTION": "Gain !B! Block. NL When you lose ALL Flight, return this card to your hand."
+    "NAME": "博麗アミュレット",
+    "DESCRIPTION": " !B! ブロック を得る。 NL 全ての 飛行 を失う時、このカードが手札に加わる。"
   },
   "OrbThrow:ReiMu": {
-    "NAME": "Light Orb into Shade",
-    "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Gain 2 Destruction Faith."
+    "NAME": "明珠暗投",
+    "DESCRIPTION": "ランダムな敵に、 !D! ダメージを与える。 NL 破壊信仰 を 2 得る。"
   },
   "Revelation:ReiMu": {
-    "NAME": "Revelation",
-    "DESCRIPTION": "Scry !M!. NL Draw 1 card. NL Gain !M! Sun Faith."
+    "NAME": "啓示",
+    "DESCRIPTION": " 占術 !M! 。 NL カードを1枚引く。 NL 太陽信仰 を !M! 得る。"
   },
   "UpKicking:ReiMu": {
-    "NAME": "Ascension Kick",
-    "DESCRIPTION": "Deal !D! damage. NL Flight: Gain [E] and NL draw 1 card."
+    "NAME": "昇天脚",
+    "DESCRIPTION": " !D! ダメージを与える。 NL 飛行 : [E] を得て、カードを1枚引く。"
   },
   "RainPray:ReiMu": {
-    "NAME": "Rain Dance Ceremony",
-    "DESCRIPTION": "Gain !M! Vigor. NL Whenever you play this card, permanently increase it's effect by 2. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Vigor. NL Whenever you play this card, permanently increase it's effect by 3. NL Exhaust."
+    "NAME": "儀式：雨乞い",
+    "DESCRIPTION": " 活力 !M! を得る。 NL プレイするたび、効果が2増加する。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " 活力 !M! を得る。 NL プレイするたび、効果が3増加する。 NL 廃棄 。"
   },
   "RunawayExorcism:ReiMu": {
-    "NAME": "Wild Exorcism Dance",
-    "DESCRIPTION": "From within the top !M! cards of your draw pile, play all Attack cards and discard all non-Attack cards."
+    "NAME": "退魔符乱舞",
+    "DESCRIPTION": "山札の上から !M! のカードの内、「アタック」をプレイし、それ以外を捨てる。"
   },
   "ManaGlint:ReiMu": {
-    "NAME": "Exorcising Border",
-    "DESCRIPTION": "Exhaust a card. NL Gain Flame Faith equal to it's cost. NL Deal damage equal to Flame Faith to ALL enemies.",
-    "UPGRADE_DESCRIPTION": "Exhaust a card. NL Gain Flame Faith equal to double it's cost. Deal damage equal to Flame Faith to ALL enemies."
+    "NAME": "魔浄閃結",
+    "DESCRIPTION": " !M! 枚のカードを 廃棄 。 NL そのコストに等しい 炎信仰 を得る。 NL 敵全体に、炎新呼応 に等しいダメージを与える。",
+    "UPGRADE_DESCRIPTION": " !M! 枚のカードを 廃棄 。 NL そのコストの2倍の 炎信仰 を得る。 NL 敵全体に、炎新呼応 に等しいダメージを与える。"
   },
   "LovePray:ReiMu": {
-    "NAME": "Love Prayer",
-    "DESCRIPTION": "Gain !M! Sun Faith. NL Add a Romance O-mikuji into your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Sun Faith. NL Add a Romance O-mikuji into your hand. NL (It won't be Worst Luck)"
+    "NAME": "恋愛祈願",
+    "DESCRIPTION": " 太陽信仰 を !M! 得る。 NL 恋愛みくじ を手札に加える。",
+    "UPGRADE_DESCRIPTION": " 太陽信仰 を !M! 得る。 NL 凶以外の 恋愛みくじ を手札に加える。"
   },
   "YinYang:ReiMu": {
-    "NAME": "Yin-Yang Asuka'i",
-    "DESCRIPTION": "Gain 2 Flight. NL Deal damage equal to !M! times your Flight.",
-    "UPGRADE_DESCRIPTION": "I'm not Flying."
+    "NAME": "陰陽飛鳥井",
+    "DESCRIPTION": " 飛行 2 を得る。 NL 飛行 の !M! 倍のダメージを与える。",
+    "UPGRADE_DESCRIPTION": "飛行中でない。"
   },
   "Strike_Lin:ReiMu": {
-    "NAME": "Strike",
-    "DESCRIPTION": "Deal !D! damage."
+    "NAME": "ストライク",
+    "DESCRIPTION": " !D! ダメージを与える。"
   },
   "Defend_Lin:ReiMu": {
-    "NAME": "Defend",
-    "DESCRIPTION": "Gain !B! Block."
+    "NAME": "防御",
+    "DESCRIPTION": " !B! ブロックを得る。"
   },
   "DependentForm:ReiMu": {
-    "NAME": "Spirit Medium Form",
-    "DESCRIPTION": "At the end of your turn, gain !M! random Faith.",
-    "UPGRADE_DESCRIPTION": "At the end of your turn, gain !M! random Faith."
+    "NAME": "霊媒師",
+    "DESCRIPTION": "ターン終了時、ランダムな 信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": "ターン終了時、ランダムな 信仰 を !M! 得る。"
   },
   "Enchanting:ReiMu": {
-    "NAME": "Evil-Sealing Circle",
-    "DESCRIPTION": "Apply !M! 脱力. NL Apply !M! 弱体.",
-    "UPGRADE_DESCRIPTION": ""
+    "NAME": "封魔陣",
+    "DESCRIPTION": " 脱力 !M! を与える。 NL 弱体 !M! を与える。",
+    "UPGRADE_DESCRIPTION": "ターン終了時、ランダムな 信仰 を !M! 得る。"
   },
   "Oblation:ReiMu": {
-    "NAME": "鬼神磷火术",
-    "DESCRIPTION": " 献祭  !M! :造成 !D! 点伤害。如果杀死敌人，获得5层 请神 。 消耗  。"
+    "NAME": "鬼神燐火",
+    "DESCRIPTION": " 生贄 !M! : !D! ダメージを与える。この攻撃で敵を倒すと、神を招く 5を得る。 廃棄 。"
   },
   "SealNeedle:ReiMu": {
-    "NAME": "Sealing Needle",
-    "DESCRIPTION": "Deal !D! damage. If it deals unblocked damage, the enemy loses !M! Strength. NL Repeat !M! times. Exhaust."
+    "NAME": "封魔針",
+    "DESCRIPTION": " !D! ダメージを !M! 回与える。 敵にダメージを与えると、対象は 筋力 1を失う。 NL 廃棄 。"
   },
   "AirSuppress:ReiMu": {
-    "NAME": "Air Suppress",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies twice. Gain !M! Wind Faith. NL Flight: Apply 2 弱体 to ALL enemies.",
-    "UPGRADE_DESCRIPTION": "Deal !M! damage to ALL enemies twice. Gain !M! Wind Faith. NL Flight: Apply 3 弱体 to ALL enemies."
+    "NAME": "空中制圧",
+    "DESCRIPTION": "敵全体に、 !D! ダメージを2回与える。 風信仰 を !M! 得る。 NL 飛行: 敵全体に、 弱体 2を与える。",
+    "UPGRADE_DESCRIPTION": "敵全体に、 !D! ダメージを2回与える。 風信仰 を !M! 得る。 NL 飛行: 敵全体に、 弱体 3を与える。"
   }
 }
