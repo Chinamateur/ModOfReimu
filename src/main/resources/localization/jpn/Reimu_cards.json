@@ -282,7 +282,7 @@
     ]
   },
   "SpringWay:ReiMu": {
-    "NAME": "Colorful Path",
+    "NAME": "春の小道",
     "DESCRIPTION": " 使用不可 。 NL このカードを引いた時、 一番高い 信仰 を !M! 上昇し、 気力 3 を得る。",
     "UPGRADE_DESCRIPTION": " 使用不可 。 NL このカードを引いた時、 一番高い 信仰 を !M! 上昇し、 気力 4 を得る。"
   },
@@ -435,7 +435,7 @@
     "EXTENDED_DESCRIPTION": [
       "大凶",
       "凶",
-      "中吉",
+      "吉",
       "大吉",
       " !M! ゴールドを得る。",
       " !B! ブロックを得る。",
@@ -458,17 +458,17 @@
   "LearningPray:ReiMu": {
     "NAME": "高速祈願",
     "DESCRIPTION": " 月信仰 を !M! 得る。 NL 学業みくじ を手札に加える。",
-    "UPGRADE_DESCRIPTION": " 月信仰 を !M! 得る。 NL 凶以外の 学業みくじ を手札に加える。"
+    "UPGRADE_DESCRIPTION": " 月信仰 を !M! 得る。 NL 大凶以外の 学業みくじ を手札に加える。"
   },
   "CareerPray:ReiMu": {
     "NAME": "繁盛祈願",
     "DESCRIPTION": " 破壊信仰 を !M! 得る。 NL 争事みくじ を手札に加える。",
-    "UPGRADE_DESCRIPTION": " 破壊信仰 を !M! 得る。 NL 凶以外の 争事みくじ を手札に加える。"
+    "UPGRADE_DESCRIPTION": " 破壊信仰 を !M! 得る。 NL 大凶以外の 争事みくじ を手札に加える。"
   },
   "SafetyPray:ReiMu": {
     "NAME": "安全祈願",
     "DESCRIPTION": " 山信仰 を !M! 得る。 NL 安全みくじ を手札に加える。",
-    "UPGRADE_DESCRIPTION": " 山信仰 を !M! 得る。 NL 凶以外の 安全みくじ を手札に加える。"
+    "UPGRADE_DESCRIPTION": " 山信仰 を !M! 得る。 NL 大凶以外の 安全みくじ を手札に加える。"
   },
   "AirStrike:ReiMu": {
     "NAME": "空爆",
@@ -511,7 +511,7 @@
   "LovePray:ReiMu": {
     "NAME": "恋愛祈願",
     "DESCRIPTION": " 太陽信仰 を !M! 得る。 NL 恋愛みくじ を手札に加える。",
-    "UPGRADE_DESCRIPTION": " 太陽信仰 を !M! 得る。 NL 凶以外の 恋愛みくじ を手札に加える。"
+    "UPGRADE_DESCRIPTION": " 太陽信仰 を !M! 得る。 NL 大凶以外の 恋愛みくじ を手札に加える。"
   },
   "YinYang:ReiMu": {
     "NAME": "陰陽飛鳥井",
