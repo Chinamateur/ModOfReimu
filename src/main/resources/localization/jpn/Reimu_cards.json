@@ -199,8 +199,8 @@
   },
   "SubcavityFantasy:ReiMu": {
     "NAME": "幻想空想穴",
-    "DESCRIPTION": "このターン、次にプレイするカードは !M! 回プレイされる。 NL 廃棄 。",
-    "UPGRADE_DESCRIPTION": "このターン、次にプレイするカードは !M! 回プレイされる。"
+    "DESCRIPTION": "このターン、次にプレイするカードは追加で !M! 回プレイされる。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "このターン、次にプレイするカードは追加で !M! 回プレイされる。"
   },
   "MountainWay:ReiMu": {
     "NAME": "山道",
@@ -433,8 +433,8 @@
     "DESCRIPTION": "博麗神社のおみくじ。",
     "UPGRADE_DESCRIPTION": " 保留 。 NL ",
     "EXTENDED_DESCRIPTION": [
+      "大凶",
       "凶",
-      "吉",
       "中吉",
       "大吉",
       " !M! ゴールドを得る。",
