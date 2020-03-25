@@ -143,7 +143,7 @@
   "InherentArrayPower:ReiMu": {
     "NAME": "永久結界",
     "DESCRIPTIONS": [
-      " #y飛行 を失うたび、#b",
+      " #y飛行 を失うたび、 #b",
       " の #y風信仰 を得る。HPを失うたび、 #b",
       " の #y稲妻信仰 を得る。"
     ]
@@ -241,7 +241,7 @@
     ]
   },
   "EnegyL:ReiMu": {
-    "NAME": "Energized",
+    "NAME": "元気いっぱい",
     "DESCRIPTIONS": [
       "次のターン追加で、 #b",
       " [E] を得る。",
