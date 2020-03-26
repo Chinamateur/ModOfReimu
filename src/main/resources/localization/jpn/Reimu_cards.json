@@ -26,7 +26,7 @@
   },
   "CeremonyResonance:ReiMu": {
     "NAME": "儀式詠唱",
-    "DESCRIPTION": " 廃棄 された全ての　*儀式 カードをプレイする。 NL 廃棄 。",
+    "DESCRIPTION": " 廃棄 された全ての *儀式 カードをプレイする。 NL 廃棄 。",
     "EXTENDED_DESCRIPTION": [
       "儀式",
       "儀式"
