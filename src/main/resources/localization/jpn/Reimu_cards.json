@@ -10,7 +10,7 @@
   },
   "AlertArray:ReiMu": {
     "NAME": "警醒陣",
-    "DESCRIPTION": " !B! ブロック を得る。 NL s活力 !M! を得る。 NL 破壊信仰 を 2 得る。",
+    "DESCRIPTION": " !B! ブロック を得る。 NL 活力 !M! を得る。 NL 破壊信仰 を 2 得る。",
     "UPGRADE_DESCRIPTION": " !B! ブロック を得る。 NL 活力 !M! を得る。 NL 破壊信仰 を 3 得る。"
   },
   "NB:ReiMu": {
@@ -48,7 +48,7 @@
   },
   "UniversalSpiritual:ReiMu": {
     "NAME": "宇宙の力",
-    "DESCRIPTION": "カードをプレイするたび、活力 !M! を得る。"
+    "DESCRIPTION": "カードをプレイするたび、 活力 !M! を得る。"
   },
   "RainPray2:ReiMu": {
     "NAME": "儀式：雨乞い",
@@ -372,7 +372,7 @@
   "YinYangSange:ReiMu": {
     "NAME": "陰陽散華",
     "DESCRIPTION": " 信仰 を得るたび、 NL !M! のランダムな 信仰 を得る。",
-    "UPGRADE_DESCRIPTION": " 天賦 。 NL W 信仰 を得るたび、 NL !M! のランダムな 信仰 を得る。"
+    "UPGRADE_DESCRIPTION": " 天賦 。 NL 信仰 を得るたび、 NL !M! のランダムな 信仰 を得る。"
   },
   "InherentArray:ReiMu": {
     "NAME": "永久結界",
@@ -390,7 +390,7 @@
   },
   "WonderfulDomain:ReiMu": {
     "NAME": "九字護身法",
-    "DESCRIPTION": " !B! ブロックを得る。 NL 信仰の1つにつき !M! 枚のカードを引く。"
+    "DESCRIPTION": " !B! ブロックを得る。 NL 信仰 !M! につき、1枚カードを引く。"
   },
   "Meditation:ReiMu": {
     "NAME": "瞑想",
