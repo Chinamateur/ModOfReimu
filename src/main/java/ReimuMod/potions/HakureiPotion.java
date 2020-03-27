@@ -30,7 +30,7 @@ public class HakureiPotion extends AbstractPotion {
     public void use(AbstractCreature target) {
         AbstractPlayer p = AbstractDungeon.player;
         for (AbstractPower po : p.powers){
-            if (po.type == AbstractPower.PowerType.BUFF){
+            if (po.type == AbstractPower.PowerType.BUFF && po.amount >0 ){
                 ReimuMod.logger.info("博丽秘药:决定为玩家施加" +po.name+":"+po);
                 po.stackPower(this.getPotency());
             }

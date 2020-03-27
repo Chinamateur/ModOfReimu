@@ -83,10 +83,12 @@ public class KamiSacrifice extends CustomCard {
         if (!Settings.DISABLE_EFFECTS) {
             this.addToBot(new VFXAction(new BorderFlashEffect(Color.RED, true)));
         }
-        new setKami(-999,kak.get(AbstractDungeon.cardRng.random(kak.size()-1)));
-        this.addToBot(new VFXAction(p, new FlameBarrierEffect(p.hb.cX, p.hb.cY), 0.5F));
-        //this.addToBot(new VFXAction(p, new FlameBarrierEffect(p.hb.cX, p.hb.cY), 0.5F));
-        new setKami(this.magicNumber,"yan");
+        if (kak.size()>0){
+            new setKami(-999,kak.get(AbstractDungeon.cardRng.random(kak.size()-1)));
+            this.addToBot(new VFXAction(p, new FlameBarrierEffect(p.hb.cX, p.hb.cY), 0.5F));
+            new setKami(this.magicNumber,"yan");
+        }
+
 /*
         if (j.getKami2("yan")>=setKami.max()){q--;}
         int z = 0 ;

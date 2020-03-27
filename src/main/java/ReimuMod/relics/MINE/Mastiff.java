@@ -29,7 +29,8 @@ public class Mastiff extends CustomRelic {
             this.flash();
             AbstractDungeon.actionManager.addToBottom(new RelicAboveCreatureAction(AbstractDungeon.player, this));
             ReimuMod.logger.info("阿吽吃掉了"+drawnCard+drawnCard.uuid);
-            AbstractDungeon.player.drawPile.moveToExhaustPile(drawnCard);
+            //AbstractDungeon.player.drawPile.moveToExhaustPile(drawnCard);
+            AbstractDungeon.player.hand.moveToExhaustPile(drawnCard);
             AbstractDungeon.actionManager.addToTurnStart(new DrawCardAction(AbstractDungeon.player, 1));
             this.counter -- ;
             if (this.counter<=0){

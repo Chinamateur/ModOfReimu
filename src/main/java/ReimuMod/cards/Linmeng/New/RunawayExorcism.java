@@ -44,23 +44,23 @@ public class RunawayExorcism extends CustomCard {
     public void use(AbstractPlayer p, AbstractMonster m) {
         //int pz = 0 ;
         int x = Math.min(p.drawPile.group.size(),this.magicNumber);
-        CardCrawlGame.sound.play("STANCE_ENTER_WRATH");
-        while (x>0){
-            ReimuMod.logger.info("x:"+(p.drawPile.size()-x)+",size:"+p.drawPile.group.size());
-            AbstractCard card = p.drawPile.group.get(p.drawPile.size()-x);
-            x--;
-            if(card.type == CardType.ATTACK){
-                AbstractDungeon.effectsQueue.add(new BorderFlashEffect(Color.SCARLET, true));
-                AbstractDungeon.effectsQueue.add(new StanceChangeParticleGenerator(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, "Wrath"));
-                //pz++;
-                card.freeToPlayOnce = true;
-                AbstractDungeon.player.drawPile.group.remove(card);
-                AbstractDungeon.getCurrRoom().souls.remove(card);
-                this.addToBot(new NewQueueCardAction(card, true, true, true));
-            }else {
-                AbstractDungeon.player.drawPile.moveToDiscardPile(card);
+        if(x>0){
+            CardCrawlGame.sound.play("STANCE_ENTER_WRATH");
+            while (x>0) {
+                AbstractCard a = p.drawPile.getTopCard();
+                if (a.type == CardType.ATTACK) {
+                    AbstractDungeon.effectsQueue.add(new BorderFlashEffect(Color.SCARLET, true));
+                    AbstractDungeon.effectsQueue.add(new StanceChangeParticleGenerator(AbstractDungeon.player.hb.cX, AbstractDungeon.player.hb.cY, "Wrath"));
+                    a.freeToPlayOnce = true;
+                    AbstractDungeon.player.drawPile.removeCard(a);
+                    this.addToBot(new NewQueueCardAction(a, true, true, true));
+                } else {
+                    AbstractDungeon.player.drawPile.moveToDiscardPile(a);
+                }
+                x--;
             }
         }
+
         //new setKami(pz,"yan");
     }
 
@@ -76,44 +76,4 @@ public class RunawayExorcism extends CustomCard {
         }
     }
 }
-/*
-int x = Math.min(p.drawPile.group.size(),this.magicNumber);
-        while (x>0){
-            ReimuMod.logger.info("x:"+(p.drawPile.size()-x)+",size:"+p.drawPile.group.size());
-            AbstractCard card = p.drawPile.group.get(p.drawPile.size()-x);
-            x--;
-            if(card.type == CardType.ATTACK){
-                pz++;
-                AbstractDungeon.player.limbo.group.add(card);
-                card.current_x = (CardGroup.DRAW_PILE_X);
-                card.current_y = (CardGroup.DRAW_PILE_Y);
-                card.target_x = (Settings.WIDTH / 2.0F - 400.0F * Settings.scale + 100 * pz);
-                card.target_y = (Settings.HEIGHT / 2.0F);
-                card.freeToPlayOnce = true;
-                //card.purgeOnUse = true;
-                card.targetAngle = 0.0F;
-                card.drawScale = 0.12F;
-                card.applyPowers();
-                AbstractDungeon.actionManager.currentAction = null;
-                switch(card.target) {
-                    case SELF_AND_ENEMY:
-                    case ENEMY:
-                        AbstractDungeon.actionManager.cardQueue.add(new CardQueueItem(card, AbstractDungeon.getRandomMonster()));
-                        break;
-                    case SELF:
-                    case ALL:
-                    case ALL_ENEMY:
-                    case NONE:
-                    default:
-                        AbstractDungeon.actionManager.cardQueue.add(new CardQueueItem(card, (AbstractMonster)null));
-                }
 
-                if (!Settings.FAST_MODE) {
-                    AbstractDungeon.actionManager.addToTop(new WaitAction(Settings.ACTION_DUR_MED));
-                } else {
-                    AbstractDungeon.actionManager.addToTop(new WaitAction(Settings.ACTION_DUR_FASTER));
-                }
-                p.drawPile.removeCard(card);
-            }
-        }
- */

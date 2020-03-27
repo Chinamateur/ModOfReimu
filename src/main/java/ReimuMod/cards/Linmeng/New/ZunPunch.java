@@ -52,6 +52,7 @@ public class ZunPunch extends CustomCard {
         );
         //this.baseDamage = 0;
         this.baseMagicNumber= this.magicNumber = 2 ;
+        this.cardsToPreview = new Dazed();
         //this.isEthereal = true;
         //this.isMultiDamage = true;
     }
@@ -101,7 +102,7 @@ public class ZunPunch extends CustomCard {
             tmp.target_y = (float)Settings.HEIGHT / 2.0F;
             this.addToBot(new NewQueueCardAction(tmp, true, true, true));
         }
-        this.addToBot(new MakeTempCardInDiscardAction(this.cardsToPreview.makeCopy(), 1));
+        this.addToBot(new MakeTempCardInDiscardAction(new Dazed(), 1));
     }
 
 

@@ -24,7 +24,7 @@ public class PinkPotion extends AbstractPotion {
     public static final String ID = "PinkPotion:ReiMu";
     private static final PotionStrings potionStrings = CardCrawlGame.languagePack.getPotionString(ID);
     public PinkPotion() {
-        super(potionStrings.NAME, "PinkPotion", PotionRarity.COMMON, PotionSize.CARD, PotionColor.WEAK);
+        super(potionStrings.NAME, ID, PotionRarity.COMMON, PotionSize.CARD, PotionColor.WEAK);
         this.potency = this.getPotency();
         this.description = potionStrings.DESCRIPTIONS[0]+3*this.potency+potionStrings.DESCRIPTIONS[1]+this.potency+potionStrings.DESCRIPTIONS[2];
         this.isThrown = false;

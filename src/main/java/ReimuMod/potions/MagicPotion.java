@@ -17,6 +17,8 @@ import com.megacrit.cardcrawl.potions.AbstractPotion;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 import com.megacrit.cardcrawl.rooms.AbstractRoom;
 import com.megacrit.cardcrawl.ui.panels.EnergyPanel;
+import com.megacrit.cardcrawl.vfx.ChestShineEffect;
+import com.megacrit.cardcrawl.vfx.TextCenteredEffect;
 
 public class MagicPotion extends AbstractPotion {
     public static final String ID = "MagicPotion:ReiMu";
@@ -33,14 +35,12 @@ public class MagicPotion extends AbstractPotion {
         this.isThrown = false;
         this.tips.add(new PowerTip(this.name, this.description));
     }
-
-    public void use(AbstractCreature target) {
+       public void use(AbstractCreature target) {
         AbstractPlayer p = AbstractDungeon.player;
         int x = p.energy.energyMaster - EnergyPanel.totalCount;
         if (x>0){
             AbstractDungeon.actionManager.addToBottom(new GainEnergyAction(x));
         }
-
         AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p,p,new MagicPotionPower(p,this.getPotency()),this.getPotency()));
     }
 

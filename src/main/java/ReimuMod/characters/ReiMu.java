@@ -68,9 +68,10 @@ public class ReiMu extends CustomPlayer {
     //super(name, setClass, null, null , null ,new SpriterAnimation(SPRITER_ANIM_FILEPATH));
     super(name, ReimuClassEnum.REIMU, ORB_TEXTURES, ORB_VFX, LAYER_SPEED, null, null);
     //super(name, setClass, null, null, (String) null, null);
+    //this.vY -= 100 ;
 
     this.dialogX = (this.drawX + 0.0F * Settings.scale); // set location for text bubbles
-    this.dialogY = (this.drawY + 220.0F * Settings.scale); // you can just copy these values
+    this.dialogY = (this.drawY + 320.0F * Settings.scale ); // you can just copy these value
 
     logger.info("init 灵梦");
 
@@ -80,7 +81,7 @@ public class ReiMu extends CustomPlayer {
             ReimuMod.MyReimuModbol?"img/char/Reimu/shoulder1.png":"img/char/Reimu/shoulder3.png",
             ReimuMod.MyReimuModbol?(MathUtils.randomBoolean()?"img/char/Reimu/fallen.png":"img/char/Reimu/fallen1.png"):"img/char/Reimu/fallen2.png",
         getLoadout(),
-        0F, -10.0F, 200.0F, 350.0F,
+        0F, 0F, 200.0F, 350.0F,
         new EnergyManager(ENERGY_PER_TURN)
     );
 
@@ -90,7 +91,7 @@ if(ReimuMod.MyReimuModbol){
   loadAnimation("img/char/Reimu/NewProject_5.atlas","img/char/Reimu/NewProject_5_Armatureface_spellCall.json",2.0F);
   e = this.state.setAnimation(0,"newAnimation", true);
 }else {
-  loadAnimation("img/char/Reimu/Reimu.atlas", "img/char/Reimu/Reimu.json",3.4F);
+  loadAnimation("img/char/Reimu/Reimu.atlas", "img/char/Reimu/Reimu.json",1.0F);
   e = this.state.setAnimation(0,"normal", true);
 }
     e.setTime(e.getEndTime() * MathUtils.random());
