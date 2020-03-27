@@ -1,0 +1,552 @@
+{
+  "PrepareRite:ReiMu": {
+    "NAME": "準備式",
+    "DESCRIPTION": "山札か捨札のカードを 1 枚選び、山札の一番上に置く。 NL 破壊信仰 を !M! 得る。 NL 山信仰 を !M! 得る。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "山札か捨札のカードを 1 枚選び、山札の一番上に置く。 NL 破壊信仰 を !M! 得る。 NL 山信仰 を !M! 得る。 NL 廃棄 。"
+  },
+  "SpiritualOutbreak2:ReiMu": {
+    "NAME": "スピリチュアルアタック",
+    "DESCRIPTION": "敵全体に !D! ダメージを与える。 NL この攻撃は 活力 を消費しない。"
+  },
+  "AlertArray:ReiMu": {
+    "NAME": "警醒陣",
+    "DESCRIPTION": " !B! ブロック を得る。 NL 活力 !M! を得る。 NL 破壊信仰 を 2 得る。",
+    "UPGRADE_DESCRIPTION": " !B! ブロック を得る。 NL 活力 !M! を得る。 NL 破壊信仰 を 3 得る。"
+  },
+  "NB:ReiMu": {
+    "NAME": "二重結界",
+    "DESCRIPTION": "弾幕結界",
+    "UPGRADE_DESCRIPTION": "",
+    "EXTENDED_DESCRIPTION": [
+      " !B! ブロックを 2 回得る。 NL 破壊信仰 を !M! 得る。 NL *弾幕結界 に 変化 。",
+      " !B! ブロックを 2 回得る。 NL 破壊信仰 を !M! 得る。 NL *弾幕結界+ に 変化 。",
+      " !D! ダメージを2回与える。 NL 山信仰 を !M! 得る。 NL *二重結界 に変化。",
+      " !D! ダメージを2回与える。 NL 山信仰 を !M! 得る。 NL *二重結界+ に変化。"
+    ]
+  },
+  "CeremonyResonance:ReiMu": {
+    "NAME": "儀式詠唱",
+    "DESCRIPTION": " 廃棄 された全ての *儀式 カードをプレイする。 NL 廃棄 。",
+    "EXTENDED_DESCRIPTION": [
+      "儀式",
+      "儀式"
+    ]
+  },
+  "YinYangSign:ReiMu": {
+    "NAME": "陰陽印",
+    "DESCRIPTION": "敵の 締め付け に等しいダメージを与える。 NL 対象にデバフを与えるたび、 [E] を得る。"
+  },
+  "NDamage2:ReiMu": {
+    "NAME": "弾幕結界",
+    "DESCRIPTION": " !D! ダメージを2回与える。 NL 山信仰 を !M! 得る。 NL *二重結界 に変化。",
+    "UPGRADE_DESCRIPTION": "　!D! ダメージを2回与える。 NL 山信仰 を !M! 得る。 NL *二重結界+ に変化。"
+  },
+  "NDoubleB:ReiMu": {
+    "NAME": "二重結界",
+    "DESCRIPTION": " !B! ブロックを 2 回得る。 NL 破壊信仰 を !M! 得る。 NL *弾幕結界 に 変化 。",
+    "UPGRADE_DESCRIPTION": " !B! ブロックを 2 回得る。 NL 破壊信仰 を !M! 得る。 NL *弾幕結界+ に 変化 。"
+  },
+  "UniversalSpiritual:ReiMu": {
+    "NAME": "宇宙の力",
+    "DESCRIPTION": "カードをプレイするたび、 活力 !M! を得る。"
+  },
+  "RainPray2:ReiMu": {
+    "NAME": "儀式：雨乞い",
+    "DESCRIPTION": " !M! 枚のカードを引く。 NL 次のターン [E] を獲得する。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "活力 !M! を得る。 NL 再生 !M! を得る。 NL 廃棄 。"
+  },
+  "CollectionFlower2:ReiMu": {
+    "NAME": "萃霊花",
+    "DESCRIPTION": "自分についているバフの !M! 倍のダメージを与える。",
+    "UPGRADE_DESCRIPTION": " 活力 が !M! 倍になる。"
+  },
+  "ShadowOfCrow2:ReiMu": {
+    "NAME": "カラスの影",
+    "DESCRIPTION": "敵全体に 締め付け !M! を与える。 NL 飛行 : 敵全体に 脱力 と 弱体 を与える。"
+  },
+  "FineLineFantasy:ReiMu": {
+    "NAME": "幻想一重",
+    "DESCRIPTION": "カードを 廃棄 するたび、 炎信仰 を !M! 得る。"
+  },
+  "ZunPunch:ReiMu": {
+    "NAME": "幻想酔拳",
+    "DESCRIPTION": "任意の色の !M! 枚のランダムな「アタック」をプレイする。 NL *めまい を捨札に加える。",
+    "UPGRADE_DESCRIPTION": "任意の色の !M! 枚のランダムなアップグレードされた「アタック」をプレイする。 NL *めまい を捨札に加える。",
+    "EXTENDED_DESCRIPTION": [
+      "酔拳"
+    ]
+  },
+  "Poor:ReiMu": {
+    "NAME": "貧乏",
+    "DESCRIPTION": " 使用不可 。 NL エセリアル 。 NL ターン終了時、 !M! *ゴールド を失う。",
+    "UPGRADE_DESCRIPTION": " 天照大神 と 月読 が 降臨 する。 NL !M! ターン後、 太陽信仰 と 月信仰 を *半減 する。"
+  },
+  "KyokaiOfKami:ReiMu": {
+    "NAME": "高天原",
+    "DESCRIPTION": " 天照大神 と 月読 が 降臨 する。 NL !M! ターン後、 太陽信仰 と 月信仰 を *取り除く 。",
+    "UPGRADE_DESCRIPTION": " 天照大神 と 月読 が 降臨 する。 NL !M! ターン後、 太陽信仰 と 月信仰 を *半減 する。"
+  },
+  "Gathering:ReiMu": {
+    "NAME": "結ぶ",
+    "DESCRIPTION": "戦闘中、 おみくじ が作られるたび、 アップグレード する。",
+    "UPGRADE_DESCRIPTION": " 天賦 。 NL 戦闘中、 おみくじ が作られるたび、 アップグレード する。"
+  },
+  "CardOfSanctity:ReiMu": {
+    "NAME": "天からの贈り物",
+    "DESCRIPTION": " X 枚のランダムな おみくじ を手札に加える。 NL ランダムな 信仰 を X 得る。",
+    "UPGRADE_DESCRIPTION": " X 枚のランダムな アップグレード された おみくじ を手札に加える。 NL ランダムな 信仰 を X 得る。"
+  },
+  "Crusade:ReiMu": {
+    "NAME": "悪魔退治",
+    "DESCRIPTION": " !D! ダメージを与える。 NL 稲妻信仰 を !M! 得る。 NL 対象が攻撃を予定している場合は、ダメージが2倍になる。"
+  },
+  "FoulBorder2:ReiMu": {
+    "NAME": "反則結界",
+    "DESCRIPTION": " デバフ を敵に与えるたび、ランダムな デバフ を !M! 与える。",
+    "UPGRADE_DESCRIPTION": "ターン終了時、敵全体に !M! ダメージを与える。ダメージは毎ターン 3 増加する。"
+  },
+  "FoulBorder:ReiMu": {
+    "NAME": "反則結界",
+    "DESCRIPTION": "ターン終了時、敵全体に !M! ダメージを与える。ダメージは毎ターン 2 増加する。",
+    "UPGRADE_DESCRIPTION": "ターン終了時、敵全体に !M! ダメージを与える。ダメージは毎ターン 3 増加する。"
+  },
+  "Mountainwind:ReiMu": {
+    "NAME": "山谷風",
+    "DESCRIPTION": " 飛行 !M! を得る。 NL 捨札から「アタック」を1枚選び手札に加える。 NL このターン、そのコストは0。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "飛行 !M! を得る。 NL 捨札から「アタック」を1枚選び手札に加える。 NL このターン、そのコストは0。"
+  },
+  "KamiRite:ReiMu": {
+    "NAME": "儀式：祈祷",
+    "DESCRIPTION": "ランダムな 神 を 1柱 降臨 する。 NL 廃棄 。"
+  },
+  "OctopathBindingBorder2:ReiMu": {
+    "NAME": "八方鬼縛陣",
+    "DESCRIPTION": "ターン終了時、敵全体に 締め付け !M! を与える。"
+  },
+  "SpreadBorder2:ReiMu": {
+    "NAME": "拡散アミュレット",
+    "DESCRIPTION": " 山信仰 を 2 得る。 NL !B! ブロックを得る。 NL この戦闘中、全ての *拡散アミュレット の ブロック 値を !M! 増加する。"
+  },
+  "Sakura:ReiMu": {
+    "NAME": "神桜",
+    "DESCRIPTION": "敵はHPを !D! 失う。 NL !B! ブロックを得る。 NL 廃棄 。"
+  },
+  "Dreaming2:ReiMu": {
+    "NAME": "夢想封印",
+    "DESCRIPTION": "ランダムな敵に、 !D! ダメージを !M! 回与える。 NL 神 が 降臨 するたび、このカードを 変化 させる。 NL プレイすると元に戻る。",
+    "UPGRADE_DESCRIPTION": " 保留 。",
+    "EXTENDED_DESCRIPTION": [
+      "夢想封印　散",
+      "夢想封印　集",
+      "夢想封印　侘",
+      "夢想封印　円",
+      "夢想封印　寂",
+      "夢想封印　瞬",
+      "夢想桜花封印",
+      "夢想封印",
+      " 炎信仰 の効果を !M! 回発動する。",
+      "敵の ブロック を全て取り除く。 NL !D! ダメージを与える。",
+      "敵全体に 脱力 !M! を与える。 NL 敵は 筋力 !M! を失う。",
+      " 占術 !M! NL !D! ダメージ !M! 回与える。 NL 次のターン、 [E] [E] を獲得。",
+      "ランダムに !D! ダメージを !M! 回与える。 NL ブロックされずに敵に与えたダメージと等しい ブロック を得る。",
+      "敵の攻撃を無効化し、反撃して NL !M! ダメージを与える。",
+      " 再生 !M! を得る。 NL ターン開始時、 *神桜 を手札に加える。",
+      "ランダムな敵に、 !D! ダメージを !M! 回与える。 NL 神 が 降臨 するたび、このカードを 変化 させる。 NL プレイすると元に戻る。",
+      " 再生 !M! を得る。 NL ターン開始時、 *神桜+ を手札に加える。"
+    ]
+  },
+  "Shading:ReiMu": {
+    "NAME": "神隠し",
+    "DESCRIPTION": " 保留 。 NL 次のターンダメージを受けず、自分のターンをスキップする。 NL 廃棄 。"
+  },
+  "ShadowOfCrow:ReiMu": {
+    "NAME": "カラスの影",
+    "DESCRIPTION": " !M! ターンの間、 飛行 は失われない。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " 飛行 !M! を得て、 飛行 に等しい 風信仰 を得る。"
+  },
+  "FantasyBorder:ReiMu": {
+    "NAME": "幻想空想穴",
+    "DESCRIPTION": " エセリアル 。 NL !M! ターンの間、 廃棄 されたカードのコピーを捨札に加える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " !M! ターンの間、 廃棄 されたカードのコピーを捨札に加える。 NL 廃棄 。"
+  },
+  "BlasphemyArray:ReiMu": {
+    "NAME": "冒涜",
+    "DESCRIPTION": "ターン終了時、他の信仰を !M! 失う。 NL 炎信仰 の半分の 炎信仰 を得る。 NL 他の 神 は 降臨 できない。"
+  },
+  "GreedyExorcism:ReiMu": {
+    "NAME": "強欲な大幣",
+    "DESCRIPTION": " !D! ダメージを与える。 !M! ゴールドを得る。何度でも アップグレード できる。 廃棄 。"
+  },
+  "Conquer:ReiMu": {
+    "NAME": "圧倒",
+    "DESCRIPTION": "敵全体に !D! ダメージを与える。 NL 炎信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": "炎信仰 を !M! をX回得る。敵全体に 炎信仰 のX倍のダメージを与える。"
+  },
+  "TakeOff:ReiMu": {
+    "NAME": "飛行",
+    "DESCRIPTION": " 飛行 Xを得る。 NL 風信仰 をx得る。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " 飛行 Xを得る。 NL 風信仰 をx得る。"
+  },
+  "Free:ReiMu": {
+    "NAME": "少女綺想",
+    "DESCRIPTION": " 使用不可 。 NL このカードを引いた時、ランダムなカードをプレイする。",
+    "UPGRADE_DESCRIPTION": "使用不可 。 NL このカードを引いた時、ランダムなアップグレードされたカードをプレイする。"
+  },
+  "SubcavityInstant:ReiMu": {
+    "NAME": "刹那亜空穴",
+    "DESCRIPTION": "次のターンまで、攻撃してきた敵に !M! ダメージを与える。 NL 稲妻信仰 を2得る。",
+    "UPGRADE_DESCRIPTION": "敵全体が、 筋力 !M! を X+ 回失う。 廃棄 。"
+  },
+  "SubcavityFantasy:ReiMu": {
+    "NAME": "幻想空想穴",
+    "DESCRIPTION": "このターン、次にプレイするカードは追加で !M! 回プレイされる。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "このターン、次にプレイするカードは追加で !M! 回プレイされる。"
+  },
+  "MountainWay:ReiMu": {
+    "NAME": "山道",
+    "DESCRIPTION": "自分のバフとターゲットのデバフの合計に等しい ブロック を得る。 NL 山信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": "自分のバフとターゲットのデバフの合計に等しい ブロック を得る。 NL 山信仰 を !M! 得る。"
+  },
+  "SpiritualOutbreak:ReiMu": {
+    "NAME": "スピリチュアルアタック",
+    "DESCRIPTION": "敵にX回 !D! ダメージを与える。 NL 脱力 X を与える。",
+    "UPGRADE_DESCRIPTION": "すべての敵はX+1回 筋力 !D! を失う。 NL 廃棄 。"
+  },
+  "HakureiPhantom:ReiMu": {
+    "NAME": "博麗幻影",
+    "DESCRIPTION": "対象のターン終了時、このターンで与えたダメージに等しいダメージを与える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "対象のターン終了時、このターンで与えたダメージに等しいダメージを与える。"
+  },
+  "SolemnJudgment:ReiMu": {
+    "NAME": "神の宣告",
+    "DESCRIPTION": " エセリアル 。 NL HPを半分失い、敵を破壊する。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "HPを半分失い、敵を破壊する。 NL 廃棄 。"
+  },
+  "SolemnWishes:ReiMu": {
+    "NAME": "神の恵み",
+    "DESCRIPTION": " エセリアル 。 NL 最大HPの半分を回復。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "最大HPの半分を回復。 NL 廃棄 。"
+  },
+  "PhosphorusFlame:ReiMu": {
+    "NAME": "鬼神燐火",
+    "DESCRIPTION": "敵が、攻撃以外で受けるダメージが2倍になる。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " 天賦 。敵が、攻撃以外で受けるダメージが2倍になる。 NL 廃棄 。"
+  },
+  "OctopathSalyBorderN:ReiMu": {
+    "NAME": "八方龍殺陣",
+    "DESCRIPTION": "敵全体に !D! ダメージを与える。 NL 全ての 信仰 を取り除く。"
+  },
+  "BodyOfKami:ReiMu": {
+    "NAME": "神体",
+    "DESCRIPTION": "神が宿るとされている物体で礼拝の対象。 なぜか猫は好き。",
+    "UPGRADE_DESCRIPTION": " 信仰 を得る。 NL エセリアル 。",
+    "EXTENDED_DESCRIPTION": [
+      " 使用不可 。 NL ターン終了時、 !M! の"
+    ]
+  },
+  "CleanRite:ReiMu": {
+    "NAME": "儀式：禊祓",
+    "DESCRIPTION": " アーティファクト を !M! 得る。 NL *儀式：神楽 を捨札に加える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " アーティファクト を !M! 得る。 NL *儀式：神楽+ を捨札に加える。 NL 廃棄 。"
+  },
+  "KaguraRite:ReiMu": {
+    "NAME": "儀式：神楽",
+    "DESCRIPTION": " 活力 !M! を得る。 NL *儀式：神を招く を捨札に加える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "活力 !M! を得る。 NL *儀式：神を招く を捨札に加える。 NL 廃棄 。"
+  },
+  "ComingRite:ReiMu": {
+    "NAME": "儀式：降臨",
+    "DESCRIPTION": " !M! 柱の 神 を 降臨 させる。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL !M! 柱の 神 を 降臨 させる。 NL 廃棄 。"
+  },
+  "KamiComing:ReiMu": {
+    "NAME": "神の降臨",
+    "DESCRIPTION": "博麗霊夢は神を降臨させる。",
+    "UPGRADE_DESCRIPTION": " カードを1枚引く。",
+    "EXTENDED_DESCRIPTION": [
+      "炎降臨",
+      "破壊降臨",
+      "稲妻降臨",
+      "月降臨",
+      "山降臨",
+      "風降臨",
+      "太陽降臨",
+      " 軻遇突智 が 降臨 する。",
+      " 須佐之男 が 降臨 する。",
+      " 建御雷神 が 降臨 する。",
+      " 月読 が 降臨 する。",
+      " 大山祇 が 降臨 する。",
+      " 建御名方 が 降臨 する。",
+      " 天照大神 が 降臨 する。",
+      " 廃棄 。"
+    ]
+  },
+  "SpringWay:ReiMu": {
+    "NAME": "春の小道",
+    "DESCRIPTION": " 使用不可 。 NL このカードを引いた時、 一番高い 信仰 を !M! 上昇し、 活力 3 を得る。",
+    "UPGRADE_DESCRIPTION": " 使用不可 。 NL このカードを引いた時、 一番高い 信仰 を !M! 上昇し、 活力 4 を得る。"
+  },
+  "BlastKick2:ReiMu": {
+    "NAME": "天覇風神脚",
+    "DESCRIPTION": "対象に !D! ダメージを 0回与える。 NL この戦闘中、 飛行 を獲得するたび、攻撃回数が1増える。",
+    "UPGRADE_DESCRIPTION": " X の 昇天脚 保留 する。 廃棄 。",
+    "EXTENDED_DESCRIPTION": [
+      "対象に !D! ダメージを",
+      "回与える。 NL この戦闘中、 飛行 を獲得するたび、攻撃回数が1増える。"
+    ]
+  },
+  "Authority2:ReiMu": {
+    "NAME": "神御体",
+    "DESCRIPTION": " 使用不可 。このカードを引いた時、月信仰 と 炎信仰 を !M! ずつ得て、カードを1枚引く。",
+    "UPGRADE_DESCRIPTION": "軻遇突智以外の神は降臨していない。"
+  },
+  "Authority:ReiMu": {
+    "NAME": "神の威光",
+    "DESCRIPTION": " 太陽信仰 を !M! 得る。 NL 天照大神 が 降臨 していると、 NL バッファー 1を得る。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "軻遇突智以外の神は降臨していない。"
+  },
+  "KamiSacrifice:ReiMu": {
+    "NAME": "神祭",
+    "DESCRIPTION": " 軻遇突智 以外のランダムな神を消す。 NL 炎信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": "軻遇突智以外の神は降臨していない。"
+  },
+  "PrayRite:ReiMu": {
+    "NAME": "儀式：神頼み",
+    "DESCRIPTION": "大吉の おみくじ を !M! 枚手札に加える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " !M! 枚の廃棄されたカードを アップグレード して手札に加える。 廃棄 。"
+  },
+  "NineCharacters:ReiMu": {
+    "NAME": "即妙神域札",
+    "DESCRIPTION": "ターン終了時、信仰 1つに付き !M! ブロック を得る。",
+    "UPGRADE_DESCRIPTION": " プレートアーマー !M! を得る。"
+  },
+  "Dreaming:ReiMu": {
+    "NAME": "夢想天生",
+    "DESCRIPTION": "全ての 神 を 覚醒 させる。 廃棄 。",
+    "UPGRADE_DESCRIPTION": "敵全体に !D! ダメージを与える。 NL 降臨 している 神 の数だけ繰り返される。",
+    "EXTENDED_DESCRIPTION": [
+      "神は降臨していない。"
+    ]
+  },
+  "AirManeuver:ReiMu": {
+    "NAME": "空中作戦",
+    "DESCRIPTION": " !B! ブロック を得る。 NL 飛行 : 風信仰 を !M! 得る。 NL それ以外: 飛行 1を得る。",
+    "UPGRADE_DESCRIPTION": " !M! 枚の廃棄されたカードを アップグレード して手札に加える。 廃棄 。"
+  },
+  "EmergencyTakeOff:ReiMu": {
+    "NAME": "緊急離陸",
+    "DESCRIPTION": " 飛行 !M! を得る。 NL 弱体 !M! を得る。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " !M! 枚の廃棄されたカードを アップグレード して手札に加える。 廃棄 。"
+  },
+  "PassingAway:ReiMu": {
+    "NAME": "儀式：輪廻",
+    "DESCRIPTION": "廃棄されたカードを !M! 枚手札に加える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "廃棄されたカードを !M! 枚 アップグレード して手札に加える。 NL 廃棄 。"
+  },
+  "DoubleButterfly:ReiMu": {
+    "NAME": "二色蓮花蝶",
+    "DESCRIPTION": " !B! ブロック を !M! 回得る。 NL !D! ダメージを !M! 回与える。"
+  },
+  "CollectionFlower:ReiMu": {
+    "NAME": "萃霊花",
+    "DESCRIPTION": "敵のデバフと等しい 稲妻信仰 と トゲ を得る。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "敵のデバフ+ !M! に等しい 稲妻信仰 と トゲ を得る。 NL 廃棄 。"
+  },
+  "BarrageOfMoneybags:ReiMu": {
+    "NAME": "だんまく長者",
+    "DESCRIPTION": " [E] [E] [E] [E] を失う。 NL !D! ダメージを与える。 NL 足りない [E] 1つにつき、 !M! ゴールドを失う。",
+    "UPGRADE_DESCRIPTION": " [E] [E] [E] を失う。 NL !D! ダメージを与える。 NL 足りない [E] 1つにつき、 !M! ゴールドを失う。",
+    "EXTENDED_DESCRIPTION": [
+      "ゴールドが足りない。"
+    ]
+  },
+  "Intuition:ReiMu": {
+    "NAME": "直感",
+    "DESCRIPTION": " 占術 4。 NL 月信仰 !M! を得る。",
+    "UPGRADE_DESCRIPTION": " 占術 5。 NL 月信仰 !M! を得る。"
+  },
+  "Sacrifice:ReiMu": {
+    "NAME": "お供え",
+    "DESCRIPTION": "「アタック」以外のカードを 廃棄 する。 廃棄 するごとに、 炎信仰 を !M! 得る。 NL 廃棄 。"
+  },
+  "YinYangSange:ReiMu": {
+    "NAME": "陰陽散華",
+    "DESCRIPTION": " 信仰 を得るたび、 NL !M! のランダムな 信仰 を得る。",
+    "UPGRADE_DESCRIPTION": " 天賦 。 NL 信仰 を得るたび、 NL !M! のランダムな 信仰 を得る。"
+  },
+  "InherentArray:ReiMu": {
+    "NAME": "永久結界",
+    "DESCRIPTION": " 天賦 。 NL 飛行 を失うたび、 稲妻信仰 を !M! 得る。 NL HPを失うたび、 風信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": " 天賦 。 NL カードを引くたび、 月信仰 を !M! 得る。 NL 廃棄 するたび、 炎信仰 を !M! 得る。"
+  },
+  "ForcedLanding:ReiMu": {
+    "NAME": "不時着",
+    "DESCRIPTION": " 飛行 : 飛行 を1失い敵全体に !D! ダメージを与える。 NL 稲妻信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": "飛行中でない。"
+  },
+  "SubAcupoint:ReiMu": {
+    "NAME": "亜空点穴 ",
+    "DESCRIPTION": " !D! ダメージを与える。 NL 飛行 : このターン対象は 筋力 !M! を失う。 NL それ以外: 飛行 1 を得る。"
+  },
+  "WonderfulDomain:ReiMu": {
+    "NAME": "九字護身法",
+    "DESCRIPTION": " !B! ブロックを得る。 NL 信仰 !M! につき、1枚カードを引く。"
+  },
+  "Meditation:ReiMu": {
+    "NAME": "瞑想",
+    "DESCRIPTION": "手札が全て「スキル」の場合に使用可。 NL [E] を得る。 NL 月信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": "手札が全て「スキル」の場合に使用可。 NL [E] [E] を得る。 NL 月信仰 を !M! 得る。",
+    "EXTENDED_DESCRIPTION": [
+      "「スキル」が手札にない。"
+    ]
+  },
+  "TightArray:ReiMu": {
+    "NAME": "繋縛陣",
+    "DESCRIPTION": " !D! ダメージを与える。 NL 締め付け !M! を与える。"
+  },
+  "Stagnation:ReiMu": {
+    "NAME": "浮遊",
+    "DESCRIPTION": " 飛行 : !M! 枚カードを引く。 NL それ以外: 飛行 1 を得る。",
+    "UPGRADE_DESCRIPTION": " 飛行 状態でない: 飛行 1 を得る。 NL それ以外: !M! 枚カードを引く。 保留 。"
+  },
+  "FantasyMoon:ReiMu": {
+    "NAME": "幻想的な月",
+    "DESCRIPTION": "3枚のランダムなカードから1つを手札に加える。このターン中、そのコストは0。 NL ランダムな 信仰 を !M! 得る。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "3枚のランダムな アップグレード されたカードから1つを手札に加える。このターン中、そのコストは0。 NL ランダムな 信仰 を !M! 得る。 NL 廃棄 。"
+  },
+  "SpreadBorder:ReiMu": {
+    "NAME": "拡散アミュレット",
+    "DESCRIPTION": " 山信仰 を 2 得る。ターン終了時、 ！M! ブロックを得る。その値は毎ターン半分になる。"
+  },
+  "MikOfLucky:ReiMu": {
+    "NAME": "幸運な巫女",
+    "DESCRIPTION": "ターン開始時、 !M! 枚の大凶でない おみくじ を手札に加える。",
+    "UPGRADE_DESCRIPTION": " 天賦 。ターン開始時、 !M! 枚のランダムな おみくじ を手札に加える。"
+  },
+  "Determination:ReiMu": {
+    "NAME": "底力",
+    "DESCRIPTION": "失ったHPに等しいダメージを与える。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": "失ったHPに等しいダメージを与える。"
+  },
+  "Sign:ReiMu": {
+    "NAME": "おみくじ",
+    "DESCRIPTION": "博麗神社のおみくじ。",
+    "UPGRADE_DESCRIPTION": " 保留 。 NL ",
+    "EXTENDED_DESCRIPTION": [
+      "大凶",
+      "凶",
+      "吉",
+      "大吉",
+      " !M! ゴールドを得る。",
+      " !B! ブロックを得る。",
+      " !D! ダメージを与える。",
+      " ",
+      " 枚のカードを引く。",
+      "獲得： ",
+      "何も手に入らなかった。",
+      " NL 廃棄 。",
+      "ランダムな敵に、",
+      " 脱力 と 弱体 を与える。",
+      " NL 保留 すると、 *運勢 が上昇する。",
+      "金運みくじ",
+      "安全みくじ",
+      "争事みくじ",
+      "学業みくじ",
+      "恋愛みくじ"
+    ]
+  },
+  "LearningPray:ReiMu": {
+    "NAME": "高速祈願",
+    "DESCRIPTION": " 月信仰 を !M! 得る。 NL 学業みくじ を手札に加える。",
+    "UPGRADE_DESCRIPTION": " 月信仰 を !M! 得る。 NL 大凶以外の 学業みくじ を手札に加える。"
+  },
+  "CareerPray:ReiMu": {
+    "NAME": "繁盛祈願",
+    "DESCRIPTION": " 破壊信仰 を !M! 得る。 NL 争事みくじ を手札に加える。",
+    "UPGRADE_DESCRIPTION": " 破壊信仰 を !M! 得る。 NL 大凶以外の 争事みくじ を手札に加える。"
+  },
+  "SafetyPray:ReiMu": {
+    "NAME": "安全祈願",
+    "DESCRIPTION": " 山信仰 を !M! 得る。 NL 安全みくじ を手札に加える。",
+    "UPGRADE_DESCRIPTION": " 山信仰 を !M! 得る。 NL 大凶以外の 安全みくじ を手札に加える。"
+  },
+  "AirStrike:ReiMu": {
+    "NAME": "空爆",
+    "DESCRIPTION": " !D! ダメージを与える。 NL 風信仰 を !M! 得る。 NL 飛行 :効果が2回起きる。"
+  },
+  "PayForSelf:ReiMu": {
+    "NAME": "陰陽鬼神玉",
+    "DESCRIPTION": " !D! ダメージを与える。 NL 対象にデバフがあると追加ダメージ。"
+  },
+  "Amulet:ReiMu": {
+    "NAME": "博麗アミュレット",
+    "DESCRIPTION": " !B! ブロック を得る。 NL 全ての 飛行 を失う時、このカードが手札に加わる。"
+  },
+  "OrbThrow:ReiMu": {
+    "NAME": "明珠暗投",
+    "DESCRIPTION": "ランダムな敵に、 !D! ダメージを与える。 NL 破壊信仰 を 2 得る。"
+  },
+  "Revelation:ReiMu": {
+    "NAME": "啓示",
+    "DESCRIPTION": " 占術 !M! 。 NL カードを1枚引く。 NL 太陽信仰 を !M! 得る。"
+  },
+  "UpKicking:ReiMu": {
+    "NAME": "昇天脚",
+    "DESCRIPTION": " !D! ダメージを与える。 NL 飛行 : [E] を得て、カードを1枚引く。"
+  },
+  "RainPray:ReiMu": {
+    "NAME": "儀式：雨乞い",
+    "DESCRIPTION": " 活力 !M! を得る。 NL プレイするたび、効果が2増加する。 NL 廃棄 。",
+    "UPGRADE_DESCRIPTION": " 活力 !M! を得る。 NL プレイするたび、効果が3増加する。 NL 廃棄 。"
+  },
+  "RunawayExorcism:ReiMu": {
+    "NAME": "退魔符乱舞",
+    "DESCRIPTION": "山札の上から !M! のカードの内、「アタック」をプレイし、それ以外を捨てる。"
+  },
+  "ManaGlint:ReiMu": {
+    "NAME": "魔浄閃結",
+    "DESCRIPTION": " !M! 枚のカードを 廃棄 。 NL そのコストに等しい 炎信仰 を得る。 NL 敵全体に、 炎信仰 に等しいダメージを与える。",
+    "UPGRADE_DESCRIPTION": " !M! 枚のカードを 廃棄 。 NL そのコストの2倍の 炎信仰 を得る。 NL 敵全体に、 炎信仰 に等しいダメージを与える。"
+  },
+  "LovePray:ReiMu": {
+    "NAME": "恋愛祈願",
+    "DESCRIPTION": " 太陽信仰 を !M! 得る。 NL 恋愛みくじ を手札に加える。",
+    "UPGRADE_DESCRIPTION": " 太陽信仰 を !M! 得る。 NL 大凶以外の 恋愛みくじ を手札に加える。"
+  },
+  "YinYang:ReiMu": {
+    "NAME": "陰陽飛鳥井",
+    "DESCRIPTION": " 飛行 2 を得る。 NL 飛行 の !M! 倍のダメージを与える。",
+    "UPGRADE_DESCRIPTION": "飛行中でない。"
+  },
+  "Strike_Lin:ReiMu": {
+    "NAME": "ストライク",
+    "DESCRIPTION": " !D! ダメージを与える。"
+  },
+  "Defend_Lin:ReiMu": {
+    "NAME": "防御",
+    "DESCRIPTION": " !B! ブロックを得る。"
+  },
+  "DependentForm:ReiMu": {
+    "NAME": "霊媒師",
+    "DESCRIPTION": "ターン終了時、ランダムな 信仰 を !M! 得る。",
+    "UPGRADE_DESCRIPTION": "ターン終了時、ランダムな 信仰 を !M! 得る。"
+  },
+  "Enchanting:ReiMu": {
+    "NAME": "封魔陣",
+    "DESCRIPTION": " 脱力 !M! を与える。 NL 弱体 !M! を与える。",
+    "UPGRADE_DESCRIPTION": "ターン終了時、ランダムな 信仰 を !M! 得る。"
+  },
+  "Oblation:ReiMu": {
+    "NAME": "鬼神燐火",
+    "DESCRIPTION": " 生贄 !M! : !D! ダメージを与える。この攻撃で敵を倒すと、神を招く 5を得る。 廃棄 。"
+  },
+  "SealNeedle:ReiMu": {
+    "NAME": "封魔針",
+    "DESCRIPTION": " !D! ダメージを !M! 回与える。 敵にダメージを与えると、対象は 筋力 1を失う。 NL 廃棄 。"
+  },
+  "AirSuppress:ReiMu": {
+    "NAME": "空中制圧",
+    "DESCRIPTION": "敵全体に、 !D! ダメージを2回与える。 風信仰 を !M! 得る。 NL 飛行: 敵全体に、 弱体 2を与える。",
+    "UPGRADE_DESCRIPTION": "敵全体に、 !D! ダメージを2回与える。 風信仰 を !M! 得る。 NL 飛行: 敵全体に、 弱体 3を与える。"
+  }
+}

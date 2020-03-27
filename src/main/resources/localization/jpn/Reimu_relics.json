@@ -1,0 +1,197 @@
+{
+  "RedLine:ReiMu": {
+    "NAME": "運命の赤い糸",
+    "FLAVOR": "神が運命を決めるのに使うと言われている。",
+    "DESCRIPTIONS": [
+      "戦闘のはじめの #b",
+      " ターン、追加で #b",
+      " 引く。"
+    ]
+  },
+  "TentaclePot:ReiMu": {
+    "NAME": "触手壺",
+    "FLAVOR": "絶えず空腹な不気味な生き物が入った壺。開けるな。",
+    "DESCRIPTIONS": [
+      "戦闘開始時、 #b",
+      "の #y締め付け を敵全体に与える。"
+    ]
+  },
+  "FadedRune:ReiMu": {
+    "NAME": "色あせたルーン",
+    "FLAVOR": "年老いた魔法のルーン。 しかし、時間が立っても効果は鈍らない。",
+    "DESCRIPTIONS": [
+      "戦闘開始時、ランダムな敵からうけるダメージを1回だけ #b50% 減らす。"
+    ]
+  },
+  "ZunR:ReiMu": {
+    "NAME": "御神酒",
+    "FLAVOR": "神に捧げる酒。ちょっとの量で人間は酔う。",
+    "DESCRIPTIONS": [
+      "ターン開始時、 [E] をえて、 #b",
+      " 枚の #rめまい 捨札に加える。"
+    ]
+  },
+  "PaintedHorse:ReiMu": {
+    "NAME": "絵馬",
+    "FLAVOR": "神に願いを伝える道具。",
+    "DESCRIPTIONS": [
+      "戦闘開始時、 #b1 枚のカードをデッキから取り除く。 NL #b",
+      " ターンの後、そのカードが手札に加わり、コストは #b0 。"
+    ]
+  },
+  "SkyOrb:ReiMu": {
+    "NAME": "スカイオーブ",
+    "FLAVOR": "限りない空のエッセンスを注入したオーブ。",
+    "DESCRIPTIONS": [
+      "戦闘で初めて、全ての #y飛行 を失った時、 #b",
+      " の #y飛行 を得る。"
+    ]
+  },
+  "YidongShenshe:ReiMu": {
+    "NAME": "小さな神社",
+    "FLAVOR": "人間はお賽銭で幸運になると思っている。 間違ってはいないけど・・・",
+    "DESCRIPTIONS": [
+      "#y右クリック : #b ",
+      " #yゴールド を失い、 #b",
+      " 枚のランダムな #yおみくじ を手札に加える。 NL この効果は戦闘中 #b",
+      " 回使える。",
+      " NL 残りの使用回数 #b"
+    ]
+  },
+  "PureWhite:ReiMu": {
+    "NAME": "白装束",
+    "FLAVOR": "とても汚れやすい。",
+    "DESCRIPTIONS": [
+      "戦闘中、ダメージを受けるるまで、カードを追加で #b",
+      " 枚引く。",
+      "汚れてしまった。"
+    ]
+  },
+  "CrownOfHeavens:ReiMu": {
+    "NAME": "天冠",
+    "FLAVOR": "身につけると、神々の力がを感じられる気がする。",
+    "DESCRIPTIONS": [
+      " #y神降臨 のたび、 #b",
+      " ダメージを敵全体に与える。"
+    ]
+  },
+  "Salt:ReiMu": {
+    "NAME": "盛り塩",
+    "FLAVOR": "清め塩は悪霊を追い払うために使われる。",
+    "DESCRIPTIONS": [
+      "デバフを敵に与えるたび、 敵は #b",
+      " HPを失う。"
+    ]
+  },
+  "BodyOfKamiR:ReiMu": {
+    "NAME": "神体",
+    "FLAVOR": "神が宿るとされている物体で礼拝の対象。 猫はなぜだかこれが好き。",
+    "DESCRIPTIONS": [
+      "獲得時、 #y神体 を選ぶ。戦闘開始時、 それを手札に加える。"
+    ]
+  },
+  "KaguraBell:ReiMu": {
+    "NAME": "神楽鈴",
+    "FLAVOR": "神を呼び寄せる効果があると言われている。",
+    "DESCRIPTIONS": [
+      " #r神 が #y降臨 するたび、 [E] を得て、 #b",
+      " 枚カードを引く。"
+    ]
+  },
+  "Bow_fan:ReiMu": {
+    "NAME": "リボン",
+    "FLAVOR": "大きな赤いリボンは若い女の子に人気だ。",
+    "DESCRIPTIONS": [
+      " #y飛行 を失う時、 #b",
+      " ダメージを敵全体に与える。"
+    ]
+  },
+  "RuthlessExorcism:ReiMu": {
+    "NAME": "強欲な大幣",
+    "FLAVOR": "お祓いに使う道具。 この大幣はゆっくり大きくなっている。",
+    "DESCRIPTIONS": [
+      " 戦闘開始時、 #b",
+      " ダメージを敵全体に与える。 エリートやボスを倒すたび、ダメージが #b",
+      " 増加する。"
+    ]
+  },
+  "ShineYinYang:ReiMu": {
+    "NAME": "輝く陰陽玉",
+    "FLAVOR": "丁寧に磨かれた陰陽玉。心が落ち着く。",
+    "DESCRIPTIONS": [
+      " #p陰陽玉 と置き換える。 戦闘開始時、 #b",
+      " の #y飛行 を得る。"
+    ]
+  },
+  "DonationBox:ReiMu": {
+    "NAME": "賽銭箱",
+    "FLAVOR": "神へ供えるはずだった供物がどこにもない...",
+    "DESCRIPTIONS": [
+      " #y降臨 に必要な信仰を #b",
+      " 上昇させる。 ターン開始時、 [E] を得る。"
+    ]
+  },
+  "CheatingSign:ReiMu": {
+    "NAME": "仕込みおみくじ",
+    "FLAVOR": "良いことしか書いていないおみくじ。",
+    "DESCRIPTIONS": [
+      " #yおみくじ から凶がでなくなる。"
+    ]
+  },
+  "Mastiff:ReiMu": {
+    "NAME": "狛犬",
+    "FLAVOR": "獅子や犬に似た獣で守り神とされる。",
+    "DESCRIPTIONS": [
+      " #y廃棄 戦闘中 #b",
+      " 枚の #y状態異常 カードを引くと、追加でカードを引く。",
+      "若すぎてつまらない。"
+    ]
+  },
+  "TurtleShell:ReiMu": {
+    "NAME": "玄武",
+    "FLAVOR": "神話の亀。 この巨大なカメは、あなたを喜んで塔の上へ運ぶ。",
+    "DESCRIPTIONS": [
+      "#y飛行 によるダメージ軽減を #b",
+      "% から #b",
+      "% へ上昇する。"
+    ]
+  },
+  "Tea:ReiMu": {
+    "NAME": "粗茶",
+    "FLAVOR": "お金がもらえなければ誰がこんなお茶飲みますか？",
+    "DESCRIPTIONS": [
+      "所持ゴールドが #b",
+      " より少なかったら、休憩場所に入るときにHPを #b",
+      "% 回復させる。"
+    ]
+  },
+  "CrazyTorch:ReiMu": {
+    "NAME": "狂気の松明",
+    "FLAVOR": "眺めていると魂が吸い込まれる感覚に陥る。",
+    "DESCRIPTIONS": [
+      "戦闘開始時、 #b1 枚の #g狂気+ を手札に加える。",
+      "戦闘開始時、ランダムなカードのコストを #b0 にする。"
+    ]
+  },
+  "danmuguizhi:ReiMu": {
+    "NAME": "精神をすり減らす",
+    "FLAVOR": "イージーモードでは当たり判定が小さい。",
+    "DESCRIPTIONS": [
+      "戦闘開始時、HPを 10 回復する。 NL 戦闘終了時、敵の最大HPの1/5を得る。"
+    ]
+  },
+  "FlyPower:ReiMu": {
+    "NAME": "陰陽玉",
+    "FLAVOR": "神秘的な力を秘めたオーブ。神社の下から見つかった。",
+    "DESCRIPTIONS": [
+      "戦闘開始時、 #b1 の #y飛行 を得る。"
+    ]
+  },
+  "TEXT:ReiMu": {
+    "NAME": "Choose any you like.",
+    "FLAVOR": "",
+    "DESCRIPTIONS": [
+      ""
+    ]
+  }
+}

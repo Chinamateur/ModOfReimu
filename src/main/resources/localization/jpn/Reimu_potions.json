@@ -1,0 +1,53 @@
+{
+  "GrandPatriotsElixir:ReiMu": {
+    "NAME": "国士無双の薬",
+    "DESCRIPTIONS": [
+      "#y気力 #b",
+      " を得る。"
+    ]
+  },
+  "MagicPotion:ReiMu": {
+    "NAME": "マジックポーション",
+    "DESCRIPTIONS": [
+      " [E] をターン開始時の状態にする。 NL #b1 エナジーを次の #b",
+      " ターンの間得る。",
+      "エナジーがいっぱいだ。"
+    ]
+  },
+  "ZuzhouPotion:ReiMu": {
+    "NAME": "ボトル入りの有罪",
+    "DESCRIPTIONS": [
+      "敵の全てのデバにフ #b",
+      " 追加する。"
+    ]
+  },
+  "HakureiPotion:ReiMu": {
+    "NAME": "博麗ポーション",
+    "DESCRIPTIONS": [
+      "自分の全てのバフに #b",
+      " 追加する。"
+    ]
+  },
+  "BottledKami:ReiMu": {
+    "NAME": "ボトル入りの神",
+    "DESCRIPTIONS": [
+      "ランダムな #b",
+      " #y神 を #y降臨 する。"
+    ]
+  },
+  "LiquidFlight:ReiMu": {
+    "NAME": "空の液体",
+    "DESCRIPTIONS": [
+      "#y飛行 #b",
+      " を得る。"
+    ]
+  },
+  "PinkPotion:ReiMu": {
+    "NAME": "ピンクポーション",
+    "DESCRIPTIONS": [
+      " #b 枚の",
+      " ランダムな #pピンク (霊夢) カードから #b",
+      " 枚を手札に加える。 このターン、そのコストは #b0 。"
+    ]
+  }
+}
